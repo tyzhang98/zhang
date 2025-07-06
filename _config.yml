@@ -2,7 +2,7 @@
 
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "张统一 (Zhang Tongyi)"
+title                    : "张统一(Zhang Tongyi)"
 title_separator          : "-"
 name                     : &name "张统一(Zhang Tongyi)"
 description              : &description "personal description"
@@ -16,16 +16,12 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "张统一(Zhang Tongyi)"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "研究方向:执行功能、计算建模、机器学习、计算精神病学、认知发展\n tyzhang9804@gmail.com"
   location         : "Lanzhou, China" # City, Country
-  
   employer         : "Nothenwest normal university" # Institution or company name
   uri              : "https://xlxy.nwnu.edu.cn/"
-  email            : "none@example.org" 
-
-  # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   github           : "academicpages"
   orcid            : "http://orcid.org/yourorcidurl"
