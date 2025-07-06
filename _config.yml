@@ -7,7 +7,7 @@ name: &name "张统一(Zhang Tongyi)"
 description: &description "personal description"
 url: https://tyzhang98.github.io/zhang/
 baseurl: ""
-repository: "academicpages/academicpages.github.io"
+repository: "tyzhang98/zhang"
 
 # Site Author
 author:
