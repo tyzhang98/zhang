@@ -13,12 +13,13 @@ repository: "academicpages/academicpages.github.io"
 author:
   avatar: "profile.png"
   name: "张统一(Zhang Tongyi)"
-  bio: "研究方向:执行功能、计算建模、机器学习、计算精神病学、认知发展\ntyzhang9804@gmail.com"
+  bio: "研究方向:执行功能、计算建模、机器学习、计算精神病学、认知发展\n\n\n联系邮箱tyzhang9804@gmail.com"
   location: "Lanzhou, China"
-  employer: "Northwest Normal University"
+  employer: "Northwest Normal University\n\n\n school of Psychology"
   uri: "https://xlxy.nwnu.edu.cn/"
-  googlescholar: "https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=1gEP7sIAAAAJ"
   github: "https://github.com/tyzhang98"
+  googlescholar: "https://scholar.google.com/citations?hl=zh-CN&authuser=1&user=1gEP7sIAAAAJ"
+
   orcid: "https://orcid.org/0009-0006-4909-6949"
 
 # Publication Category
