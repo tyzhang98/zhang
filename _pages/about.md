@@ -8,8 +8,9 @@ redirect_from:
 ---
 科研论文(data recent )
 ======
-- Schizophrenia research 
-paperurl: 'https://tyzhang98.github.io/zhang/files/paper1.pdf'
+- Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia (published on Schizophrenia research)
+[下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper1.pdf)
+
 - Schizophrenia Bulletin 
 - International Journal of Clinical and Health Psychology
 - The British Journal of Psychiatry
