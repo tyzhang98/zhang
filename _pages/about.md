@@ -9,6 +9,7 @@ redirect_from:
 科研论文(data recent )
 ======
 - Schizophrenia research 
+paperurl: 'https://tyzhang98.github.io/zhang/files/paper1.pdf'
 - Schizophrenia Bulletin 
 - International Journal of Clinical and Health Psychology
 - The British Journal of Psychiatry
