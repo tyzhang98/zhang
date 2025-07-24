@@ -9,13 +9,13 @@ redirect_from:
 
 ## 科研论文 (Research Publications)
 
-### 已发表论文
+### 已发表论文 (Published Papers)
 1. **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. https://doi.org/10.1016/j.schres.2025.06.012  
    [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper1.pdf)
    *中科院二区，影响因子3.5*
    *独立一作*
 
-### 审稿中论文
+### 审稿中论文 (Under Review)
 2. **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. *medRxiv*. https://doi.org/10.1101/2024.12.05.24318587  
    *Schizophrenia Bulletin - Acceptable Only If Adequately Revised & Requiring Rereview*
    *中科院一区，影响因子4.8*
@@ -31,20 +31,20 @@ redirect_from:
   *中科院一区，影响因子7.6*
   *独立一作*
 
-### 已投稿论文
+### 已投稿论文 (Submitted)
 5. **Zhang, T.**, et al. Two Systems, Two Timelines: Computational Evidence for Dissociable Development in Inhibitory Control Across Childhood and Adolescence.  
   *Child Development - Submitted*
   *中科院一区，影响因子3.8*
   *独立一作*
 
-### 正在准备...
+### 正在准备... (In Preparation)
 6. Zhang, T., et al. Working Memory Updating Deficits Exert Time Perception Dysfunction in Schizophrenia: A Cognitive Computation Study.
   *初稿完成，与合作者修稿*
 
 
 ## 学术活动 (Academic Activities)
 
-### 会议报告
+### 会议报告 (Conference Presentations)
 - **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
   报告形式：海报张贴  
   时间：2025年4月19日  
@@ -70,10 +70,10 @@ redirect_from:
 ## 研究资源 (Research Resources)
 
 
-### 开放数据
+### 开放数据 (Open Data)
 - [待添加]
 
-### 开放代码
+### 开放代码 (Open Code)
 - [待添加]
 
 ---
