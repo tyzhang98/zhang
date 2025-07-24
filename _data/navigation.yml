@@ -1,6 +1,6 @@
-main:
- - title: "科研论文 (Research Publications)"
-   url: /publications/
-
- - title: "数据代码资源 (Data & Code Resources)"
-   url: /teaching/
+# main:
+#  - title: "科研论文 (Research Publications)"
+#    url: /publications/
+#
+#  - title: "数据代码资源 (Data & Code Resources)"
+#    url: /teaching/
