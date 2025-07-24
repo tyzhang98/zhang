@@ -16,17 +16,18 @@ redirect_from:
 
 ### 预印本论文
 2. **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. *medRxiv*. https://doi.org/10.1101/2024.12.05.24318587  
-   *状态：Schizophrenia Bulletin - 有条件接收，需修改重审*
+   *Schizophrenia Bulletin - 有条件接收，需修改重审*
 
 3. **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the Effects of Working Memory Training on Executive Functions in Schizophrenia: A Machine Learning Approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. https://doi.org/10.2139/ssrn.5277353
+  *nternational Journal of Clinical and Health Psychology - Under Review*
 
 ### 审稿中论文
 4. **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: a cross-time clustering and validation study.  
-   *状态：The British Journal of Psychiatry - 审稿中*
+   *The British Journal of Psychiatry - Under Review*
 
 ### 已投稿论文
 5. **Zhang, T.**, et al. Two Systems, Two Timelines: Computational Evidence for Dissociable Development in Inhibitory Control Across Childhood and Adolescence.  
-   *状态：Child Development - 已投稿*
+   *Child Development - Submitted*
 
 ## 学术活动
 ======
