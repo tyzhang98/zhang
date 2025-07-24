@@ -7,6 +7,14 @@ redirect_from:
   - /about.html
 ---
 
+## 个人简介 (About Me)
+
+我是发展与教育心理学专业的在读博士研究生（二年级），主要从事执行功能与精神分裂症相关研究。研究中综合运用计算建模、机器学习和大语言模型等前沿技术手段，致力于揭示认知功能的发展机制及其在精神疾病中的表现特征。
+
+**联系邮箱：** tyzhang9804@gmail.com
+
+---
+
 ## 1. 科研论文 (Research Publications)
 
 ### 已发表论文 (Published Papers)
@@ -17,22 +25,22 @@ redirect_from:
 
 ### 审稿中论文 (Under Review)
 
-**#2.** **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging stacked classifiers for multi-task executive function in schizophrenia yields diagnostic and prognostic insights. *medRxiv*. https://doi.org/10.1101/2024.12.05.24318587  
+**#1.** **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging stacked classifiers for multi-task executive function in schizophrenia yields diagnostic and prognostic insights. *medRxiv*. https://doi.org/10.1101/2024.12.05.24318587  
 *Schizophrenia Bulletin - Acceptable Only If Adequately Revised & Requiring Rereview*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper2.pdf) | [论文代码](https://doi.org/10.6084/m9.figshare.26086594.v1)  
 *[ 中科院一区，影响因子 4.8 | 共同一作，次序第一 ]*
 
-**#3.** **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. https://doi.org/10.2139/ssrn.5277353  
+**#2.** **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. https://doi.org/10.2139/ssrn.5277353  
 *International Journal of Clinical and Health Psychology - Under Review*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper3.pdf) | [论文代码](https://github.com/tyzhang98/ML-PsyExecShift)  
 *[ 中科院二区，影响因子 4.4 | 共同一作，次序第一 ]*
 
-**#4.** **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: A cross-time clustering and validation study.  
+**#3.** **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: A cross-time clustering and validation study.  
 *The British Journal of Psychiatry - Under Review*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper4.pdf) | [论文代码](https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ)  
 *[ 中科院一区，影响因子 7.6 | 独立一作 ]*
 
-**#5.** **Zhang, T.**, et al. Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence.  
+**#4.** **Zhang, T.**, et al. Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence.  
 *Child Development - Submitted*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper5.pdf) | [论文代码](https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code)  
 *[ 中科院一区，影响因子 3.8 | 独立一作 ]*
@@ -112,12 +120,6 @@ redirect_from:
 
 ---
 
-## 个人简介 (About Me)
 
-我是发展与教育心理学专业的在读博士研究生（二年级），主要从事执行功能与精神分裂症相关研究。研究中综合运用计算建模、机器学习和大语言模型等前沿技术手段，致力于揭示认知功能的发展机制及其在精神疾病中的表现特征。
-
-**联系邮箱：** tyzhang9804@gmail.com
-
----
 
 *最后更新：2025年7月24日 GMT+8 10:57:24* 🚀
