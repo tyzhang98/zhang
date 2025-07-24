@@ -18,13 +18,13 @@ redirect_from:
 
 ## 1. 科研论文 (Research Publications)
 
-### 已发表论文 (Published Papers)
+### 已发表的论文 (Published Papers)
 
 **#1.** **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. [https://doi.org/10.1016/j.schres.2025.06.012](https://doi.org/10.1016/j.schres.2025.06.012)  <br>
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper1.pdf) | [论文代码](https://github.com/tyzhang98/Two-back-task-HDDM)  
 *[ 中科院二区，影响因子 3.5 | 独立一作 ]*
 
-### 审稿中论文 (Under Review)
+### 审稿中的论文 (Under Review)
 
 **#1.** **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging stacked classifiers for multi-task executive function in schizophrenia yields diagnostic and prognostic insights. *medRxiv*. [https://doi.org/10.1101/2024.12.05.24318587](https://doi.org/10.1101/2024.12.05.24318587) <br>
 *Schizophrenia Bulletin - Acceptable Only If Adequately Revised & Requiring Rereview*  
@@ -46,7 +46,7 @@ redirect_from:
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper5.pdf) | [论文代码](https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code)  
 *[ 中科院一区，影响因子 3.8 | 独立一作 ]*
 
-### 正在准备... (In Preparation...)
+### 正在准备的... (In Preparation...)
 
 **#1.** Zhang, T., et al. Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study.<br>
 [ *初稿完成，与合作者修稿中* ]
