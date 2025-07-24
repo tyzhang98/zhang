@@ -12,7 +12,7 @@ redirect_from:
 我是心理学学术型的在读博士研究生（二年级），主要从事执行功能与精神分裂症相关研究。研究中综合运用计算建模、机器学习和大语言模型等前沿技术手段，致力于揭示认知功能的发展机制及其在精神疾病中的表现特征。
 
 > **联系邮箱：** tyzhang9804@gmail.com
-
+<br>
 ---
 
 ## 1. 科研论文 (Research Publications)
@@ -49,7 +49,7 @@ redirect_from:
 
 **#1.** Zhang, T., et al. Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study.  
 *初稿完成，与合作者修稿中*
-
+<br>
 ---
 
 ## 2. 学术活动 (Academic Activities)
@@ -71,7 +71,7 @@ redirect_from:
 - 报告形式：口头报告
 - 时间：2024年10月14日
 - 地点：四川师范大学
-
+<br>
 ---
 
 ## 3. 科研项目 (Research Projects)
@@ -83,7 +83,7 @@ redirect_from:
 - **国家自然科学基金地区项目**（32260207）"认知训练对乡村儿童执行功能的提升"（参与，2022-2025）
 
 - **国家重点研发计划**（2021ZD0203800）科技创新2030—"脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12-2026.12）
-
+<br>
 ---
 
 ## 4. 科研合作 (Research Collaboration)
@@ -101,7 +101,7 @@ redirect_from:
 
 > **注：** 本人为在读博士研究生，合作前需征得导师同意（导师开放包容，一般无问题）
 
-
+<br>
 ---
 
 ## 5. 研究资源 (Research Resources)
@@ -111,7 +111,7 @@ redirect_from:
 
 ### 开放代码 (Open Code)
 - 正在整理中，敬请期待...
-
+<br>
 ---
 
 
