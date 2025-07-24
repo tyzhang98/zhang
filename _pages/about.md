@@ -88,7 +88,7 @@ redirect_from:
 <br>
 <br>
 
-## 4. 科研合作 (Research Collaboration)
+## 4. 寻求科研合作 (Seeking Research Collaboration)
 
 ### 合作模式
 
