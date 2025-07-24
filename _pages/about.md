@@ -49,7 +49,7 @@ redirect_from:
 ### 正在准备的... (In Preparation...)
 
 **#1.** Zhang, T., et al. Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study.<br>
-[ *初稿完成，与合作者修稿中* ]
+[ *初稿完成，与合作者修稿中...* ]
 <br>
 <br>
 <br>
