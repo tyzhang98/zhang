@@ -57,7 +57,7 @@ redirect_from:
 - 学术报告：执行功能与精神疾病研究进展
 - 时间：2024年1月26日
 - 地点：兰州市第三人民医院
-- [媒体报道链接](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
+- [报道链接](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
 
 **第二十五届全国心理学学术会议**  
 - 报告形式：口头报告
