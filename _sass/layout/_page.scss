@@ -6,8 +6,8 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 4em; /* 减少左侧距离 */
-  padding-right: 1.5em; /* 稍微减少右侧距离 */
+  padding-left: 5em;
+  padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -19,13 +19,12 @@
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
-    @include prefix(0.8 of 12); /* 减少左侧前缀空间 */
-    @include suffix(1.2 of 12); /* 调整右侧后缀空间 */
+    @include prefix(0.5 of 12);
+    @include suffix(2 of 12);
   }
 
   .page__inner-wrap {
     @include full();
-    margin-left: 1em; /* 减少额外左边距 */
 
     .page__content,
     .page__meta,
@@ -54,29 +53,16 @@
   text-align: justify;
   text-justify: inter-ideograph; /* 对中文更友好的两端对齐 */
 
-  /* 二级标题 (##) - 深蓝色 + 居中 */
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
-    text-align: center; /* 只有h2居中 */
-    color: #1e3a8a; /* 深蓝色 - 科研专业感 */
-    font-weight: 600;
-    margin-bottom: 1.5em;
+    /* 标题居中对齐 */
+    text-align: center;
   }
 
-  /* 三级标题 (###) - 深绿色 + 左对齐 */
-  h3 {
-    color: #166534; /* 深绿色 - 学术权威感 */
-    text-align: left; /* 改为左对齐 */
-    font-weight: 500;
-    margin: 1.2em 0 0.8em 0;
-    border-left: 4px solid #22c55e; /* 绿色左边框 */
-    padding-left: 1em;
-  }
-
-  /* 其他标题保持默认颜色和左对齐 */
-  h1, h4, h5, h6 {
-    text-align: left; /* 改为左对齐 */
+  /* 所有标题居中对齐 */
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
   }
 
   p, li, dl {
@@ -157,15 +143,6 @@
   @include breakpoint(max-width $small) {
     p, li, dl, dt, dd {
       text-align: left;
-    }
-    
-    h2 {
-      text-align: left; /* 小屏幕上h2也改为左对齐 */
-    }
-    
-    h3 {
-      border-left: none;
-      padding-left: 0;
     }
   }
 }
