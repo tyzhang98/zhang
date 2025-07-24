@@ -13,24 +13,25 @@ redirect_from:
 
 > **联系邮箱：** tyzhang9804@gmail.com
 <br>
----
+<br>
+
 
 ## 1. 科研论文 (Research Publications)
 
 ### 已发表论文 (Published Papers)
 
-**#1.** **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. https://doi.org/10.1016/j.schres.2025.06.012  
+**#1.** **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. [https://doi.org/10.1016/j.schres.2025.06.012](https://doi.org/10.1016/j.schres.2025.06.012)  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper1.pdf) | [论文代码](https://github.com/tyzhang98/Two-back-task-HDDM)  
 *[ 中科院二区，影响因子 3.5 | 独立一作 ]*
 
 ### 审稿中论文 (Under Review)
 
-**#1.** **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging stacked classifiers for multi-task executive function in schizophrenia yields diagnostic and prognostic insights. *medRxiv*. https://doi.org/10.1101/2024.12.05.24318587  
+**#1.** **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging stacked classifiers for multi-task executive function in schizophrenia yields diagnostic and prognostic insights. *medRxiv*. [https://doi.org/10.1101/2024.12.05.24318587](https://doi.org/10.1101/2024.12.05.24318587) 
 *Schizophrenia Bulletin - Acceptable Only If Adequately Revised & Requiring Rereview*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper2.pdf) | [论文代码](https://doi.org/10.6084/m9.figshare.26086594.v1)  
 *[ 中科院一区，影响因子 4.8 | 共同一作，次序第一 ]*
 
-**#2.** **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. https://doi.org/10.2139/ssrn.5277353  
+**#2.** **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. [https://doi.org/10.2139/ssrn.5277353](https://doi.org/10.2139/ssrn.5277353)
 *International Journal of Clinical and Health Psychology - Under Review*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper3.pdf) | [论文代码](https://github.com/tyzhang98/ML-PsyExecShift)  
 *[ 中科院二区，影响因子 4.4 | 共同一作，次序第一 ]*
@@ -45,12 +46,12 @@ redirect_from:
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper5.pdf) | [论文代码](https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code)  
 *[ 中科院一区，影响因子 3.8 | 独立一作 ]*
 
-### 正在准备 (In Preparation)
+### 正在准备... (In Preparation...)
 
 **#1.** Zhang, T., et al. Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study.  
 *初稿完成，与合作者修稿中*
 <br>
----
+<br>
 
 ## 2. 学术活动 (Academic Activities)
 
@@ -72,8 +73,7 @@ redirect_from:
 - 时间：2024年10月14日
 - 地点：四川师范大学
 <br>
----
-
+<br>
 ## 3. 科研项目 (Research Projects)
 
 **主持项目**
@@ -84,7 +84,7 @@ redirect_from:
 
 - **国家重点研发计划**（2021ZD0203800）科技创新2030—"脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12-2026.12）
 <br>
----
+<br>
 
 ## 4. 科研合作 (Research Collaboration)
 
@@ -102,7 +102,7 @@ redirect_from:
 > **注：** 本人为在读博士研究生，合作前需征得导师同意（导师开放包容，一般无问题）
 
 <br>
----
+<br>
 
 ## 5. 研究资源 (Research Resources)
 
@@ -112,8 +112,8 @@ redirect_from:
 ### 开放代码 (Open Code)
 - 正在整理中，敬请期待...
 <br>
----
+<br>
 
 
 
-*最后更新：2025年7月24日 GMT+8 10:57:24* 🚀
+*最后更新于：2025年7月24日 GMT+8 10:57:24* 
