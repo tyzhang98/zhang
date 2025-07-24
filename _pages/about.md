@@ -12,6 +12,7 @@ redirect_from:
 ### 已发表论文 (Published Papers)
 1. **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. https://doi.org/10.1016/j.schres.2025.06.012  
    [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper1.pdf)<br>
+   [论文代码](https://github.com/tyzhang98/Two-back-task-HDDM)<br> 
    [ *中科院二区，影响因子3.5*
    *独立一作* ]
 
@@ -19,24 +20,28 @@ redirect_from:
 2. **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. *medRxiv*. https://doi.org/10.1101/2024.12.05.24318587  <br>
    *Schizophrenia Bulletin - Acceptable Only If Adequately Revised & Requiring Rereview*<br>
    [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper2.pdf)<br>
+   [论文代码](https://doi.org/10.6084/m9.figshare.26086594.v1)<br>
    [ *中科院一区，影响因子4.8*
    *共同一作，次序第一* ]
 
 3. **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the Effects of Working Memory Training on Executive Functions in Schizophrenia: A Machine Learning Approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. https://doi.org/10.2139/ssrn.5277353<br>
   *International Journal of Clinical and Health Psychology - Under Review*<br>
   [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper3.pdf)<br>
+  [论文代码](https://github.com/tyzhang98/ML-PsyExecShift)<br>
   [ *中科院二区，影响因子4.4*
   *共同一作，次序第一* ]
 
 4. **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: a cross-time clustering and validation study.<br>
   *The British Journal of Psychiatry - Under Review*<br>
   [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper4.pdf)<br>
+  [论文代码](https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ)<br>
   [ *中科院一区，影响因子7.6*
   *独立一作* ]
 
 5. **Zhang, T.**, et al. Two Systems, Two Timelines: Computational Evidence for Dissociable Development in Inhibitory Control Across Childhood and Adolescence.<br>
   *Child Development - Submitted*<br>
   [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper5.pdf)<br>
+  [论文代码](https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code)<br>
   [ *中科院一区，影响因子3.8*
   *独立一作* ]
 
