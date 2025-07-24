@@ -58,7 +58,7 @@ redirect_from:
   时间：2025年4月19日  
   地点：北京大学
 - **兰州市第三人民医院学术讲座**  
-  报道地址：(https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)<br>
+  报道地址：[点击查看](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)<br>
   时间：2024年1月26日  
   地点：兰州市第三人民医院
 
