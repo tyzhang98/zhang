@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-## 科研论文 (Research Publications)
+<h2 align="center">科研论文 (Research Publications)</h2>
 
 ### 已发表论文 (Published Papers)
 1. **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. https://doi.org/10.1016/j.schres.2025.06.012  
@@ -41,7 +41,7 @@ redirect_from:
   *初稿完成，与合作者修稿*
 
 
-## 学术活动 (Academic Activities)
+<h2 align="center">学术活动 (Academic Activities)</h2>
 
 ### 会议报告 (Conference Presentations)
 - **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
@@ -54,7 +54,7 @@ redirect_from:
   时间：2024年10月14日  
   地点：四川师范大学
 
-## 科研合作 (Research Collaboration)
+<h2 align="center">科研合作 (Research Collaboration)</h2>
 
 欢迎学术合作与交流，如有合作意向或学术问题讨论，请通过以下方式联系：
 
@@ -68,14 +68,14 @@ redirect_from:
 
 **联系邮箱：** tyzhang9804@gmail.com
 
-## 科研项目 (Research Projects)
+<h2 align="center">科研项目 (Research Projects)</h2>
 - 甘肃省博士创新之星, 主持, 2024.11
 - 认知训练对乡村儿童执行功能的提升（32260207）获批2022年国家自然科学地区科学基金项目
 国家自然科学基金（地区项目,已参与
 - 科学技术部, 科技创新 2030 —"脑科学与类脑研究"重大项目 (2021ZD0203800) 注意的神经环路机制研究（课题4：特殊人群(聋人、盲人、ADHD 和 ASD)的注意研究及应用）
 ,2021-12 至 2026-12, 参与
 
-## 研究资源 (Research Resources)
+<h2 align="center">研究资源 (Research Resources)</h2>
 
 
 ### 开放数据 (Open Data)
