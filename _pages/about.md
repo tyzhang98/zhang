@@ -12,30 +12,30 @@ redirect_from:
 ### 已发表论文 (Published Papers)
 1. **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. https://doi.org/10.1016/j.schres.2025.06.012  
    [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper1.pdf)<br>
-   [*中科院二区，影响因子3.5*
-   *独立一作*]
+   [ *中科院二区，影响因子3.5*
+   *独立一作* ]
 
 ### 审稿中论文 (Under Review)
 2. **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. *medRxiv*. https://doi.org/10.1101/2024.12.05.24318587  <br>
    *Schizophrenia Bulletin - Acceptable Only If Adequately Revised & Requiring Rereview*<br>
-   [*中科院一区，影响因子4.8*
-   *共同一作，次序第一*]
+   [ *中科院一区，影响因子4.8*
+   *共同一作，次序第一* ]
 
 3. **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the Effects of Working Memory Training on Executive Functions in Schizophrenia: A Machine Learning Approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. https://doi.org/10.2139/ssrn.5277353<br>
   *International Journal of Clinical and Health Psychology - Under Review*<br>
-  [*中科院二区，影响因子4.4*
-  *共同一作，次序第一*]
+  [ *中科院二区，影响因子4.4*
+  *共同一作，次序第一* ]
 
 4. **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: a cross-time clustering and validation study.<br>
   *The British Journal of Psychiatry - Under Review*<br>
-  [*中科院一区，影响因子7.6*
-  *独立一作*]
+  [ *中科院一区，影响因子7.6*
+  *独立一作* ]
 
 ### 已投稿论文 (Submitted)
 5. **Zhang, T.**, et al. Two Systems, Two Timelines: Computational Evidence for Dissociable Development in Inhibitory Control Across Childhood and Adolescence.<br>
   *Child Development - Submitted*<br>
-  [*中科院一区，影响因子3.8*
-  *独立一作*]
+  [ *中科院一区，影响因子3.8*
+  *独立一作* ]
 
 ### 正在准备... (In Preparation...)
 6. Zhang, T., et al. Working Memory Updating Deficits Exert Time Perception Dysfunction in Schizophrenia: A Cognitive Computation Study.<br>
