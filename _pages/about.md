@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-## 科研论文
+## 科研论文 (Research Publications)
 
 ### 已发表论文
 1. **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. https://doi.org/10.1016/j.schres.2025.06.012  
@@ -15,7 +15,7 @@ redirect_from:
    *中科院二区，影响因子3.5*
    *独立一作*
 
-### 预印本论文
+### 审稿中论文
 2. **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. *medRxiv*. https://doi.org/10.1101/2024.12.05.24318587  
    *Schizophrenia Bulletin - Acceptable Only If Adequately Revised & Requiring Rereview*
    *中科院一区，影响因子4.8*
@@ -26,7 +26,6 @@ redirect_from:
   *中科院二区，影响因子4.4*
   *共同一作，次序第一*
 
-### 审稿中论文
 4. **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: a cross-time clustering and validation study.  
   *The British Journal of Psychiatry - Under Review*
   *中科院一区，影响因子7.6*
@@ -43,7 +42,7 @@ redirect_from:
   *初稿完成，与合作者修稿*
 
 
-## 学术活动
+## 学术活动 (Academic Activities)
 
 ### 会议报告
 - **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
@@ -56,7 +55,7 @@ redirect_from:
   时间：2024年10月14日  
   地点：四川师范大学
 
-## 科研合作
+## 科研合作 (Research Collaboration)
 
 欢迎学术合作与交流，如有合作意向或学术问题讨论，请通过以下方式联系：
 
@@ -68,7 +67,7 @@ redirect_from:
 
 **联系邮箱：** tyzhang9804@gmail.com
 
-## 研究资源
+## 研究资源 (Research Resources)
 
 
 ### 开放数据
