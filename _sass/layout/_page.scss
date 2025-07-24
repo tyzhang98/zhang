@@ -56,13 +56,14 @@
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
-    /* 标题居中对齐 */
+    /* 只有h2标题居中对齐和加粗 */
     text-align: center;
+    font-weight: bold;
   }
 
-  /* 所有标题居中对齐 */
-  h1, h2, h3, h4, h5, h6 {
-    text-align: center;
+  /* 其他标题左对齐 */
+  h1, h3, h4, h5, h6 {
+    text-align: left;
   }
 
   p, li, dl {
