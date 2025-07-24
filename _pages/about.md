@@ -64,7 +64,7 @@ redirect_from:
 
 **兰州市第三人民医院学术讲座**  
 - 学术报告：执行功能与精神疾病研究进展
-- 时间：2024年1月26日
+- 时间：2024年11月26日
 - 地点：兰州市第三人民医院
 - [报道链接](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
 
