@@ -7,7 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-## 1.科研论文 (Research Publications)
+### 个人简介 (About Me)
+- 发展与教育心理学在读博士二年级
+- 研究方向：执行功能 | 计算建模 | 机器学习 | 计算精神病学 | 大语言模型微调
+- 联系邮箱：tyzhang9804@gmail.com
 
 ### 已发表论文 (Published Papers)
 #1. **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. https://doi.org/10.1016/j.schres.2025.06.012  
