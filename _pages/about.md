@@ -58,7 +58,7 @@ redirect_from:
 ### 会议报告 (Conference Presentations)
 
 **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
-- 报告形式：海报展示 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
+- 报告形式：海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
 - 时间：2025年4月19日
 - 地点：北京大学
 
@@ -69,7 +69,7 @@ redirect_from:
 - [报道链接](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
 
 **第二十五届全国心理学学术会议**  
-- 报告形式：口头报告
+- 报告形式：分论坛口头报告
 - 时间：2024年10月14日
 - 地点：四川师范大学
 <br>
