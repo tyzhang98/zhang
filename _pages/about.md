@@ -37,7 +37,7 @@ redirect_from:
   [*中科院一区，影响因子3.8*
   *独立一作*]
 
-### 正在准备... (In Preparation)
+### 正在准备... (In Preparation...)
 6. Zhang, T., et al. Working Memory Updating Deficits Exert Time Perception Dysfunction in Schizophrenia: A Cognitive Computation Study.<br>
   *初稿完成，与合作者修稿*
 
@@ -59,11 +59,13 @@ redirect_from:
 
 欢迎学术合作与交流，如有合作意向或学术问题讨论，请通过以下方式联系：
 
-情况一： 我负责研究构思、数据分析以及文章撰写投递；合作方负责数据采集
+情况一： 我负责研究idea、数据分析以及文章撰写投递；合作方负责数据采集
 作者署名：我为共同第一作者，合作方为共同第二作者
 
-情况二： 我负责研究构思、数据分析（包括方法与结果部分撰写）；合作方负责数据采集以及其他部分写作、投递与修稿
+情况二： 我负责研究idea、数据分析（包括方法与结果部分撰写）；合作方负责数据采集以及其他部分写作、投递与修稿
 作者署名：我为共同第二作者，合作方为共同第一作者
+
+注： 本人还是在读博士，合作前需征求导师同意（导师开放，一般没什么问题~）
 
 **联系邮箱：** tyzhang9804@gmail.com
 
