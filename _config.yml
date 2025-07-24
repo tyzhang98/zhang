@@ -1,7 +1,7 @@
 # Basic Site Settings
 locale: "en-US"
 site_theme: "default"
-title: "张统一(Zhang Tongyi)"
+title: "<br>张统一(Zhang Tongyi)"
 title_separator: "-"
 name: &name "张统一 (Zhang Tongyi)"
 description: &description "personal description"
