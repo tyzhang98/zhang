@@ -13,42 +13,41 @@ redirect_from:
 
 > **联系邮箱：** tyzhang9804@gmail.com
 <br>
-<br>
-<br>
+
 
 ## 1. 科研论文 (Research Publications)
 
->### 已发表的论文 (Published Papers)
+### 已发表的论文 (Published Papers)
 
-**#1.** **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. [https://doi.org/10.1016/j.schres.2025.06.012](https://doi.org/10.1016/j.schres.2025.06.012)  <br>
+>**#1.** **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. [https://doi.org/10.1016/j.schres.2025.06.012](https://doi.org/10.1016/j.schres.2025.06.012)  <br>
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper1.pdf) | [论文代码](https://github.com/tyzhang98/Two-back-task-HDDM)  
 *[ 中科院二区，影响因子 3.5 | 独立一作 ]*
 
->### 审稿中的论文 (Under Review)
+### 审稿中的论文 (Under Review)
 
-**#1.** **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging stacked classifiers for multi-task executive function in schizophrenia yields diagnostic and prognostic insights. *medRxiv*. [https://doi.org/10.1101/2024.12.05.24318587](https://doi.org/10.1101/2024.12.05.24318587) <br>
+>**#1.** **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging stacked classifiers for multi-task executive function in schizophrenia yields diagnostic and prognostic insights. *medRxiv*. [https://doi.org/10.1101/2024.12.05.24318587](https://doi.org/10.1101/2024.12.05.24318587) <br>
 *Schizophrenia Bulletin - Acceptable Only If Adequately Revised & Requiring Rereview*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper2.pdf) | [论文代码](https://doi.org/10.6084/m9.figshare.26086594.v1)  
 *[ 中科院一区Top，影响因子 4.8 | 共同一作，次序第一 ]*
 
-**#2.** **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. [https://doi.org/10.2139/ssrn.5277353](https://doi.org/10.2139/ssrn.5277353)<br>
+>**#2.** **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. [https://doi.org/10.2139/ssrn.5277353](https://doi.org/10.2139/ssrn.5277353)<br>
 *International Journal of Clinical and Health Psychology - Under Review*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper3.pdf) | [论文代码](https://github.com/tyzhang98/ML-PsyExecShift)  
 *[ 中科院二区，影响因子 4.4 | 共同一作，次序第一 ]*
 
-**#3.** **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: A cross-time clustering and validation study. <br>
+>**#3.** **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: A cross-time clustering and validation study. <br>
 *The British Journal of Psychiatry - Under Review*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper4.pdf) | [论文代码](https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ)  
 *[ 中科院一区Top，影响因子 7.6 | 独立一作 ]*
 
-**#4.** **Zhang, T.**, et al. Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence. <br>
+>**#4.** **Zhang, T.**, et al. Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence. <br>
 *Child Development - Submitted*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper5.pdf) | [论文代码](https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code)  
 *[ 中科院一区Top，影响因子 3.8 | 独立一作 ]*
 
 ### 正在准备的... (In Preparation...)
 
-**#1.** Zhang, T., et al. Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study.<br>
+>**#1.** Zhang, T., et al. Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study.<br>
 [ *初稿完成，与合作者修稿中...* ]
 <br>
 <br>
