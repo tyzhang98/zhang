@@ -31,14 +31,13 @@ redirect_from:
   [ *中科院一区，影响因子7.6*
   *独立一作* ]
 
-### 已投稿论文 (Submitted)
 5. **Zhang, T.**, et al. Two Systems, Two Timelines: Computational Evidence for Dissociable Development in Inhibitory Control Across Childhood and Adolescence.<br>
   *Child Development - Submitted*<br>
   [ *中科院一区，影响因子3.8*
   *独立一作* ]
 
 ### 正在准备... (In Preparation...)
-6. Zhang, T., et al. Working Memory Updating Deficits Exert Time Perception Dysfunction in Schizophrenia: A Cognitive Computation Study.<br>
+1. Zhang, T., et al. Working Memory Updating Deficits Exert Time Perception Dysfunction in Schizophrenia: A Cognitive Computation Study.<br>
   *初稿完成，与合作者修稿*
 
 
