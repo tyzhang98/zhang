@@ -6,7 +6,7 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 5em;
+  padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
@@ -49,28 +49,14 @@
 }
 
 .page__content {
-  /* 添加两端对齐样式 */
-  text-align: justify;
-  text-justify: inter-ideograph; /* 对中文更友好的两端对齐 */
 
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
-    /* 标题居中对齐 */
-    text-align: center;
-  }
-
-  /* 所有标题居中对齐 */
-  h1 {
-    text-align: center;
   }
 
   p, li, dl {
     font-size: 1em;
-    /* 段落和列表项两端对齐 */
-    text-align: justify;
-    text-justify: inter-ideograph;
-    line-height: 1.6;
   }
 
   /* paragraph indents */
@@ -102,16 +88,12 @@
     margin-top: 1em;
     font-family: $sans-serif;
     font-weight: bold;
-    text-align: justify;
-    text-justify: inter-ideograph;
   }
 
   dd {
     margin-left: 1em;
     font-family: $sans-serif;
     font-size: $type-size-6;
-    text-align: justify;
-    text-justify: inter-ideograph;
   }
 
   .small {
@@ -122,28 +104,6 @@
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
-  }
-
-  /* 特殊元素保持左对齐 */
-  pre, code, .highlight {
-    text-align: left;
-  }
-
-  /* 表格内容保持左对齐 */
-  table, td, th {
-    text-align: left;
-  }
-
-  /* 引用块保持左对齐 */
-  blockquote {
-    text-align: left;
-  }
-
-  /* 响应式设计 - 在小屏幕上改为左对齐 */
-  @include breakpoint(max-width $small) {
-    p, li, dl, dt, dd {
-      text-align: left;
-    }
   }
 }
 
