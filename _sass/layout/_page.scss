@@ -54,24 +54,14 @@
   text-align: justify;
   text-justify: inter-ideograph; /* 对中文更友好的两端对齐 */
 
+  /* 二级标题 (##) - 深蓝色 */
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
-    /* 二级标题居中对齐 + 科研蓝色 */
     text-align: center;
     color: #1e3a8a; /* 深蓝色 - 科研专业感 */
     font-weight: 600;
     margin-bottom: 1.5em;
-  }
-
-  /* 二级标题 (##) - 深蓝色 */
-  h2 {
-    color: #1e3a8a; /* 深蓝色 */
-    text-align: center;
-    font-weight: 600;
-    border-bottom: 2px solid #3b82f6; /* 蓝色底线 */
-    padding-bottom: 0.5em;
-    margin: 1.5em 0 1em 0;
   }
 
   /* 三级标题 (###) - 深绿色 */
@@ -84,18 +74,9 @@
     padding-left: 1em;
   }
 
-  /* 一级标题 (h1) - 深灰蓝 */
-  h1 {
-    color: #1e293b; /* 深灰蓝 */
+  /* 其他标题保持默认颜色和居中对齐 */
+  h1, h4, h5, h6 {
     text-align: center;
-    font-weight: 700;
-  }
-
-  /* 四级及以下标题 - 深灰色 */
-  h4, h5, h6 {
-    color: #374151; /* 深灰色 */
-    text-align: center;
-    font-weight: 500;
   }
 
   p, li, dl {
@@ -121,11 +102,9 @@
 
   a {
     text-decoration: underline;
-    color: #2563eb; /* 链接蓝色 */
 
     &:hover {
       text-decoration: underline;
-      color: #1d4ed8; /* 悬停时更深的蓝色 */
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -172,15 +151,6 @@
   /* 引用块保持左对齐 */
   blockquote {
     text-align: left;
-  }
-
-  /* 强调文本颜色 */
-  strong {
-    color: #1f2937; /* 深灰色 */
-  }
-
-  em {
-    color: #6b7280; /* 中灰色 */
   }
 
   /* 响应式设计 - 在小屏幕上改为左对齐 */
