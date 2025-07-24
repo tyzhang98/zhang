@@ -22,31 +22,31 @@ redirect_from:
 **[1]** **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213.  
 🔗 DOI: https://doi.org/10.1016/j.schres.2025.06.012  
 📎 [PDF下载](https://tyzhang98.github.io/zhang/files/paper1.pdf) | 💻 [代码](https://github.com/tyzhang98/Two-back-task-HDDM)  
-*🏆 中科院二区，影响因子 3.5 | 独立一作*
+* 中科院二区，影响因子 3.5 | 独立一作*
 
 ### 🔄 审稿中论文 (Under Review)
 
 **[2]** **Zhang, T.**, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging stacked classifiers for multi-task executive function in schizophrenia yields diagnostic and prognostic insights. *medRxiv*.  
 🔗 DOI: https://doi.org/10.1101/2024.12.05.24318587  
-📊 **期刊状态：** *Schizophrenia Bulletin* - Acceptable Only If Adequately Revised & Requiring Rereview  
+ **期刊状态：** *Schizophrenia Bulletin* - Acceptable Only If Adequately Revised & Requiring Rereview  
 📎 [PDF下载](https://tyzhang98.github.io/zhang/files/paper2.pdf) | 💻 [代码](https://doi.org/10.6084/m9.figshare.26086594.v1)  
-*🏆 中科院一区，影响因子 4.8 | 共同一作，次序第一*
+* 中科院一区，影响因子 4.8 | 共同一作，次序第一*
 
 **[3]** **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. *SSRN Scholarly Paper* No. 5277353.  
 🔗 DOI: https://doi.org/10.2139/ssrn.5277353  
-📊 **期刊状态：** *International Journal of Clinical and Health Psychology* - Under Review  
+ **期刊状态：** *International Journal of Clinical and Health Psychology* - Under Review  
 📎 [PDF下载](https://tyzhang98.github.io/zhang/files/paper3.pdf) | 💻 [代码](https://github.com/tyzhang98/ML-PsyExecShift)  
-*🏆 中科院二区，影响因子 4.4 | 共同一作，次序第一*
+* 中科院二区，影响因子 4.4 | 共同一作，次序第一*
 
 **[4]** **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: A cross-time clustering and validation study.  
-📊 **期刊状态：** *The British Journal of Psychiatry* - Under Review  
+ **期刊状态：** *The British Journal of Psychiatry* - Under Review  
 📎 [PDF下载](https://tyzhang98.github.io/zhang/files/paper4.pdf) | 💻 [代码](https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ)  
-*🏆 中科院一区，影响因子 7.6 | 独立一作*
+* 中科院一区，影响因子 7.6 | 独立一作*
 
 **[5]** **Zhang, T.**, et al. Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence.  
-📊 **期刊状态：** *Child Development* - Submitted  
+ **期刊状态：** *Child Development* - Submitted  
 📎 [PDF下载](https://tyzhang98.github.io/zhang/files/paper5.pdf) | 💻 [代码](https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code)  
-*🏆 中科院一区，影响因子 3.8 | 独立一作*
+* 中科院一区，影响因子 3.8 | 独立一作*
 
 ### ✍️ 正在准备 (In Preparation)
 
@@ -61,7 +61,7 @@ redirect_from:
 
 | 会议名称 | 报告形式 | 时间 | 地点 | 资料链接 |
 |---------|---------|------|------|----------|
-| 2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛 | 海报展示 | 2025.04.19 | 北京大学 | [📊 海报PDF](https://tyzhang98.github.io/zhang/files/slides1.pdf) |
+| 2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛 | 海报展示 | 2025.04.19 | 北京大学 | [ 海报PDF](https://tyzhang98.github.io/zhang/files/slides1.pdf) |
 | 第二十五届全国心理学学术会议 | 口头报告 | 2024.10.14 | 四川师范大学 | - |
 | 兰州市第三人民医院学术讲座 | 学术报告 | 2024.01.26 | 兰州市第三人民医院 | [📰 报道链接](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1) |
 
@@ -111,7 +111,7 @@ redirect_from:
 
 ## 5. 研究资源 (Research Resources)
 
-### 📊 开放数据 (Open Data)
+###  开放数据 (Open Data)
 🚧 *正在整理数据集，敬请期待...*
 
 ### 💻 开放代码 (Open Code)  
