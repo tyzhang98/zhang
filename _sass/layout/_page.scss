@@ -6,8 +6,8 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 8em; /* 增加左侧距离，远离侧边栏 */
-  padding-right: 2em; /* 稍微增加右侧距离保持平衡 */
+  padding-left: 4em; /* 减少左侧距离 */
+  padding-right: 1.5em; /* 稍微减少右侧距离 */
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -19,13 +19,13 @@
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
-    @include prefix(1 of 12); /* 增加左侧前缀空间 */
-    @include suffix(1 of 12); /* 调整右侧后缀空间 */
+    @include prefix(0.8 of 12); /* 减少左侧前缀空间 */
+    @include suffix(1.2 of 12); /* 调整右侧后缀空间 */
   }
 
   .page__inner-wrap {
     @include full();
-    margin-left: 2em; /* 额外增加左边距 */
+    margin-left: 1em; /* 减少额外左边距 */
 
     .page__content,
     .page__meta,
