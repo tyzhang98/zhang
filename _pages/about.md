@@ -52,18 +52,18 @@ redirect_from:
 
 ## 2. 会议报告 (Conference Presentations)
 
-**#32025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
+**2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
 - 报告形式：海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
 - 时间：2025年4月19日
 - 地点：北京大学
 
-**#2兰州市第三人民医院学术讲座**  
+**兰州市第三人民医院学术讲座**  
 - 报告题目：认知计算精神病学：从思路到实操 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides3.pdf)
 - 时间：2024年11月26日
 - 地点：兰州市第三人民医院
 - [报道链接](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
 
-**#1第二十五届全国心理学学术会议**  
+**第二十五届全国心理学学术会议**  
 - 报告形式：分论坛口头报告 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
 - 时间：2024年10月14日
 - 地点：四川师范大学
