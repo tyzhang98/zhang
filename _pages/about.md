@@ -50,6 +50,13 @@ redirect_from:
 >**#1.** Zhang, T., et al. Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study.<br>
 [ *初稿完成，与合作者修稿中...* ]
 
+### 学位论文 (Thesis)
+
+**硕士学位论文**  
+_另一种可能性：执行功能多任务评估为精神分裂症提供诊断信息_  
+[下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/Master.pdf)
+
+
 ## 2. 会议报告 (Conference Presentations)
 
 **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
