@@ -45,7 +45,7 @@ redirect_from:
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper5.pdf) | [论文代码](https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code)  
 *[ 中科院一区Top，影响因子 3.8 | 独立一作 ]*
 
-### 正在准备的... (In Preparation...)
+### 正在准备的... (In Preparation...) 
 
 >**#1.** Zhang, T., et al. Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study.<br>
 [ *初稿完成，与合作者修稿中...* ]
