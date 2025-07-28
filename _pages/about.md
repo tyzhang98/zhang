@@ -56,6 +56,8 @@ redirect_from:
 _另一种可能性：执行功能多任务评估为精神分裂症提供诊断信息_  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/Master.pdf)
 
+**博士学位论文**  
+_基于大语言模型模拟与预测人类执行功能加工与神经活动_  
 
 ## 2. 会议报告 (Conference Presentations)
 
