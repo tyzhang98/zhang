@@ -30,6 +30,7 @@ Background: Cognitive dysfunction, particularly working memory (WM) impairment, 
 ![Schematic diagram of the study design and analysis pipelines](https://tyzhang98.github.io/zhang/images/Page1-Figure1.jpg)
 </details>
 
+![Schematic diagram of the study design and analysis pipelines](/zhang/images/Page1-Figure1.jpg)
 
 ### 审稿中的论文 (Under Review)
 
