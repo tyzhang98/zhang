@@ -24,14 +24,17 @@ redirect_from:
 > *[ 中科院二区，影响因子 3.5 \| 独立一作 ]*  
 >  
 <details>
-<summary>Abstract（点击展开/折叠）-以下为Schematic diagram of the study design and analysis pipelines</summary>
+<summary>Abstract（点击展开/折叠）</summary>
 Background: Cognitive dysfunction, particularly working memory (WM) impairment, constitutes a core feature of schizophrenia and is largely unresponsive to available antipsychotic treatments. The computational mechanisms underlying WM deficits at different illness stages and their associations with clinical symptom dimensions remain poorly understood。
 Methods: We applied hierarchical drift diffusion modeling (HDDM) to dissect latent cognitive processes underlying WM performance in a two-back task among patients with first-episode schizophrenia (FES, N = 103, illness duration ≤2 years), chronic schizophrenia (ChSz, N = 108, illness duration ≥5 years), and healthy controls (HCs, N = 85). Multiple regression and mediation analyses were conducted to examine associations between HDDM parameters, clinical symptoms, and conventional metrics. 
 Results: Both patient groups exhibited significant WM deficits compared to HCs, with ChSz patients demonstrating more pronounced impairments than FES patients. HDDM analysis revealed that patients showed significantly reduced drift rate and prolonged non-decision time compared to HCs. Notably, while non-decision time remained comparable between FES and ChSz groups, drift rate was significantly lower in ChSz patients, mediated the relationship between illness stage and WM performance, and negatively correlated with negative symptoms and general psychopathology. 
 Conclusions: This study reveals distinct computational profiles of WM deficits across different stages of schizophrenia. While non-decision time impairments emerge early and persist, reduced drift rate progressively deteriorates with illness duration and is closely linked to specific clinical symptoms. These findings enhance our understanding of WM dysfunction across illness stages and support the development of targeted cognitive interventions tailored to illness stage and symptom severity.<br>
 
-![研究设计及分析流程示意图](/zhang/images/Page1-Figure1.jpg)
+
 </details>
+
+![研究设计及分析流程示意图](/zhang/images/Page1-Figure1.jpg)
+
 
 ### 审稿中的论文 (Under Review)
 
@@ -41,15 +44,16 @@ Conclusions: This study reveals distinct computational profiles of WM deficits a
 *[ 中科院一区Top，影响因子 4.8 | 共同一作，次序第一 ]*
 >  
 <details>
-<summary>Abstract（点击展开/折叠）-以下为Schematic diagram of the study design and analysis pipelines</summary>
+<summary>Abstract（点击展开/折叠）</summary>
 Background: Executive functioning (EF) impairments are often seen in mental disorders, particularly schizophrenia, where they relate to adverse outcomes. As a heterogeneous construct, how specifically each dimension of EF to characterize the diagnostic and prognostic aspects of schizophrenia remains opaque. 
 Study Design: We used classification models with a stacking approach on systematically measured EFs using 6 tasks to discriminate 195 patients with schizophrenia from healthy individuals. Baseline EF measurements were moreover employed to predict symptomatically remitted or non-remitted prognostic subgroups. EF feature importance was determined at the group-level and the ensuing individual importance scores were associated with four symptom dimensions.   
 Study Results: The models highlighted the importance of inhibitory control (interference and response inhibitions) or working memory in accurately identifying individuals with schizophrenia (area under the curve [AUC] = 0.87) or those in remission (AUC = 0.81). Patients who are correctly classified, in the association with the contribution of interference inhibition function to our diagnostic classifier, present more severe baseline negative symptoms compared to those who are more likely to be misclassified. Also, linked to the function of working memory updating, patients who are successfully classified as remitted display milder cognitive symptoms at follow-up. Remitted patients do not differ significantly from non-remitted cases in baseline EF assessments or overall symptom severity.
 <br>
 
-![Schematic diagram of the study design and analysis pipelines](/zhang/images/Page1-Figure2.jpg)
+
 </details>
 
+![研究设计及分析流程示意图](/zhang/images/Page1-Figure2.jpg)
 
 
 >**#2.** **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. [https://doi.org/10.2139/ssrn.5277353](https://doi.org/10.2139/ssrn.5277353)<br>
@@ -59,15 +63,17 @@ Study Results: The models highlighted the importance of inhibitory control (inte
 
 >  
 <details>
-<summary>Abstract（点击展开/折叠）-以下为Schematic diagram of the study design and analysis pipelines</summary>
+<summary>Abstract（点击展开/折叠）</summary>
 Background: Executive dysfunction in schizophrenia profoundly impairs functional outcomes and remains insufficiently addressed by standard pharmacological treatments. Although computerized cognitive training offers a promising intervention, traditional evaluation methods often fail to capture nuanced improvements along the psychosis-health continuum. This study aims to quantify changes in executive function (EF) profiles following cognitive training and identify candidate causal predictors of treatment response.
 Methods: Patients with schizophrenia were randomized into adaptive N-back training (n = 32), non-adaptive 1-back control (n = 33), or treatment-as-usual (n = 29) groups. EF was evaluated across working memory, cognitive flexibility, and inhibitory control domains at baseline and post-intervention. A support vector machine classifier, trained on an independent sample (195 schizophrenia patients, 169 controls) and calibrated via Platt scaling, quantified EF profile changes. An integrative causal machine learning framework identified baseline predictors of treatment response.
 Results: Adaptive working memory training resulted in significant near-transfer effects on untrained working memory updating tasks and reduced general psychopathology symptoms (pfdr < 0.05). The probability of being classified as having a neurotypical EF profile increased substantially in the adaptive training group (from 13.21% at baseline to 38.79% at follow-up, p < 0.001), with these changes correlating with symptom reduction. Working memory maintenance and response inhibition emerged as robust causal predictors of treatment response.
 Conclusions: Working memory training induces meaningful shifts in EF profiles in schizophrenia, promoting movement along the psychosis-health continuum toward neurotypical functioning. The classifier-based approach provides a more refined assessment of cognitive gains compared to traditional binary measures, while the causal analysis identifies specific EF domains that predict treatment response.<br>
 
-![Schematic diagram of the study design and analysis pipelines](/zhang/images/Page1-Figure3.jpg)
+
+
 </details>
 
+![研究设计及分析流程示意图](/zhang/images/Page1-Figure3.jpg)
 
 >**#3.** **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: A cross-time clustering and validation study. <br>
 *The British Journal of Psychiatry - Under Review*  
@@ -76,15 +82,17 @@ Conclusions: Working memory training induces meaningful shifts in EF profiles in
 
 >  
 <details>
-<summary>Abstract（点击展开/折叠）-以下为Schematic diagram of the study design and analysis pipelines</summary>
+<summary>Abstract（点击展开/折叠）</summary>
 Introduction: Executive function (EF) is a heterogeneous neuropsychological construct, and impairments in EF dimensions represent a core aspect of psychopathology in schizophrenia that vary across individual patients. Currently, how this inter-individual variability characterizes schizophrenia subgroups, along with their distinctions in clinical characteristics and prognostic outcomes, remains unclear.
 Methods: Three EF dimensions (inhibitory control, working memory, cognitive flexibility) were assessed in the main sample (N=329), its follow-up subset, and an independently “recurring local validation” patient sample (N=114). Fuzzy clustering was applied to baseline EF assessments to discover and validate the core subtypes after excluding cluster-ambiguous cases in the main and independent samples, respectively. Subtype-based classification trained on the main sample was then tested in the independent sample. Importantly, the stability of these subtypes and their remission statuses, along with associated longitudinal changes in clinical and biological factors, were evaluated, and baseline subtype memberships were also used to predict outcomes. 
 Results: Two longitudinal stable, independently validated core EF subtypes were identified, with significantly variable baseline positive, affective, and cognitive symptoms; working memory updating functioning; and peripheral inflammatory and metabolic levels. This two-subtype differentiation allowed an accurate classification of novel patients’ subtype memberships and patients’ remission statuses not due to overall severity at intake. Remitted patients experienced significantly greater reductions in negative and cognitive symptoms, improved working memory maintenance, lower peripheral inflammatory levels, and more-superior metabolic functions over time.
 Conclusions: EF subtyping successfully captured the symptomatic, biochemical, and prognostic variations in individuals with schizophrenia, which could help to stratify patients with this disorder for targeted treatments. <br>
 
-![Schematic diagram of the study design and analysis pipelines](/zhang/images/Page1-Figure4.jpg)
+
+
 </details>
 
+![研究设计及分析流程示意图](/zhang/images/Page1-Figure4.jpg)
 
 >**#4.** **Zhang, T.**, et al. Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence. <br>
 *Child Development - Submitted*  
@@ -93,11 +101,14 @@ Conclusions: EF subtyping successfully captured the symptomatic, biochemical, an
 
 >  
 <details>
-<summary>Abstract（点击展开/折叠）-以下为Schematic diagram of the study design and analysis pipelines</summary>
+<summary>Abstract（点击展开/折叠）</summary>
 This study examined inhibitory control development in two samples of Chinese children: a primary sample (n = 1,122; 45.5% female; 91.9% Han, Mage = 12.42 years, range: 6.0–18.7) with 6-month longitudinal follow-up and an independent replication sample (n = 1,026; 45.1% female; 90.8% Han, Mage = 12.44 years, range: 6.1–18.8). Generalized Additive Models applied to Stroop and Go/No-Go tasks revealed four-phase nonlinear developmental trajectories. Response inhibition stabilized by 13.4 years, while interference inhibition developed until 15.8 years. Hierarchical drift diffusion modeling showed that interference inhibition developed through enhanced information accumulation (drift rate), whereas response inhibition developed through enhanced response bias control (starting point). Age-related processing speed improvements suggest shared foundational mechanisms. The findings contribute to a decision-computational framework.<br>
 
-![Schematic diagram of the study design and analysis pipelines](/zhang/images/Page1-Figure5.jpg)
+
+
 </details>
+
+![研究设计及分析流程示意图](/zhang/images/Page1-Figure5.jpg)
 
 
 ### 正在准备的... (In Preparation...) 
