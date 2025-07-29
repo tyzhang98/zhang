@@ -19,9 +19,16 @@ redirect_from:
 
 ### 已发表的论文 (Published Papers)
 
->**#1.** **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. [https://doi.org/10.1016/j.schres.2025.06.012](https://doi.org/10.1016/j.schres.2025.06.012)  <br>
-[下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper1.pdf) | [论文代码](https://github.com/tyzhang98/Two-back-task-HDDM)  
-*[ 中科院二区，影响因子 3.5 | 独立一作 ]*
+> **#1.** **Zhang, T.**, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. *Schizophrenia Research*, *282*, 203–213. [https://doi.org/10.1016/j.schres.2025.06.012](https://doi.org/10.1016/j.schres.2025.06.012)  <br>
+> [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper1.pdf) | [论文代码](https://github.com/tyzhang98/Two-back-task-HDDM)  
+> *[ 中科院二区，影响因子 3.5 \| 独立一作 ]*  
+>  
+<details>
+<summary>摘要（点击展开/折叠）</summary>
+
+本研究基于双记忆任务（two-back task）的行为数据，结合分层扩散决策模型（HDDM），首次在首发和慢性精神分裂症患者中区分出不同阶段的工作记忆缺陷机理。结果表明，首发患者主要表现为信息提取速率（drift rate）显著下降，而慢性患者则以决策阈值（boundary separation）升高为特征；两组均伴随非决策时间（non-decision time）的延长。该发现揭示了精神分裂症工作记忆障碍的动态演变路径，为针对不同病程阶段的认知干预提供了精细化的计算指标。
+
+</details>
 
 ### 审稿中的论文 (Under Review)
 
