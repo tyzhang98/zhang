@@ -5,8 +5,8 @@ title: "<br>张统一 (Zhang Tongyi)"
 title_separator: "-"
 name: &name "<br>张统一 (Zhang Tongyi)"
 description: &description "personal description"
-url: https://tyzhang98.github.io/zhang/
-baseurl: ""
+url:  "https://tyzhang98.github.io"
+baseurl: "/zhang"
 repository: "tyzhang98/zhang"
 
 # Site Author
