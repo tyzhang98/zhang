@@ -30,11 +30,9 @@ Methods: We applied hierarchical drift diffusion modeling (HDDM) to dissect late
 Results: Both patient groups exhibited significant WM deficits compared to HCs, with ChSz patients demonstrating more pronounced impairments than FES patients. HDDM analysis revealed that patients showed significantly reduced drift rate and prolonged non-decision time compared to HCs. Notably, while non-decision time remained comparable between FES and ChSz groups, drift rate was significantly lower in ChSz patients, mediated the relationship between illness stage and WM performance, and negatively correlated with negative symptoms and general psychopathology. 
 Conclusions: This study reveals distinct computational profiles of WM deficits across different stages of schizophrenia. While non-decision time impairments emerge early and persist, reduced drift rate progressively deteriorates with illness duration and is closely linked to specific clinical symptoms. These findings enhance our understanding of WM dysfunction across illness stages and support the development of targeted cognitive interventions tailored to illness stage and symptom severity.<br>
 
+![研究设计及分析流程示意图]({{ site.baseurl }}/images/Page1-Figure1.jpg)
 
-![Schematic diagram of the study design and analysis pipelines](https://tyzhang98.github.io/zhang/images/Page1-Figure1.jpg)
 </details>
-
-![研究设计及分析流程示意图](/zhang/images/Page1-Figure1.jpg)
 
 
 ### 审稿中的论文 (Under Review)
