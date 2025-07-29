@@ -108,7 +108,7 @@ This study examined inhibitory control development in two samples of Chinese chi
 
 </details>
 
-![研究设计及分析流程示意图](/zhang/images/Page1-Figure5.jpg)
+![研究设计及分析流程示意图](/zhang/images/Page1-Figure5.png)
 
 
 ### 正在准备的... (In Preparation...) 
