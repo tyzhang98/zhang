@@ -24,11 +24,13 @@ redirect_from:
 > *[ 中科院二区，影响因子 3.5 \| 独立一作 ]*  
 >  
 <details>
-<summary>摘要（点击展开/折叠）</summary>
+<summary>Abstract（点击展开/折叠）</summary>
+Background: Cognitive dysfunction, particularly working memory (WM) impairment, constitutes a core feature of schizophrenia and is largely unresponsive to available antipsychotic treatments. The computational mechanisms underlying WM deficits at different illness stages and their associations with clinical symptom dimensions remain poorly understood. Methods: We applied hierarchical drift diffusion modeling (HDDM) to dissect latent cognitive processes underlying WM performance in a two-back task among patients with first-episode schizophrenia (FES, N = 103, illness duration ≤2 years), chronic schizophrenia (ChSz, N = 108, illness duration ≥5 years), and healthy controls (HCs, N = 85). Multiple regression and mediation analyses were conducted to examine associations between HDDM parameters, clinical symptoms, and conventional metrics. Results: Both patient groups exhibited significant WM deficits compared to HCs, with ChSz patients demonstrating more pronounced impairments than FES patients. HDDM analysis revealed that patients showed significantly reduced drift rate and prolonged non-decision time compared to HCs. Notably, while non-decision time remained comparable between FES and ChSz groups, drift rate was significantly lower in ChSz patients, mediated the relationship between illness stage and WM performance, and negatively correlated with negative symptoms and general psychopathology. Conclusions: This study reveals distinct computational profiles of WM deficits across different stages of schizophrenia. While non-decision time impairments emerge early and persist, reduced drift rate progressively deteriorates with illness duration and is closely linked to specific clinical symptoms. These findings enhance our understanding of WM dysfunction across illness stages and support the development of targeted cognitive interventions tailored to illness stage and symptom severity.
 
-本研究基于双记忆任务（two-back task）的行为数据，结合分层扩散决策模型（HDDM），首次在首发和慢性精神分裂症患者中区分出不同阶段的工作记忆缺陷机理。结果表明，首发患者主要表现为信息提取速率（drift rate）显著下降，而慢性患者则以决策阈值（boundary separation）升高为特征；两组均伴随非决策时间（non-decision time）的延长。该发现揭示了精神分裂症工作记忆障碍的动态演变路径，为针对不同病程阶段的认知干预提供了精细化的计算指标。
+![Schematic diagram of the study design and analysis pipelines](https://tyzhang98.github.io/zhang/images/Page1-Figure%1.jpg)
 
 </details>
+
 
 ### 审稿中的论文 (Under Review)
 
