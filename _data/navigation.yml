@@ -1,6 +1,6 @@
 main:
   - title: "Home"
-    url: "/zhang/"     # 或者仅 "/"，依据你的 baseurl 而定
+    url: "/"         # ← 只写根路径
   - title: "Publications"
     url: "#pub-papers"
   - title: "Conference Presentations"
