@@ -10,7 +10,7 @@ redirect_from:
 <!-- 1. 顶部锚点 -->
 <a id="top"></a>
 
-<nav>
+<nav style="text-align: center;">
   <a href="#about-me">个人简介</a> |
   <a href="#pub-papers">科研论文</a> |
   <a href="#conf-talks">会议报告</a> |
@@ -167,7 +167,7 @@ This study examined inhibitory control development in two samples of Chinese chi
 
 ## <a id="research-projects"></a>3. 科研项目 (Research Projects)  
 
-<p align="right"><a href="#top">返回顶部 ↑</a></p>
+<p align="right"><a href="#top">↑</a></p>
 
 **主持项目**
 - **2024年省级博士创新之星科研项目**（主持，2024.11-至今）
