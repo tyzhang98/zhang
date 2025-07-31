@@ -10,17 +10,7 @@ redirect_from:
 <!-- 1. 顶部锚点 -->
 <a id="top"></a>
 
-<nav style="text-align: center;">
-  <a href="#about-me">个人简介</a> |
-  <a href="#pub-papers">科研论文</a> |
-  <a href="#conf-talks">会议报告</a> |
-  <a href="#research-projects">科研项目</a> |
-  <a href="#collab">寻求科研合作</a> |
-  <a href="#resources">研究资源</a> |
-</nav>
-
 ## <a id="about-me"></a>个人简介 (About Me)  
-
 
 
 　　西北师范大学心理学学术型的在读博士研究生（二年级），主要从事执行功能与精神分裂症相关研究。研究中综合运用行为实验、脑影像（fMRI）、计算建模、机器学习和大语言模型等技术手段，致力于揭示认知功能的发展机制及其在精神疾病中的表现特征。
