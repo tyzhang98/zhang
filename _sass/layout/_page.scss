@@ -2,8 +2,6 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
-
-
 #main {
   @include container;
   @include clearfix;
@@ -14,9 +12,10 @@
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: 1200px;  // 由原来的 $x-large 改为 1200px
+    max-width: $x-large;
   }
 }
+
 
 
 

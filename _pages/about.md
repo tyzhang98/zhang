@@ -16,11 +16,10 @@ redirect_from:
 　　西北师范大学心理学学术型的在读博士研究生（二年级），主要从事执行功能与精神分裂症相关研究。研究中综合运用行为实验、脑影像（fMRI）、计算建模、机器学习和大语言模型等技术手段，致力于揭示认知功能的发展机制及其在精神疾病中的表现特征。
 
 > **Email：** tyzhang9804@gmail.com
+<!-- 把 pub-papers 锚点放在这里 -->
+<a id="pub-papers"></a>
+> **Email：** tyzhang9804@gmail.com  
 <br>
-
-
-## <a id="pub-papers"></a>1. 科研论文 (Research Publications)  
-
 
 ### 已发表的论文 (Published Papers)
 
@@ -128,11 +127,11 @@ This study examined inhibitory control development in two samples of Chinese chi
 题目：_另一种可能性：执行功能多任务评估为精神分裂症提供诊断信息_  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/Master.pdf)
 
+
 >**博士学位论文**  
-题目：_基于大语言模型模拟与预测人类执行功能加工与神经活动_  
+<a id="conf-talks"></a>题目：_基于大语言模型模拟与预测人类执行功能加工与神经活动_  
 
-## <a id="conf-talks"></a>2. 会议报告 (Conference Presentations)
-
+## 2. 会议报告 (Conference Presentations)
 
 **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
 - 报告形式：海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
@@ -145,15 +144,17 @@ This study examined inhibitory control development in two samples of Chinese chi
 - 地点：兰州市第三人民医院
 - [报道链接](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
 
+<!-- 把锚点放在这里 -->
+<a id="research-projects"></a>
 **第二十五届全国心理学学术会议**  
-- 报告形式：分论坛口头报告 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
-- 时间：2024年10月14日
-- 地点：四川师范大学
+- 报告形式：分论坛口头报告 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)  
+- 时间：2024年10月14日  
+- 地点：四川师范大学  
 <br>
 <br>
 <br>
 
-## <a id="research-projects"></a>3. 科研项目 (Research Projects)  
+## 3. 科研项目 (Research Projects)
 
 
 **主持项目**
@@ -162,12 +163,12 @@ This study examined inhibitory control development in two samples of Chinese chi
 **参与项目**
 - **国家自然科学基金地区项目**（32260207）“认知训练对乡村儿童执行功能的提升“（参与，2022-2025）
 
+<a id="collab"></a>
 - **国家重点研发计划**（2021ZD0203800）科技创新2030—脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12-2026.12）
 <br>
 <br>
 
-## <a id="collab"></a>4. 寻求科研合作 (Seeking Research Collaboration)  
-
+## 4. 寻求科研合作 (Seeking Research Collaboration)
 
 ### 合作模式
 
@@ -180,14 +181,14 @@ This study examined inhibitory control development in two samples of Chinese chi
 
 欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：tyzhang9804@gmail.com
 
+<a id="resources"></a>
 > **注：** 本人目前为在读博士研究生，合作前需征得导师同意
 
 <br>
 <br>
 <br>
 
-## <a id="resources"></a>5. 研究资源 (Research Resources)  
-
+## 5. 研究资源 (Research Resources)
 
 ### 开放数据 (Open Data)
 - 正在整理中，敬请期待...
