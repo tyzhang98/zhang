@@ -145,8 +145,8 @@ This study examined inhibitory control development in two samples of Chinese chi
 
 **第二十五届全国心理学学术会议**  
 - 报告形式：分论坛口头报告 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
-<a id="research-projects"></a>
 - 时间：2024年10月14日  
+<a id="research-projects"></a>
 - 地点：四川师范大学  
 <br>
 <br>
