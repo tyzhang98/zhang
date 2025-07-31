@@ -1,4 +1,6 @@
 main:
+  - title: "首页"
+    url: "#top"
   - title: "个人简介"
     url: "#about-me"
   - title: "科研论文"
