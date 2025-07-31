@@ -17,10 +17,10 @@ redirect_from:
   <a href="#research-projects">科研项目</a> |
   <a href="#collab">寻求科研合作</a> |
   <a href="#resources">研究资源</a> |
-  <a href="#top">返回顶部 ↑</a>
 </nav>
 
-## <a id="about-me"></a>个人简介 (About Me)
+## <a id="about-me"></a>个人简介 (About Me)  
+<p align="right"><a href="#top">返回顶部 ↑</a></p>
 
 
 　　西北师范大学心理学学术型的在读博士研究生（二年级），主要从事执行功能与精神分裂症相关研究。研究中综合运用行为实验、脑影像（fMRI）、计算建模、机器学习和大语言模型等技术手段，致力于揭示认知功能的发展机制及其在精神疾病中的表现特征。
@@ -29,7 +29,9 @@ redirect_from:
 <br>
 
 
-## <a id="pub-papers"></a>1. 科研论文 (Research Publications)
+## <a id="pub-papers"></a>1. 科研论文 (Research Publications)  
+
+<p align="right"><a href="#top">返回顶部 ↑</a></p>
 
 ### 已发表的论文 (Published Papers)
 
@@ -142,6 +144,8 @@ This study examined inhibitory control development in two samples of Chinese chi
 
 ## <a id="conf-talks"></a>2. 会议报告 (Conference Presentations)
 
+<p align="right"><a href="#top">返回顶部 ↑</a></p>
+
 **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
 - 报告形式：海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
 - 时间：2025年4月19日
@@ -161,7 +165,9 @@ This study examined inhibitory control development in two samples of Chinese chi
 <br>
 <br>
 
-## <a id="research-projects"></a>3. 科研项目 (Research Projects)
+## <a id="research-projects"></a>3. 科研项目 (Research Projects)  
+
+<p align="right"><a href="#top">返回顶部 ↑</a></p>
 
 **主持项目**
 - **2024年省级博士创新之星科研项目**（主持，2024.11-至今）
@@ -173,7 +179,9 @@ This study examined inhibitory control development in two samples of Chinese chi
 <br>
 <br>
 
-## <a id="collab"></a>4. 寻求科研合作 (Seeking Research Collaboration)
+## <a id="collab"></a>4. 寻求科研合作 (Seeking Research Collaboration)  
+
+<p align="right"><a href="#top">返回顶部 ↑</a></p>
 
 ### 合作模式
 
@@ -192,8 +200,8 @@ This study examined inhibitory control development in two samples of Chinese chi
 <br>
 <br>
 
-## <a id="resources"></a>5. 研究资源 (Research Resources)
-
+## <a id="resources"></a>5. 研究资源 (Research Resources)   <a href="#top">返回顶部 ↑</a>
+ 
 ### 开放数据 (Open Data)
 - 正在整理中，敬请期待...
 
@@ -203,6 +211,6 @@ This study examined inhibitory control development in two samples of Chinese chi
 <br>
 <br>
 
-
+<p align="right"><a href="#top">返回顶部 ↑</a></p>
 
 *最后更新于: 2025年7月29日 GMT+8 16:07:06* 
