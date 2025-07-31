@@ -7,6 +7,9 @@ redirect_from:
   - /about.html
 ---
 
+<!-- 1. 顶部锚点 -->
+<a id="top"></a>
+
 <nav>
   <ul>
     <li><a href="#about-me">个人简介</a></li>
@@ -15,6 +18,7 @@ redirect_from:
     <li><a href="#research-projects">科研项目</a></li>
     <li><a href="#collab">寻求科研合作</a></li>
     <li><a href="#resources">研究资源</a></li>
+    <li><a href="#top">返回顶部 ↑</a></li>
   </ul>
 </nav>
 
