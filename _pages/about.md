@@ -2,12 +2,24 @@
 permalink: /
 title: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-## 个人简介 (About Me)
+<nav>
+  <ul>
+    <li><a href="#about-me">个人简介</a></li>
+    <li><a href="#pub-papers">科研论文</a></li>
+    <li><a href="#conf-talks">会议报告</a></li>
+    <li><a href="#research-projects">科研项目</a></li>
+    <li><a href="#collab">寻求科研合作</a></li>
+    <li><a href="#resources">研究资源</a></li>
+  </ul>
+</nav>
+
+## <a id="about-me"></a>个人简介 (About Me)
+
 
 　　西北师范大学心理学学术型的在读博士研究生（二年级），主要从事执行功能与精神分裂症相关研究。研究中综合运用行为实验、脑影像（fMRI）、计算建模、机器学习和大语言模型等技术手段，致力于揭示认知功能的发展机制及其在精神疾病中的表现特征。
 
@@ -15,7 +27,7 @@ redirect_from:
 <br>
 
 
-## 1. 科研论文 (Research Publications)
+## <a id="pub-papers"></a>1. 科研论文 (Research Publications)
 
 ### 已发表的论文 (Published Papers)
 
@@ -126,7 +138,7 @@ This study examined inhibitory control development in two samples of Chinese chi
 >**博士学位论文**  
 题目：_基于大语言模型模拟与预测人类执行功能加工与神经活动_  
 
-## 2. 会议报告 (Conference Presentations)
+## <a id="conf-talks"></a>2. 会议报告 (Conference Presentations)
 
 **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
 - 报告形式：海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
@@ -147,7 +159,7 @@ This study examined inhibitory control development in two samples of Chinese chi
 <br>
 <br>
 
-## 3. 科研项目 (Research Projects)
+## <a id="research-projects"></a>3. 科研项目 (Research Projects)
 
 **主持项目**
 - **2024年省级博士创新之星科研项目**（主持，2024.11-至今）
@@ -159,7 +171,7 @@ This study examined inhibitory control development in two samples of Chinese chi
 <br>
 <br>
 
-## 4. 寻求科研合作 (Seeking Research Collaboration)
+## <a id="collab"></a>4. 寻求科研合作 (Seeking Research Collaboration)
 
 ### 合作模式
 
@@ -178,7 +190,7 @@ This study examined inhibitory control development in two samples of Chinese chi
 <br>
 <br>
 
-## 5. 研究资源 (Research Resources)
+## <a id="resources"></a>5. 研究资源 (Research Resources)
 
 ### 开放数据 (Open Data)
 - 正在整理中，敬请期待...
