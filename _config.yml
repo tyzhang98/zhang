@@ -1,9 +1,9 @@
 # Basic Site Settings
 locale: "en-US"
 site_theme: "default"
-title: "<br>张统一 (Zhang Tongyi)"
+title: "<br>Home"
 title_separator: "-"
-name: &name "<br>张统一 (Zhang Tongyi)"
+name: &name "<br>Home"
 description: &description "personal description"
 url:  "https://tyzhang98.github.io"
 baseurl: "/zhang"
