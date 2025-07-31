@@ -1,4 +1,6 @@
 main:
+  - title: ""
+    url: ""  
   - title: "Home"
     url: "/"         # ← 只写根路径
   - title: "Publications"
