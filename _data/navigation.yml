@@ -1,4 +1,6 @@
-main:   # ← 只写根路径
+main:
+  - title: "Home"
+    url: "/"         # ← 只写根路径
   - title: "Publications"
     url: "#pub-papers"
   - title: "Conference Presentations"
