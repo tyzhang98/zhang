@@ -11,15 +11,13 @@ redirect_from:
 <a id="top"></a>
 
 <nav>
-  <ul>
-    <li><a href="#about-me">个人简介</a></li>
-    <li><a href="#pub-papers">科研论文</a></li>
-    <li><a href="#conf-talks">会议报告</a></li>
-    <li><a href="#research-projects">科研项目</a></li>
-    <li><a href="#collab">寻求科研合作</a></li>
-    <li><a href="#resources">研究资源</a></li>
-    <li><a href="#top">返回顶部 ↑</a></li>
-  </ul>
+  <a href="#about-me">个人简介</a> |
+  <a href="#pub-papers">科研论文</a> |
+  <a href="#conf-talks">会议报告</a> |
+  <a href="#research-projects">科研项目</a> |
+  <a href="#collab">寻求科研合作</a> |
+  <a href="#resources">研究资源</a> |
+  <a href="#top">返回顶部 ↑</a>
 </nav>
 
 ## <a id="about-me"></a>个人简介 (About Me)
