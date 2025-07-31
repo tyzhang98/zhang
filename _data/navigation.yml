@@ -1,6 +1,13 @@
-# main:
-#  - title: "科研论文 (Research Publications)"
-#    url: /publications/
-#
-#  - title: "数据代码资源 (Data & Code Resources)"
-#    url: /teaching/
+main:
+  - title: "个人简介"
+    url: "#about-me"
+  - title: "科研论文"
+    url: "#pub-papers"
+  - title: "会议报告"
+    url: "#conf-talks"
+  - title: "科研项目"
+    url: "#research-projects"
+  - title: "寻求科研合作"
+    url: "#collab"
+  - title: "研究资源"
+    url: "#resources"
