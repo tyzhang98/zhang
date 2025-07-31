@@ -127,8 +127,9 @@ This study examined inhibitory control development in two samples of Chinese chi
 
 
 >**博士学位论文**  
-题目：_基于大语言模型模拟与预测人类执行功能加工与神经活动_  
 <a id="conf-talks"></a>
+题目：_基于大语言模型模拟与预测人类执行功能加工与神经活动_  
+
 <br>
 <br>
 <br>
