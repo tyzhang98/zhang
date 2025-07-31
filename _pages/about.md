@@ -10,16 +10,16 @@ redirect_from:
 <!-- 1. 顶部锚点 -->
 <a id="top"></a>
 
-## <a id="about-me"></a>个人简介 (About Me)  
+## 个人简介 (About Me)  
 
 
 　　西北师范大学心理学学术型的在读博士研究生（二年级），主要从事执行功能与精神分裂症相关研究。研究中综合运用行为实验、脑影像（fMRI）、计算建模、机器学习和大语言模型等技术手段，致力于揭示认知功能的发展机制及其在精神疾病中的表现特征。
 
-> **Email：** tyzhang9804@gmail.com
-<!-- 把 pub-papers 锚点放在这里 -->
 <a id="pub-papers"></a>
 > **Email：** tyzhang9804@gmail.com  
 <br>
+
+## 科研论文（Research Publications）
 
 ### 已发表的论文 (Published Papers)
 
@@ -127,9 +127,9 @@ This study examined inhibitory control development in two samples of Chinese chi
 题目：_另一种可能性：执行功能多任务评估为精神分裂症提供诊断信息_  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/Master.pdf)
 
-
+<a id="conf-talks"></a>
 >**博士学位论文**  
-<a id="conf-talks"></a>题目：_基于大语言模型模拟与预测人类执行功能加工与神经活动_  
+题目：_基于大语言模型模拟与预测人类执行功能加工与神经活动_  
 
 ## 2. 会议报告 (Conference Presentations)
 
