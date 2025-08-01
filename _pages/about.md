@@ -195,14 +195,14 @@ This study examined inhibitory control development in two samples of Chinese chi
 
 ## 5. 研究资源 (Research Resources)
 
+### 开放代码 (Open Code)
+- **Stacking Model with SHAP Explanation** ([下载代码](https://tyzhang98.github.io/zhang/files/Stacking_and_SHAP.zip) )
+
+<br>
+<br>
+<br>
+
 ### 开放数据 (Open Data)
 - 正在整理中，敬请期待...
-
-### 开放代码 (Open Code)
-- 正在整理中，敬请期待...
-<br>
-<br>
-<br>
-
 
 *最后更新于: 2025年7月29日 GMT+8 16:07:06* 
