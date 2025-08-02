@@ -203,7 +203,5 @@ This study examined inhibitory control development in two samples of Chinese chi
 <br>
 <br>
 
-### 开放数据 (Open Data)
-- 正在整理中，敬请期待...
-
+----
 *最后更新于: 2025年7月29日 GMT+8 16:07:06* 
