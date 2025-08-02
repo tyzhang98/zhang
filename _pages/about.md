@@ -205,7 +205,7 @@ This study examined inhibitory control development in two samples of Chinese chi
 ---
 
 <p align="center">
-*最后更新于: 2025年7月29日 GMT+8 16:07:06*
+Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, China.
 </p>
 
 ---
