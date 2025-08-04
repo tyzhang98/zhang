@@ -123,6 +123,10 @@ This study examined inhibitory control development in two samples of Chinese chi
 >**#1.** Zhang, T., et al. Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study.<br>
 [ *初稿完成，与合作者修稿中...* ]
 
+>**#2.** Zhang, T., et al. 人工智能能否模拟人类执行功能？—— 基于大语言模型内部参数与人脑神经活动的关联分析.<br>
+[ *准备中...* ]
+
+
 ### 学位论文 (Thesis)
 
 >**硕士学位论文**  
