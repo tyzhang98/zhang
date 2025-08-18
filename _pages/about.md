@@ -64,7 +64,7 @@ Study Results: The models highlighted the importance of inhibitory control (inte
 
 
 >**#2.** **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. [https://doi.org/10.2139/ssrn.5277353](https://doi.org/10.2139/ssrn.5277353)<br>
-*International Journal of Clinical and Health Psychology - Under Review*  
+*International Journal of Clinical and Health Psychology - Major Revision*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper3.pdf) | [论文代码](https://github.com/tyzhang98/ML-PsyExecShift)  
 *[ 中科院二区，影响因子 4.4 | 共同一作，次序第一 ]*
 
@@ -83,9 +83,9 @@ Conclusions: Working memory training induces meaningful shifts in EF profiles in
 ![研究设计及分析流程示意图](/zhang/images/Page1-Figure3.jpg)
 
 >**#3.** **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: A cross-time clustering and validation study. <br>
-*The British Journal of Psychiatry - Under Review*  
+*BMC Medicine - Under Review*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper4.pdf) | [论文代码](https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ)  
-*[ 中科院一区Top，影响因子 7.6 | 独立一作 ]*
+*[ 中科院一区Top，影响因子 8.3 | 独立一作 ]*
 
 >  
 <details>
@@ -102,7 +102,7 @@ Conclusions: EF subtyping successfully captured the symptomatic, biochemical, an
 ![研究设计及分析流程示意图](/zhang/images/Page1-Figure4.jpg)
 
 >**#4.** **Zhang, T.**, et al. Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence. <br>
-*Child Development - Submitted*  
+*Child Development - Under Review*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper5.pdf) | [论文代码](https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code)  
 *[ 中科院一区Top，影响因子 3.8 | 独立一作 ]*
 
@@ -123,7 +123,7 @@ This study examined inhibitory control development in two samples of Chinese chi
 >**#1.** Zhang, T., et al. Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study.<br>
 [ *初稿完成，与合作者修稿中...* ]
 
->**#2.** Zhang, T., et al. 人工智能能否模拟人类执行功能？—— 基于大语言模型内部参数与人脑神经活动的关联分析.<br>
+>**#2.** Zhang, T., et al. Understanding, Not Mimicking: Evidence for Genuine Computational Mechanisms in LLMs' Human-like Executive Function.<br>
 [ *准备中...* ]
 
 
