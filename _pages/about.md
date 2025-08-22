@@ -14,7 +14,7 @@ redirect_from:
 关心的研究问题：
 - 大语言模型的认知加工模式与人类认知加工及大脑活动的表征相似性  
   - [下载汇报(PDF)2025-8-22](https://tyzhang98.github.io/zhang/files/2025-8-22-Manuscript.pdf)
-  - [下载汇报(PDF)2025-8-5-Manuscript](https://tyzhang98.github.io/zhang/files/初步结果.pdf)
+  - [下载汇报(PDF)2025-8-5](https://tyzhang98.github.io/zhang/files/初步结果.pdf)
 - 人类认知加工能否通过统一的计算模型进行模拟与预测
 - 精神分裂症认知加工损伤的计算机制
 
