@@ -85,7 +85,7 @@ Conclusions: Working memory training induces meaningful shifts in EF profiles in
 ![研究设计及分析流程示意图](/zhang/images/Page1-Figure3.jpg)
 
 >**#3.** **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: A cross-time clustering and validation study. <br>
-*BMC Medicine - Under Review*  
+*BMC Medicine - Major Revision*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper4.pdf) | [论文代码](https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ)  
 *[ 中科院一区Top，影响因子 8.3 | 独立一作 ]*
 
