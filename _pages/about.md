@@ -44,6 +44,25 @@ Conclusions: This study reveals distinct computational profiles of WM deficits a
 ![研究设计及分析流程示意图](/zhang/images/Page1-Figure1.jpg)
 
 
+>**#2.** **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. [https://doi.org/10.2139/ssrn.5277353](https://doi.org/10.2139/ssrn.5277353)<br>
+*International Journal of Clinical and Health Psychology - Accept!*  
+[下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper3.pdf) | [论文代码](https://github.com/tyzhang98/ML-PsyExecShift)  
+*[ 中科院二区，影响因子 4.4 | 共同一作，次序第一 ]*
+
+>  
+<details>
+<summary>Abstract（点击展开/折叠）</summary>
+Background: Executive dysfunction in schizophrenia profoundly impairs functional outcomes and remains insufficiently addressed by standard pharmacological treatments. Although computerized cognitive training offers a promising intervention, traditional evaluation methods often fail to capture nuanced improvements along the psychosis-health continuum. This study aims to quantify changes in executive function (EF) profiles following cognitive training and identify candidate causal predictors of treatment response.<br>
+Methods: Patients with schizophrenia were randomized into adaptive N-back training (n = 32), non-adaptive 1-back control (n = 33), or treatment-as-usual (n = 29) groups. EF was evaluated across working memory, cognitive flexibility, and inhibitory control domains at baseline and post-intervention. A support vector machine classifier, trained on an independent sample (195 schizophrenia patients, 169 controls) and calibrated via Platt scaling, quantified EF profile changes. An integrative causal machine learning framework identified baseline predictors of treatment response.<br>
+Results: Adaptive working memory training resulted in significant near-transfer effects on untrained working memory updating tasks and reduced general psychopathology symptoms (pfdr < 0.05). The probability of being classified as having a neurotypical EF profile increased substantially in the adaptive training group (from 13.21% at baseline to 38.79% at follow-up, p < 0.001), with these changes correlating with symptom reduction. Working memory maintenance and response inhibition emerged as robust causal predictors of treatment response.<br>
+Conclusions: Working memory training induces meaningful shifts in EF profiles in schizophrenia, promoting movement along the psychosis-health continuum toward neurotypical functioning. The classifier-based approach provides a more refined assessment of cognitive gains compared to traditional binary measures, while the causal analysis identifies specific EF domains that predict treatment response.<br>
+
+
+
+</details>
+
+![研究设计及分析流程示意图](/zhang/images/Page1-Figure3.jpg)
+
 
 ### 审稿中的论文 (Under Review)
 
@@ -64,27 +83,7 @@ Study Results: The models highlighted the importance of inhibitory control (inte
 
 ![研究设计及分析流程示意图](/zhang/images/Page1-Figure2.jpg)
 
-
->**#2.** **Zhang, T.**, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. *SSRN Scholarly Paper* No. 5277353. Social Science Research Network. [https://doi.org/10.2139/ssrn.5277353](https://doi.org/10.2139/ssrn.5277353)<br>
-*International Journal of Clinical and Health Psychology - Major Revision*  
-[下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper3.pdf) | [论文代码](https://github.com/tyzhang98/ML-PsyExecShift)  
-*[ 中科院二区，影响因子 4.4 | 共同一作，次序第一 ]*
-
->  
-<details>
-<summary>Abstract（点击展开/折叠）</summary>
-Background: Executive dysfunction in schizophrenia profoundly impairs functional outcomes and remains insufficiently addressed by standard pharmacological treatments. Although computerized cognitive training offers a promising intervention, traditional evaluation methods often fail to capture nuanced improvements along the psychosis-health continuum. This study aims to quantify changes in executive function (EF) profiles following cognitive training and identify candidate causal predictors of treatment response.<br>
-Methods: Patients with schizophrenia were randomized into adaptive N-back training (n = 32), non-adaptive 1-back control (n = 33), or treatment-as-usual (n = 29) groups. EF was evaluated across working memory, cognitive flexibility, and inhibitory control domains at baseline and post-intervention. A support vector machine classifier, trained on an independent sample (195 schizophrenia patients, 169 controls) and calibrated via Platt scaling, quantified EF profile changes. An integrative causal machine learning framework identified baseline predictors of treatment response.<br>
-Results: Adaptive working memory training resulted in significant near-transfer effects on untrained working memory updating tasks and reduced general psychopathology symptoms (pfdr < 0.05). The probability of being classified as having a neurotypical EF profile increased substantially in the adaptive training group (from 13.21% at baseline to 38.79% at follow-up, p < 0.001), with these changes correlating with symptom reduction. Working memory maintenance and response inhibition emerged as robust causal predictors of treatment response.<br>
-Conclusions: Working memory training induces meaningful shifts in EF profiles in schizophrenia, promoting movement along the psychosis-health continuum toward neurotypical functioning. The classifier-based approach provides a more refined assessment of cognitive gains compared to traditional binary measures, while the causal analysis identifies specific EF domains that predict treatment response.<br>
-
-
-
-</details>
-
-![研究设计及分析流程示意图](/zhang/images/Page1-Figure3.jpg)
-
->**#3.** **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: A cross-time clustering and validation study. <br>
+>**#2.** **Zhang, T.**, et al. Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses: A cross-time clustering and validation study. <br>
 *BMC Medicine - Major Revision*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper4.pdf) | [论文代码](https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ)  
 *[ 中科院一区Top，影响因子 8.3 | 独立一作 ]*
@@ -103,7 +102,7 @@ Conclusions: EF subtyping successfully captured the symptomatic, biochemical, an
 
 ![研究设计及分析流程示意图](/zhang/images/Page1-Figure4.jpg)
 
->**#4.** **Zhang, T.**, et al. Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence. <br>
+>**#3.** **Zhang, T.**, et al. Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence. <br>
 *Child Development - Under Review*  
 [下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/paper5.pdf) | [论文代码](https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code)  
 *[ 中科院一区Top，影响因子 3.8 | 独立一作 ]*
