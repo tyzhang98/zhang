@@ -219,38 +219,22 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
 
 ---
 
+<div id="locationMap" style="height: 350px; width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
 
-
-<div id="globeViz" style="height: 450px; width: 100%; margin: 20px 0; background: #000;"></div>
-
-<script src="//unpkg.com/globe.gl"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
   window.addEventListener('load', function() {
-    const globe = Globe()
-      (document.getElementById('globeViz'))
-      .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
-      .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
-      .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
-      .pointsData([{
-        lat: 36.0611,
-        lng: 103.8343,
-        size: 0.8,
-        color: '#ff4444'
-      }])
-      .pointAltitude(0.01)
-      .pointColor('color')
-      .pointRadius('size')
-      .pointLabel(() => '<div style="background: rgba(0,0,0,0.8); color: white; padding: 8px; border-radius: 4px; font-size: 14px;"><b>🏛️ 兰州 Lanzhou</b><br/>西北师范大学<br/>Northwest Normal University<br/>心理学院</div>');
+    var map = L.map('locationMap').setView([36.0611, 103.8343], 3);
     
-    // 旋转到兰州
-    globe.pointOfView({ lat: 36.0611, lng: 103.8343, altitude: 2 }, 2000);
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Esri',
+      maxZoom: 18
+    }).addTo(map);
     
-    // 自动旋转
-    let angle = 103.8343;
-    setInterval(() => {
-      angle += 0.2;
-      globe.pointOfView({ lat: 36.0611, lng: angle, altitude: 2 });
-    }, 50);
+    L.marker([36.0611, 103.8343]).addTo(map)
+      .bindPopup('<div style="text-align: center; padding: 5px;"><b>🏛️ 兰州 Lanzhou</b><br>西北师范大学<br>Northwest Normal University<br>心理学院</div>')
+      .openPopup();
   });
 </script>
 
