@@ -220,29 +220,22 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
 ---
 
 
-<div id="globeViz" style="height: 400px; width: 100%; margin: 20px 0;"></div>
+<div id="locationMap" style="height: 350px; width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
 
-<script src="//unpkg.com/globe.gl"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
   window.addEventListener('load', function() {
-    const myGlobe = Globe()
-      (document.getElementById('globeViz'))
-      .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
-      .backgroundColor('#000000')
-      .pointsData([{
-        lat: 36.0611,
-        lng: 103.8343,
-        size: 0.5,
-        color: '#ff4444',
-        label: '兰州 Lanzhou\n西北师范大学\nNorthwest Normal University'
-      }])
-      .pointAltitude('size')
-      .pointColor('color')
-      .pointLabel('label')
-      .pointRadius(0.5);
+    var map = L.map('locationMap').setView([36.0611, 103.8343], 12);
     
-    // 自动旋转到兰州位置
-    myGlobe.pointOfView({ lat: 36.0611, lng: 103.8343, altitude: 2 }, 2000);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap',
+      maxZoom: 18
+    }).addTo(map);
+    
+    L.marker([36.0611, 103.8343]).addTo(map)
+      .bindPopup('<div style="text-align: center; padding: 5px;"><b>🏛️ 兰州 Lanzhou</b><br>西北师范大学<br>Northwest Normal University<br>心理学院</div>')
+      .openPopup();
   });
 </script>
 
