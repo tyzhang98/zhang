@@ -10,7 +10,7 @@ redirect_from:
 
 ---
 
-<div id="locationMap" style="height: 150px; width: 30%; margin: 5px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
+<div id="locationMap" style="height: 150px; width: 100%; margin: 5px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
