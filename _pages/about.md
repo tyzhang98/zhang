@@ -9,28 +9,6 @@ redirect_from:
 ## 个人简介 (About Me)  
 
 
-
-<div id="locationMap" style="height: 200px; width: 100%; margin: 5px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
-
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script>
-  window.addEventListener('load', function() {
-    var map = L.map('locationMap').setView([36.0611, 103.8343], 1);
-    
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: 'Esri',
-      maxZoom: 18
-    }).addTo(map);
-    
-    L.marker([36.0611, 103.8343]).addTo(map)
-      .bindPopup('<div style="text-align: center; padding: 5px;"><b>西北师范大学<br>Northwest Normal University</div>')
-      .openPopup();
-  });
-</script>
-
----
-
 西北师范大学心理学博士研究生（二年级在读），研究方向为认知心理学与计算科学交叉领域。主要采用行为实验、fMRI等认知神经科学方法，结合计算建模、机器学习和大语言模型等技术，探索认知功能的计算机制，并研究其在精神障碍中的损伤模式及干预策略。
 
 当前关心的研究问题：
@@ -239,3 +217,26 @@ This study examined inhibitory control development in two samples of Chinese chi
 Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, China.
 </p>
 
+---
+
+
+<div id="locationMap" style="height: 400px; width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  window.addEventListener('load', function() {
+    var map = L.map('locationMap').setView([36.0611, 103.8343], 1);
+    
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Esri',
+      maxZoom: 18
+    }).addTo(map);
+    
+    L.marker([36.0611, 103.8343]).addTo(map)
+      .bindPopup('<div style="text-align: center; padding: 5px;"><b>西北师范大学<br>Northwest Normal University</div>')
+      .openPopup();
+  });
+</script>
+
+---
