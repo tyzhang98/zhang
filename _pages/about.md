@@ -219,13 +219,13 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
 
 ---
 
-<div id="locationMap" style="height: 350px; width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
+<div id="locationMap" style="height: 150px; width: 50%; margin: 10px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
   window.addEventListener('load', function() {
-    var map = L.map('locationMap').setView([36.0611, 103.8343], 3);
+    var map = L.map('locationMap').setView([36.0611, 103.8343], 2);
     
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
       attribution: 'Esri',
@@ -233,7 +233,7 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
     }).addTo(map);
     
     L.marker([36.0611, 103.8343]).addTo(map)
-      .bindPopup('<div style="text-align: center; padding: 5px;"><b>🏛️ 兰州 Lanzhou</b><br>西北师范大学<br>Northwest Normal University<br>心理学院</div>')
+      .bindPopup('<div style="text-align: center; padding: 5px;"><b>Lanzhou</b><br>China</div>')
       .openPopup();
   });
 </script>
