@@ -218,3 +218,32 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
 </p>
 
 ---
+
+
+<div id="globeViz" style="height: 400px; width: 100%; margin: 20px 0;"></div>
+
+<script src="//unpkg.com/globe.gl"></script>
+<script>
+  window.addEventListener('load', function() {
+    const myGlobe = Globe()
+      (document.getElementById('globeViz'))
+      .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+      .backgroundColor('#000000')
+      .pointsData([{
+        lat: 36.0611,
+        lng: 103.8343,
+        size: 0.5,
+        color: '#ff4444',
+        label: '兰州 Lanzhou\n西北师范大学\nNorthwest Normal University'
+      }])
+      .pointAltitude('size')
+      .pointColor('color')
+      .pointLabel('label')
+      .pointRadius(0.5);
+    
+    // 自动旋转到兰州位置
+    myGlobe.pointOfView({ lat: 36.0611, lng: 103.8343, altitude: 2 }, 2000);
+  });
+</script>
+
+---
