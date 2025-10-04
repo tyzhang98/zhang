@@ -522,7 +522,7 @@ redirect_from:
             <div class="timeline-content">
                 <div class="tl-date">2025年-6月</div>
                 <span class="tl-status published">Published</span>
-                <div class="tl-paper-title">Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <span class="journal-name">Schizophrenia Research</span>, 282, 203-213.</div>
+                <div class="tl-paper-title"><strong>Zhang, T.</strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <strong><em>Schizophrenia Research</em></strong>, <em>282</em>, 203-213.</div>
                 <div class="tl-info-line">
                     <span>(中科院二区, IF 3.5)</span>
                     <span class="tl-info-separator">|</span>
