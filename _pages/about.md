@@ -420,7 +420,7 @@ redirect_from:
                 <div class="tl-date">2025年</div>
                 <span class="tl-status review">Under Review</span>
                 <div class="tl-paper-title">Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence</div>
-                <div class="tl-journal">Child Development</div>
+                <div class="tl-journal">Submitted to Child Development</div>
                 <div class="tl-info-line">
                     <span>(中科院一区Top, IF 3.8)</span>
                     <span class="tl-info-separator">|</span>
@@ -449,7 +449,7 @@ redirect_from:
                 <div class="tl-date">2025年</div>
                 <span class="tl-status review">Major Revision</span>
                 <div class="tl-paper-title">Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses</div>
-                <div class="tl-journal">BMC Medicine</div>
+                <div class="tl-journal">Submitted to BMC Medicine</div>
                 <div class="tl-info-line">
                     <span>(中科院一区Top, IF 8.3)</span>
                     <span class="tl-info-separator">|</span>
@@ -482,7 +482,7 @@ redirect_from:
                 <div class="tl-date">2024年-12月</div>
                 <span class="tl-status review">Revise & Rereview</span>
                 <div class="tl-paper-title">Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights</div>
-                <div class="tl-journal">Schizophrenia Bulletin</div>
+                <div class="tl-journal">Submitted to Schizophrenia Bulletin</div>
                 <div class="tl-info-line">
                     <span>(中科院一区Top, IF 4.8)</span>
                     <span class="tl-info-separator">|</span>
