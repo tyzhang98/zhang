@@ -6,9 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
----
-## 个人简介 (About Me)  
-
+## 个人简介 (About Me)
 <a id="about"></a>
 
 &emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），研究方向聚焦于**认知心理学与计算科学的交叉领域**。采用行为实验、fMRI等认知神经科学方法，结合计算建模、机器学习和大语言模型等前沿技术，致力于探究认知功能的计算机制，并研究其在精神障碍（如精神分裂症、重度抑郁症等）中的损伤模式及干预策略。
@@ -22,12 +20,16 @@ redirect_from:
   <img src="your-image-path.png" alt="研究框架" width="80%">
 </div>
 
-
+---
 
 <a id="pub-papers"></a>
-> **Email：** tyzhang9804@gmail.com  
+
+>**Email:** tyzhang9804@gmail.com
+
+---
 <br>
 <br>
+
 
 ## 科研论文（Research Publications）
 
