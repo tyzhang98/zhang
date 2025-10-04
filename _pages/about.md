@@ -514,8 +514,7 @@ redirect_from:
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025</div>
-                <span class="tl-status published">Published</span>
+                <div class="tl-date">2025-8;Published</div>
                 <div class="tl-paper-title">Zhang, T., Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. Schizophrenia Research, 282, 203-213.</div>
                 <div class="tl-metrics">
                     <div class="tl-metric"><strong>(中科院二区,IF 3.5)</strong></div>
