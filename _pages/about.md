@@ -362,7 +362,7 @@ redirect_from:
         <div class="timeline-marker"></div>
         <div class="timeline-content">
             <div class="tl-date">2025年</div>
-            <span class="tl-status preparation">准备中</span>
+            <span class="tl-status preparation">准备中...</span>
             <div class="tl-paper-title">Understanding, Not Mimicking: Evidence for Genuine Computational Mechanisms in LLMs' Human-like Executive Function</div>
             <div class="tl-info-line">
                 <span>独立一作</span>
@@ -374,12 +374,38 @@ redirect_from:
         </div>
     </div>
 
+        <!-- 准备中 #3 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 准备中 #4 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">Why do inhibitory control tasks show low correlations? A preregistered cross-site cognitive modeling study</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
         <!-- 准备中 #1 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
-                <span class="tl-status preparation">初稿完成</span>
+                <span class="tl-status preparation">准备中...</span>
                 <div class="tl-paper-title">Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study</div>
                 <div class="tl-info-line">
                     <span></span>
