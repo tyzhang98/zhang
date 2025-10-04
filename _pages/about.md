@@ -541,26 +541,6 @@ redirect_from:
         </div>
     </div>
 
-    <!-- 第三部分：学位论文 -->
-    <h3 class="section-title">🎓 学位论文 (Thesis)</h3>
-    <div class="timeline">
-        <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">硕士学位论文</div>
-                <span class="tl-status published">已完成</span>
-                <div class="tl-paper-title">另一种可能性：执行功能多任务评估为精神分裂症提供诊断信息</div>
-                <div class="tl-metrics">
-                    <div class="tl-metric"><strong>硕士学位论文</strong></div>
-                </div>
-                <div class="tl-links">
-                    <a href="https://tyzhang98.github.io/zhang/files/Master.pdf" class="tl-link-btn">📄 PDF</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- 图片模态框 -->
 <div id="imgModal" class="img-modal" onclick="closeImgModal()">
     <span class="img-modal-close" onclick="closeImgModal()">&times;</span>
@@ -601,7 +581,6 @@ closeImgModal();
 
 
 ---
-
 
 
 
