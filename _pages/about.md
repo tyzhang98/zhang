@@ -17,7 +17,8 @@ redirect_from:
 - 精神分裂症等精神障碍认知损伤的计算机制
 
 <div align="center">
-  <img src="images/研究框架.gif" alt="研究框架" width="50%">
+  <img src="images/研究框架.gif" alt="研究框架" width="50%" style="cursor: pointer;" ondblclick="this.style.width=this.style.width=='50%'?'90%':'50%'">
+  <p style="font-size: 0.9em; color: #888;">🔍放大/缩小</p>
 </div>
 
 ---
