@@ -708,9 +708,9 @@ document.addEventListener('keydown', function(event) {
 }
 
 .contact-box p {
-    margin: 8px 0;
+    margin: 6px 0;
     color: #374151;
-    line-height: 1.7;
+    line-height: 1.5;
 }
 
 .contact-box strong {
@@ -772,100 +772,128 @@ document.addEventListener('keydown', function(event) {
     </tbody>
 </table>
 
-<div class="contact-box">
-    <p><strong>联系方式</strong></p>
-    <p>欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：<a href="mailto:tyzhang9804@gmail.com">tyzhang9804@gmail.com</a></p>
-    <p class="note">注：本人目前为在读博士研究生，合作前需征得导师同意</p>
-</div>
+### 联系方式
 
-</div>
+欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：tyzhang9804@gmail.com
+
+<a id="resources"></a>
+> **注：** 本人目前为在读博士研究生，合作前需征得导师同意
 
 ## 4. 寻求科研合作 (Seeking Research Collaboration)
 
 <style>
-.simple-collab {
-    max-width: 900px;
-    margin: 30px auto;
+.collab-section {
+    max-width: 1000px;
+    margin: 40px auto;
 }
 
 .collab-table {
     width: 100%;
     border-collapse: collapse;
     margin: 30px 0;
+    background: white;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.collab-table thead {
+    background: #f8f9fa;
 }
 
 .collab-table th {
-    background: #f8f9fa;
-    padding: 14px;
+    padding: 18px 16px;
     text-align: left;
     font-weight: 600;
-    color: #2c3e50;
-    border-bottom: 2px solid #dee2e6;
+    color: #1f2937;
+    border-bottom: 2px solid #e5e7eb;
+    font-size: 0.95em;
 }
 
 .collab-table td {
-    padding: 14px;
-    border-bottom: 1px solid #dee2e6;
-    color: #495057;
-    line-height: 1.6;
+    padding: 20px 16px;
+    color: #374151;
+    line-height: 1.8;
+    border-bottom: 1px solid #f3f4f6;
+    vertical-align: top;
 }
 
-.collab-table tr:last-child td {
+.collab-table tbody tr:last-child td {
     border-bottom: none;
 }
 
+.collab-table tbody tr:hover {
+    background: #fafbfc;
+}
+
 .type-label {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 6px;
     font-weight: 600;
-    color: #0066cc;
+    font-size: 0.9em;
+    background: #e0e7ff;
+    color: #3730a3;
 }
 
-.contact-info {
-    margin-top: 40px;
-    padding-top: 25px;
-    border-top: 1px solid #dee2e6;
+.contact-box {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 30px 0;
 }
 
-.contact-info p {
-    margin: 10px 0;
-    color: #495057;
-    line-height: 1.7;
+.contact-box h4 {
+    margin: 0 0 16px 0;
+    color: #1f2937;
+    font-size: 1.1em;
 }
 
-.contact-info a {
+.contact-box p {
+    margin: 8px 0;
+    color: #374151;
+    line-height: 1.6;
+}
+
+.contact-box a {
     color: #0066cc;
     text-decoration: none;
+    font-weight: 500;
 }
 
-.contact-info a:hover {
+.contact-box a:hover {
     text-decoration: underline;
 }
 
 .note {
+    margin-top: 16px;
+    padding: 12px;
+    background: #fef3c7;
+    border-left: 3px solid #f59e0b;
+    border-radius: 4px;
     font-size: 0.9em;
-    color: #6c757d;
+    color: #92400e;
 }
 
 @media (max-width: 768px) {
-    .collab-table {
-        font-size: 0.9em;
-    }
-    
     .collab-table th,
     .collab-table td {
-        padding: 10px;
+        padding: 14px 12px;
+        font-size: 0.9em;
     }
 }
 </style>
 
-<div class="simple-collab">
+<div class="collab-section">
 
 <table class="collab-table">
     <thead>
         <tr>
-            <th>合作类型</th>
-            <th>我的职责</th>
-            <th>合作方职责</th>
-            <th>署名方式</th>
+            <th style="width: 15%;">合作类型</th>
+            <th style="width: 30%;">我的职责</th>
+            <th style="width: 30%;">合作方职责</th>
+            <th style="width: 25%;">署名方式</th>
         </tr>
     </thead>
     <tbody>
@@ -876,7 +904,7 @@ document.addEventListener('keydown', function(event) {
             <td>我为共一，次序第一；合作方为共一，次序第二；我导师为通讯</td>
         </tr>
         <tr>
-            <td><span class="type-label">技术与研究思路支持</span></td>
+            <td><span class="type-label">技术支持</span></td>
             <td>研究构思、数据分析（含方法与结果部分撰写）</td>
             <td>数据采集、其他部分撰写、投稿与修稿</td>
             <td>我为共一，次序第二；合作方为共一，次序第一；我导师为通讯</td>
@@ -884,14 +912,15 @@ document.addEventListener('keydown', function(event) {
     </tbody>
 </table>
 
-<div class="contact-info">
-    <p><strong>联系方式</strong></p>
+<div class="contact-box">
+    <h4>联系方式</h4>
     <p>欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：<a href="mailto:tyzhang9804@gmail.com">tyzhang9804@gmail.com</a></p>
-    <p class="note">注：本人目前为在读博士研究生，合作前需征得导师同意</p>
+    <div class="note">
+        <strong>注：</strong>本人目前为在读博士研究生，合作前需征得导师同意
+    </div>
 </div>
 
 </div>
-
 <br>
 <br>
 <br>
