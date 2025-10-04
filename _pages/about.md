@@ -652,22 +652,6 @@ document.addEventListener('keydown', function(event) {
 <br>
 <br>
 
-## 4. 寻求科研合作 (Seeking Research Collaboration)
-
-### 合作模式
-
-| 合作类型 | 我的职责 | 合作方职责 | 署名方式 |
-|---------|---------|-----------|----------|
-| **全程主导** | 研究构思、数据分析、论文撰写与投稿 | 数据采集 | 我为共一，次序第一；合作方为共一，次序第二；我导师为通讯 |
-| **技术与研究思路支持** | 研究构思、数据分析（含方法与结果部分撰写） | 数据采集、其他部分撰写、投稿与修稿 | 我为共一，次序第二；合作方为共一，次序第一；我导师为通讯 |
-
-### 联系方式
-
-欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：tyzhang9804@gmail.com
-
-<a id="resources"></a>
-> **注：** 本人目前为在读博士研究生，合作前需征得导师同意
-
 
 ## 4. 寻求科研合作 (Seeking Research Collaboration)
 
@@ -675,7 +659,7 @@ document.addEventListener('keydown', function(event) {
 
 <table>
   <thead>
-    <tr>
+    <tr style="background-color: #0a7e8c;">
       <th>合作类型</th>
       <th>我的职责</th>
       <th>合作方职责</th>
@@ -707,7 +691,6 @@ document.addEventListener('keydown', function(event) {
 <a id="resources"></a>
 
 > **注：** 本人目前为在读博士研究生，合作前需征得导师同意
-
 
 <br>
 <br>
