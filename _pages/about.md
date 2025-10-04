@@ -549,23 +549,6 @@ redirect_from:
                 </div>
             </div>
         </div>
-
-        <!-- 硕士论文 -->
-        <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">硕士学位论文</div>
-                <span class="tl-status published">已完成</span>
-                <div class="tl-paper-title">另一种可能性：执行功能多任务评估为精神分裂症提供诊断信息</div>
-                <div class="tl-metrics">
-                    <div class="tl-metric">🎓 <strong>硕士学位论文</strong></div>
-                </div>
-                <div class="tl-links">
-                    <a href="https://tyzhang98.github.io/zhang/files/Master.pdf" class="tl-link-btn">📄 PDF</a>
-                </div>
-            </div>
-        </div>
-    </div>
 <div id="imgModal" class="img-modal" onclick="closeImgModal()">
 <span class="img-modal-close" onclick="closeImgModal()">×</span>
 <img class="img-modal-content" id="modalImg">
@@ -594,29 +577,9 @@ closeImgModal();
 </script><br>
 <br>
 
-
-
-
 ---
 
-### 学位论文 (Thesis)
-
->**硕士学位论文**  
-
-题目：_另一种可能性：执行功能多任务评估为精神分裂症提供诊断信息_  
-[下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/Master.pdf)
-
-
->**博士学位论文**  
-<a id="conf-talks"></a>
-题目：_基于大语言模型模拟与预测人类执行功能加工与神经活动_  
-
-<br>
-<br>
-<br>
-
 ## 2. 会议报告 (Conference Presentations)
-
 **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
 - 报告形式：海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
 - 时间：2025年4月19日
