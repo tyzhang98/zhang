@@ -654,19 +654,266 @@ document.addEventListener('keydown', function(event) {
 
 ## 4. 寻求科研合作 (Seeking Research Collaboration)
 
-### 合作模式
+<style>
+.collab-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
 
-| 合作类型 | 我的职责 | 合作方职责 | 署名方式 |
-|---------|---------|-----------|----------|
-| **全程主导** | 研究构思、数据分析、论文撰写与投稿 | 数据采集 | 我为共一，次序第一；合作方为共一，次序第二；我导师为通讯 |
-| **技术与研究思路支持** | 研究构思、数据分析（含方法与结果部分撰写） | 数据采集、其他部分撰写、投稿与修稿 | 我为共一，次序第二；合作方为共一，次序第一；我导师为通讯 |
+.collab-intro {
+    text-align: center;
+    font-size: 1.05em;
+    color: #374151;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
 
-### 联系方式
+.collab-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
 
-欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：tyzhang9804@gmail.com
+.collab-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    padding: 30px;
+    color: white;
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
 
-<a id="resources"></a>
-> **注：** 本人目前为在读博士研究生，合作前需征得导师同意
+.collab-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.collab-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(102, 126, 234, 0.4);
+}
+
+.collab-card:hover::before {
+    opacity: 1;
+}
+
+.collab-card:nth-child(2) {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    box-shadow: 0 8px 20px rgba(240, 147, 251, 0.3);
+}
+
+.collab-card:nth-child(2):hover {
+    box-shadow: 0 12px 30px rgba(240, 147, 251, 0.4);
+}
+
+.card-type {
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-type::before {
+    content: '★';
+    font-size: 1.2em;
+}
+
+.card-section {
+    margin-bottom: 18px;
+}
+
+.card-label {
+    font-size: 0.85em;
+    opacity: 0.9;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.card-content {
+    font-size: 0.95em;
+    line-height: 1.6;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 12px 15px;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+}
+
+.authorship-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border-left: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+.authorship-box strong {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+.contact-section {
+    background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+    border-radius: 12px;
+    padding: 35px;
+    text-align: center;
+    border: 2px solid #667eea30;
+}
+
+.contact-title {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #667eea;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-title::before {
+    content: '✉';
+    font-size: 1.3em;
+}
+
+.contact-text {
+    font-size: 1em;
+    color: #374151;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.contact-email {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 14px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.05em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.contact-email:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    color: white;
+}
+
+.contact-note {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #6b7280;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .collab-cards {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-section {
+        padding: 25px 20px;
+    }
+}
+</style>
+
+<div class="collab-container">
+    <div class="collab-intro">
+        欢迎各位同仁与我开展科研合作！我专注于认知心理学与计算科学的交叉研究，<br>
+        擅长行为实验设计、fMRI数据分析、计算建模及机器学习应用。
+    </div>
+
+    <div class="collab-cards">
+        <div class="collab-card">
+            <div class="card-type">全程主导型合作</div>
+            
+            <div class="card-section">
+                <div class="card-label">我的职责</div>
+                <div class="card-content">
+                    • 研究构思与设计<br>
+                    • 数据分析与建模<br>
+                    • 论文撰写与投稿
+                </div>
+            </div>
+            
+            <div class="card-section">
+                <div class="card-label">合作方职责</div>
+                <div class="card-content">
+                    • 数据采集与整理
+                </div>
+            </div>
+            
+            <div class="authorship-box">
+                <strong>署名方式</strong>
+                我为共同第一作者（次序第一）<br>
+                合作方为共同第一作者（次序第二）<br>
+                我导师为通讯作者
+            </div>
+        </div>
+
+        <div class="collab-card">
+            <div class="card-type">技术支持型合作</div>
+            
+            <div class="card-section">
+                <div class="card-label">我的职责</div>
+                <div class="card-content">
+                    • 研究构思与设计<br>
+                    • 数据分析与建模<br>
+                    • 方法与结果部分撰写
+                </div>
+            </div>
+            
+            <div class="card-section">
+                <div class="card-label">合作方职责</div>
+                <div class="card-content">
+                    • 数据采集与整理<br>
+                    • 其他部分撰写<br>
+                    • 投稿与修稿主导
+                </div>
+            </div>
+            
+            <div class="authorship-box">
+                <strong>署名方式</strong>
+                合作方为共同第一作者（次序第一）<br>
+                我为共同第一作者（次序第二）<br>
+                我导师为通讯作者
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <div class="contact-title">联系方式</div>
+        <div class="contact-text">
+            如有合作意向或学术问题讨论，欢迎通过邮件联系我：
+        </div>
+        <a href="mailto:tyzhang9804@gmail.com" class="contact-email">
+            tyzhang9804@gmail.com
+        </a>
+        <div class="contact-note">
+            注：本人目前为在读博士研究生，合作前需征得导师同意
+        </div>
+    </div>
+</div>
+
+
 
 <br>
 <br>
