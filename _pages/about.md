@@ -101,7 +101,7 @@ redirect_from:
     }
 
     .timeline-item:hover .timeline-marker {
-        transform: scale(0.5);
+        transform: scale(1.3);
         background: #cc0000ff;
     }
 
