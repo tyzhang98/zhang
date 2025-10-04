@@ -455,7 +455,7 @@ redirect_from:
             <div class="timeline-content">
                 <div class="tl-date">2024年-12月</div>
                 <span class="tl-status review">Revise & Rereview</span>
-                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Zhao, X., Yeo, B. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. <em>medRxiv</em>.</div>
+                <div class="tl-paper-title"><strong><span class="author-name">Zhang, T.</span></strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <strong><em>Schizophrenia Research</em></strong>, <em>282</em>, 203-213.</div>
                 <div class="tl-info-line">
                     <span>(中科院一区Top, IF 4.8)</span>
                     <span class="tl-info-separator">|</span>
