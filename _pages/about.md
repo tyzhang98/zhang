@@ -780,6 +780,118 @@ document.addEventListener('keydown', function(event) {
 
 </div>
 
+## 4. 寻求科研合作 (Seeking Research Collaboration)
+
+<style>
+.simple-collab {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.collab-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+.collab-table th {
+    background: #f8f9fa;
+    padding: 14px;
+    text-align: left;
+    font-weight: 600;
+    color: #2c3e50;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.collab-table td {
+    padding: 14px;
+    border-bottom: 1px solid #dee2e6;
+    color: #495057;
+    line-height: 1.6;
+}
+
+.collab-table tr:last-child td {
+    border-bottom: none;
+}
+
+.type-label {
+    font-weight: 600;
+    color: #0066cc;
+}
+
+.contact-info {
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: 1px solid #dee2e6;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: #495057;
+    line-height: 1.7;
+}
+
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.note {
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .collab-table {
+        font-size: 0.9em;
+    }
+    
+    .collab-table th,
+    .collab-table td {
+        padding: 10px;
+    }
+}
+</style>
+
+<div class="simple-collab">
+
+<table class="collab-table">
+    <thead>
+        <tr>
+            <th>合作类型</th>
+            <th>我的职责</th>
+            <th>合作方职责</th>
+            <th>署名方式</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><span class="type-label">全程主导</span></td>
+            <td>研究构思、数据分析、论文撰写与投稿</td>
+            <td>数据采集</td>
+            <td>我为共一，次序第一；合作方为共一，次序第二；我导师为通讯</td>
+        </tr>
+        <tr>
+            <td><span class="type-label">技术与研究思路支持</span></td>
+            <td>研究构思、数据分析（含方法与结果部分撰写）</td>
+            <td>数据采集、其他部分撰写、投稿与修稿</td>
+            <td>我为共一，次序第二；合作方为共一，次序第一；我导师为通讯</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="contact-info">
+    <p><strong>联系方式</strong></p>
+    <p>欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：<a href="mailto:tyzhang9804@gmail.com">tyzhang9804@gmail.com</a></p>
+    <p class="note">注：本人目前为在读博士研究生，合作前需征得导师同意</p>
+</div>
+
+</div>
+
 <br>
 <br>
 <br>
