@@ -125,6 +125,18 @@ redirect_from:
         border: 1px solid #e5e7eb;
     }
 
+    .tl-quarter {
+        display: inline-block;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 3px 10px;
+        border-radius: 3px;
+        font-size: 0.75em;
+        font-weight: 600;
+        margin-left: 6px;
+        box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+    }
+
     .tl-status {
         display: inline-block;
         padding: 4px 10px;
@@ -359,7 +371,7 @@ redirect_from:
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025 准备中</div>
+                <div class="tl-date">2025年<span class="tl-quarter">Q1-Q2</span></div>
                 <span class="tl-status preparation">准备中</span>
                 <div class="tl-paper-title">Understanding, Not Mimicking: Evidence for Genuine Computational Mechanisms in LLMs' Human-like Executive Function</div>
                 <div class="tl-metrics">
@@ -372,7 +384,7 @@ redirect_from:
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025 准备中</div>
+                <div class="tl-date">2025年<span class="tl-quarter">Q1-Q2</span></div>
                 <span class="tl-status preparation">初稿完成</span>
                 <div class="tl-paper-title">Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study</div>
                 <div class="tl-metrics">
@@ -385,7 +397,7 @@ redirect_from:
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025</div>
+                <div class="tl-date">2025年<span class="tl-quarter">Q1</span></div>
                 <span class="tl-status review">Under Review</span>
                 <div class="tl-paper-title">Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence</div>
                 <div class="tl-journal">Child Development</div>
@@ -414,7 +426,7 @@ redirect_from:
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025</div>
+                <div class="tl-date">2025年<span class="tl-quarter">Q1</span></div>
                 <span class="tl-status review">Major Revision</span>
                 <div class="tl-paper-title">Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses</div>
                 <div class="tl-journal">BMC Medicine</div>
@@ -446,7 +458,7 @@ redirect_from:
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2024</div>
+                <div class="tl-date">2024年<span class="tl-quarter">Q4</span></div>
                 <span class="tl-status review">Revise & Rereview</span>
                 <div class="tl-paper-title">Leveraging stacked classifiers for multi-task executive function in schizophrenia yields diagnostic and prognostic insights</div>
                 <div class="tl-journal">Schizophrenia Bulletin</div>
@@ -475,14 +487,14 @@ redirect_from:
         </div>
     </div>
 
-    <!-- 第二部分：已发表 -->
+    <!-- 第二部分:已发表 -->
     <h3 class="section-title">✅ 已发表论文 (Published & Accepted)</h3>
     <div class="timeline">
         <!-- Published #2 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025</div>
+                <div class="tl-date">2025年<span class="tl-quarter">Q1</span></div>
                 <span class="tl-status published">Accepted</span>
                 <div class="tl-paper-title">Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach</div>
                 <div class="tl-journal">International Journal of Clinical and Health Psychology</div>
@@ -515,7 +527,7 @@ redirect_from:
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025-8 Published</div>
+                <div class="tl-date">2025年<span class="tl-quarter">Q3 (8月)</span></div>
                 <div class="tl-paper-title">Zhang, T., Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. Schizophrenia Research, 282, 203-213.</div>
                 <div class="tl-metrics">
                     <div class="tl-metric"><strong>(中科院二区, IF 3.5)</strong></div>
@@ -554,13 +566,14 @@ function toggleAbstract(trigger) {
     
     if (content.classList.contains('show')) {
         trigger.textContent = '隐藏摘要';
-} else {
-trigger.textContent = '查看摘要';
+    } else {
+        trigger.textContent = '查看摘要';
+    }
 }
-}
+
 function openImgModal(imgSrc) {
-var modal = document.getElementById("imgModal");
-var modalImg = document.getElementById("modalImg");
+    var modal = document.getElementById("imgModal");
+    var modalImg = document.getElementById("modalImg");
 modal.style.display = "block";
 modalImg.src = imgSrc;
 }
@@ -575,12 +588,10 @@ closeImgModal();
 }
 });
 </script>
+</div>
 <br>
 <br>
-
-
-
----
+--
 
 
 
