@@ -367,13 +367,13 @@ redirect_from:
             <div class="tl-info-line">
                 <span>独立一作</span>
                 <span class="tl-info-separator">|</span>
-                <a href="https://tyzhang98.github.io/zhang/files/2025-8-22-Manuscript.pdf" class="tl-link-btn">汇报(2025-8-22)</a>
+                <a href="https://tyzhang98.github.io/zhang/files/2025-8-22-Manuscript.pdf" class="tl-link-btn">2025-8-22 汇报</a>
                 <span class="tl-info-separator">|</span>
-                <a href="https://tyzhang98.github.io/zhang/files/初步结果.pdf" class="tl-link-btn">汇报(2025-8-5)</a>
+                <a href="https://tyzhang98.github.io/zhang/files/初步结果.pdf" class="tl-link-btn">2025-8-5 汇报</a>
             </div>
         </div>
     </div>
-    
+
         <!-- 准备中 #1 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
