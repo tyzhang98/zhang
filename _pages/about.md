@@ -235,7 +235,7 @@ redirect_from:
     }
 
     .tl-paper-title {
-        font-size: 1.05em;
+        font-size: 1.02em;
         font-weight: 600;
         color: #111827;
         margin-bottom: 12px;
@@ -250,7 +250,7 @@ redirect_from:
     }
 
     .tl-journal {
-        color: #20129eff;
+        color: #0570b0;
         font-weight: 500;
         margin-bottom: 10px;
         font-style: italic;
