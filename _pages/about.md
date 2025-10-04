@@ -757,17 +757,15 @@ redirect_from:
 
 </div>
 <!-- 图片模态框 -->
-<div id="imgModal" class="img-modal" onclick="closeImgModal()" role="dialog" aria-modal="true" aria-label="图片放大视图">
-    <span class="img-modal-close" onclick="closeImgModal()" role="button" aria-label="关闭图片" tabindex="0">&times;</span>
-    <img class="img-modal-content" id="modalImg" alt="" onclick="event.stopPropagation()">
+<div id="imgModal" class="img-modal" onclick="closeImgModal()">
+    <span class="img-modal-close" onclick="closeImgModal()">&times;</span>
+    <img class="img-modal-content" id="modalImg">
 </div>
+
 <script>
 function toggleAbstract(trigger) {
     var content = trigger.nextElementSibling;
-    var isExpanded = content.classList.contains('show');
-    
     content.classList.toggle('show');
-    trigger.setAttribute('aria-expanded', !isExpanded);
     
     if (content.classList.contains('show')) {
         trigger.textContent = '隐藏摘要';
@@ -781,27 +779,11 @@ function openImgModal(imgSrc) {
     var modalImg = document.getElementById("modalImg");
     modal.style.display = "block";
     modalImg.src = imgSrc;
-    modalImg.alt = "论文配图的放大视图";
-    document.body.style.overflow = 'hidden'; // 防止背景滚动
-    
-    // 聚焦到关闭按钮以支持键盘导航
-    setTimeout(function() {
-        document.querySelector('.img-modal-close').focus();
-    }, 100);
 }
 
 function closeImgModal() {
     var modal = document.getElementById("imgModal");
     modal.style.display = "none";
-    document.body.style.overflow = ''; // 恢复滚动
-}
-
-// 键盘支持
-function handleKeyPress(event, imgSrc) {
-    if (event.key === 'Enter' || event.key === ' ') {
-        event.preventDefault();
-        openImgModal(imgSrc);
-    }
 }
 
 // 按ESC键关闭模态框
@@ -810,84 +792,9 @@ document.addEventListener('keydown', function(event) {
         closeImgModal();
     }
 });
-
-// 点击关闭按钮时的键盘支持
-document.addEventListener('keydown', function(event) {
-    if (event.target.classList.contains('img-modal-close') && 
-        (event.key === 'Enter' || event.key === ' ')) {
-        event.preventDefault();
-        closeImgModal();
-    }
-});
 </script>
-<br>
-<br>
-
 </div>
-<!-- 图片模态框 -->
-<div id="imgModal" class="img-modal" onclick="closeImgModal()" role="dialog" aria-modal="true" aria-label="图片放大视图">
-    <span class="img-modal-close" onclick="closeImgModal()" role="button" aria-label="关闭图片" tabindex="0">&times;</span>
-    <img class="img-modal-content" id="modalImg" alt="" onclick="event.stopPropagation()">
-</div>
-<script>
-function toggleAbstract(trigger) {
-    var content = trigger.nextElementSibling;
-    var isExpanded = content.classList.contains('show');
-    
-    content.classList.toggle('show');
-    trigger.setAttribute('aria-expanded', !isExpanded);
-    
-    if (content.classList.contains('show')) {
-        trigger.textContent = '隐藏摘要';
-    } else {
-        trigger.textContent = '查看摘要';
-    }
-}
 
-function openImgModal(imgSrc) {
-    var modal = document.getElementById("imgModal");
-    var modalImg = document.getElementById("modalImg");
-    modal.style.display = "block";
-    modalImg.src = imgSrc;
-    modalImg.alt = "论文配图的放大视图";
-    document.body.style.overflow = 'hidden'; // 防止背景滚动
-    
-    // 聚焦到关闭按钮以支持键盘导航
-    setTimeout(function() {
-        document.querySelector('.img-modal-close').focus();
-    }, 100);
-}
-
-function closeImgModal() {
-    var modal = document.getElementById("imgModal");
-    modal.style.display = "none";
-    document.body.style.overflow = ''; // 恢复滚动
-}
-
-// 键盘支持
-function handleKeyPress(event, imgSrc) {
-    if (event.key === 'Enter' || event.key === ' ') {
-        event.preventDefault();
-        openImgModal(imgSrc);
-    }
-}
-
-// 按ESC键关闭模态框
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape') {
-        closeImgModal();
-    }
-});
-
-// 点击关闭按钮时的键盘支持
-document.addEventListener('keydown', function(event) {
-    if (event.target.classList.contains('img-modal-close') && 
-        (event.key === 'Enter' || event.key === ' ')) {
-        event.preventDefault();
-        closeImgModal();
-    }
-});
-</script>
 <br>
 <br>
 
