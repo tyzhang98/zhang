@@ -173,7 +173,7 @@ redirect_from:
     }
 
     .tl-journal {
-        color: #0066cc;
+        color: #086d81ff;
         font-weight: 500;
         margin-bottom: 10px;
         font-style: italic;
