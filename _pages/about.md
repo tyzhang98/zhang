@@ -313,8 +313,8 @@ redirect_from:
     .img-modal-content {
         margin: auto;
         display: block;
-        max-width: 90%;
-        max-height: 90%;
+        max-width: 50%;
+        max-height: 50%;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -538,6 +538,7 @@ redirect_from:
                 </div>
             </div>
         </div>
+
 <!-- 图片模态框 -->
 <div id="imgModal" class="img-modal" onclick="closeImgModal()">
     <span class="img-modal-close" onclick="closeImgModal()">×</span>
@@ -568,6 +569,9 @@ closeImgModal();
 <br>
 
 ---
+
+
+
 
 ## 2. 会议报告 (Conference Presentations)
 
