@@ -566,18 +566,22 @@ redirect_from:
             </div>
         </div>
     </div>
-</div>
-
-<!-- 图片模态框 -->
 <div id="imgModal" class="img-modal" onclick="closeImgModal()">
 <span class="img-modal-close" onclick="closeImgModal()">×</span>
 <img class="img-modal-content" id="modalImg">
 </div><script>
-function openImgModal(imgSrc) {
-    var modal = document.getElementById("imgModal");
-    var modalImg = document.getElementById("modalImg");
-    modal.style.display = "block";
-    modalImg.src = imgSrc;
+function toggleAbstract(trigger) {
+    var content = trigger.nextElementSibling;
+    content.classList.toggle('show');if (content.classList.contains('show')) {
+    trigger.textContent = '📋 隐藏摘要';
+} else {
+    trigger.textContent = '📋 查看摘要';
+}
+}function openImgModal(imgSrc) {
+var modal = document.getElementById("imgModal");
+var modalImg = document.getElementById("modalImg");
+modal.style.display = "block";
+modalImg.src = imgSrc;
 }function closeImgModal() {
 var modal = document.getElementById("imgModal");
 modal.style.display = "none";
@@ -589,6 +593,7 @@ closeImgModal();
 });
 </script><br>
 <br>
+
 
 
 
