@@ -173,7 +173,7 @@ redirect_from:
     }
 
     .tl-journal {
-        color: #086d81ff;
+        color: #20129eff;
         font-weight: 500;
         margin-bottom: 10px;
         font-style: italic;
@@ -365,7 +365,7 @@ redirect_from:
             <span class="tl-status preparation">准备中...</span>
             <div class="tl-paper-title">Understanding, Not Mimicking: Evidence for Genuine Computational Mechanisms in LLMs' Human-like Executive Function</div>
             <div class="tl-info-line">
-                <span>独立一作</span>
+                <span></span>
                 <span class="tl-info-separator">|</span>
                 <a href="https://tyzhang98.github.io/zhang/files/2025-8-22-Manuscript.pdf" class="tl-link-btn">2025-8-22 汇报</a>
                 <span class="tl-info-separator">|</span>
@@ -474,13 +474,14 @@ redirect_from:
             </div>
         </div>
 
+
         <!-- Under Review #1 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2024年-12月</div>
                 <span class="tl-status review">Revise & Rereview</span>
-                <div class="tl-paper-title"><strong><span class="author-name">Zhang, T.</span></strong>, Zhao, X., Yeo, B. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. <em>medRxiv</em>.</div>
+                <div class="tl-paper-title">Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights</div>
                 <div class="tl-journal">Schizophrenia Bulletin</div>
                 <div class="tl-info-line">
                     <span>(中科院一区Top, IF 4.8)</span>
@@ -496,7 +497,7 @@ redirect_from:
                     <div class="tl-abstract-content">
                         <strong>Background:</strong> Executive functioning (EF) impairments are often seen in mental disorders, particularly schizophrenia, where they relate to adverse outcomes. As a heterogeneous construct, how specifically each dimension of EF to characterize the diagnostic and prognostic aspects of schizophrenia remains opaque.<br><br>
                         <strong>Study Design:</strong> We used classification models with a stacking approach on systematically measured EFs using 6 tasks to discriminate 195 patients with schizophrenia from healthy individuals. Baseline EF measurements were moreover employed to predict symptomatically remitted or non-remitted prognostic subgroups. EF feature importance was determined at the group-level and the ensuing individual importance scores were associated with four symptom dimensions.<br><br>
-                        <strong>Study Results:</strong> The models highlighted the importance of inhibitory control (interference and response inhibitions) or working memory in accurately identifying individuals with schizophrenia (area under the curve [AUC] = 0.87) or those in remission (AUC = 0.81). Patients who are correctly classified, in the association with the contribution of interference inhibition function to our diagnostic classifier, present more severe baseline negative symptoms compared to those who are more likely to be misclassified. Also, linked to the function of working memory updating, patients who are successfully classified as remitted display milder cognitive symptoms at follow-up. Remitted patients do not differ significantly from non-remitted cases in baseline EF assessments or overall symptom severity.
+                        <strong>Study Results:</strong> The models highlighted the importance of inhibitory control (interference and response inhibitions) or working memory in accurately identifying individuals with schizophrenia (area under the curve [AUC] = 0.87) or those in remission (AUC = 0.81). Patients who are correctly classified, in association with the contribution of interference inhibition function to our diagnostic classifier, present more severe baseline negative symptoms compared to those who are more likely to be misclassified. Also, linked to the function of working memory updating, patients who are successfully classified as remitted display milder cognitive symptoms at follow-up. Remitted patients do not differ significantly from non-remitted cases in baseline EF assessments or overall symptom severity.
                     </div>
                 </div>
                 <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure2.jpg')">
@@ -504,8 +505,6 @@ redirect_from:
                 </div>
             </div>
         </div>
-    </div>
-
 
     <div class="timeline">
         <!-- Published #2 -->
@@ -515,9 +514,6 @@ redirect_from:
                 <div class="tl-date">2025年-10月</div>
                 <span class="tl-status published">Accepted</span>
                 <div class="tl-paper-title"><strong><span class="author-name">Zhang, T.</span></strong>, Su, M., Huo, X., & Zhao, X. Rethinking the Effects of Working Memory Training on Executive Functions in Schizophrenia: A Machine Learning Approach. Available at SSRN 5277353. (International Journal of Clinical and Health Psychology)</div>
-
-    
-                
                 <div class="tl-info-line">
                     <span>(中科院二区, IF 4.4)</span>
                     <span class="tl-info-separator">|</span>
