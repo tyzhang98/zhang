@@ -102,7 +102,7 @@ redirect_from:
 
     .timeline-item:hover .timeline-marker {
         transform: scale(1.3);
-        background: #0066cc;
+        background: #cc0000ff;
     }
 
     .timeline-content {
