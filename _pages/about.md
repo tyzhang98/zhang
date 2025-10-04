@@ -26,33 +26,41 @@ redirect_from:
 ## 科研论文（Research Publications）
 
 <style>
-    .timeline-container {
+    .publications-container {
         max-width: 1200px;
         margin: 40px auto;
         padding: 0 20px;
     }
 
+    .section-title {
+        font-size: 1.4em;
+        font-weight: 600;
+        color: #111827;
+        margin: 40px 0 20px 0;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #0066cc;
+    }
+
     .timeline {
         position: relative;
-        padding: 20px 0;
+        padding: 20px 0 20px 40px;
     }
 
     .timeline::before {
         content: '';
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 18px;
+        top: 0;
+        bottom: 0;
         width: 2px;
-        height: 100%;
         background: #d1d5db;
-        border-radius: 1px;
     }
 
     .timeline-item {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         position: relative;
         opacity: 0;
-        animation: fadeInUp 0.6s forwards;
+        animation: fadeInLeft 0.6s forwards;
     }
 
     .timeline-item:nth-child(1) { animation-delay: 0.1s; }
@@ -61,61 +69,48 @@ redirect_from:
     .timeline-item:nth-child(4) { animation-delay: 0.4s; }
     .timeline-item:nth-child(5) { animation-delay: 0.5s; }
     .timeline-item:nth-child(6) { animation-delay: 0.6s; }
-    .timeline-item:nth-child(7) { animation-delay: 0.7s; }
-    .timeline-item:nth-child(8) { animation-delay: 0.8s; }
 
-    @keyframes fadeInUp {
+    @keyframes fadeInLeft {
         from {
             opacity: 0;
-            transform: translateY(30px);
+            transform: translateX(-20px);
         }
         to {
             opacity: 1;
-            transform: translateY(0);
+            transform: translateX(0);
         }
-    }
-
-    .timeline-content {
-        width: 47%;
-        background: white;
-        padding: 30px;
-        border-radius: 4px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-        position: relative;
-        transition: transform 0.3s, box-shadow 0.3s;
-        border-left: 3px solid #0066cc;
-    }
-
-    .timeline-content:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    }
-
-    .timeline-item:nth-child(odd) .timeline-content {
-        margin-left: auto;
-    }
-
-    .timeline-item:nth-child(even) .timeline-content {
-        margin-right: auto;
     }
 
     .timeline-marker {
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+        left: -22px;
+        top: 8px;
         width: 12px;
         height: 12px;
         background: white;
         border: 3px solid #0066cc;
         border-radius: 50%;
-        top: 30px;
         z-index: 10;
         transition: all 0.3s;
     }
 
     .timeline-item:hover .timeline-marker {
-        transform: translateX(-50%) scale(1.3);
+        transform: scale(1.3);
         background: #0066cc;
+    }
+
+    .timeline-content {
+        background: white;
+        padding: 25px;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+        transition: transform 0.3s, box-shadow 0.3s;
+        border-left: 3px solid #0066cc;
+    }
+
+    .timeline-content:hover {
+        transform: translateX(5px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
 
     .tl-date {
@@ -313,8 +308,8 @@ redirect_from:
     .img-modal-content {
         margin: auto;
         display: block;
-        max-width: 50%;
-        max-height: 50%;
+        max-width: 75%;
+        max-height: 75%;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -336,17 +331,16 @@ redirect_from:
     }
 
     @media (max-width: 768px) {
-        .timeline::before {
-            left: 20px;
+        .timeline {
+            padding-left: 30px;
         }
 
-        .timeline-content {
-            width: calc(100% - 60px);
-            margin-left: 60px !important;
+        .timeline::before {
+            left: 12px;
         }
 
         .timeline-marker {
-            left: 20px;
+            left: -16px;
         }
 
         .img-modal-content {
@@ -356,7 +350,10 @@ redirect_from:
     }
 </style>
 
-<div class="timeline-container">
+<div class="publications-container">
+    
+    <!-- 第一部分：准备中和审稿中 -->
+    <h3 class="section-title">📝 在研论文 (In Preparation & Under Review)</h3>
     <div class="timeline">
         <!-- 准备中 #2 -->
         <div class="timeline-item">
@@ -476,7 +473,11 @@ redirect_from:
                 </div>
             </div>
         </div>
+    </div>
 
+    <!-- 第二部分：已发表 -->
+    <h3 class="section-title">✅ 已发表论文 (Published & Accepted)</h3>
+    <div class="timeline">
         <!-- Published #2 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
@@ -514,10 +515,10 @@ redirect_from:
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025-8;Published</div>
+                <div class="tl-date">2025-8 Published</div>
                 <div class="tl-paper-title">Zhang, T., Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. Schizophrenia Research, 282, 203-213.</div>
                 <div class="tl-metrics">
-                    <div class="tl-metric"><strong>(中科院二区,IF 3.5)</strong></div>
+                    <div class="tl-metric"><strong>(中科院二区, IF 3.5)</strong></div>
                     <div class="tl-metric"><strong>独立一作</strong></div>
                 </div>
                 <div class="tl-links">
@@ -538,35 +539,66 @@ redirect_from:
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- 第三部分：学位论文 -->
+    <h3 class="section-title">🎓 学位论文 (Thesis)</h3>
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">硕士学位论文</div>
+                <span class="tl-status published">已完成</span>
+                <div class="tl-paper-title">另一种可能性：执行功能多任务评估为精神分裂症提供诊断信息</div>
+                <div class="tl-metrics">
+                    <div class="tl-metric"><strong>硕士学位论文</strong></div>
+                </div>
+                <div class="tl-links">
+                    <a href="https://tyzhang98.github.io/zhang/files/Master.pdf" class="tl-link-btn">📄 PDF</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- 图片模态框 -->
 <div id="imgModal" class="img-modal" onclick="closeImgModal()">
-    <span class="img-modal-close" onclick="closeImgModal()">×</span>
-<img class="img-modal-content" id="modalImg">
-</div><script>
+    <span class="img-modal-close" onclick="closeImgModal()">&times;</span>
+    <img class="img-modal-content" id="modalImg">
+</div>
+
+<script>
 function toggleAbstract(trigger) {
     var content = trigger.nextElementSibling;
-    content.classList.toggle('show');if (content.classList.contains('show')) {
-    trigger.textContent = '隐藏摘要';
+    content.classList.toggle('show');
+    
+    if (content.classList.contains('show')) {
+        trigger.textContent = '隐藏摘要';
 } else {
-    trigger.textContent = '查看摘要';
+trigger.textContent = '查看摘要';
 }
-}function openImgModal(imgSrc) {
+}
+function openImgModal(imgSrc) {
 var modal = document.getElementById("imgModal");
 var modalImg = document.getElementById("modalImg");
 modal.style.display = "block";
 modalImg.src = imgSrc;
-}function closeImgModal() {
+}
+function closeImgModal() {
 var modal = document.getElementById("imgModal");
 modal.style.display = "none";
-}// 按ESC键关闭模态框
+}
+// 按ESC键关闭模态框
 document.addEventListener('keydown', function(event) {
 if (event.key === 'Escape') {
 closeImgModal();
 }
 });
-</script><br>
+</script>
 <br>
+<br>
+
+
 
 ---
 
