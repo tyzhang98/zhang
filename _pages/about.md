@@ -39,7 +39,7 @@ redirect_from:
         margin: 40px 0 20px 0;
         padding-bottom: 10px;
         border-bottom: 2px solid #0066cc;
-        transition: color 0.3s;
+        transition: color 0.3s, border-bottom-color 0.3s;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -458,7 +458,7 @@ redirect_from:
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/paper2.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://doi.org/10.6084/m9.figshare.26086594.v1" class="tl-link-btn">代码</a>
+                    <a href="https://github.com/tyzhang98/SCZ-EF-stacked-classifiers" class="tl-link-btn">代码</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
@@ -482,7 +482,7 @@ redirect_from:
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年</div>
+                <div class="tl-date">2025年-10月</div>
                 <span class="tl-status published">Accepted</span>
                 <div class="tl-paper-title">Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach</div>
                 <div class="tl-journal">International Journal of Clinical and Health Psychology</div>
@@ -514,8 +514,8 @@ redirect_from:
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年-8月</div>
-                <div class="tl-paper-title">Zhang, T., Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. Schizophrenia Research, 282, 203-213.</div>
+                <div class="tl-date">2025年-6月</div>
+                <div class="tl-paper-title"><em>Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia.</em> Schizophrenia Research, 282, 203-213.</div>
                 <div class="tl-info-line">
                     <span>(中科院二区, IF 3.5)</span>
                     <span class="tl-info-separator">|</span>
@@ -582,9 +582,6 @@ document.addEventListener('keydown', function(event) {
 
 <br>
 <br>
-
-
-
 
 
 ## 2. 会议报告 (Conference Presentations)
