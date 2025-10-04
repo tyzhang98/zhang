@@ -27,7 +27,7 @@ redirect_from:
 
 <style>
     .timeline-container {
-        max-width: 1000px;
+        max-width: 1200px;
         margin: 40px auto;
         padding: 0 20px;
     }
@@ -42,10 +42,10 @@ redirect_from:
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        width: 4px;
+        width: 2px;
         height: 100%;
-        background: linear-gradient(to bottom, #667eea 0%, rgba(102,126,234,0.3) 100%);
-        border-radius: 2px;
+        background: #d1d5db;
+        border-radius: 1px;
     }
 
     .timeline-item {
@@ -76,19 +76,19 @@ redirect_from:
     }
 
     .timeline-content {
-        width: 45%;
+        width: 47%;
         background: white;
-        padding: 25px;
-        border-radius: 12px;
-        box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+        padding: 30px;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
         position: relative;
         transition: transform 0.3s, box-shadow 0.3s;
-        border-left: 4px solid #667eea;
+        border-left: 3px solid #0066cc;
     }
 
     .timeline-content:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+        transform: translateY(-3px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
 
     .timeline-item:nth-child(odd) .timeline-content {
@@ -103,75 +103,81 @@ redirect_from:
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        width: 18px;
-        height: 18px;
+        width: 12px;
+        height: 12px;
         background: white;
-        border: 4px solid #667eea;
+        border: 3px solid #0066cc;
         border-radius: 50%;
-        top: 25px;
+        top: 30px;
         z-index: 10;
         transition: all 0.3s;
     }
 
     .timeline-item:hover .timeline-marker {
-        transform: translateX(-50%) scale(1.4);
-        background: #667eea;
+        transform: translateX(-50%) scale(1.3);
+        background: #0066cc;
     }
 
     .tl-date {
         display: inline-block;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        padding: 5px 14px;
-        border-radius: 20px;
+        background: #f3f4f6;
+        color: #374151;
+        padding: 4px 12px;
+        border-radius: 3px;
         font-size: 0.85em;
         font-weight: 600;
         margin-bottom: 10px;
+        border: 1px solid #e5e7eb;
     }
 
     .tl-status {
         display: inline-block;
-        padding: 4px 12px;
-        border-radius: 15px;
+        padding: 4px 10px;
+        border-radius: 3px;
         font-size: 0.75em;
         font-weight: 600;
         margin-left: 8px;
+        border: 1px solid;
     }
 
     .tl-status.published {
-        background: #10b981;
-        color: white;
+        background: #d1fae5;
+        color: #065f46;
+        border-color: #6ee7b7;
     }
 
     .tl-status.review {
-        background: #f59e0b;
-        color: white;
+        background: #fef3c7;
+        color: #92400e;
+        border-color: #fcd34d;
     }
 
     .tl-status.preparation {
-        background: #6b7280;
-        color: white;
+        background: #e5e7eb;
+        color: #374151;
+        border-color: #d1d5db;
     }
 
     .tl-paper-title {
         font-size: 1.05em;
-        font-weight: bold;
-        color: #1f2937;
-        margin-bottom: 10px;
-        line-height: 1.5;
+        font-weight: 600;
+        color: #111827;
+        margin-bottom: 12px;
+        line-height: 1.6;
     }
 
     .tl-journal {
-        color: #667eea;
-        font-weight: 600;
-        margin-bottom: 8px;
+        color: #0066cc;
+        font-weight: 500;
+        margin-bottom: 10px;
         font-style: italic;
+        font-size: 0.95em;
     }
 
     .tl-metrics {
         display: flex;
-        gap: 12px;
-        margin-top: 10px;
+        gap: 14px;
+        margin-top: 12px;
         flex-wrap: wrap;
     }
 
@@ -184,40 +190,41 @@ redirect_from:
     }
 
     .tl-metric strong {
-        color: #1f2937;
+        color: #374151;
     }
 
     .tl-links {
-        margin-top: 12px;
+        margin-top: 14px;
         display: flex;
         gap: 8px;
         flex-wrap: wrap;
     }
 
     .tl-link-btn {
-        padding: 5px 12px;
-        background: #f3f4f6;
-        border-radius: 6px;
+        padding: 6px 14px;
+        background: white;
+        border-radius: 3px;
         text-decoration: none;
-        color: #4b5563;
+        color: #374151;
         font-size: 0.8em;
         transition: all 0.2s;
-        border: 1px solid #e5e7eb;
+        border: 1px solid #d1d5db;
     }
 
     .tl-link-btn:hover {
-        background: #667eea;
-        color: white;
-        border-color: #667eea;
+        background: #f9fafb;
+        border-color: #0066cc;
+        color: #0066cc;
     }
 
     .tl-figure {
-        margin-top: 15px;
-        border-radius: 8px;
+        margin-top: 18px;
+        border-radius: 4px;
         overflow: hidden;
         border: 1px solid #e5e7eb;
         cursor: pointer;
         position: relative;
+        background: #f9fafb;
     }
 
     .tl-figure img {
@@ -228,18 +235,18 @@ redirect_from:
     }
 
     .tl-figure:hover img {
-        transform: scale(1.02);
+        transform: scale(1.01);
     }
 
     .tl-figure::after {
         content: '🔍 点击查看大图';
         position: absolute;
-        bottom: 8px;
-        right: 8px;
-        background: rgba(0,0,0,0.7);
+        bottom: 10px;
+        right: 10px;
+        background: rgba(0,0,0,0.75);
         color: white;
-        padding: 4px 10px;
-        border-radius: 4px;
+        padding: 5px 12px;
+        border-radius: 3px;
         font-size: 0.75em;
         opacity: 0;
         transition: opacity 0.3s;
@@ -250,48 +257,43 @@ redirect_from:
     }
 
     .tl-abstract {
-        position: relative;
-        margin-top: 12px;
+        margin-top: 14px;
     }
 
     .tl-abstract-trigger {
         display: inline-block;
         padding: 6px 14px;
-        background: #f3f4f6;
-        border-radius: 6px;
+        background: white;
+        border-radius: 3px;
         font-size: 0.8em;
-        color: #4b5563;
-        cursor: help;
+        color: #374151;
+        cursor: pointer;
         transition: all 0.2s;
-        border: 1px solid #e5e7eb;
+        border: 1px solid #d1d5db;
+        user-select: none;
     }
 
     .tl-abstract-trigger:hover {
-        background: #667eea;
-        color: white;
-        border-color: #667eea;
+        background: #f9fafb;
+        border-color: #0066cc;
+        color: #0066cc;
     }
 
     .tl-abstract-content {
         display: none;
-        position: absolute;
-        bottom: 100%;
-        left: 0;
-        right: 0;
-        background: white;
-        border: 2px solid #667eea;
-        border-radius: 8px;
-        padding: 15px;
-        margin-bottom: 10px;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-        z-index: 100;
+        margin-top: 12px;
+        background: #f9fafb;
+        border: 1px solid #e5e7eb;
+        border-radius: 4px;
+        padding: 18px;
+        font-size: 0.85em;
+        line-height: 1.7;
         max-height: 400px;
         overflow-y: auto;
-        font-size: 0.85em;
-        line-height: 1.6;
+        color: #374151;
     }
 
-    .tl-abstract-trigger:hover + .tl-abstract-content {
+    .tl-abstract-content.show {
         display: block;
     }
 
@@ -347,15 +349,6 @@ redirect_from:
             left: 20px;
         }
 
-        .tl-abstract-content {
-            position: fixed;
-            bottom: auto;
-            top: 50%;
-            left: 10px;
-            right: 10px;
-            transform: translateY(-50%);
-        }
-
         .img-modal-content {
             max-width: 95%;
             max-height: 95%;
@@ -409,7 +402,7 @@ redirect_from:
                     <a href="https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code" class="tl-link-btn">💻 代码</a>
                 </div>
                 <div class="tl-abstract">
-                    <span class="tl-abstract-trigger">📋 查看摘要</span>
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">📋 查看摘要</span>
                     <div class="tl-abstract-content">
                         <strong>Abstract:</strong> This study examined inhibitory control development in two samples of Chinese children: a primary sample (n = 1,122; 45.5% female; 91.9% Han, Mage = 12.42 years, range: 6.0–18.7) with 6-month longitudinal follow-up and an independent replication sample (n = 1,026; 45.1% female; 90.8% Han, Mage = 12.44 years, range: 6.1–18.8). Generalized Additive Models applied to Stroop and Go/No-Go tasks revealed four-phase nonlinear developmental trajectories. Response inhibition stabilized by 13.4 years, while interference inhibition developed until 15.8 years. Hierarchical drift diffusion modeling showed that interference inhibition developed through enhanced information accumulation (drift rate), whereas response inhibition developed through enhanced response bias control (starting point). Age-related processing speed improvements suggest shared foundational mechanisms. The findings contribute to a decision-computational framework.
                     </div>
@@ -438,7 +431,7 @@ redirect_from:
                     <a href="https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ" class="tl-link-btn">💻 代码</a>
                 </div>
                 <div class="tl-abstract">
-                    <span class="tl-abstract-trigger">📋 查看摘要</span>
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">📋 查看摘要</span>
                     <div class="tl-abstract-content">
                         <strong>Introduction:</strong> Executive function (EF) is a heterogeneous neuropsychological construct, and impairments in EF dimensions represent a core aspect of psychopathology in schizophrenia that vary across individual patients. Currently, how this inter-individual variability characterizes schizophrenia subgroups, along with their distinctions in clinical characteristics and prognostic outcomes, remains unclear.<br><br>
                         <strong>Methods:</strong> Three EF dimensions (inhibitory control, working memory, cognitive flexibility) were assessed in the main sample (N=329), its follow-up subset, and an independently "recurring local validation" patient sample (N=114). Fuzzy clustering was applied to baseline EF assessments to discover and validate the core subtypes after excluding cluster-ambiguous cases in the main and independent samples, respectively. Subtype-based classification trained on the main sample was then tested in the independent sample. Importantly, the stability of these subtypes and their remission statuses, along with associated longitudinal changes in clinical and biological factors, were evaluated, and baseline subtype memberships were also used to predict outcomes.<br><br>
@@ -471,7 +464,7 @@ redirect_from:
                     <a href="https://doi.org/10.6084/m9.figshare.26086594.v1" class="tl-link-btn">💻 代码</a>
                 </div>
                 <div class="tl-abstract">
-                    <span class="tl-abstract-trigger">📋 查看摘要</span>
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">📋 查看摘要</span>
                     <div class="tl-abstract-content">
                         <strong>Background:</strong> Executive functioning (EF) impairments are often seen in mental disorders, particularly schizophrenia, where they relate to adverse outcomes. As a heterogeneous construct, how specifically each dimension of EF to characterize the diagnostic and prognostic aspects of schizophrenia remains opaque.<br><br>
                         <strong>Study Design:</strong> We used classification models with a stacking approach on systematically measured EFs using 6 tasks to discriminate 195 patients with schizophrenia from healthy individuals. Baseline EF measurements were moreover employed to predict symptomatically remitted or non-remitted prognostic subgroups. EF feature importance was determined at the group-level and the ensuing individual importance scores were associated with four symptom dimensions.<br><br>
@@ -503,7 +496,7 @@ redirect_from:
                     <a href="https://github.com/tyzhang98/ML-PsyExecShift" class="tl-link-btn">💻 代码</a>
                 </div>
                 <div class="tl-abstract">
-                    <span class="tl-abstract-trigger">📋 查看摘要</span>
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">📋 查看摘要</span>
                     <div class="tl-abstract-content">
                         <strong>Background:</strong> Executive dysfunction in schizophrenia profoundly impairs functional outcomes and remains insufficiently addressed by standard pharmacological treatments. While computerized cognitive training offers promise, traditional evaluation methods often fail to capture nuanced improvements along the psychosis-health continuum. This study aims to quantify executive function (EF) profile changes following cognitive training and identify robust baseline predictors of treatment response.<br><br>
                         <strong>Methods:</strong> Ninety-four schizophrenia patients were randomized to adaptive N-back training (n = 32), non-adaptive 1-back control (n = 33), or treatment-as-usual (n = 29). EF was assessed across working memory, cognitive flexibility, and inhibitory control domains. A support vector machine classifier, trained on an independent sample (195 patients, 169 controls) and calibrated via Platt scaling, quantified EF profile changes. An exploratory framework based on Granger causality principles identified baseline treatment predictors.<br><br>
@@ -536,7 +529,7 @@ redirect_from:
                     <a href="https://github.com/tyzhang98/Two-back-task-HDDM" class="tl-link-btn">💻 代码</a>
                 </div>
                 <div class="tl-abstract">
-                    <span class="tl-abstract-trigger">📋 查看摘要</span>
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">📋 查看摘要</span>
                     <div class="tl-abstract-content">
                         <strong>Background:</strong> Cognitive dysfunction, particularly working memory (WM) impairment, constitutes a core feature of schizophrenia and is largely unresponsive to available antipsychotic treatments. The computational mechanisms underlying WM deficits at different illness stages and their associations with clinical symptom dimensions remain poorly understood.<br><br>
                         <strong>Methods:</strong> We applied hierarchical drift diffusion modeling (HDDM) to dissect latent cognitive processes underlying WM performance in a two-back task among patients with first-episode schizophrenia (FES, N = 103, illness duration ≤2 years), chronic schizophrenia (ChSz, N = 108, illness duration ≥5 years), and healthy controls (HCs, N = 85). Multiple regression and mediation analyses were conducted to examine associations between HDDM parameters, clinical symptoms, and conventional metrics.<br><br>
@@ -549,8 +542,28 @@ redirect_from:
                 </div>
             </div>
         </div>
+
+        <!-- 硕士论文 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">硕士学位论文</div>
+                <span class="tl-status published">已完成</span>
+                <div class="tl-paper-title">另一种可能性：执行功能多任务评估为精神分裂症提供诊断信息</div>
+                <div class="tl-metrics">
+                    <div class="tl-metric">🎓 <strong>硕士学位论文</strong></div>
+                </div>
+                <div class="tl-links">
+                    <a href="https://tyzhang98.github.io/zhang/files/Master.pdf" class="tl-link-btn">📄 PDF</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 图片模态框 -->
 <div id="imgModal" class="img-modal" onclick="closeImgModal()">
-<span class="img-modal-close" onclick="closeImgModal()">×</span>
+    <span class="img-modal-close" onclick="closeImgModal()">×</span>
 <img class="img-modal-content" id="modalImg">
 </div><script>
 function toggleAbstract(trigger) {
@@ -577,9 +590,27 @@ closeImgModal();
 </script><br>
 <br>
 
+
 ---
 
+### 学位论文 (Thesis)
+
+>**硕士学位论文**  
+
+题目：_另一种可能性：执行功能多任务评估为精神分裂症提供诊断信息_  
+[下载论文 (PDF)](https://tyzhang98.github.io/zhang/files/Master.pdf)
+
+
+>**博士学位论文**  
+<a id="conf-talks"></a>
+题目：_基于大语言模型模拟与预测人类执行功能加工与神经活动_  
+
+<br>
+<br>
+<br>
+
 ## 2. 会议报告 (Conference Presentations)
+
 **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
 - 报告形式：海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
 - 时间：2025年4月19日
