@@ -13,8 +13,6 @@ redirect_from:
 
 当前关心的研究问题：
 - 大语言模型的认知加工模式与人类认知加工及大脑活动的表征相似性  
-  - [下载汇报(PDF)2025-8-22](https://tyzhang98.github.io/zhang/files/2025-8-22-Manuscript.pdf)
-  - [下载汇报(PDF)2025-8-5](https://tyzhang98.github.io/zhang/files/初步结果.pdf)
 - 人类认知加工能否通过统一的计算模型进行模拟与预测
 - 精神分裂症认知加工损伤的计算机制
 
@@ -359,20 +357,23 @@ redirect_from:
 
 <div class="publications-container">
 
-    <div class="timeline">
-        <!-- 准备中 #2 -->
-        <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2025年</div>
-                <span class="tl-status preparation">准备中</span>
-                <div class="tl-paper-title">Understanding, Not Mimicking: Evidence for Genuine Computational Mechanisms in LLMs' Human-like Executive Function</div>
-                <div class="tl-info-line">
-                    <span>独立一作</span>
-                </div>
+    <!-- 准备中 #2 -->
+    <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+            <div class="tl-date">2025年</div>
+            <span class="tl-status preparation">准备中</span>
+            <div class="tl-paper-title">Understanding, Not Mimicking: Evidence for Genuine Computational Mechanisms in LLMs' Human-like Executive Function</div>
+            <div class="tl-info-line">
+                <span>独立一作</span>
+                <span class="tl-info-separator">|</span>
+                <a href="https://tyzhang98.github.io/zhang/files/2025-8-22-Manuscript.pdf" class="tl-link-btn">汇报(2025-8-22)</a>
+                <span class="tl-info-separator">|</span>
+                <a href="https://tyzhang98.github.io/zhang/files/初步结果.pdf" class="tl-link-btn">汇报(2025-8-5)</a>
             </div>
         </div>
-
+    </div>
+    
         <!-- 准备中 #1 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
@@ -381,7 +382,7 @@ redirect_from:
                 <span class="tl-status preparation">初稿完成</span>
                 <div class="tl-paper-title">Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study</div>
                 <div class="tl-info-line">
-                    <span>独立一作</span>
+                    <span></span>
                 </div>
             </div>
         </div>
