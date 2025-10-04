@@ -174,7 +174,7 @@ redirect_from:
 
     .tl-journal {
         color: #0570b0;
-        font-weight: 500;
+        font-weight: 650;
         margin-bottom: 10px;
         font-style: italic;
         font-size: 0.95em;
