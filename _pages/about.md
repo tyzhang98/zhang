@@ -371,6 +371,9 @@ redirect_from:
                 <span class="tl-info-separator">|</span>
                 <a href="https://tyzhang98.github.io/zhang/files/初步结果.pdf" class="tl-link-btn">2025-8-5 汇报</a>
             </div>
+            <div class="tl-figure" onclick="openImgModal('/zhang/images/大模型问答图1.jpg')">
+                <img src="/zhang/images/大模型问答图1.jpg" alt="研究设计及分析流程示意图">
+            </div>
         </div>
     </div>
 
