@@ -35,19 +35,19 @@ redirect_from:
     .section-title {
         font-size: 1.4em;
         font-weight: 600;
-        color: #111827;
+        color: #111827;  /* 浅色模式：深色字体 */
         margin: 40px 0 20px 0;
         padding-bottom: 10px;
         border-bottom: 2px solid #0066cc;
         transition: color 0.3s, border-bottom-color 0.3s;
     }
-
     @media (prefers-color-scheme: dark) {
         .section-title {
-            color: #f3f4f6;
+            color: #f3f4f6;  /* 深色模式：浅色字体 */
             border-bottom-color: #60a5fa;
         }
     }
+
 
     .timeline {
         position: relative;
@@ -166,6 +166,12 @@ redirect_from:
         color: #111827;
         margin-bottom: 12px;
         line-height: 1.6;
+        font-style: normal;  /* 👈 添加这一行，确保标题本身不是斜体 */
+    }
+
+    .tl-paper-title .journal-name {
+        font-style: italic;  /* 👈 只让期刊名称斜体 */
+        font-weight: 500;
     }
 
     .tl-journal {
