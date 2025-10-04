@@ -171,7 +171,7 @@ redirect_from:
 
     .tl-paper-title .journal-name {
         font-style: italic;  /* 👈 只让期刊名称斜体 */
-        font-weight: 500;
+        font-weight: 700;
     }
 
     .tl-journal {
@@ -521,6 +521,7 @@ redirect_from:
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年-6月</div>
+                <span class="tl-status published">Published</span>
                 <div class="tl-paper-title">Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <span class="journal-name">Schizophrenia Research</span>, 282, 203-213.</div>
                 <div class="tl-info-line">
                     <span>(中科院二区, IF 3.5)</span>
