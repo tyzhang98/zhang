@@ -235,7 +235,7 @@ redirect_from:
     }
 
     .tl-paper-title {
-        font-size: 1.02em;
+        font-size: 0.95em;
         font-weight: 600;
         color: #111827;
         margin-bottom: 12px;
@@ -246,7 +246,7 @@ redirect_from:
 
     .tl-paper-title .journal-name {
         font-style: italic;
-        font-weight: 700;
+        font-weight: 600;
     }
 
     .tl-journal {
