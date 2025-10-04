@@ -358,9 +358,7 @@ redirect_from:
 </style>
 
 <div class="publications-container">
-    
-    <!-- 第一部分：准备中和审稿中 -->
-    <h3 class="section-title">在研论文 (In Preparation & Under Review)</h3>
+
     <div class="timeline">
         <!-- 准备中 #2 -->
         <div class="timeline-item">
@@ -480,8 +478,7 @@ redirect_from:
         </div>
     </div>
 
-    <!-- 第二部分:已发表 -->
-    <h3 class="section-title">已发表论文 (Published & Accepted)</h3>
+
     <div class="timeline">
         <!-- Published #2 -->
         <div class="timeline-item">
