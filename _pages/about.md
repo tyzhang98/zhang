@@ -542,156 +542,155 @@ redirect_from:
 </style>
 
 <div class="publications-container">
-
-    <!-- 准备中 #2 -->
-    <div class="timeline-item">
-        <div class="timeline-marker" role="presentation"></div>
-        <div class="timeline-content">
-            <div class="tl-date">2025年</div>
-            <span class="tl-status preparation">准备中...</span>
-            <div class="tl-paper-title">Understanding, Not Mimicking: Evidence for Genuine Computational Mechanisms in LLMs' Human-like Executive Function</div>
-            <div class="tl-info-line">
-                <span></span>
-                <span class="tl-info-separator" aria-hidden="true">|</span>
-                <a href="https://tyzhang98.github.io/zhang/files/2025-8-22-Manuscript.pdf" class="tl-link-btn" aria-label="下载2025年8月22日汇报PDF">2025-8-22 汇报</a>
-                <span class="tl-info-separator" aria-hidden="true">|</span>
-                <a href="https://tyzhang98.github.io/zhang/files/初步结果.pdf" class="tl-link-btn" aria-label="下载2025年8月5日汇报PDF">2025-8-5 汇报</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- 准备中 #3 -->
-    <div class="timeline-item">
-        <div class="timeline-marker" role="presentation"></div>
-        <div class="timeline-content">
-            <div class="tl-date">2025年</div>
-            <span class="tl-status preparation">准备中...</span>
-            <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
-            <div class="tl-info-line">
-                <span></span>
-            </div>
-        </div>
-    </div>
-
-    <!-- 准备中 #4 -->
-    <div class="timeline-item">
-        <div class="timeline-marker" role="presentation"></div>
-        <div class="timeline-content">
-            <div class="tl-date">2025年</div>
-            <span class="tl-status preparation">准备中...</span>
-            <div class="tl-paper-title">Why do inhibitory control tasks show low correlations? A preregistered cross-site cognitive modeling study</div>
-            <div class="tl-info-line">
-                <span></span>
-            </div>
-        </div>
-    </div>
-
-    <!-- 准备中 #1 -->
-    <div class="timeline-item">
-        <div class="timeline-marker" role="presentation"></div>
-        <div class="timeline-content">
-            <div class="tl-date">2025年</div>
-            <span class="tl-status preparation">准备中...</span>
-            <div class="tl-paper-title">Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study</div>
-            <div class="tl-info-line">
-                <span></span>
-            </div>
-        </div>
-    </div>
-
-    <!-- Under Review #3 -->
-    <div class="timeline-item">
-        <div class="timeline-marker" role="presentation"></div>
-        <div class="timeline-content">
-            <div class="tl-date">2025年</div>
-            <span class="tl-status review">Under Review</span>
-            <div class="tl-paper-title">Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence</div>
-            <div class="tl-journal">Child Development</div>
-            <div class="tl-info-line">
-                <span>(中科院一区Top, IF 3.8)</span>
-                <span class="tl-info-separator" aria-hidden="true">|</span>
-                <span>独立一作</span>
-                <span class="tl-info-separator" aria-hidden="true">|</span>
-                <a href="https://tyzhang98.github.io/zhang/files/paper5.pdf" class="tl-link-btn" aria-label="下载论文PDF">PDF</a>
-                <span class="tl-info-separator" aria-hidden="true">|</span>
-                <a href="https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code" class="tl-link-btn" aria-label="查看GitHub代码仓库">代码</a>
-            </div>
-            <div class="tl-abstract">
-                <button class="tl-abstract-trigger" onclick="toggleAbstract(this)" aria-expanded="false">查看摘要</button>
-                <div class="tl-abstract-content" role="region" aria-label="论文摘要">
-                    <strong>Abstract:</strong> This study examined inhibitory control development in two samples of Chinese children: a primary sample (n = 1,122; 45.5% female; 91.9% Han, Mage = 12.42 years, range: 6.0–18.7) with 6-month longitudinal follow-up and an independent replication sample (n = 1,026; 45.1% female; 90.8% Han, Mage = 12.44 years, range: 6.1–18.8). Generalized Additive Models applied to Stroop and Go/No-Go tasks revealed four-phase nonlinear developmental trajectories. Response inhibition stabilized by 13.4 years, while interference inhibition developed until 15.8 years. Hierarchical drift diffusion modeling showed that interference inhibition developed through enhanced information accumulation (drift rate), whereas response inhibition developed through enhanced response bias control (starting point). Age-related processing speed improvements suggest shared foundational mechanisms. The findings contribute to a decision-computational framework.
-                </div>
-            </div>
-            <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure5.png')" role="button" tabindex="0" onkeypress="handleKeyPress(event, '/zhang/images/Page1-Figure5.png')" aria-label="点击查看研究设计及分析流程示意图大图">
-                <img src="/zhang/images/Page1-Figure5.png" alt="研究设计及分析流程示意图，展示了从数据收集到分析的完整流程" loading="lazy">
-            </div>
-        </div>
-    </div>
-
-    <!-- Under Review #2 -->
-    <div class="timeline-item">
-        <div class="timeline-marker" role="presentation"></div>
-        <div class="timeline-content">
-            <div class="tl-date">2025年</div>
-            <span class="tl-status review">Major Revision</span>
-            <div class="tl-paper-title">Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses</div>
-            <div class="tl-journal">BMC Medicine</div>
-            <div class="tl-info-line">
-                <span>(中科院一区Top, IF 8.3)</span>
-                <span class="tl-info-separator" aria-hidden="true">|</span>
-                <span>独立一作</span>
-                <span class="tl-info-separator" aria-hidden="true">|</span>
-                <a href="https://tyzhang98.github.io/zhang/files/paper4.pdf" class="tl-link-btn" aria-label="下载论文PDF">PDF</a>
-                <span class="tl-info-separator" aria-hidden="true">|</span>
-                <a href="https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ" class="tl-link-btn" aria-label="查看GitHub代码仓库">代码</a>
-            </div>
-            <div class="tl-abstract">
-                <button class="tl-abstract-trigger" onclick="toggleAbstract(this)" aria-expanded="false">查看摘要</button>
-                <div class="tl-abstract-content" role="region" aria-label="论文摘要">
-                    <strong>Introduction:</strong> Executive function (EF) is a heterogeneous neuropsychological construct, and impairments in EF dimensions represent a core aspect of psychopathology in schizophrenia that vary across individual patients. Currently, how this inter-individual variability characterizes schizophrenia subgroups, along with their distinctions in clinical characteristics and prognostic outcomes, remains unclear.<br><br>
-                    <strong>Methods:</strong> Three EF dimensions (inhibitory control, working memory, cognitive flexibility) were assessed in the main sample (N=329), its follow-up subset, and an independently "recurring local validation" patient sample (N=114). Fuzzy clustering was applied to baseline EF assessments to discover and validate the core subtypes after excluding cluster-ambiguous cases in the main and independent samples, respectively. Subtype-based classification trained on the main sample was then tested in the independent sample. Importantly, the stability of these subtypes and their remission statuses, along with associated longitudinal changes in clinical and biological factors, were evaluated, and baseline subtype memberships were also used to predict outcomes.<br><br>
-                    <strong>Results:</strong> Two longitudinal stable, independently validated core EF subtypes were identified, with significantly variable baseline positive, affective, and cognitive symptoms; working memory updating functioning; and peripheral inflammatory and metabolic levels. This two-subtype differentiation allowed an accurate classification of novel patients' subtype memberships and patients' remission statuses not due to overall severity at intake. Remitted patients experienced significantly greater reductions in negative and cognitive symptoms, improved working memory maintenance, lower peripheral inflammatory levels, and more-superior metabolic functions over time.<br><br>
-                    <strong>Conclusions:</strong> EF subtyping successfully captured the symptomatic, biochemical, and prognostic variations in individuals with schizophrenia, which could help to stratify patients with this disorder for targeted treatments.
-                </div>
-            </div>
-            <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure4.jpg')" role="button" tabindex="0" onkeypress="handleKeyPress(event, '/zhang/images/Page1-Figure4.jpg')" aria-label="点击查看研究设计及分析流程示意图大图">
-                <img src="/zhang/images/Page1-Figure4.jpg" alt="研究设计及分析流程示意图，展示了执行功能亚型分析的完整框架" loading="lazy">
-            </div>
-        </div>
-    </div>
-
-    <!-- Under Review #1 -->
-    <div class="timeline-item">
-        <div class="timeline-marker" role="presentation"></div>
-        <div class="timeline-content">
-            <div class="tl-date">2024年-12月</div>
-            <span class="tl-status review">Revise & Rereview</span>
-            <div class="tl-paper-title">Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights</div>
-            <div class="tl-journal">Schizophrenia Bulletin</div>
-            <div class="tl-info-line">
-                <span>(中科院一区Top, IF 4.8)</span>
-                <span class="tl-info-separator" aria-hidden="true">|</span>
-                <span>共同一作（次序第一）</span>
-                <span class="tl-info-separator" aria-hidden="true">|</span>
-                <a href="https://tyzhang98.github.io/zhang/files/paper2.pdf" class="tl-link-btn" aria-label="下载论文PDF">PDF</a>
-                <span class="tl-info-separator" aria-hidden="true">|</span>
-                <a href="https://github.com/tyzhang98/SCZ-EF-stacked-classifiers" class="tl-link-btn" aria-label="查看GitHub代码仓库">代码</a>
-            </div>
-            <div class="tl-abstract">
-                <button class="tl-abstract-trigger" onclick="toggleAbstract(this)" aria-expanded="false">查看摘要</button>
-                <div class="tl-abstract-content" role="region" aria-label="论文摘要">
-                    <strong>Background:</strong> Executive functioning (EF) impairments are often seen in mental disorders, particularly schizophrenia, where they relate to adverse outcomes. As a heterogeneous construct, how specifically each dimension of EF to characterize the diagnostic and prognostic aspects of schizophrenia remains opaque.<br><br>
-                    <strong>Study Design:</strong> We used classification models with a stacking approach on systematically measured EFs using 6 tasks to discriminate 195 patients with schizophrenia from healthy individuals. Baseline EF measurements were moreover employed to predict symptomatically remitted or non-remitted prognostic subgroups. EF feature importance was determined at the group-level and the ensuing individual importance scores were associated with four symptom dimensions.<br><br>
-                    <strong>Study Results:</strong> The models highlighted the importance of inhibitory control (interference and response inhibitions) or working memory in accurately identifying individuals with schizophrenia (area under the curve [AUC] = 0.87) or those in remission (AUC = 0.81). Patients who are correctly classified, in association with the contribution of interference inhibition function to our diagnostic classifier, present more severe baseline negative symptoms compared to those who are more likely to be misclassified. Also, linked to the function of working memory updating, patients who are successfully classified as remitted display milder cognitive symptoms at follow-up. Remitted patients do not differ significantly from non-remitted cases in baseline EF assessments or overall symptom severity.
-                </div>
-            </div>
-            <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure2.jpg')" role="button" tabindex="0" onkeypress="handleKeyPress(event, '/zhang/images/Page1-Figure2.jpg')" aria-label="点击查看研究设计及分析流程示意图大图">
-                <img src="/zhang/images/Page1-Figure2.jpg" alt="研究设计及分析流程示意图，展示了堆叠分类器的建模流程" loading="lazy">
-            </div>
-        </div>
-    </div>
-
     <div class="timeline">
+        <!-- 准备中 #2 -->
+        <div class="timeline-item">
+            <div class="timeline-marker" role="presentation"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">Understanding, Not Mimicking: Evidence for Genuine Computational Mechanisms in LLMs' Human-like Executive Function</div>
+                <div class="tl-info-line">
+                    <span></span>
+                    <span class="tl-info-separator" aria-hidden="true">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/2025-8-22-Manuscript.pdf" class="tl-link-btn" aria-label="下载2025年8月22日汇报PDF">2025-8-22 汇报</a>
+                    <span class="tl-info-separator" aria-hidden="true">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/初步结果.pdf" class="tl-link-btn" aria-label="下载2025年8月5日汇报PDF">2025-8-5 汇报</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 准备中 #3 -->
+        <div class="timeline-item">
+            <div class="timeline-marker" role="presentation"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 准备中 #4 -->
+        <div class="timeline-item">
+            <div class="timeline-marker" role="presentation"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">Why do inhibitory control tasks show low correlations? A preregistered cross-site cognitive modeling study</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 准备中 #1 -->
+        <div class="timeline-item">
+            <div class="timeline-marker" role="presentation"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Under Review #3 -->
+        <div class="timeline-item">
+            <div class="timeline-marker" role="presentation"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status review">Under Review</span>
+                <div class="tl-paper-title">Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence</div>
+                <div class="tl-journal">Child Development</div>
+                <div class="tl-info-line">
+                    <span>(中科院一区Top, IF 3.8)</span>
+                    <span class="tl-info-separator" aria-hidden="true">|</span>
+                    <span>独立一作</span>
+                    <span class="tl-info-separator" aria-hidden="true">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper5.pdf" class="tl-link-btn" aria-label="下载论文PDF">PDF</a>
+                    <span class="tl-info-separator" aria-hidden="true">|</span>
+                    <a href="https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code" class="tl-link-btn" aria-label="查看GitHub代码仓库">代码</a>
+                </div>
+                <div class="tl-abstract">
+                    <button class="tl-abstract-trigger" onclick="toggleAbstract(this)" aria-expanded="false">查看摘要</button>
+                    <div class="tl-abstract-content" role="region" aria-label="论文摘要">
+                        <strong>Abstract:</strong> This study examined inhibitory control development in two samples of Chinese children: a primary sample (n = 1,122; 45.5% female; 91.9% Han, Mage = 12.42 years, range: 6.0–18.7) with 6-month longitudinal follow-up and an independent replication sample (n = 1,026; 45.1% female; 90.8% Han, Mage = 12.44 years, range: 6.1–18.8). Generalized Additive Models applied to Stroop and Go/No-Go tasks revealed four-phase nonlinear developmental trajectories. Response inhibition stabilized by 13.4 years, while interference inhibition developed until 15.8 years. Hierarchical drift diffusion modeling showed that interference inhibition developed through enhanced information accumulation (drift rate), whereas response inhibition developed through enhanced response bias control (starting point). Age-related processing speed improvements suggest shared foundational mechanisms. The findings contribute to a decision-computational framework.
+                    </div>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure5.png')" role="button" tabindex="0" onkeypress="handleKeyPress(event, '/zhang/images/Page1-Figure5.png')" aria-label="点击查看研究设计及分析流程示意图大图">
+                    <img src="/zhang/images/Page1-Figure5.png" alt="研究设计及分析流程示意图，展示了从数据收集到分析的完整流程" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+        <!-- Under Review #2 -->
+        <div class="timeline-item">
+            <div class="timeline-marker" role="presentation"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status review">Major Revision</span>
+                <div class="tl-paper-title">Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses</div>
+                <div class="tl-journal">BMC Medicine</div>
+                <div class="tl-info-line">
+                    <span>(中科院一区Top, IF 8.3)</span>
+                    <span class="tl-info-separator" aria-hidden="true">|</span>
+                    <span>独立一作</span>
+                    <span class="tl-info-separator" aria-hidden="true">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper4.pdf" class="tl-link-btn" aria-label="下载论文PDF">PDF</a>
+                    <span class="tl-info-separator" aria-hidden="true">|</span>
+                    <a href="https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ" class="tl-link-btn" aria-label="查看GitHub代码仓库">代码</a>
+                </div>
+                <div class="tl-abstract">
+                    <button class="tl-abstract-trigger" onclick="toggleAbstract(this)" aria-expanded="false">查看摘要</button>
+                    <div class="tl-abstract-content" role="region" aria-label="论文摘要">
+                        <strong>Introduction:</strong> Executive function (EF) is a heterogeneous neuropsychological construct, and impairments in EF dimensions represent a core aspect of psychopathology in schizophrenia that vary across individual patients. Currently, how this inter-individual variability characterizes schizophrenia subgroups, along with their distinctions in clinical characteristics and prognostic outcomes, remains unclear.<br><br>
+                        <strong>Methods:</strong> Three EF dimensions (inhibitory control, working memory, cognitive flexibility) were assessed in the main sample (N=329), its follow-up subset, and an independently "recurring local validation" patient sample (N=114). Fuzzy clustering was applied to baseline EF assessments to discover and validate the core subtypes after excluding cluster-ambiguous cases in the main and independent samples, respectively. Subtype-based classification trained on the main sample was then tested in the independent sample. Importantly, the stability of these subtypes and their remission statuses, along with associated longitudinal changes in clinical and biological factors, were evaluated, and baseline subtype memberships were also used to predict outcomes.<br><br>
+                        <strong>Results:</strong> Two longitudinal stable, independently validated core EF subtypes were identified, with significantly variable baseline positive, affective, and cognitive symptoms; working memory updating functioning; and peripheral inflammatory and metabolic levels. This two-subtype differentiation allowed an accurate classification of novel patients' subtype memberships and patients' remission statuses not due to overall severity at intake. Remitted patients experienced significantly greater reductions in negative and cognitive symptoms, improved working memory maintenance, lower peripheral inflammatory levels, and more-superior metabolic functions over time.<br><br>
+                        <strong>Conclusions:</strong> EF subtyping successfully captured the symptomatic, biochemical, and prognostic variations in individuals with schizophrenia, which could help to stratify patients with this disorder for targeted treatments.
+                    </div>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure4.jpg')" role="button" tabindex="0" onkeypress="handleKeyPress(event, '/zhang/images/Page1-Figure4.jpg')" aria-label="点击查看研究设计及分析流程示意图大图">
+                    <img src="/zhang/images/Page1-Figure4.jpg" alt="研究设计及分析流程示意图，展示了执行功能亚型分析的完整框架" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+        <!-- Under Review #1 -->
+        <div class="timeline-item">
+            <div class="timeline-marker" role="presentation"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2024年-12月</div>
+                <span class="tl-status review">Revise & Rereview</span>
+                <div class="tl-paper-title">Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights</div>
+                <div class="tl-journal">Schizophrenia Bulletin</div>
+                <div class="tl-info-line">
+                    <span>(中科院一区Top, IF 4.8)</span>
+                    <span class="tl-info-separator" aria-hidden="true">|</span>
+                    <span>共同一作（次序第一）</span>
+                    <span class="tl-info-separator" aria-hidden="true">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper2.pdf" class="tl-link-btn" aria-label="下载论文PDF">PDF</a>
+                    <span class="tl-info-separator" aria-hidden="true">|</span>
+                    <a href="https://github.com/tyzhang98/SCZ-EF-stacked-classifiers" class="tl-link-btn" aria-label="查看GitHub代码仓库">代码</a>
+                </div>
+                <div class="tl-abstract">
+                    <button class="tl-abstract-trigger" onclick="toggleAbstract(this)" aria-expanded="false">查看摘要</button>
+                    <div class="tl-abstract-content" role="region" aria-label="论文摘要">
+                        <strong>Background:</strong> Executive functioning (EF) impairments are often seen in mental disorders, particularly schizophrenia, where they relate to adverse outcomes. As a heterogeneous construct, how specifically each dimension of EF to characterize the diagnostic and prognostic aspects of schizophrenia remains opaque.<br><br>
+                        <strong>Study Design:</strong> We used classification models with a stacking approach on systematically measured EFs using 6 tasks to discriminate 195 patients with schizophrenia from healthy individuals. Baseline EF measurements were moreover employed to predict symptomatically remitted or non-remitted prognostic subgroups. EF feature importance was determined at the group-level and the ensuing individual importance scores were associated with four symptom dimensions.<br><br>
+                        <strong>Study Results:</strong> The models highlighted the importance of inhibitory control (interference and response inhibitions) or working memory in accurately identifying individuals with schizophrenia (area under the curve [AUC] = 0.87) or those in remission (AUC = 0.81). Patients who are correctly classified, in association with the contribution of interference inhibition function to our diagnostic classifier, present more severe baseline negative symptoms compared to those who are more likely to be misclassified. Also, linked to the function of working memory updating, patients who are successfully classified as remitted display milder cognitive symptoms at follow-up. Remitted patients do not differ significantly from non-remitted cases in baseline EF assessments or overall symptom severity.
+                    </div>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure2.jpg')" role="button" tabindex="0" onkeypress="handleKeyPress(event, '/zhang/images/Page1-Figure2.jpg')" aria-label="点击查看研究设计及分析流程示意图大图">
+                    <img src="/zhang/images/Page1-Figure2.jpg" alt="研究设计及分析流程示意图，展示了堆叠分类器的建模流程" loading="lazy">
+                </div>
+            </div>
+        </div>
+
         <!-- Published #2 -->
         <div class="timeline-item">
             <div class="timeline-marker" role="presentation"></div>
@@ -754,8 +753,8 @@ redirect_from:
             </div>
         </div>
     </div>
-
 </div>
+
 <!-- 图片模态框 -->
 <div id="imgModal" class="img-modal" onclick="closeImgModal()">
     <span class="img-modal-close" onclick="closeImgModal()">&times;</span>
