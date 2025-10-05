@@ -748,10 +748,8 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
 
 
 ---
----
-
 <!-- 返回顶部按钮 -->
-<a href="#about" id="backToTop" class="back-to-top" title="返回顶部">↑</a>
+<button id="backToTop" class="back-to-top" title="返回顶部" aria-label="返回顶部">↑</button>
 
 <style>
   .back-to-top {
@@ -762,11 +760,11 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
     height: 50px;
     background: #0066cc;
     color: white;
+    border: none;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
     box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
     transition: all 0.3s ease;
     opacity: 0;
@@ -775,6 +773,7 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
     font-size: 28px;
     font-weight: bold;
     line-height: 1;
+    cursor: pointer;
   }
   
   .back-to-top.show {
