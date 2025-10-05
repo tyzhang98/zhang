@@ -100,9 +100,10 @@ redirect_from:
 <aside class="toc-sidebar">
     <div class="toc-title"></div>
     <ul class="toc-list">
+        <li class="toc-item"><a href="#top" class="toc-link">• Home</a></li>
         <li class="toc-item"><a href="#pub-papers" class="toc-link">• Publications</a></li>
         <li class="toc-item"><a href="#conf-talks" class="toc-link">• Conference</a></li>
-        <li class="toc-item"><a href="#research-projects" class="toc-link">•Projects</a></li>
+        <li class="toc-item"><a href="#research-projects" class="toc-link">• Projects</a></li>
         <li class="toc-item"><a href="#collab" class="toc-link">• Collaboration</a></li>
         <li class="toc-item"><a href="#resources" class="toc-link">• Resources</a></li>
     </ul>
@@ -115,6 +116,7 @@ window.addEventListener('DOMContentLoaded', function() {
     
     function updateActiveLink() {
         const sections = [
+            { id: 'top', element: document.body, offset: 0 },
             { id: 'pub-papers', element: document.getElementById('pub-papers') },
             { id: 'conf-talks', element: document.getElementById('conf-talks') },
             { id: 'research-projects', element: document.getElementById('research-projects') },
@@ -122,11 +124,13 @@ window.addEventListener('DOMContentLoaded', function() {
             { id: 'resources', element: document.getElementById('resources') }
         ];
         
-        let current = '';
+        let current = 'top';
+        const scrollPos = window.pageYOffset;
+        
         sections.forEach(section => {
             if (section.element) {
-                const sectionTop = section.element.offsetTop;
-                if (window.pageYOffset >= sectionTop - 150) {
+                const sectionTop = section.id === 'top' ? 0 : section.element.offsetTop;
+                if (scrollPos >= sectionTop - 150) {
                     current = section.id;
                 }
             }
@@ -148,14 +152,20 @@ window.addEventListener('DOMContentLoaded', function() {
         link.addEventListener('click', function(e) {
             e.preventDefault();
             const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-            if (targetElement) {
-                targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            
+            if (targetId === 'top') {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
             }
         });
     });
 });
 </script>
+
 
 ## 个人简介 (About Me)
 <a id="about"></a>
