@@ -530,7 +530,7 @@ redirect_from:
                 <div class="tl-info-line">
                     <span>(中科院二区, IF 4.4)</span>
                     <span class="tl-info-separator">|</span>
-                    <span>独立一作</span>
+                    <span>共同一作（次序第一）</span>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/paper3.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
