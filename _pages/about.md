@@ -568,6 +568,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 <span class="tl-status preparation">准备中...</span>
                 <div class="tl-paper-title">Why do inhibitory control tasks show low correlations? A preregistered cross-site cognitive modeling study</div>
                 <div class="tl-info-line">
+                <a href="https://tyzhang98.github.io/zhang/files/Preregistered.docx" class="tl-link-btn">2025-10-05 Preregistered</a>
                     <span></span>
                 </div>
             </div>
