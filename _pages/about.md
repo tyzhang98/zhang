@@ -621,10 +621,9 @@ document.addEventListener('keydown', function(event) {
 });
 </script>
 </div>
-<br>
 <a id="conf-talks"></a> 
 <br>
-
+<br>
 
 
 ## 2. 会议报告 (Conference Presentations)
@@ -749,15 +748,10 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
 
 
 ---
-
 ---
 
 <!-- 返回顶部按钮 -->
-<a href="#about" id="backToTop" class="back-to-top" title="返回顶部">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <polyline points="18 15 12 9 6 15"></polyline>
-  </svg>
-</a>
+<a href="#about" id="backToTop" class="back-to-top" title="返回顶部">↑</a>
 
 <style>
   .back-to-top {
@@ -778,6 +772,9 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
     opacity: 0;
     visibility: hidden;
     z-index: 999;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
   }
   
   .back-to-top.show {
@@ -791,7 +788,8 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
     box-shadow: 0 6px 16px rgba(0, 102, 204, 0.4);
   }
   
-  .back-to-top svg {
+  .back-to-top::before {
+    content: '↑';
     animation: bounce 2s infinite;
   }
   
@@ -813,6 +811,7 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
       right: 20px;
       width: 45px;
       height: 45px;
+      font-size: 24px;
     }
   }
   
