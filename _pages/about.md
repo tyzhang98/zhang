@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <style>
-/* 右侧大纲导航样式 - 优化白天夜晚对比度 */
+/* 右侧大纲导航样式 - 统一舒适配色 */
 .toc-sidebar {
     position: fixed;
     right: 20px;
@@ -20,17 +20,17 @@ redirect_from:
     border-radius: 8px;
     padding: 20px;
     box-shadow: none;
-    border: 1px solid #d1d5db;
+    border: 1px solid rgba(100, 100, 100, 0.3);
     z-index: 100;
 }
 
 .toc-title {
-    font-size: 1.1em;
+    font-size: 1.05em;
     font-weight: 600;
-    color: #1f2937;
+    color: #2d3748;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #1f2937;
+    border-bottom: 2px solid #4a5568;
 }
 
 .toc-list {
@@ -40,62 +40,33 @@ redirect_from:
 }
 
 .toc-item {
-    margin: 6px 0;
+    margin: 5px 0;
 }
 
 .toc-link {
     display: block;
-    padding: 8px 12px;
-    color: #374151;
+    padding: 7px 12px;
+    color: #4a5568;
     text-decoration: none;
     border-left: 3px solid transparent;
-    transition: all 0.25s ease;
-    font-size: 0.9em;
+    transition: all 0.2s ease;
+    font-size: 0.88em;
     border-radius: 4px;
+    font-weight: 450;
 }
 
 .toc-link:hover {
-    color: #1e40af;
-    background: #dbeafe;
-    border-left-color: #3b82f6;
-    transform: translateX(2px);
+    color: #2b6cb0;
+    background: rgba(66, 153, 225, 0.12);
+    border-left-color: #4299e1;
+    transform: translateX(3px);
 }
 
 .toc-link.active {
-    color: #1e3a8a;
-    background: #bfdbfe;
-    border-left-color: #1e40af;
+    color: #2c5282;
+    background: rgba(66, 153, 225, 0.18);
+    border-left-color: #2b6cb0;
     font-weight: 600;
-}
-
-/* 深色模式适配 */
-@media (prefers-color-scheme: dark) {
-    .toc-sidebar {
-        background: transparent;
-        box-shadow: none;
-        border: 1px solid #4b5563;
-    }
-    
-    .toc-title {
-        color: #f3f4f6;
-        border-bottom-color: #6b7280;
-    }
-    
-    .toc-link {
-        color: #d1d5db;
-    }
-    
-    .toc-link:hover {
-        color: #60a5fa;
-        background: rgba(59, 130, 246, 0.25);
-        border-left-color: #3b82f6;
-    }
-    
-    .toc-link.active {
-        color: #93c5fd;
-        background: rgba(59, 130, 246, 0.35);
-        border-left-color: #60a5fa;
-    }
 }
 
 /* 响应式：在小屏幕隐藏大纲 */
@@ -107,7 +78,7 @@ redirect_from:
 
 /* 自定义滚动条 */
 .toc-sidebar::-webkit-scrollbar {
-    width: 6px;
+    width: 5px;
 }
 
 .toc-sidebar::-webkit-scrollbar-track {
@@ -116,24 +87,15 @@ redirect_from:
 }
 
 .toc-sidebar::-webkit-scrollbar-thumb {
-    background: #cbd5e0;
+    background: rgba(160, 174, 192, 0.5);
     border-radius: 3px;
 }
 
 .toc-sidebar::-webkit-scrollbar-thumb:hover {
-    background: #9ca3af;
-}
-
-@media (prefers-color-scheme: dark) {
-    .toc-sidebar::-webkit-scrollbar-thumb {
-        background: #6b7280;
-    }
-    
-    .toc-sidebar::-webkit-scrollbar-thumb:hover {
-        background: #9ca3af;
-    }
+    background: rgba(160, 174, 192, 0.8);
 }
 </style>
+
 
 <!-- 右侧大纲导航 -->
 <aside class="toc-sidebar">
