@@ -143,12 +143,12 @@ redirect_from:
 <aside class="toc-sidebar">
     <div class="toc-title"></div>
     <ul class="toc-list">
-        <li class="toc-item"><a href="#about" class="toc-link">•个人简介</a></li>
-        <li class="toc-item"><a href="#pub-papers" class="toc-link">•科研论文</a></li>
-        <li class="toc-item"><a href="#conf-talks" class="toc-link">•会议报告</a></li>
-        <li class="toc-item"><a href="#research-projects" class="toc-link">- 科研项目</a></li>
-        <li class="toc-item"><a href="#collab" class="toc-link">•寻求科研合作</a></li>
-        <li class="toc-item"><a href="#resources" class="toc-link">•研究资源</a></li>
+        <li class="toc-item"><a href="#about" class="toc-link">•About me</a></li>
+        <li class="toc-item"><a href="#pub-papers" class="toc-link">•Publications</a></li>
+        <li class="toc-item"><a href="#conf-talks" class="toc-link">•Conference Presentations</a></li>
+        <li class="toc-item"><a href="#research-projects" class="toc-link">•Projects</a></li>
+        <li class="toc-item"><a href="#collab" class="toc-link">•Collaboration</a></li>
+        <li class="toc-item"><a href="#resources" class="toc-link">•Resources</a></li>
     </ul>
 </aside>
 
