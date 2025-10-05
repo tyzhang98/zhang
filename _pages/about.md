@@ -6,9 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 <style>
-/* 右侧大纲导航样式 - Nature 风格配色 */
+/* 右侧大纲导航样式 - 悬停带颜色 */
 .toc-sidebar {
     position: fixed;
     right: 20px;
@@ -16,10 +15,10 @@ redirect_from:
     width: 260px;
     max-height: calc(100vh - 120px);
     overflow-y: auto;
-    background: #ffffff;
+    background: transparent;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: none;
     border: 1px solid #e5e7eb;
     z-index: 100;
 }
@@ -63,16 +62,16 @@ redirect_from:
 
 .toc-link.active {
     color: #1a365d;
-    background: #bee3f8;
-    border-left-color: #2b4e79ff;
+    background: transparent;
+    border-left-color: #2c5282;
     font-weight: 600;
 }
 
-/* 深色模式适配 - 柔和深色背景 */
+/* 深色模式适配 */
 @media (prefers-color-scheme: dark) {
     .toc-sidebar {
-        background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        background: transparent;
+        box-shadow: none;
         border: 1px solid #4a5568;
     }
     
@@ -87,13 +86,13 @@ redirect_from:
     
     .toc-link:hover {
         color: #bee3f8;
-        background: rgba(66, 153, 225, 0.15);
+        background: rgba(66, 153, 225, 0.2);
         border-left-color: #63b3ed;
     }
     
     .toc-link.active {
         color: #ffffff;
-        background: rgba(44, 82, 130, 0.4);
+        background: transparent;
         border-left-color: #90cdf4;
     }
 }
@@ -111,7 +110,7 @@ redirect_from:
 }
 
 .toc-sidebar::-webkit-scrollbar-track {
-    background: #f7fafc;
+    background: transparent;
     border-radius: 3px;
 }
 
@@ -126,7 +125,7 @@ redirect_from:
 
 @media (prefers-color-scheme: dark) {
     .toc-sidebar::-webkit-scrollbar-track {
-        background: #4a5768ff;
+        background: transparent;
     }
     
     .toc-sidebar::-webkit-scrollbar-thumb {
