@@ -625,9 +625,9 @@ document.addEventListener('keydown', function(event) {
 <br>
 
 
-
-## 2. 会议报告 (Conference Presentations)
 <a id="conf-talks"></a> 
+## 2. 会议报告 (Conference Presentations)
+
 **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
 - 报告形式：海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
 - 时间：2025年4月19日
