@@ -27,10 +27,10 @@ redirect_from:
 .toc-title {
     font-size: 1.05em;
     font-weight: 600;
-    color: #2d3748;
+    color: #4a5568;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #4a5568;
+    border-bottom: 2px solid #718096;
 }
 
 .toc-list {
@@ -46,7 +46,7 @@ redirect_from:
 .toc-link {
     display: block;
     padding: 7px 12px;
-    color: #4a5568;
+    color: #718096;
     text-decoration: none;
     border-left: 3px solid transparent;
     transition: all 0.2s ease;
@@ -95,7 +95,6 @@ redirect_from:
     background: rgba(160, 174, 192, 0.8);
 }
 </style>
-
 <!-- 右侧大纲导航 -->
 <aside class="toc-sidebar">
     <div class="toc-title"></div>
