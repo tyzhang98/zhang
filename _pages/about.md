@@ -68,33 +68,33 @@ redirect_from:
     font-weight: 600;
 }
 
-/* 深色模式适配 - Nature 深色风格 */
+/* 深色模式适配 - 柔和深色背景 */
 @media (prefers-color-scheme: dark) {
     .toc-sidebar {
-        background: #1a202c;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
-        border: 1px solid #2d3748;
+        background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        border: 1px solid #4a5568;
     }
     
     .toc-title {
-        color: #63b3ed;
+        color: #90cdf4;
         border-bottom-color: #4299e1;
     }
     
     .toc-link {
-        color: #cbd5e0;
+        color: #e2e8f0;
     }
     
     .toc-link:hover {
-        color: #90cdf4;
-        background: #2d3748;
-        border-left-color: #4299e1;
+        color: #bee3f8;
+        background: rgba(66, 153, 225, 0.15);
+        border-left-color: #63b3ed;
     }
     
     .toc-link.active {
-        color: #bee3f8;
-        background: #2c5282;
-        border-left-color: #63b3ed;
+        color: #ffffff;
+        background: rgba(44, 82, 130, 0.4);
+        border-left-color: #90cdf4;
     }
 }
 
@@ -105,7 +105,7 @@ redirect_from:
     }
 }
 
-/* 自定义滚动条 - Nature 风格 */
+/* 自定义滚动条 */
 .toc-sidebar::-webkit-scrollbar {
     width: 6px;
 }
@@ -126,7 +126,7 @@ redirect_from:
 
 @media (prefers-color-scheme: dark) {
     .toc-sidebar::-webkit-scrollbar-track {
-        background: #2d3748;
+        background: rgba(45, 55, 72, 0.3);
     }
     
     .toc-sidebar::-webkit-scrollbar-thumb {
@@ -143,12 +143,12 @@ redirect_from:
 <aside class="toc-sidebar">
     <div class="toc-title"></div>
     <ul class="toc-list">
-        <li class="toc-item"><a href="#about" class="toc-link">- 个人简介</a></li>
-        <li class="toc-item"><a href="#pub-papers" class="toc-link">- 科研论文</a></li>
-        <li class="toc-item"><a href="#conf-talks" class="toc-link">- 会议报告</a></li>
+        <li class="toc-item"><a href="#about" class="toc-link">•个人简介</a></li>
+        <li class="toc-item"><a href="#pub-papers" class="toc-link">•科研论文</a></li>
+        <li class="toc-item"><a href="#conf-talks" class="toc-link">•会议报告</a></li>
         <li class="toc-item"><a href="#research-projects" class="toc-link">- 科研项目</a></li>
-        <li class="toc-item"><a href="#collab" class="toc-link">- 寻求科研合作</a></li>
-        <li class="toc-item"><a href="#resources" class="toc-link">- 研究资源</a></li>
+        <li class="toc-item"><a href="#collab" class="toc-link">•寻求科研合作</a></li>
+        <li class="toc-item"><a href="#resources" class="toc-link">•研究资源</a></li>
     </ul>
 </aside>
 
