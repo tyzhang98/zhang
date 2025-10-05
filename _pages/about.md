@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <style>
-/* 右侧大纲导航样式 - 加深字体颜色 */
+/* 右侧大纲导航样式 - 统一舒适配色 */
 .toc-sidebar {
     position: fixed;
     right: 20px;
@@ -27,10 +27,10 @@ redirect_from:
 .toc-title {
     font-size: 1.05em;
     font-weight: 600;
-    color: #1a202c;
+    color: #2d3748;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #2d3748;
+    border-bottom: 2px solid #4a5568;
 }
 
 .toc-list {
@@ -46,26 +46,26 @@ redirect_from:
 .toc-link {
     display: block;
     padding: 7px 12px;
-    color: #2d3748;
+    color: #4a5568;
     text-decoration: none;
     border-left: 3px solid transparent;
     transition: all 0.2s ease;
     font-size: 0.88em;
     border-radius: 4px;
-    font-weight: 500;
+    font-weight: 450;
 }
 
 .toc-link:hover {
-    color: #1e40af;
-    background: rgba(66, 153, 225, 0.15);
-    border-left-color: #3b82f6;
+    color: #2b6cb0;
+    background: rgba(66, 153, 225, 0.12);
+    border-left-color: #4299e1;
     transform: translateX(3px);
 }
 
 .toc-link.active {
-    color: #1e3a8a;
-    background: rgba(66, 153, 225, 0.22);
-    border-left-color: #1e40af;
+    color: #2c5282;
+    background: rgba(66, 153, 225, 0.18);
+    border-left-color: #2b6cb0;
     font-weight: 600;
 }
 
@@ -100,7 +100,6 @@ redirect_from:
 <aside class="toc-sidebar">
     <div class="toc-title"></div>
     <ul class="toc-list">
-        <li class="toc-item"><a href="#about" class="toc-link">• About me</a></li>
         <li class="toc-item"><a href="#pub-papers" class="toc-link">• Publications</a></li>
         <li class="toc-item"><a href="#conf-talks" class="toc-link">• Conference</a></li>
         <li class="toc-item"><a href="#research-projects" class="toc-link">•Projects</a></li>
@@ -116,7 +115,6 @@ window.addEventListener('DOMContentLoaded', function() {
     
     function updateActiveLink() {
         const sections = [
-            { id: 'about', element: document.getElementById('about') },
             { id: 'pub-papers', element: document.getElementById('pub-papers') },
             { id: 'conf-talks', element: document.getElementById('conf-talks') },
             { id: 'research-projects', element: document.getElementById('research-projects') },
