@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <style>
-/* 右侧大纲导航样式 - 白天黑色字体 */
+/* 右侧大纲导航样式 - 优化白天夜晚对比度 */
 .toc-sidebar {
     position: fixed;
     right: 20px;
@@ -20,17 +20,17 @@ redirect_from:
     border-radius: 8px;
     padding: 20px;
     box-shadow: none;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #d1d5db;
     z-index: 100;
 }
 
 .toc-title {
     font-size: 1.1em;
     font-weight: 600;
-    color: #000000;
+    color: #1f2937;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #1f2937;
 }
 
 .toc-list {
@@ -46,7 +46,7 @@ redirect_from:
 .toc-link {
     display: block;
     padding: 8px 12px;
-    color: #000000;
+    color: #374151;
     text-decoration: none;
     border-left: 3px solid transparent;
     transition: all 0.25s ease;
@@ -55,16 +55,16 @@ redirect_from:
 }
 
 .toc-link:hover {
-    color: #2c5282;
-    background: #ebf4ff;
-    border-left-color: #4299e1;
+    color: #1e40af;
+    background: #dbeafe;
+    border-left-color: #3b82f6;
     transform: translateX(2px);
 }
 
 .toc-link.active {
-    color: #1a365d;
-    background: transparent;
-    border-left-color: #2c5282;
+    color: #1e3a8a;
+    background: #bfdbfe;
+    border-left-color: #1e40af;
     font-weight: 600;
 }
 
@@ -73,28 +73,28 @@ redirect_from:
     .toc-sidebar {
         background: transparent;
         box-shadow: none;
-        border: 1px solid #4a5568;
+        border: 1px solid #4b5563;
     }
     
     .toc-title {
-        color: #90cdf4;
-        border-bottom-color: #4299e1;
+        color: #f3f4f6;
+        border-bottom-color: #6b7280;
     }
     
     .toc-link {
-        color: #e2e8f0;
+        color: #d1d5db;
     }
     
     .toc-link:hover {
-        color: #bee3f8;
-        background: rgba(66, 153, 225, 0.2);
-        border-left-color: #63b3ed;
+        color: #60a5fa;
+        background: rgba(59, 130, 246, 0.25);
+        border-left-color: #3b82f6;
     }
     
     .toc-link.active {
-        color: #ffffff;
-        background: transparent;
-        border-left-color: #90cdf4;
+        color: #93c5fd;
+        background: rgba(59, 130, 246, 0.35);
+        border-left-color: #60a5fa;
     }
 }
 
@@ -121,20 +121,16 @@ redirect_from:
 }
 
 .toc-sidebar::-webkit-scrollbar-thumb:hover {
-    background: #a0aec0;
+    background: #9ca3af;
 }
 
 @media (prefers-color-scheme: dark) {
-    .toc-sidebar::-webkit-scrollbar-track {
-        background: transparent;
-    }
-    
     .toc-sidebar::-webkit-scrollbar-thumb {
-        background: #4a5568;
+        background: #6b7280;
     }
     
     .toc-sidebar::-webkit-scrollbar-thumb:hover {
-        background: #718096;
+        background: #9ca3af;
     }
 }
 </style>
