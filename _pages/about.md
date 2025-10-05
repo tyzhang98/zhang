@@ -6,8 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 <style>
-/* 右侧大纲导航样式 - 悬停带颜色 */
+/* 右侧大纲导航样式 - 白天黑色字体 */
 .toc-sidebar {
     position: fixed;
     right: 20px;
@@ -26,10 +27,10 @@ redirect_from:
 .toc-title {
     font-size: 1.1em;
     font-weight: 600;
-    color: #2c5282;
+    color: #000000;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #2c5282;
+    border-bottom: 2px solid #000000;
 }
 
 .toc-list {
@@ -45,7 +46,7 @@ redirect_from:
 .toc-link {
     display: block;
     padding: 8px 12px;
-    color: #4a5568;
+    color: #000000;
     text-decoration: none;
     border-left: 3px solid transparent;
     transition: all 0.25s ease;
