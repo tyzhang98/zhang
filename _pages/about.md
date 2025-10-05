@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <style>
-/* 右侧大纲导航样式 */
+/* 右侧大纲导航样式 - Nature 风格配色 */
 .toc-sidebar {
     position: fixed;
     right: 20px;
@@ -16,20 +16,21 @@ redirect_from:
     width: 260px;
     max-height: calc(100vh - 120px);
     overflow-y: auto;
-    background: white;
+    background: #ffffff;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e5e7eb;
     z-index: 100;
 }
 
 .toc-title {
     font-size: 1.1em;
     font-weight: 600;
-    color: #0066cc;
+    color: #2c5282;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #0066cc;
+    border-bottom: 2px solid #2c5282;
 }
 
 .toc-list {
@@ -39,58 +40,61 @@ redirect_from:
 }
 
 .toc-item {
-    margin: 8px 0;
+    margin: 6px 0;
 }
 
 .toc-link {
     display: block;
-    padding: 6px 12px;
-    color: #555;
+    padding: 8px 12px;
+    color: #4a5568;
     text-decoration: none;
     border-left: 3px solid transparent;
-    transition: all 0.3s;
+    transition: all 0.25s ease;
     font-size: 0.9em;
+    border-radius: 4px;
 }
 
 .toc-link:hover {
-    color: #0066cc;
-    background: #f0f7ff;
-    border-left-color: #0066cc;
+    color: #2c5282;
+    background: #ebf4ff;
+    border-left-color: #4299e1;
+    transform: translateX(2px);
 }
 
 .toc-link.active {
-    color: #0066cc;
-    background: #e6f3ff;
-    border-left-color: #0066cc;
+    color: #1a365d;
+    background: #bee3f8;
+    border-left-color: #2c5282;
     font-weight: 600;
 }
 
-/* 深色模式适配 */
+/* 深色模式适配 - Nature 深色风格 */
 @media (prefers-color-scheme: dark) {
     .toc-sidebar {
-        background: #1f2937;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        background: #1a202c;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+        border: 1px solid #2d3748;
     }
     
     .toc-title {
-        color: #60a5fa;
-        border-bottom-color: #60a5fa;
+        color: #63b3ed;
+        border-bottom-color: #4299e1;
     }
     
     .toc-link {
-        color: #d1d5db;
+        color: #cbd5e0;
     }
     
     .toc-link:hover {
-        color: #60a5fa;
-        background: #374151;
-        border-left-color: #60a5fa;
+        color: #90cdf4;
+        background: #2d3748;
+        border-left-color: #4299e1;
     }
     
     .toc-link.active {
-        color: #60a5fa;
-        background: #374151;
-        border-left-color: #60a5fa;
+        color: #bee3f8;
+        background: #2c5282;
+        border-left-color: #63b3ed;
     }
 }
 
@@ -98,6 +102,39 @@ redirect_from:
 @media (max-width: 1400px) {
     .toc-sidebar {
         display: none;
+    }
+}
+
+/* 自定义滚动条 - Nature 风格 */
+.toc-sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.toc-sidebar::-webkit-scrollbar-track {
+    background: #f7fafc;
+    border-radius: 3px;
+}
+
+.toc-sidebar::-webkit-scrollbar-thumb {
+    background: #cbd5e0;
+    border-radius: 3px;
+}
+
+.toc-sidebar::-webkit-scrollbar-thumb:hover {
+    background: #a0aec0;
+}
+
+@media (prefers-color-scheme: dark) {
+    .toc-sidebar::-webkit-scrollbar-track {
+        background: #2d3748;
+    }
+    
+    .toc-sidebar::-webkit-scrollbar-thumb {
+        background: #4a5568;
+    }
+    
+    .toc-sidebar::-webkit-scrollbar-thumb:hover {
+        background: #718096;
     }
 }
 </style>
