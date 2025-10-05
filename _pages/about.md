@@ -126,7 +126,7 @@ redirect_from:
 
 @media (prefers-color-scheme: dark) {
     .toc-sidebar::-webkit-scrollbar-track {
-        background: rgba(45, 55, 72, 0.3);
+        background: #4a5568;
     }
     
     .toc-sidebar::-webkit-scrollbar-thumb {
@@ -143,12 +143,12 @@ redirect_from:
 <aside class="toc-sidebar">
     <div class="toc-title"></div>
     <ul class="toc-list">
-        <li class="toc-item"><a href="#about" class="toc-link">•About me</a></li>
-        <li class="toc-item"><a href="#pub-papers" class="toc-link">•Publications</a></li>
-        <li class="toc-item"><a href="#conf-talks" class="toc-link">•Conference Presentations</a></li>
+        <li class="toc-item"><a href="#about" class="toc-link">• About me</a></li>
+        <li class="toc-item"><a href="#pub-papers" class="toc-link">• Publications</a></li>
+        <li class="toc-item"><a href="#conf-talks" class="toc-link">• Conference Presentations</a></li>
         <li class="toc-item"><a href="#research-projects" class="toc-link">•Projects</a></li>
-        <li class="toc-item"><a href="#collab" class="toc-link">•Collaboration</a></li>
-        <li class="toc-item"><a href="#resources" class="toc-link">•Resources</a></li>
+        <li class="toc-item"><a href="#collab" class="toc-link">• Collaboration</a></li>
+        <li class="toc-item"><a href="#resources" class="toc-link">• Resources</a></li>
     </ul>
 </aside>
 
