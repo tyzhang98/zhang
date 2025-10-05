@@ -64,7 +64,7 @@ redirect_from:
 .toc-link.active {
     color: #1a365d;
     background: #bee3f8;
-    border-left-color: #2c5282;
+    border-left-color: #2b4e79ff;
     font-weight: 600;
 }
 
@@ -126,7 +126,7 @@ redirect_from:
 
 @media (prefers-color-scheme: dark) {
     .toc-sidebar::-webkit-scrollbar-track {
-        background: #4a5568;
+        background: #4a5768ff;
     }
     
     .toc-sidebar::-webkit-scrollbar-thumb {
@@ -145,7 +145,7 @@ redirect_from:
     <ul class="toc-list">
         <li class="toc-item"><a href="#about" class="toc-link">• About me</a></li>
         <li class="toc-item"><a href="#pub-papers" class="toc-link">• Publications</a></li>
-        <li class="toc-item"><a href="#conf-talks" class="toc-link">• Conference Presentations</a></li>
+        <li class="toc-item"><a href="#conf-talks" class="toc-link">• Conference</a></li>
         <li class="toc-item"><a href="#research-projects" class="toc-link">•Projects</a></li>
         <li class="toc-item"><a href="#collab" class="toc-link">• Collaboration</a></li>
         <li class="toc-item"><a href="#resources" class="toc-link">• Resources</a></li>
