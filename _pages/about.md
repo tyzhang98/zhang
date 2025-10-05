@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <style>
-/* 右侧大纲导航样式 - 统一舒适配色 */
+/* 右侧大纲导航样式 - 加深字体颜色 */
 .toc-sidebar {
     position: fixed;
     right: 20px;
@@ -27,10 +27,10 @@ redirect_from:
 .toc-title {
     font-size: 1.05em;
     font-weight: 600;
-    color: #2d3748;
+    color: #1a202c;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #4a5568;
+    border-bottom: 2px solid #2d3748;
 }
 
 .toc-list {
@@ -46,26 +46,26 @@ redirect_from:
 .toc-link {
     display: block;
     padding: 7px 12px;
-    color: #4a5568;
+    color: #2d3748;
     text-decoration: none;
     border-left: 3px solid transparent;
     transition: all 0.2s ease;
     font-size: 0.88em;
     border-radius: 4px;
-    font-weight: 450;
+    font-weight: 500;
 }
 
 .toc-link:hover {
-    color: #2b6cb0;
-    background: rgba(66, 153, 225, 0.12);
-    border-left-color: #4299e1;
+    color: #1e40af;
+    background: rgba(66, 153, 225, 0.15);
+    border-left-color: #3b82f6;
     transform: translateX(3px);
 }
 
 .toc-link.active {
-    color: #2c5282;
-    background: rgba(66, 153, 225, 0.18);
-    border-left-color: #2b6cb0;
+    color: #1e3a8a;
+    background: rgba(66, 153, 225, 0.22);
+    border-left-color: #1e40af;
     font-weight: 600;
 }
 
@@ -95,7 +95,6 @@ redirect_from:
     background: rgba(160, 174, 192, 0.8);
 }
 </style>
-
 
 <!-- 右侧大纲导航 -->
 <aside class="toc-sidebar">
