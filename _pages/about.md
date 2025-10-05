@@ -6,6 +6,165 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+<style>
+/* 右侧大纲导航样式 */
+.toc-sidebar {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    width: 260px;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 100;
+}
+
+.toc-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #0066cc;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0066cc;
+}
+
+.toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-item {
+    margin: 8px 0;
+}
+
+.toc-link {
+    display: block;
+    padding: 6px 12px;
+    color: #555;
+    text-decoration: none;
+    border-left: 3px solid transparent;
+    transition: all 0.3s;
+    font-size: 0.9em;
+}
+
+.toc-link:hover {
+    color: #0066cc;
+    background: #f0f7ff;
+    border-left-color: #0066cc;
+}
+
+.toc-link.active {
+    color: #0066cc;
+    background: #e6f3ff;
+    border-left-color: #0066cc;
+    font-weight: 600;
+}
+
+/* 深色模式适配 */
+@media (prefers-color-scheme: dark) {
+    .toc-sidebar {
+        background: #1f2937;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    
+    .toc-title {
+        color: #60a5fa;
+        border-bottom-color: #60a5fa;
+    }
+    
+    .toc-link {
+        color: #d1d5db;
+    }
+    
+    .toc-link:hover {
+        color: #60a5fa;
+        background: #374151;
+        border-left-color: #60a5fa;
+    }
+    
+    .toc-link.active {
+        color: #60a5fa;
+        background: #374151;
+        border-left-color: #60a5fa;
+    }
+}
+
+/* 响应式：在小屏幕隐藏大纲 */
+@media (max-width: 1400px) {
+    .toc-sidebar {
+        display: none;
+    }
+}
+</style>
+
+<!-- 右侧大纲导航 -->
+<aside class="toc-sidebar">
+    <div class="toc-title">📑 页面大纲</div>
+    <ul class="toc-list">
+        <li class="toc-item"><a href="#about" class="toc-link">个人简介</a></li>
+        <li class="toc-item"><a href="#pub-papers" class="toc-link">科研论文</a></li>
+        <li class="toc-item"><a href="#conf-talks" class="toc-link">会议报告</a></li>
+        <li class="toc-item"><a href="#research-projects" class="toc-link">科研项目</a></li>
+        <li class="toc-item"><a href="#collab" class="toc-link">寻求科研合作</a></li>
+        <li class="toc-item"><a href="#resources" class="toc-link">研究资源</a></li>
+    </ul>
+</aside>
+
+<script>
+// 大纲导航激活状态
+window.addEventListener('DOMContentLoaded', function() {
+    const tocLinks = document.querySelectorAll('.toc-link');
+    
+    function updateActiveLink() {
+        const sections = [
+            { id: 'about', element: document.getElementById('about') },
+            { id: 'pub-papers', element: document.getElementById('pub-papers') },
+            { id: 'conf-talks', element: document.getElementById('conf-talks') },
+            { id: 'research-projects', element: document.getElementById('research-projects') },
+            { id: 'collab', element: document.getElementById('collab') },
+            { id: 'resources', element: document.getElementById('resources') }
+        ];
+        
+        let current = '';
+        sections.forEach(section => {
+            if (section.element) {
+                const sectionTop = section.element.offsetTop;
+                if (window.pageYOffset >= sectionTop - 150) {
+                    current = section.id;
+                }
+            }
+        });
+
+        tocLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + current) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', updateActiveLink);
+    updateActiveLink();
+
+    // 平滑滚动
+    tocLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    });
+});
+</script>
+
 ## 个人简介 (About Me)
 <a id="about"></a>
 
