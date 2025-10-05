@@ -524,8 +524,8 @@ redirect_from:
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年-10月</div>
-                <span class="tl-status published">Accepted</span>
+                <div class="tl-date">2025年-11月</div>
+                <span class="tl-status published">Published</span>
                 <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <strong><em>International Journal of Clinical and Health Psychology</em></strong>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ijchp.2025.100628</a></div>
                 <div class="tl-info-line">
                     <span>(中科院二区, IF 4.4)</span>
@@ -555,7 +555,7 @@ redirect_from:
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年-6月</div>
+                <div class="tl-date">2025年-8月</div>
                 <span class="tl-status published">Published</span>
                 <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <strong><em>Schizophrenia Research</em></strong>, <em>282</em>, 203-213. <a href="https://doi.org/10.1016/j.schres.2025.06.012" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.schres.2025.06.012</a></div>
                 <div class="tl-info-line">
