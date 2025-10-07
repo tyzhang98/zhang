@@ -333,6 +333,7 @@ redirect_from:
         color: #63b3ed;
     }
 }
+</style> 
 </style>
 
 <!-- 右侧大纲导航 -->
@@ -459,7 +460,7 @@ window.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-</div>
+
 
 
 ## 个人简介 (About Me)
@@ -1090,9 +1091,11 @@ document.addEventListener('keydown', function(event) {
 </script>
 </div>
 <a id="conf-talks"></a> 
+
 <br>
 <br>
 
+---
 
 ## 2. 会议报告 (Conference Presentations)
 
