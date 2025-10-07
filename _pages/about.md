@@ -173,7 +173,6 @@ redirect_from:
     }
 }
 </style>
-
 <!-- 右侧大纲导航 -->
 <aside class="toc-sidebar">
     <div class="toc-title"></div>
@@ -183,15 +182,11 @@ redirect_from:
         <li class="toc-item">
             <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
             <ul class="toc-sublist" id="papers-sublist">
-                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">LLMs & EF</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">IC in SCZ & MDD</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">IC Tasks Correlation</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">WM & Time Perception</a></li>
-                <li class="toc-subitem"><a href="#paper-review-1" class="toc-sublink">IC Development</a></li>
-                <li class="toc-subitem"><a href="#paper-review-2" class="toc-sublink">EF Subtypes</a></li>
-                <li class="toc-subitem"><a href="#paper-review-3" class="toc-sublink">EF Stacking Model</a></li>
-                <li class="toc-subitem"><a href="#paper-pub-1" class="toc-sublink">WM Training</a></li>
-                <li class="toc-subitem"><a href="#paper-pub-2" class="toc-sublink">WM Stage-specific</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">1. IC Development</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">2. EF Subtypes</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. EF Stacking Model</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">4. WM Training</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">5. WM Stage-specific</a></li>
             </ul>
         </li>
         
@@ -219,11 +214,9 @@ window.addEventListener('DOMContentLoaded', function() {
             { id: 'resources', element: document.getElementById('resources') }
         ];
         
-        // 论文子项
+        // 论文子项（只包含最后5篇）
         const paperSections = [
-            'paper-prep-1', 'paper-prep-2', 'paper-prep-3', 'paper-prep-4',
-            'paper-review-1', 'paper-review-2', 'paper-review-3',
-            'paper-pub-1', 'paper-pub-2'
+            'paper-prep-5', 'paper-prep-4', 'paper-prep-3', 'paper-prep-2', 'paper-prep-1'
         ];
         
         let current = 'top';
@@ -314,12 +307,17 @@ window.addEventListener('DOMContentLoaded', function() {
 ## 个人简介 (About Me)
 <a id="about"></a>
 
-&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），研究方向聚焦于**认知心理学与计算科学的交叉领域**。采用行为实验、fMRI等认知神经科学方法，结合计算建模、机器学习和大语言模型等前沿技术，致力于探究认知功能的计算机制，并研究其在精神障碍（如精神分裂症、重度抑郁症等）中的损伤模式及干预策略。
+&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），**研究方向聚焦于用计算与脑成像方法理解与模拟人类高级认知加工，也包括认知发展、精神障碍认知缺陷**。具体来说，采用认知行为实验、fMRI等认知神经科学方法，结合计算建模、机器学习和大语言模型等前沿技术，致力于揭示认知功能的计算机制，并探索精神障碍（如精神分裂症、重度抑郁症等）认知损伤的干预策略。
+
 
 **当前关注的核心研究问题：**
+基础问题
 - 大语言模型的认知加工模式与人类认知加工及大脑活动的表征相似性
 - 人类认知加工与发展能否通过统一的计算模型进行模拟与预测
-- 精神分裂症等精神障碍认知损伤的计算机制
+临床与应用问题
+- 精神分裂症等精神障碍认知损伤的计算机制与干预靶点
+- 儿童青少年精神障碍
+
 
 <div align="center">
   <img src="images/研究框架.gif" alt="研究框架" width="65%" style="cursor: pointer;" onclick="this.style.width=this.style.width=='65%'?'95%':'65%'">
@@ -735,6 +733,7 @@ window.addEventListener('DOMContentLoaded', function() {
         <!-- Under Review #3 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
+            <div class="timeline-item" id="paper-prep-5">
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
                 <span class="tl-status review">Under Review</span>
@@ -766,6 +765,7 @@ window.addEventListener('DOMContentLoaded', function() {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
+                <div class="timeline-item" id="paper-prep-4">
                 <span class="tl-status review">Major Revision</span>
                 <div class="tl-paper-title">Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses</div>
                 <div class="tl-journal">Submitted to BMC Medicine</div>
@@ -797,6 +797,7 @@ window.addEventListener('DOMContentLoaded', function() {
         <!-- Under Review #1 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
+            <div class="timeline-item" id="paper-prep-3">
             <div class="timeline-content">
                 <div class="tl-date">2024年-12月</div>
                 <span class="tl-status review">Revise & Rereview</span>
@@ -829,6 +830,7 @@ window.addEventListener('DOMContentLoaded', function() {
         <!-- Published #2 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
+            <div class="timeline-item" id="paper-prep-2">
             <div class="timeline-content">
                 <div class="tl-date">2025年-11月</div>
                 <span class="tl-status published">Published</span>
@@ -860,6 +862,7 @@ window.addEventListener('DOMContentLoaded', function() {
         <!-- Published #1 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
+            <div class="timeline-item" id="paper-prep-1">
             <div class="timeline-content">
                 <div class="tl-date">2025年-8月</div>
                 <span class="tl-status published">Published</span>
