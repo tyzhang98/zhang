@@ -178,7 +178,7 @@ redirect_from:
     position: fixed;
     right: 20px;
     top: 100px;
-    width: 350px;  /* 从 260px 改为 300px */
+    width: 380px;  /* 从 260px 改为 300px */
     max-height: calc(100vh - 120px);
     overflow-y: auto;
     background: transparent;
@@ -239,7 +239,7 @@ redirect_from:
 .toc-sublist {
     list-style: none;
     padding: 0;
-    margin: 5px 0 5px 15px;
+    margin: 5px 0 5px 8px;
     max-height: 500px;  /* 改为一直展开 */
     overflow: visible;
     transition: max-height 0.3s ease;
@@ -277,7 +277,7 @@ redirect_from:
 }
 
 /* 响应式：在小屏幕隐藏大纲 */
-@media (max-width: 1500px) {
+@media (max-width: 1550px) {
     .toc-sidebar {
         display: none;
     }
@@ -460,19 +460,21 @@ window.addEventListener('DOMContentLoaded', function() {
 </script>
 
 
+
 ## 个人简介 (About Me)
 <a id="about"></a>
 
-&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），**研究方向聚焦于用计算与脑成像方法理解与模拟人类高级认知加工，也包括认知发展、精神障碍认知缺陷**。具体来说，采用认知行为实验、fMRI等认知神经科学方法，结合计算建模、机器学习和大语言模型等前沿技术，致力于揭示认知功能的计算机制，并探索精神障碍（如精神分裂症、重度抑郁症等）认知损伤的干预策略。
-
+&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），**研究方向聚焦于运用计算与脑成像方法理解和模拟人类高级认知加工，同时涵盖认知发展与精神障碍认知缺陷领域**。具体而言，采用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法，结合计算建模、机器学习和大语言模型等前沿技术，致力于揭示高级认知功能的计算机制，并探索精神障碍（如精神分裂症、重度抑郁症等）认知损伤的干预策略。
 
 **当前关注的核心研究问题：**
-基础问题
+
+**基础问题**
 - 大语言模型的认知加工模式与人类认知加工及大脑活动的表征相似性
-- 人类认知加工与发展能否通过统一的计算模型进行模拟与预测
-临床与应用问题
-- 精神分裂症等精神障碍认知损伤的计算机制与干预靶点
-- 儿童青少年精神障碍
+- 通过统一计算模型模拟与预测人类认知加工与发展的可能性
+
+**临床与应用问题**
+- 精神分裂症等精神障碍认知损伤的计算机制与干预靶点识别
+- 儿童青少年精神障碍的认知特征与早期干预
 
 
 <div align="center">
