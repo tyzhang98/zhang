@@ -923,7 +923,7 @@ document.addEventListener('keydown', function(event) {
 </script>
 </div>
 
-<a id="conf-talks"></a> 
+<a id="conf-talks"></a>
 
 <br>
 <br>
@@ -943,14 +943,12 @@ document.addEventListener('keydown', function(event) {
 - 地点：兰州市第三人民医院
 - [报道链接](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
 
-
 **第二十五届全国心理学学术会议**
-- 报告形式：分论坛口头报告 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
+- 报告形式:分论坛口头报告 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
 - 时间：2024年10月14日
+- 地点：四川师范大学
 
 <a id="research-projects"></a>
-
-- 地点：四川师范大学
 
 <br>
 <br>
@@ -960,16 +958,14 @@ document.addEventListener('keydown', function(event) {
 
 ## 3. 科研项目 (Research Projects)
 
-
 **主持项目**
 - **2024年省级博士创新之星科研项目（No. 2025CXZX-366）**（主持，2024.11-至今）
 
 **参与项目**
 - **国家自然科学基金地区项目**（32260207）"认知训练对乡村儿童执行功能的提升"（参与，2022-2025）
+- **国家重点研发计划**（2021ZD0203800）科技创新2030—脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12-2026.12）
 
 <a id="collab"></a>
-
-- **国家重点研发计划**（2021ZD0203800）科技创新2030—脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12-2026.12）
 
 <br>
 <br>
@@ -1012,9 +1008,9 @@ document.addEventListener('keydown', function(event) {
 
 欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：**tyzhang9804@gmail.com**
 
-<a id="resources"></a>
-
 > **注：** 本人目前为在读博士研究生，合作前需征得导师同意
+
+<a id="resources"></a>
 
 <br>
 <br>
