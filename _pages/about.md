@@ -923,12 +923,9 @@ document.addEventListener('keydown', function(event) {
 </script>
 </div>
 
-<a id="conf-talks"></a>
-
-<br>
-<br>
-
 ---
+
+<a id="conf-talks"></a>
 
 ## 2. 会议报告 (Conference Presentations)
 
