@@ -317,15 +317,14 @@ window.addEventListener('DOMContentLoaded', function() {
   <p style="font-size: 0.9em; color: #f5f5f5ff;"></p>
 </div>
 
----
-
-<a id="pub-papers"></a>
+<br>
 
 >**Email:** tyzhang9804@gmail.com
 
----
 <br>
 <br>
+
+<a id="pub-papers"></a>
 
 ## 科研论文（Research Publications）
 
@@ -923,7 +922,7 @@ document.addEventListener('keydown', function(event) {
 </script>
 </div>
 
----
+<br>
 
 <a id="conf-talks"></a>
 
@@ -945,13 +944,10 @@ document.addEventListener('keydown', function(event) {
 - 时间：2024年10月14日
 - 地点：四川师范大学
 
+<br>
+<br>
+
 <a id="research-projects"></a>
-
-<br>
-<br>
-<br>
-
----
 
 ## 3. 科研项目 (Research Projects)
 
@@ -962,13 +958,10 @@ document.addEventListener('keydown', function(event) {
 - **国家自然科学基金地区项目**（32260207）"认知训练对乡村儿童执行功能的提升"（参与，2022-2025）
 - **国家重点研发计划**（2021ZD0203800）科技创新2030—脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12-2026.12）
 
+<br>
+<br>
+
 <a id="collab"></a>
-
-<br>
-<br>
-<br>
-
----
 
 ## 4. 寻求科研合作 (Seeking Research Collaboration)
 
@@ -999,21 +992,16 @@ document.addEventListener('keydown', function(event) {
   </tbody>
 </table>
 
----
-
 ### 联系方式
 
 欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：**tyzhang9804@gmail.com**
 
 > **注：** 本人目前为在读博士研究生，合作前需征得导师同意
 
+<br>
+<br>
+
 <a id="resources"></a>
-
-<br>
-<br>
-<br>
-
----
 
 ## 5. 研究资源 (Research Resources)
 
@@ -1024,13 +1012,11 @@ document.addEventListener('keydown', function(event) {
 <br>
 <br>
 
----
-
 <p align="center">
 Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, China.
 </p>
 
----
+<br>
 
 <div id="locationMap" style="height: 400px; width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
 
@@ -1050,3 +1036,4 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
       .openPopup();
   });
 </script>
+
