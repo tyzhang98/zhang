@@ -13,172 +13,7 @@ redirect_from:
     position: fixed;
     right: 20px;
     top: 100px;
-    width: 260px;
-    max-height: calc(100vh - 120px);
-    overflow-y: auto;
-    background: transparent;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: none;
-    border: 1px solid rgba(100, 100, 100, 0.3);
-    z-index: 100;
-}
-
-.toc-title {
-    font-size: 1.05em;
-    font-weight: 600;
-    color: #4a5568;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #718096;
-}
-
-.toc-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.toc-item {
-    margin: 5px 0;
-}
-
-/* 主链接样式 */
-.toc-link {
-    display: block;
-    padding: 7px 12px;
-    color: #718096;
-    text-decoration: none;
-    border-left: 3px solid transparent;
-    transition: all 0.2s ease;
-    font-size: 0.88em;
-    border-radius: 4px;
-    font-weight: 450;
-}
-
-.toc-link:hover {
-    color: #2b6cb0;
-    background: rgba(66, 153, 225, 0.12);
-    border-left-color: #4299e1;
-    transform: translateX(3px);
-}
-
-.toc-link.active {
-    color: #2c5282;
-    background: rgba(66, 153, 225, 0.18);
-    border-left-color: #2b6cb0;
-    font-weight: 600;
-}
-
-/* 子列表样式 */
-.toc-sublist {
-    list-style: none;
-    padding: 0;
-    margin: 5px 0 5px 15px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-}
-
-.toc-sublist.show {
-    max-height: 500px;
-}
-
-.toc-subitem {
-    margin: 3px 0;
-}
-
-/* 子链接样式 */
-.toc-sublink {
-    display: block;
-    padding: 5px 10px;
-    color: #a0aec0;
-    text-decoration: none;
-    font-size: 0.82em;
-    border-left: 2px solid transparent;
-    transition: all 0.2s ease;
-    border-radius: 3px;
-    font-weight: 400;
-}
-
-.toc-sublink:hover {
-    color: #4299e1;
-    background: rgba(66, 153, 225, 0.08);
-    border-left-color: #4299e1;
-    transform: translateX(2px);
-}
-
-.toc-sublink.active {
-    color: #3182ce;
-    background: rgba(66, 153, 225, 0.12);
-    border-left-color: #3182ce;
-    font-weight: 500;
-}
-
-/* 响应式：在小屏幕隐藏大纲 */
-@media (max-width: 1400px) {
-    .toc-sidebar {
-        display: none;
-    }
-}
-
-/* 自定义滚动条 */
-.toc-sidebar::-webkit-scrollbar {
-    width: 5px;
-}
-
-.toc-sidebar::-webkit-scrollbar-track {
-    background: transparent;
-    border-radius: 3px;
-}
-
-.toc-sidebar::-webkit-scrollbar-thumb {
-    background: rgba(160, 174, 192, 0.5);
-    border-radius: 3px;
-}
-
-.toc-sidebar::-webkit-scrollbar-thumb:hover {
-    background: rgba(160, 174, 192, 0.8);
-}
-
-/* 深色模式支持 */
-@media (prefers-color-scheme: dark) {
-    .toc-sidebar {
-        border-color: rgba(200, 200, 200, 0.2);
-    }
-    
-    .toc-title {
-        color: #cbd5e0;
-        border-bottom-color: #4a5568;
-    }
-    
-    .toc-link {
-        color: #a0aec0;
-    }
-    
-    .toc-link:hover {
-        color: #63b3ed;
-    }
-    
-    .toc-link.active {
-        color: #90cdf4;
-    }
-    
-    .toc-sublink {
-        color: #718096;
-    }
-    
-    .toc-sublink:hover {
-        color: #63b3ed;
-    }
-}
-<style>
-/* 右侧大纲导航样式 - 统一舒适配色 */
-.toc-sidebar {
-    position: fixed;
-    right: 20px;
-    top: 100px;
-    width: 380px;  /* 从 260px 改为 300px */
+    width: 380px;
     max-height: calc(100vh - 120px);
     overflow-y: auto;
     background: transparent;
@@ -240,7 +75,7 @@ redirect_from:
     list-style: none;
     padding: 0;
     margin: 5px 0 5px 8px;
-    max-height: 500px;  /* 改为一直展开 */
+    max-height: 500px;
     overflow: visible;
     transition: max-height 0.3s ease;
 }
@@ -333,7 +168,6 @@ redirect_from:
         color: #63b3ed;
     }
 }
-</style> 
 </style>
 
 <!-- 右侧大纲导航 -->
@@ -350,7 +184,6 @@ redirect_from:
                 <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. EF Stacking Model<br>(Schizophr. Bull.)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. EF Subtypes<br>(BMC Med.)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. IC Development<br>(Child Dev.)</a></li>
-
             </ul>
         </li>
         
@@ -506,7 +339,7 @@ window.addEventListener('DOMContentLoaded', function() {
     .section-title {
         font-size: 1.4em;
         font-weight: 600;
-        color: #111827;  /* 浅色模式：深色字体 */
+        color: #111827;
         margin: 40px 0 20px 0;
         padding-bottom: 10px;
         border-bottom: 2px solid #0066cc;
@@ -514,7 +347,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
     @media (prefers-color-scheme: dark) {
         .section-title {
-            color: #f3f4f6;  /* 深色模式：浅色字体 */
+            color: #f3f4f6;
             border-bottom-color: #60a5fa;
         }
     }
@@ -637,11 +470,11 @@ window.addEventListener('DOMContentLoaded', function() {
         color: #111827;
         margin-bottom: 12px;
         line-height: 1.6;
-        font-style: normal;  /* 👈 添加这一行，确保标题本身不是斜体 */
+        font-style: normal;
     }
 
     .tl-paper-title .journal-name {
-        font-style: italic;  /* 👈 只让期刊名称斜体 */
+        font-style: italic;
         font-weight: 700;
     }
 
@@ -1051,7 +884,6 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
     </div>
-
 <!-- 图片模态框 -->
 <div id="imgModal" class="img-modal" onclick="closeImgModal()">
     <span class="img-modal-close" onclick="closeImgModal()">&times;</span>
@@ -1090,6 +922,7 @@ document.addEventListener('keydown', function(event) {
 });
 </script>
 </div>
+
 <a id="conf-talks"></a> 
 
 <br>
@@ -1113,12 +946,17 @@ document.addEventListener('keydown', function(event) {
 
 **第二十五届全国心理学学术会议**
 - 报告形式：分论坛口头报告 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
-- 时间：2024年10月14日  
+- 时间：2024年10月14日
+
 <a id="research-projects"></a>
-- 地点：四川师范大学  
+
+- 地点：四川师范大学
+
 <br>
 <br>
 <br>
+
+---
 
 ## 3. 科研项目 (Research Projects)
 
@@ -1130,7 +968,9 @@ document.addEventListener('keydown', function(event) {
 - **国家自然科学基金地区项目**（32260207）"认知训练对乡村儿童执行功能的提升"（参与，2022-2025）
 
 <a id="collab"></a>
+
 - **国家重点研发计划**（2021ZD0203800）科技创新2030—脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12-2026.12）
+
 <br>
 <br>
 <br>
@@ -1180,6 +1020,8 @@ document.addEventListener('keydown', function(event) {
 <br>
 <br>
 
+---
+
 ## 5. 研究资源 (Research Resources)
 
 ### 开放代码 (Open Code)
@@ -1196,6 +1038,7 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
 </p>
 
 ---
+
 <div id="locationMap" style="height: 400px; width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -1214,4 +1057,3 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
       .openPopup();
   });
 </script>
-
