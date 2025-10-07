@@ -1093,6 +1093,7 @@ document.addEventListener('keydown', function(event) {
 <br>
 <br>
 
+---
 
 ## 2. 会议报告 (Conference Presentations)
 
@@ -1193,8 +1194,6 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
 </p>
 
 ---
-
-
 <div id="locationMap" style="height: 400px; width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -1214,5 +1213,3 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
   });
 </script>
 
-
----
