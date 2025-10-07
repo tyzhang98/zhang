@@ -183,15 +183,15 @@ redirect_from:
         <li class="toc-item">
             <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
             <ul class="toc-sublist" id="papers-sublist">
-                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">Paper 1</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">Paper 2</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">Paper 3</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">Paper 4</a></li>
-                <li class="toc-subitem"><a href="#paper-review-1" class="toc-sublink">Paper 5</a></li>
-                <li class="toc-subitem"><a href="#paper-review-2" class="toc-sublink">Paper 6</a></li>
-                <li class="toc-subitem"><a href="#paper-review-3" class="toc-sublink">Paper 7</a></li>
-                <li class="toc-subitem"><a href="#paper-pub-1" class="toc-sublink">Paper 8</a></li>
-                <li class="toc-subitem"><a href="#paper-pub-2" class="toc-sublink">Paper 9</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">LLMs & EF</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">IC in SCZ & MDD</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">IC Tasks Correlation</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">WM & Time Perception</a></li>
+                <li class="toc-subitem"><a href="#paper-review-1" class="toc-sublink">IC Development</a></li>
+                <li class="toc-subitem"><a href="#paper-review-2" class="toc-sublink">EF Subtypes</a></li>
+                <li class="toc-subitem"><a href="#paper-review-3" class="toc-sublink">EF Stacking Model</a></li>
+                <li class="toc-subitem"><a href="#paper-pub-1" class="toc-sublink">WM Training</a></li>
+                <li class="toc-subitem"><a href="#paper-pub-2" class="toc-sublink">WM Stage-specific</a></li>
             </ul>
         </li>
         
