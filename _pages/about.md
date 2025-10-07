@@ -43,6 +43,7 @@ redirect_from:
     margin: 5px 0;
 }
 
+/* 主链接样式 */
 .toc-link {
     display: block;
     padding: 7px 12px;
@@ -67,6 +68,51 @@ redirect_from:
     background: rgba(66, 153, 225, 0.18);
     border-left-color: #2b6cb0;
     font-weight: 600;
+}
+
+/* 子列表样式 */
+.toc-sublist {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 5px 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.toc-sublist.show {
+    max-height: 500px;
+}
+
+.toc-subitem {
+    margin: 3px 0;
+}
+
+/* 子链接样式 */
+.toc-sublink {
+    display: block;
+    padding: 5px 10px;
+    color: #a0aec0;
+    text-decoration: none;
+    font-size: 0.82em;
+    border-left: 2px solid transparent;
+    transition: all 0.2s ease;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+.toc-sublink:hover {
+    color: #4299e1;
+    background: rgba(66, 153, 225, 0.08);
+    border-left-color: #4299e1;
+    transform: translateX(2px);
+}
+
+.toc-sublink.active {
+    color: #3182ce;
+    background: rgba(66, 153, 225, 0.12);
+    border-left-color: #3182ce;
+    font-weight: 500;
 }
 
 /* 响应式：在小屏幕隐藏大纲 */
@@ -94,13 +140,61 @@ redirect_from:
 .toc-sidebar::-webkit-scrollbar-thumb:hover {
     background: rgba(160, 174, 192, 0.8);
 }
+
+/* 深色模式支持 */
+@media (prefers-color-scheme: dark) {
+    .toc-sidebar {
+        border-color: rgba(200, 200, 200, 0.2);
+    }
+    
+    .toc-title {
+        color: #cbd5e0;
+        border-bottom-color: #4a5568;
+    }
+    
+    .toc-link {
+        color: #a0aec0;
+    }
+    
+    .toc-link:hover {
+        color: #63b3ed;
+    }
+    
+    .toc-link.active {
+        color: #90cdf4;
+    }
+    
+    .toc-sublink {
+        color: #718096;
+    }
+    
+    .toc-sublink:hover {
+        color: #63b3ed;
+    }
+}
 </style>
+
 <!-- 右侧大纲导航 -->
 <aside class="toc-sidebar">
     <div class="toc-title"></div>
     <ul class="toc-list">
         <li class="toc-item"><a href="#top" class="toc-link">• Home</a></li>
-        <li class="toc-item"><a href="#pub-papers" class="toc-link">• Publications</a></li>
+        
+        <li class="toc-item">
+            <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
+            <ul class="toc-sublist" id="papers-sublist">
+                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">Paper 1</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">Paper 2</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">Paper 3</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">Paper 4</a></li>
+                <li class="toc-subitem"><a href="#paper-review-1" class="toc-sublink">Paper 5</a></li>
+                <li class="toc-subitem"><a href="#paper-review-2" class="toc-sublink">Paper 6</a></li>
+                <li class="toc-subitem"><a href="#paper-review-3" class="toc-sublink">Paper 7</a></li>
+                <li class="toc-subitem"><a href="#paper-pub-1" class="toc-sublink">Paper 8</a></li>
+                <li class="toc-subitem"><a href="#paper-pub-2" class="toc-sublink">Paper 9</a></li>
+            </ul>
+        </li>
+        
         <li class="toc-item"><a href="#conf-talks" class="toc-link">• Conference</a></li>
         <li class="toc-item"><a href="#research-projects" class="toc-link">• Projects</a></li>
         <li class="toc-item"><a href="#collab" class="toc-link">• Collaboration</a></li>
@@ -109,9 +203,11 @@ redirect_from:
 </aside>
 
 <script>
-// 大纲导航激活状态
+// 大纲导航激活状态和子菜单展开
 window.addEventListener('DOMContentLoaded', function() {
     const tocLinks = document.querySelectorAll('.toc-link');
+    const tocSublinks = document.querySelectorAll('.toc-sublink');
+    const papersSublist = document.getElementById('papers-sublist');
     
     function updateActiveLink() {
         const sections = [
@@ -123,9 +219,18 @@ window.addEventListener('DOMContentLoaded', function() {
             { id: 'resources', element: document.getElementById('resources') }
         ];
         
+        // 论文子项
+        const paperSections = [
+            'paper-prep-1', 'paper-prep-2', 'paper-prep-3', 'paper-prep-4',
+            'paper-review-1', 'paper-review-2', 'paper-review-3',
+            'paper-pub-1', 'paper-pub-2'
+        ];
+        
         let current = 'top';
+        let currentPaper = null;
         const scrollPos = window.pageYOffset;
         
+        // 检查主要区域
         sections.forEach(section => {
             if (section.element) {
                 const sectionTop = section.id === 'top' ? 0 : section.element.offsetTop;
@@ -134,10 +239,38 @@ window.addEventListener('DOMContentLoaded', function() {
                 }
             }
         });
+        
+        // 如果在 Publications 区域，检查具体哪篇论文
+        if (current === 'pub-papers') {
+            paperSections.forEach(paperId => {
+                const paperElement = document.getElementById(paperId);
+                if (paperElement) {
+                    const paperTop = paperElement.offsetTop;
+                    if (scrollPos >= paperTop - 200) {
+                        currentPaper = paperId;
+                    }
+                }
+            });
+            
+            // 展开子菜单
+            papersSublist.classList.add('show');
+        } else {
+            // 收起子菜单
+            papersSublist.classList.remove('show');
+        }
 
+        // 更新主链接激活状态
         tocLinks.forEach(link => {
             link.classList.remove('active');
             if (link.getAttribute('href') === '#' + current) {
+                link.classList.add('active');
+            }
+        });
+        
+        // 更新子链接激活状态
+        tocSublinks.forEach(link => {
+            link.classList.remove('active');
+            if (currentPaper && link.getAttribute('href') === '#' + currentPaper) {
                 link.classList.add('active');
             }
         });
@@ -159,6 +292,18 @@ window.addEventListener('DOMContentLoaded', function() {
                 if (targetElement) {
                     targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
+            }
+        });
+    });
+    
+    // 子链接平滑滚动
+    tocSublinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
         });
     });
