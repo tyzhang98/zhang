@@ -172,167 +172,6 @@ redirect_from:
         color: #63b3ed;
     }
 }
-<style>
-/* 右侧大纲导航样式 - 统一舒适配色 */
-.toc-sidebar {
-    position: fixed;
-    right: 20px;
-    top: 100px;
-    width: 350px;  /* 从 260px 改为 300px */
-    max-height: calc(100vh - 120px);
-    overflow-y: auto;
-    background: transparent;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: none;
-    border: 1px solid rgba(100, 100, 100, 0.3);
-    z-index: 100;
-}
-
-.toc-title {
-    font-size: 1.05em;
-    font-weight: 600;
-    color: #4a5568;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #718096;
-}
-
-.toc-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.toc-item {
-    margin: 5px 0;
-}
-
-/* 主链接样式 */
-.toc-link {
-    display: block;
-    padding: 7px 12px;
-    color: #718096;
-    text-decoration: none;
-    border-left: 3px solid transparent;
-    transition: all 0.2s ease;
-    font-size: 0.88em;
-    border-radius: 4px;
-    font-weight: 450;
-}
-
-.toc-link:hover {
-    color: #2b6cb0;
-    background: rgba(66, 153, 225, 0.12);
-    border-left-color: #4299e1;
-    transform: translateX(3px);
-}
-
-.toc-link.active {
-    color: #2c5282;
-    background: rgba(66, 153, 225, 0.18);
-    border-left-color: #2b6cb0;
-    font-weight: 600;
-}
-
-/* 子列表样式 - 一直展开 */
-.toc-sublist {
-    list-style: none;
-    padding: 0;
-    margin: 5px 0 5px 8px;
-    max-height: 500px;  /* 改为一直展开 */
-    overflow: visible;
-    transition: max-height 0.3s ease;
-}
-
-.toc-subitem {
-    margin: 3px 0;
-}
-
-/* 子链接样式 */
-.toc-sublink {
-    display: block;
-    padding: 5px 10px;
-    color: #a0aec0;
-    text-decoration: none;
-    font-size: 0.82em;
-    border-left: 2px solid transparent;
-    transition: all 0.2s ease;
-    border-radius: 3px;
-    font-weight: 400;
-}
-
-.toc-sublink:hover {
-    color: #4299e1;
-    background: rgba(66, 153, 225, 0.08);
-    border-left-color: #4299e1;
-    transform: translateX(2px);
-}
-
-.toc-sublink.active {
-    color: #3182ce;
-    background: rgba(66, 153, 225, 0.12);
-    border-left-color: #3182ce;
-    font-weight: 500;
-}
-
-/* 响应式：在小屏幕隐藏大纲 */
-@media (max-width: 1500px) {
-    .toc-sidebar {
-        display: none;
-    }
-}
-
-/* 自定义滚动条 */
-.toc-sidebar::-webkit-scrollbar {
-    width: 5px;
-}
-
-.toc-sidebar::-webkit-scrollbar-track {
-    background: transparent;
-    border-radius: 3px;
-}
-
-.toc-sidebar::-webkit-scrollbar-thumb {
-    background: rgba(160, 174, 192, 0.5);
-    border-radius: 3px;
-}
-
-.toc-sidebar::-webkit-scrollbar-thumb:hover {
-    background: rgba(160, 174, 192, 0.8);
-}
-
-/* 深色模式支持 */
-@media (prefers-color-scheme: dark) {
-    .toc-sidebar {
-        border-color: rgba(200, 200, 200, 0.2);
-    }
-    
-    .toc-title {
-        color: #cbd5e0;
-        border-bottom-color: #4a5568;
-    }
-    
-    .toc-link {
-        color: #a0aec0;
-    }
-    
-    .toc-link:hover {
-        color: #63b3ed;
-    }
-    
-    .toc-link.active {
-        color: #90cdf4;
-    }
-    
-    .toc-sublink {
-        color: #718096;
-    }
-    
-    .toc-sublink:hover {
-        color: #63b3ed;
-    }
-}
 </style>
 
 <!-- 右侧大纲导航 -->
@@ -344,11 +183,11 @@ redirect_from:
         <li class="toc-item">
             <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
             <ul class="toc-sublist" id="papers-sublist">
-                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">1. WM Stage-specific (Schizophr. Res.)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. WM Training (Int. J. Clin. Health Psychol.) </a></li>
-                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. EF Stacking Model (Schizophr. Bull.)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. EF Subtypes (BMC Med.)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. IC Development (Child Dev.)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-1" class="toc-sublink">IC Development</a></li>
+                <li class="toc-subitem"><a href="#paper-review-2" class="toc-sublink">EF Subtypes</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">EF Stacking Model</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">WM Training</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">WM Stage-specific</a></li>
             </ul>
         </li>
         
@@ -376,9 +215,11 @@ window.addEventListener('DOMContentLoaded', function() {
             { id: 'resources', element: document.getElementById('resources') }
         ];
         
-        // 论文子项（只包含最后5篇）
+        // 论文子项
         const paperSections = [
-            'paper-prep-5', 'paper-prep-4', 'paper-prep-3', 'paper-prep-2', 'paper-prep-1'
+            'paper-prep-1', 'paper-prep-2', 'paper-prep-3', 'paper-prep-4',
+            'paper-review-1', 'paper-review-2', 'paper-review-3',
+            'paper-pub-1', 'paper-pub-2'
         ];
         
         let current = 'top';
@@ -406,6 +247,12 @@ window.addEventListener('DOMContentLoaded', function() {
                     }
                 }
             });
+            
+            // 展开子菜单
+            papersSublist.classList.add('show');
+        } else {
+            // 收起子菜单
+            papersSublist.classList.remove('show');
         }
 
         // 更新主链接激活状态
@@ -463,17 +310,16 @@ window.addEventListener('DOMContentLoaded', function() {
 ## 个人简介 (About Me)
 <a id="about"></a>
 
-&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），**研究方向聚焦于运用计算与脑成像方法理解和模拟人类高级认知加工，同时涵盖认知发展与精神障碍认知缺陷领域**。具体而言，采用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法，结合计算建模、机器学习和大语言模型等前沿技术，致力于揭示高级认知功能的计算机制，并探索精神障碍（如精神分裂症、重度抑郁症等）认知损伤的干预策略。
+&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），**研究方向聚焦于用计算与脑成像方法理解与模拟人类高级认知加工，也包括认知发展、精神障碍认知缺陷**。具体来说，采用认知行为实验、fMRI等认知神经科学方法，结合计算建模、机器学习和大语言模型等前沿技术，致力于揭示认知功能的计算机制，并探索精神障碍（如精神分裂症、重度抑郁症等）认知损伤的干预策略。
+
 
 **当前关注的核心研究问题：**
-
-**基础问题**
+基础问题
 - 大语言模型的认知加工模式与人类认知加工及大脑活动的表征相似性
-- 通过统一计算模型模拟与预测人类认知加工与发展的可能性
-
-**临床与应用问题**
-- 精神分裂症等精神障碍认知损伤的计算机制与干预靶点识别
-- 儿童青少年精神障碍的认知特征与早期干预
+- 人类认知加工与发展能否通过统一的计算模型进行模拟与预测
+临床与应用问题
+- 精神分裂症等精神障碍认知损伤的计算机制与干预靶点
+- 儿童青少年精神障碍
 
 
 <div align="center">
@@ -919,10 +765,11 @@ window.addEventListener('DOMContentLoaded', function() {
 
         <!-- Under Review #2 -->
         <div class="timeline-item">
-            <div class="timeline-item" id="paper-prep-4">
             <div class="timeline-marker"></div>
+            <div class="timeline-item" id="paper-prep-6">
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
+                <div class="timeline-item" id="paper-prep-4">
                 <span class="tl-status review">Major Revision</span>
                 <div class="tl-paper-title">Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses</div>
                 <div class="tl-journal">Submitted to BMC Medicine</div>
