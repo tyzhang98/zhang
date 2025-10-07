@@ -43,7 +43,6 @@ redirect_from:
     margin: 5px 0;
 }
 
-/* 主链接样式 */
 .toc-link {
     display: block;
     padding: 7px 12px;
@@ -68,51 +67,6 @@ redirect_from:
     background: rgba(66, 153, 225, 0.18);
     border-left-color: #2b6cb0;
     font-weight: 600;
-}
-
-/* 子列表样式 */
-.toc-sublist {
-    list-style: none;
-    padding: 0;
-    margin: 5px 0 5px 15px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-}
-
-.toc-sublist.show {
-    max-height: 500px;
-}
-
-.toc-subitem {
-    margin: 3px 0;
-}
-
-/* 子链接样式 */
-.toc-sublink {
-    display: block;
-    padding: 5px 10px;
-    color: #a0aec0;
-    text-decoration: none;
-    font-size: 0.82em;
-    border-left: 2px solid transparent;
-    transition: all 0.2s ease;
-    border-radius: 3px;
-    font-weight: 400;
-}
-
-.toc-sublink:hover {
-    color: #4299e1;
-    background: rgba(66, 153, 225, 0.08);
-    border-left-color: #4299e1;
-    transform: translateX(2px);
-}
-
-.toc-sublink.active {
-    color: #3182ce;
-    background: rgba(66, 153, 225, 0.12);
-    border-left-color: #3182ce;
-    font-weight: 500;
 }
 
 /* 响应式：在小屏幕隐藏大纲 */
@@ -140,57 +94,13 @@ redirect_from:
 .toc-sidebar::-webkit-scrollbar-thumb:hover {
     background: rgba(160, 174, 192, 0.8);
 }
-
-/* 深色模式支持 */
-@media (prefers-color-scheme: dark) {
-    .toc-sidebar {
-        border-color: rgba(200, 200, 200, 0.2);
-    }
-    
-    .toc-title {
-        color: #cbd5e0;
-        border-bottom-color: #4a5568;
-    }
-    
-    .toc-link {
-        color: #a0aec0;
-    }
-    
-    .toc-link:hover {
-        color: #63b3ed;
-    }
-    
-    .toc-link.active {
-        color: #90cdf4;
-    }
-    
-    .toc-sublink {
-        color: #718096;
-    }
-    
-    .toc-sublink:hover {
-        color: #63b3ed;
-    }
-}
 </style>
-
 <!-- 右侧大纲导航 -->
 <aside class="toc-sidebar">
     <div class="toc-title"></div>
     <ul class="toc-list">
         <li class="toc-item"><a href="#top" class="toc-link">• Home</a></li>
-        
-        <li class="toc-item">
-            <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
-            <ul class="toc-sublist" id="papers-sublist">
-                <li class="toc-subitem"><a href="#paper-review-1" class="toc-sublink">IC Development</a></li>
-                <li class="toc-subitem"><a href="#paper-review-2" class="toc-sublink">EF Subtypes</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">EF Stacking Model</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">WM Training</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">WM Stage-specific</a></li>
-            </ul>
-        </li>
-        
+        <li class="toc-item"><a href="#pub-papers" class="toc-link">• Publications</a></li>
         <li class="toc-item"><a href="#conf-talks" class="toc-link">• Conference</a></li>
         <li class="toc-item"><a href="#research-projects" class="toc-link">• Projects</a></li>
         <li class="toc-item"><a href="#collab" class="toc-link">• Collaboration</a></li>
@@ -199,11 +109,9 @@ redirect_from:
 </aside>
 
 <script>
-// 大纲导航激活状态和子菜单展开
+// 大纲导航激活状态
 window.addEventListener('DOMContentLoaded', function() {
     const tocLinks = document.querySelectorAll('.toc-link');
-    const tocSublinks = document.querySelectorAll('.toc-sublink');
-    const papersSublist = document.getElementById('papers-sublist');
     
     function updateActiveLink() {
         const sections = [
@@ -215,18 +123,9 @@ window.addEventListener('DOMContentLoaded', function() {
             { id: 'resources', element: document.getElementById('resources') }
         ];
         
-        // 论文子项
-        const paperSections = [
-            'paper-prep-1', 'paper-prep-2', 'paper-prep-3', 'paper-prep-4',
-            'paper-review-1', 'paper-review-2', 'paper-review-3',
-            'paper-pub-1', 'paper-pub-2'
-        ];
-        
         let current = 'top';
-        let currentPaper = null;
         const scrollPos = window.pageYOffset;
         
-        // 检查主要区域
         sections.forEach(section => {
             if (section.element) {
                 const sectionTop = section.id === 'top' ? 0 : section.element.offsetTop;
@@ -235,38 +134,10 @@ window.addEventListener('DOMContentLoaded', function() {
                 }
             }
         });
-        
-        // 如果在 Publications 区域，检查具体哪篇论文
-        if (current === 'pub-papers') {
-            paperSections.forEach(paperId => {
-                const paperElement = document.getElementById(paperId);
-                if (paperElement) {
-                    const paperTop = paperElement.offsetTop;
-                    if (scrollPos >= paperTop - 200) {
-                        currentPaper = paperId;
-                    }
-                }
-            });
-            
-            // 展开子菜单
-            papersSublist.classList.add('show');
-        } else {
-            // 收起子菜单
-            papersSublist.classList.remove('show');
-        }
 
-        // 更新主链接激活状态
         tocLinks.forEach(link => {
             link.classList.remove('active');
             if (link.getAttribute('href') === '#' + current) {
-                link.classList.add('active');
-            }
-        });
-        
-        // 更新子链接激活状态
-        tocSublinks.forEach(link => {
-            link.classList.remove('active');
-            if (currentPaper && link.getAttribute('href') === '#' + currentPaper) {
                 link.classList.add('active');
             }
         });
@@ -291,18 +162,6 @@ window.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-    
-    // 子链接平滑滚动
-    tocSublinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-            if (targetElement) {
-                targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-        });
-    });
 });
 </script>
 
@@ -310,17 +169,12 @@ window.addEventListener('DOMContentLoaded', function() {
 ## 个人简介 (About Me)
 <a id="about"></a>
 
-&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），**研究方向聚焦于用计算与脑成像方法理解与模拟人类高级认知加工，也包括认知发展、精神障碍认知缺陷**。具体来说，采用认知行为实验、fMRI等认知神经科学方法，结合计算建模、机器学习和大语言模型等前沿技术，致力于揭示认知功能的计算机制，并探索精神障碍（如精神分裂症、重度抑郁症等）认知损伤的干预策略。
-
+&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），研究方向聚焦于**认知心理学与计算科学的交叉领域**。采用行为实验、fMRI等认知神经科学方法，结合计算建模、机器学习和大语言模型等前沿技术，致力于探究认知功能的计算机制，并研究其在精神障碍（如精神分裂症、重度抑郁症等）中的损伤模式及干预策略。
 
 **当前关注的核心研究问题：**
-基础问题
 - 大语言模型的认知加工模式与人类认知加工及大脑活动的表征相似性
 - 人类认知加工与发展能否通过统一的计算模型进行模拟与预测
-临床与应用问题
-- 精神分裂症等精神障碍认知损伤的计算机制与干预靶点
-- 儿童青少年精神障碍
-
+- 精神分裂症等精神障碍认知损伤的计算机制
 
 <div align="center">
   <img src="images/研究框架.gif" alt="研究框架" width="65%" style="cursor: pointer;" onclick="this.style.width=this.style.width=='65%'?'95%':'65%'">
@@ -736,7 +590,6 @@ window.addEventListener('DOMContentLoaded', function() {
         <!-- Under Review #3 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
-            <div class="timeline-item" id="paper-prep-5">
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
                 <span class="tl-status review">Under Review</span>
@@ -766,10 +619,8 @@ window.addEventListener('DOMContentLoaded', function() {
         <!-- Under Review #2 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
-            <div class="timeline-item" id="paper-prep-6">
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
-                <div class="timeline-item" id="paper-prep-4">
                 <span class="tl-status review">Major Revision</span>
                 <div class="tl-paper-title">Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses</div>
                 <div class="tl-journal">Submitted to BMC Medicine</div>
@@ -801,7 +652,6 @@ window.addEventListener('DOMContentLoaded', function() {
         <!-- Under Review #1 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
-            <div class="timeline-item" id="paper-prep-3">
             <div class="timeline-content">
                 <div class="tl-date">2024年-12月</div>
                 <span class="tl-status review">Revise & Rereview</span>
@@ -834,7 +684,6 @@ window.addEventListener('DOMContentLoaded', function() {
         <!-- Published #2 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
-            <div class="timeline-item" id="paper-prep-2">
             <div class="timeline-content">
                 <div class="tl-date">2025年-11月</div>
                 <span class="tl-status published">Published</span>
@@ -866,7 +715,6 @@ window.addEventListener('DOMContentLoaded', function() {
         <!-- Published #1 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
-            <div class="timeline-item" id="paper-prep-1">
             <div class="timeline-content">
                 <div class="tl-date">2025年-8月</div>
                 <span class="tl-status published">Published</span>
