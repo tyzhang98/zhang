@@ -172,7 +172,169 @@ redirect_from:
         color: #63b3ed;
     }
 }
+<style>
+/* 右侧大纲导航样式 - 统一舒适配色 */
+.toc-sidebar {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    width: 300px;  /* 从 260px 改为 300px */
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    background: transparent;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: none;
+    border: 1px solid rgba(100, 100, 100, 0.3);
+    z-index: 100;
+}
+
+.toc-title {
+    font-size: 1.05em;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #718096;
+}
+
+.toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-item {
+    margin: 5px 0;
+}
+
+/* 主链接样式 */
+.toc-link {
+    display: block;
+    padding: 7px 12px;
+    color: #718096;
+    text-decoration: none;
+    border-left: 3px solid transparent;
+    transition: all 0.2s ease;
+    font-size: 0.88em;
+    border-radius: 4px;
+    font-weight: 450;
+}
+
+.toc-link:hover {
+    color: #2b6cb0;
+    background: rgba(66, 153, 225, 0.12);
+    border-left-color: #4299e1;
+    transform: translateX(3px);
+}
+
+.toc-link.active {
+    color: #2c5282;
+    background: rgba(66, 153, 225, 0.18);
+    border-left-color: #2b6cb0;
+    font-weight: 600;
+}
+
+/* 子列表样式 - 一直展开 */
+.toc-sublist {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 5px 15px;
+    max-height: 500px;  /* 改为一直展开 */
+    overflow: visible;
+    transition: max-height 0.3s ease;
+}
+
+.toc-subitem {
+    margin: 3px 0;
+}
+
+/* 子链接样式 */
+.toc-sublink {
+    display: block;
+    padding: 5px 10px;
+    color: #a0aec0;
+    text-decoration: none;
+    font-size: 0.82em;
+    border-left: 2px solid transparent;
+    transition: all 0.2s ease;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+.toc-sublink:hover {
+    color: #4299e1;
+    background: rgba(66, 153, 225, 0.08);
+    border-left-color: #4299e1;
+    transform: translateX(2px);
+}
+
+.toc-sublink.active {
+    color: #3182ce;
+    background: rgba(66, 153, 225, 0.12);
+    border-left-color: #3182ce;
+    font-weight: 500;
+}
+
+/* 响应式：在小屏幕隐藏大纲 */
+@media (max-width: 1400px) {
+    .toc-sidebar {
+        display: none;
+    }
+}
+
+/* 自定义滚动条 */
+.toc-sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.toc-sidebar::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 3px;
+}
+
+.toc-sidebar::-webkit-scrollbar-thumb {
+    background: rgba(160, 174, 192, 0.5);
+    border-radius: 3px;
+}
+
+.toc-sidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(160, 174, 192, 0.8);
+}
+
+/* 深色模式支持 */
+@media (prefers-color-scheme: dark) {
+    .toc-sidebar {
+        border-color: rgba(200, 200, 200, 0.2);
+    }
+    
+    .toc-title {
+        color: #cbd5e0;
+        border-bottom-color: #4a5568;
+    }
+    
+    .toc-link {
+        color: #a0aec0;
+    }
+    
+    .toc-link:hover {
+        color: #63b3ed;
+    }
+    
+    .toc-link.active {
+        color: #90cdf4;
+    }
+    
+    .toc-sublink {
+        color: #718096;
+    }
+    
+    .toc-sublink:hover {
+        color: #63b3ed;
+    }
+}
 </style>
+
 <!-- 右侧大纲导航 -->
 <aside class="toc-sidebar">
     <div class="toc-title"></div>
@@ -244,12 +406,6 @@ window.addEventListener('DOMContentLoaded', function() {
                     }
                 }
             });
-            
-            // 展开子菜单
-            papersSublist.classList.add('show');
-        } else {
-            // 收起子菜单
-            papersSublist.classList.remove('show');
         }
 
         // 更新主链接激活状态
@@ -762,10 +918,10 @@ window.addEventListener('DOMContentLoaded', function() {
 
         <!-- Under Review #2 -->
         <div class="timeline-item">
+            <div class="timeline-item" id="paper-prep-4">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
-                <div class="timeline-item" id="paper-prep-4">
                 <span class="tl-status review">Major Revision</span>
                 <div class="tl-paper-title">Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses</div>
                 <div class="tl-journal">Submitted to BMC Medicine</div>
