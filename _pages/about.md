@@ -178,7 +178,7 @@ redirect_from:
     position: fixed;
     right: 20px;
     top: 100px;
-    width: 300px;  /* 从 260px 改为 300px */
+    width: 350px;  /* 从 260px 改为 300px */
     max-height: calc(100vh - 120px);
     overflow-y: auto;
     background: transparent;
@@ -277,7 +277,7 @@ redirect_from:
 }
 
 /* 响应式：在小屏幕隐藏大纲 */
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
     .toc-sidebar {
         display: none;
     }
