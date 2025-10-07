@@ -921,7 +921,9 @@ document.addEventListener('keydown', function(event) {
 });
 </script>
 </div>
+<!-- publications-container 结束 -->
 
+<br>
 <br>
 
 <a id="conf-talks"></a>
@@ -940,7 +942,7 @@ document.addEventListener('keydown', function(event) {
 - [报道链接](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
 
 **第二十五届全国心理学学术会议**
-- 报告形式:分论坛口头报告 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
+- 报告形式：分论坛口头报告 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
 - 时间：2024年10月14日
 - 地点：四川师范大学
 
