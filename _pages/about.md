@@ -286,17 +286,12 @@ window.addEventListener('DOMContentLoaded', function() {
 ## 个人简介 (About Me)
 <a id="about"></a>
 
-&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），**研究方向聚焦于运用计算与脑成像方法理解和模拟人类高级认知加工，同时涵盖认知发展与精神障碍认知缺陷领域**。具体而言，采用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法，结合计算建模、机器学习和大语言模型等前沿技术，致力于揭示高级认知功能的计算机制，并探索精神障碍（如精神分裂症、重度抑郁症等）认知损伤的干预策略。
+&emsp;&emsp;西北师范大学心理学博士研究生(二年级在读),研究方向聚焦于**认知心理学与计算科学的交叉领域**。采用行为实验、fMRI等认知神经科学方法,结合计算建模、机器学习和大语言模型等前沿技术,致力于探究认知功能的计算机制,并研究其在精神障碍(如精神分裂症、重度抑郁症等)中的损伤模式及干预策略。
 
-**当前关注的核心研究问题：**
-
-**基础问题**
+**当前关注的核心研究问题:**
 - 大语言模型的认知加工模式与人类认知加工及大脑活动的表征相似性
-- 通过统一计算模型模拟与预测人类认知加工与发展的可能性
-
-**临床与应用问题**
-- 精神分裂症等精神障碍认知损伤的计算机制与干预靶点识别
-- 儿童青少年精神障碍的认知特征与早期干预
+- 人类认知加工与发展能否通过统一的计算模型进行模拟与预测
+- 精神分裂症等精神障碍认知损伤的计算机制
 
 <div align="center">
   <img src="images/研究框架.gif" alt="研究框架" width="65%" style="cursor: pointer;" onclick="this.style.width=this.style.width=='65%'?'95%':'65%'">
@@ -313,7 +308,7 @@ window.addEventListener('DOMContentLoaded', function() {
 <br>
 <br>
 
-## 科研论文（Research Publications）
+## 科研论文(Research Publications)
 
 <style>
     .publications-container {
@@ -325,7 +320,7 @@ window.addEventListener('DOMContentLoaded', function() {
     .section-title {
         font-size: 1.4em;
         font-weight: 600;
-        color: #111827;  /* 浅色模式：深色字体 */
+        color: #111827;
         margin: 40px 0 20px 0;
         padding-bottom: 10px;
         border-bottom: 2px solid #0066cc;
@@ -333,11 +328,10 @@ window.addEventListener('DOMContentLoaded', function() {
     }
     @media (prefers-color-scheme: dark) {
         .section-title {
-            color: #f3f4f6;  /* 深色模式：浅色字体 */
+            color: #f3f4f6;
             border-bottom-color: #60a5fa;
         }
     }
-
 
     .timeline {
         position: relative;
@@ -367,6 +361,8 @@ window.addEventListener('DOMContentLoaded', function() {
     .timeline-item:nth-child(4) { animation-delay: 0.4s; }
     .timeline-item:nth-child(5) { animation-delay: 0.5s; }
     .timeline-item:nth-child(6) { animation-delay: 0.6s; }
+    .timeline-item:nth-child(7) { animation-delay: 0.7s; }
+    .timeline-item:nth-child(8) { animation-delay: 0.8s; }
 
     @keyframes fadeInLeft {
         from {
@@ -456,11 +452,11 @@ window.addEventListener('DOMContentLoaded', function() {
         color: #111827;
         margin-bottom: 12px;
         line-height: 1.6;
-        font-style: normal;  /* 👈 添加这一行，确保标题本身不是斜体 */
+        font-style: normal;
     }
 
     .tl-paper-title .journal-name {
-        font-style: italic;  /* 👈 只让期刊名称斜体 */
+        font-style: italic;
         font-weight: 700;
     }
 
@@ -589,7 +585,6 @@ window.addEventListener('DOMContentLoaded', function() {
         display: block;
     }
 
-    /* 图片模态框样式 */
     .img-modal {
         display: none;
         position: fixed;
@@ -648,26 +643,26 @@ window.addEventListener('DOMContentLoaded', function() {
 </style>
 
 <div class="publications-container">
-
-    <!-- 准备中 #2 -->
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-            <div class="tl-date">2025年</div>
-            <span class="tl-status preparation">准备中...</span>
-            <div class="tl-paper-title">Understanding, Not Mimicking: Evidence for Genuine Computational Mechanisms in LLMs' Human-like Executive Function</div>
-            <div class="tl-info-line">
-                <span></span>
-                <span class="tl-info-separator">|</span>
-                <a href="https://tyzhang98.github.io/zhang/files/2025-8-22-Manuscript.pdf" class="tl-link-btn">2025-8-22 汇报</a>
-                <span class="tl-info-separator">|</span>
-                <a href="https://tyzhang98.github.io/zhang/files/初步结果.pdf" class="tl-link-btn">2025-8-5 汇报</a>
-            </div>
-            <div class="tl-figure" onclick="openImgModal('/zhang/images/大模型问答图1.jpg')">
-                <img src="/zhang/images/大模型问答图1.jpg" alt="研究设计及分析流程示意图">
+    <div class="timeline">
+        <!-- 准备中 #2 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">Understanding, Not Mimicking: Evidence for Genuine Computational Mechanisms in LLMs' Human-like Executive Function</div>
+                <div class="tl-info-line">
+                    <span></span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/2025-8-22-Manuscript.pdf" class="tl-link-btn">2025-8-22 汇报</a>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/初步结果.pdf" class="tl-link-btn">2025-8-5 汇报</a>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/大模型问答图1.jpg')">
+                    <img src="/zhang/images/大模型问答图1.jpg" alt="研究设计及分析流程示意图">
+                </div>
             </div>
         </div>
-    </div>
 
         <!-- 准备中 #3 -->
         <div class="timeline-item">
@@ -690,7 +685,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 <span class="tl-status preparation">准备中...</span>
                 <div class="tl-paper-title">Why do inhibitory control tasks show low correlations? A preregistered cross-site cognitive modeling study</div>
                 <div class="tl-info-line">
-                <a href="https://tyzhang98.github.io/zhang/files/Preregistered.docx" class="tl-link-btn">2025-10-05 Preregistered</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Preregistered.docx" class="tl-link-btn">2025-10-05 Preregistered</a>
                     <span></span>
                 </div>
             </div>
@@ -710,8 +705,7 @@ window.addEventListener('DOMContentLoaded', function() {
         </div>
 
         <!-- Under Review #3 -->
-        <div class="timeline-item">
-            <div class="timeline-item" id="paper-prep-5">
+        <div class="timeline-item" id="paper-prep-5">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
@@ -740,8 +734,7 @@ window.addEventListener('DOMContentLoaded', function() {
         </div>
 
         <!-- Under Review #2 -->
-        <div class="timeline-item">
-            <div class="timeline-item" id="paper-prep-4">
+        <div class="timeline-item" id="paper-prep-4">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
@@ -762,7 +755,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <div class="tl-abstract-content">
                         <strong>Introduction:</strong> Executive function (EF) is a heterogeneous neuropsychological construct, and impairments in EF dimensions represent a core aspect of psychopathology in schizophrenia that vary across individual patients. Currently, how this inter-individual variability characterizes schizophrenia subgroups, along with their distinctions in clinical characteristics and prognostic outcomes, remains unclear.<br><br>
                         <strong>Methods:</strong> Three EF dimensions (inhibitory control, working memory, cognitive flexibility) were assessed in the main sample (N=329), its follow-up subset, and an independently "recurring local validation" patient sample (N=114). Fuzzy clustering was applied to baseline EF assessments to discover and validate the core subtypes after excluding cluster-ambiguous cases in the main and independent samples, respectively. Subtype-based classification trained on the main sample was then tested in the independent sample. Importantly, the stability of these subtypes and their remission statuses, along with associated longitudinal changes in clinical and biological factors, were evaluated, and baseline subtype memberships were also used to predict outcomes.<br><br>
-                        <strong>Results:</strong> Two longitudinal stable, independently validated core EF subtypes were identified, with significantly variable baseline positive, affective, and cognitive symptoms; working memory updating functioning; and peripheral inflammatory and metabolic levels. This two-subtype differentiation allowed an accurate classification of novel patients' subtype memberships and patients' remission statuses not due to overall severity at intake. Remitted patients experienced significantly greater reductions in negative and cognitive symptoms, improved working memory maintenance, lower peripheral inflammatory levels, and more-superior metabolic functions over time.<br><br>
+                        <strong>Results:</strong> Two longitudinally stable, independently validated core EF subtypes were identified, with significantly variable baseline positive, affective, and cognitive symptoms; working memory updating functioning; and peripheral inflammatory and metabolic levels. This two-subtype differentiation allowed an accurate classification of novel patients' subtype memberships and patients' remission statuses not due to overall severity at intake. Remitted patients experienced significantly greater reductions in negative and cognitive symptoms, improved working memory maintenance, lower peripheral inflammatory levels, and more-superior metabolic functions over time.<br><br>
                         <strong>Conclusions:</strong> EF subtyping successfully captured the symptomatic, biochemical, and prognostic variations in individuals with schizophrenia, which could help to stratify patients with this disorder for targeted treatments.
                     </div>
                 </div>
@@ -772,10 +765,8 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-
         <!-- Under Review #1 -->
-        <div class="timeline-item">
-            <div class="timeline-item" id="paper-prep-3">
+        <div class="timeline-item" id="paper-prep-3">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2024年-12月</div>
@@ -785,7 +776,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 <div class="tl-info-line">
                     <span>(中科院一区Top, IF 4.8)</span>
                     <span class="tl-info-separator">|</span>
-                    <span>共同一作（次序第一）</span>
+                    <span>共同一作(次序第一)</span>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/paper2.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
@@ -805,10 +796,8 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-    <div class="timeline">
         <!-- Published #2 -->
-        <div class="timeline-item">
-           <div class="timeline-item" id="paper-prep-2">
+        <div class="timeline-item" id="paper-prep-2">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年-11月</div>
@@ -817,7 +806,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 <div class="tl-info-line">
                     <span>(中科院二区, IF 4.4)</span>
                     <span class="tl-info-separator">|</span>
-                    <span>共同一作（次序第一）</span>
+                    <span>共同一作(次序第一)</span>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/paper3.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
@@ -839,8 +828,7 @@ window.addEventListener('DOMContentLoaded', function() {
         </div>
 
         <!-- Published #1 -->
-        <div class="timeline-item">
-            <div class="timeline-item" id="paper-prep-1">
+        <div class="timeline-item" id="paper-prep-1">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年-8月</div>
@@ -870,6 +858,7 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
     </div>
+</div>
 
 <!-- 图片模态框 -->
 <div id="imgModal" class="img-modal" onclick="closeImgModal()">
@@ -908,11 +897,10 @@ document.addEventListener('keydown', function(event) {
     }
 });
 </script>
-</div>
+
 <a id="conf-talks"></a> 
 <br>
 <br>
-
 
 ## 2. 会议报告 (Conference Presentations)
 
@@ -927,27 +915,26 @@ document.addEventListener('keydown', function(event) {
 - 地点：兰州市第三人民医院
 - [报道链接](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
 
-
 **第二十五届全国心理学学术会议**
 - 报告形式：分论坛口头报告 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
 - 时间：2024年10月14日  
-<a id="research-projects"></a>
 - 地点：四川师范大学  
+
+<a id="research-projects"></a>
 <br>
 <br>
 <br>
 
 ## 3. 科研项目 (Research Projects)
 
-
 **主持项目**
-- **2024年省级博士创新之星科研项目（No. 2025CXZX-366）**（主持，2024.11-至今）
+- **2024年省级博士创新之星科研项目(No. 2025CXZX-366)**(主持,2024.11-至今)
 
 **参与项目**
-- **国家自然科学基金地区项目**（32260207）"认知训练对乡村儿童执行功能的提升"（参与，2022-2025）
+- **国家自然科学基金地区项目**(32260207)"认知训练对乡村儿童执行功能的提升"(参与,2022-2025)
+- **国家重点研发计划**(2021ZD0203800)科技创新2030—脑科学与类脑研究"重大项目：注意的神经环路机制研究(课题4：特殊人群注意研究及应用)(参与,2021.12-2026.12)
 
 <a id="collab"></a>
-- **国家重点研发计划**（2021ZD0203800）科技创新2030—脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12-2026.12）
 <br>
 <br>
 <br>
@@ -972,13 +959,13 @@ document.addEventListener('keydown', function(event) {
       <td><strong>全程主导</strong></td>
       <td>研究构思、数据分析、论文撰写与投稿</td>
       <td>数据采集</td>
-      <td>我为共一，次序第一；合作方为共一，次序第二；我导师为通讯</td>
+      <td>我为共一,次序第一；合作方为共一,次序第二；我导师为通讯</td>
     </tr>
     <tr>
       <td><strong>技术与研究思路支持</strong></td>
-      <td>研究构思、数据分析（含方法与结果部分撰写）</td>
+      <td>研究构思、数据分析(含方法与结果部分撰写)</td>
       <td>数据采集、其他部分撰写、投稿与修稿</td>
-      <td>我为共一，次序第二；合作方为共一，次序第一；我导师为通讯</td>
+      <td>我为共一,次序第二；合作方为共一,次序第一；我导师为通讯</td>
     </tr>
   </tbody>
 </table>
@@ -987,12 +974,11 @@ document.addEventListener('keydown', function(event) {
 
 ### 联系方式
 
-欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：**tyzhang9804@gmail.com**
+欢迎学术合作与交流！如有合作意向或学术问题讨论,请联系：**tyzhang9804@gmail.com**
+
+> **注:** 本人目前为在读博士研究生,合作前需征得导师同意
 
 <a id="resources"></a>
-
-> **注：** 本人目前为在读博士研究生，合作前需征得导师同意
-
 <br>
 <br>
 <br>
@@ -1014,7 +1000,6 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
 
 ---
 
-
 <div id="locationMap" style="height: 400px; width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -1034,99 +1019,4 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
   });
 </script>
 
-
 ---
-<!-- 返回顶部按钮 -->
-<button id="backToTop" class="back-to-top" title="返回顶部" aria-label="返回顶部">↑</button>
-
-<style>
-  .back-to-top {
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    width: 50px;
-    height: 50px;
-    background: #0066cc;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
-    transition: all 0.3s ease;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 999;
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 1;
-    cursor: pointer;
-  }
-  
-  .back-to-top.show {
-    opacity: 1;
-    visibility: visible;
-  }
-  
-  .back-to-top:hover {
-    background: #0052a3;
-    transform: translateY(-5px);
-    box-shadow: 0 6px 16px rgba(0, 102, 204, 0.4);
-  }
-  
-  .back-to-top::before {
-    content: '↑';
-    animation: bounce 2s infinite;
-  }
-  
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-8px);
-    }
-    60% {
-      transform: translateY(-4px);
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .back-to-top {
-      bottom: 20px;
-      right: 20px;
-      width: 45px;
-      height: 45px;
-      font-size: 24px;
-    }
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    .back-to-top {
-      background: #60a5fa;
-    }
-    .back-to-top:hover {
-      background: #3b82f6;
-    }
-  }
-</style>
-
-<script>
-  window.addEventListener('scroll', function() {
-    var backToTop = document.getElementById('backToTop');
-    if (window.pageYOffset > 300) {
-      backToTop.classList.add('show');
-    } else {
-      backToTop.classList.remove('show');
-    }
-  });
-  
-  document.getElementById('backToTop').addEventListener('click', function(e) {
-    e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  });
-</script>
