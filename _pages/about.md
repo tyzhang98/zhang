@@ -178,7 +178,7 @@ redirect_from:
     position: fixed;
     right: 20px;
     top: 100px;
-    width: 300px;  /* 从 260px 改为 300px */
+    width: 400px;  /* 从 260px 改为 300px */
     max-height: calc(100vh - 120px);
     overflow-y: auto;
     background: transparent;
@@ -344,11 +344,12 @@ redirect_from:
         <li class="toc-item">
             <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
             <ul class="toc-sublist" id="papers-sublist">
-                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">1. IC Development</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">2. EF Subtypes</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">1. WM Stage-specific</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. WM Training</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. EF Subtypes</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. EF Stacking Model</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">4. WM Training</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">5. WM Stage-specific</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. IC Development</a></li>
+
             </ul>
         </li>
         
