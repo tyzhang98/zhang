@@ -654,9 +654,11 @@ window.addEventListener('DOMContentLoaded', function() {
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
                 <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">Understanding, Not Mimicking: Evidence for Genuine Computational Mechanisms in LLMs' Human-like Executive Function</div>
+                <div class="tl-paper-title">What executive functions can and cannot be replicated in large language models: A case study using GPT-4o</div>
                 <div class="tl-info-line">
                     <span></span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/2025-10-17.pdf" class="tl-link-btn">2025-10-17 汇报</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/2025-8-22-Manuscript.pdf" class="tl-link-btn">2025-8-22 汇报</a>
                     <span class="tl-info-separator">|</span>
