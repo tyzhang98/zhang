@@ -184,6 +184,7 @@ redirect_from:
                 <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. EF Stacking Model (Schizophr. Bull.)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. EF Subtypes (BMC Med.)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. IC Development (Child Dev.)</a></li>
+                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">6. LLMs-EFs (PNAS.)</a></li>
             </ul>
         </li>
         
@@ -648,29 +649,8 @@ window.addEventListener('DOMContentLoaded', function() {
 
 <div class="publications-container">
     <div class="timeline">
-        <!-- 准备中 #2 -->
-        <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2025年</div>
-                <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">What executive functions can and cannot be replicated in large language models: A case study using GPT-4o</div>
-                <div class="tl-info-line">
-                    <span></span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/2025-10-17.pdf" class="tl-link-btn">2025-10-17 汇报</a>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/2025-8-22-Manuscript.pdf" class="tl-link-btn">2025-8-22 汇报</a>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/初步结果.pdf" class="tl-link-btn">2025-8-5 汇报</a>
-                </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/大模型问答图1.jpg')">
-                    <img src="/zhang/images/大模型问答图1.jpg" alt="研究设计及分析流程示意图">
-                </div>
-            </div>
-        </div>
 
-        <!-- 准备中 #3 -->
+        <!-- 准备中 #1 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -683,7 +663,7 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- 准备中 #4 -->
+        <!-- 准备中 #2 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -697,7 +677,7 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- 准备中 #1 -->
+        <!-- 准备中 #3 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -709,6 +689,36 @@ window.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
         </div>
+
+        <!-- Under Review #4 -->
+        <div class="timeline-item" id="paper-prep-6">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status review">Submitted</span>
+                <div class="tl-paper-title">Boundaries of Executive Functions in Large Language Models: GPT-4o Selectively Replicates Human Performance</div>
+                <div class="tl-journal">Submitted to PNAS</div>
+                <div class="tl-info-line">
+                    <span>(中科院一区Top, IF 9.1)</span>
+                    <span class="tl-info-separator">|</span>
+                    <span>独立一作</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper6.pdf" class="tl-link-btn">PDF</a>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://osf.io/hfnt6" class="tl-link-btn">代码</a>
+                </div>
+                <div class="tl-abstract">
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
+                    <div class="tl-abstract-content">
+                        <strong>Abstract:</strong> Large language models (LLMs) have demonstrated considerable capabilities in complex reasoning and problem-solving tasks that, in humans, depend on executive functions (EFs). However, the extent to which these models replicate human EF patterns remains unclear. We systematically evaluated GPT-4o's performance across three core EF dimensions—inhibitory control, working memory, and cognitive flexibility—using established behavioral paradigms. Additionally, we examined whether model-internal log probability parameters could serve as quantitative indicators of cognitive processing analogous to human neural activity. Using two independent datasets (N₁=1,970; N₂=39), we simulated trial-by-trial responses through GPT-4o while recording log probability metrics. Bayesian analyses revealed selective replication of human EF patterns. GPT-4o successfully reproduced human-like performance in interference inhibition (stroop), working memory capacity (digit span), and working memory updating (n-back). In contrast, the model showed divergent patterns in response inhibition (Go/No-Go), time-sensitive working memory updating (running memory task with presentation times of 1750 ms and 750 ms), and cognitive flexibility (number-switching task). Log probability parameters demonstrated task-specific associations with behavioral measures and corresponded with activation patterns in EF-related brain regions during working memory and task-switching paradigms. These findings suggest that GPT-4o captures specific aspects of human EF, particularly those involving symbolic representation and static information maintenance, while showing limitations in dynamic control and temporal processing. This selective replication pattern provides insights into both the computational basis of EF and the cognitive boundaries of current LLM architectures. Our results indicate that log probability parameters may offer a window into LLM cognitive processing, providing a methodological framework for evaluating artificial cognitive mechanisms.
+                    </div>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure5.png')">
+                    <img src="/zhang/images/Page1-Figure5.png" alt="研究设计及分析流程示意图">
+                </div>
+            </div>
+        </div>
+
 
         <!-- Under Review #3 -->
         <div class="timeline-item" id="paper-prep-5">
