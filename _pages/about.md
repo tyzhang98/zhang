@@ -690,6 +690,61 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
+
+        <!-- 准备中 #4 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">Computational phenotyping of brain-behavior dynamics in interference inhibition across major depressive disorder, bipolar disorder, and schizophrenia</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 准备中 #5 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">围产期因素对3-6岁儿童执行功能的影响及其神经机制：一项机器学习研究</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 准备中 #6 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">干扰抑制和反应抑制的共享与特异性计算神经机制</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 准备中 #7 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">生成式人工智能对青少年执行功能的影响</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+
         <!-- Under Review #4 -->
         <div class="timeline-item" id="paper-prep-6">
             <div class="timeline-marker"></div>
