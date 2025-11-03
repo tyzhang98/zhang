@@ -179,13 +179,14 @@ redirect_from:
         <li class="toc-item">
             <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
             <ul class="toc-sublist" id="papers-sublist">
-                <li class="toc-subitem"><a href="#paper-prep-0" class="toc-sublink">In preparation ...</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">1. WM Stage-specific (Schizophr. Res.)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. WM Training (Int. J. Clin. Health Psychol.)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. EF Stacking Model (Schizophr. Bull.)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. EF Subtypes (BMC Med.)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. IC Development (Child Dev.)</a></li>
-                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">6. LLMs-EFs (PNAS.)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">6. LLMs-EFs (PNAS.)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-0" class="toc-sublink">In preparation ...</a></li>
+
             </ul>
         </li>
         
