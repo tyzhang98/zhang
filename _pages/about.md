@@ -654,7 +654,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
         <!-- 准备中 #1 -->
         <div class="timeline-item">
-        <div class="timeline-item" id="paper-prep-0">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
