@@ -179,6 +179,7 @@ redirect_from:
         <li class="toc-item">
             <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
             <ul class="toc-sublist" id="papers-sublist">
+                <li class="toc-subitem"><a href="#paper-prep-0" class="toc-sublink">In preparation ...</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">1. WM Stage-specific (Schizophr. Res.)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. WM Training (Int. J. Clin. Health Psychol.)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. EF Stacking Model (Schizophr. Bull.)</a></li>
@@ -652,6 +653,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
         <!-- 准备中 #1 -->
         <div class="timeline-item">
+        <div class="timeline-item" id="paper-prep-0">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
