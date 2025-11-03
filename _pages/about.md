@@ -285,20 +285,20 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-## 个人简介 (About Me)
+## About Me
 <a id="about"></a>
 
-&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），研究方向聚焦于运用计算与脑成像方法理解和模拟人类高级认知加工，也涉及认知发展与精神障碍认知缺陷领域。具体而言，采用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法，结合计算建模、机器学习和大语言模型等前沿技术，致力于揭示高级认知功能的计算机制，并探索精神障碍（如精神分裂症、重度抑郁症等）认知损伤的干预策略。
+&emsp;&emsp;I am a second-year PhD candidate in Psychology at Northwest Normal University. My research focuses on understanding and modeling human higher-order cognitive processing through computational and neuroimaging approaches, with additional interests in cognitive development and cognitive deficits in psychiatric disorders. Specifically, I employ cognitive neuroscience methods including behavioral experiments and functional magnetic resonance imaging (fMRI), combined with cutting-edge techniques such as computational modeling, machine learning, and large language models, to elucidate the computational mechanisms underlying executive functions and explore intervention strategies for cognitive impairments in psychiatric disorders (e.g., schizophrenia, major depressive disorder).
 
-**当前关注的核心研究问题：**
+**Current Core Research Questions:**
 
-**基础问题**
-- 大语言模型的认知加工模式与人类认知加工及大脑活动的表征相似性
-- 通过统一计算模型模拟与预测人类认知加工与发展的可能性
+**Fundamental Questions**
+- Representational similarities between cognitive processing patterns in large language models and human cognition/brain activity
+- Feasibility of simulating and predicting human cognitive processing and development through unified computational models
 
-**临床与应用问题**
-- 精神分裂症等精神障碍认知损伤的计算机制与干预靶点识别
-- 儿童青少年精神障碍的认知特征与早期干预
+**Clinical and Applied Questions**
+- Computational mechanisms of cognitive impairments in psychiatric disorders such as schizophrenia and identification of intervention targets
+- Cognitive characteristics and early intervention strategies for childhood and adolescent psychiatric disorders
 
 <div align="center">
   <img src="images/研究框架.gif" alt="研究框架" width="65%" style="cursor: pointer;" onclick="this.style.width=this.style.width=='65%'?'95%':'65%'">
@@ -315,7 +315,7 @@ window.addEventListener('DOMContentLoaded', function() {
 <br>
 <br>
 
-## 科研论文(Research Publications)
+## Research Publications
 
 <style>
     .publications-container {
@@ -651,7 +651,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 <div class="publications-container">
     <div class="timeline">
-    
+
         <!-- 准备中 #1 -->
         <div class="timeline-item" id="paper-prep-0">
             <div class="timeline-marker"></div>
@@ -975,7 +975,7 @@ document.addEventListener('keydown', function(event) {
 <br>
 <br>
 
-## 2. 会议报告 (Conference Presentations)
+## 2. Conference Presentations
 
 **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
 - 报告形式：海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
@@ -1056,9 +1056,9 @@ document.addEventListener('keydown', function(event) {
 <br>
 <br>
 
-## 5. 研究资源 (Research Resources)
+## 5. Research Resources
 
-### 开放代码 (Open Code)
+### Open Code
 - **Stacking Model with SHAP Explanation** ([下载代码](https://tyzhang98.github.io/zhang/files/Stacking-SHAP.zip))
   - **Citation:** Zhang, T., Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging stacked classifiers for multi-task executive function in schizophrenia yields diagnostic and prognostic insights. *medRxiv*. https://doi.org/10.1101/2024.12.05.24318587
 
