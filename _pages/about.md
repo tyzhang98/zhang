@@ -782,7 +782,7 @@ window.addEventListener('DOMContentLoaded', function() {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
-                <span class="tl-status review">Under Review</span>
+                <span class="tl-status review">Major Revision</span>
                 <div class="tl-paper-title">Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence</div>
                 <div class="tl-journal">Submitted to Child Development</div>
                 <div class="tl-info-line">
@@ -842,8 +842,8 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class="timeline-item" id="paper-prep-3">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2024年-12月</div>
-                <span class="tl-status review">Revise & Rereview</span>
+                <div class="tl-date">2025年-11月</div>
+                <span class="tl-status published">Published</span>
                 <div class="tl-paper-title">Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights</div>
                 <div class="tl-journal">Submitted to Schizophrenia Bulletin</div>
                 <div class="tl-info-line">
@@ -873,7 +873,7 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class="timeline-item" id="paper-prep-2">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年-11月</div>
+                <div class="tl-date">2025年-9月</div>
                 <span class="tl-status published">Published</span>
                 <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <strong><em>International Journal of Clinical and Health Psychology</em></strong>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ijchp.2025.100628</a></div>
                 <div class="tl-info-line">
@@ -904,7 +904,7 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class="timeline-item" id="paper-prep-1">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年-8月</div>
+                <div class="tl-date">2025年-6月</div>
                 <span class="tl-status published">Published</span>
                 <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <strong><em>Schizophrenia Research</em></strong>, <em>282</em>, 203-213. <a href="https://doi.org/10.1016/j.schres.2025.06.012" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.schres.2025.06.012</a></div>
                 <div class="tl-info-line">
