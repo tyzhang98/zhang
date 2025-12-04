@@ -746,7 +746,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/paper6.pdf" class="tl-link-btn">PDF for Manuscript</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper6.doc" class="tl-link-btn">Supplementary Materials</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper6.docx" class="tl-link-btn">Supplementary Materials</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://osf.io/hfnt6" class="tl-link-btn">代码</a>
                 </div>
