@@ -705,22 +705,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
         </div>
-
         <!-- 准备中 #5 -->
-        <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">围产期因素对3-6岁儿童执行功能的影响及其神经机制：一项机器学习研究</div>
-                <div class="tl-info-line">
-                    <span></span>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- 准备中 #6 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -733,7 +718,7 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- 准备中 #7 -->
+        <!-- 准备中 #6 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -760,7 +745,9 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper6.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper6.pdf" class="tl-link-btn">PDF for Manuscript</a>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper6.doc" class="tl-link-btn">Supplementary Materials</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://osf.io/hfnt6" class="tl-link-btn">代码</a>
                 </div>
@@ -1001,7 +988,7 @@ document.addEventListener('keydown', function(event) {
 ## 3. 科研项目 (Research Projects)
 
 **主持项目**
-- **2024年省级博士创新之星科研项目(No. 2025CXZX-366)**(主持,2024.11-至今)
+- **2024年省级博士创新之星科研项目(No. 2025CXZX-366)**(结项)
 
 **参与项目**
 - **国家自然科学基金地区项目**(32260207)"认知训练对乡村儿童执行功能的提升"(参与,2022-2025)
