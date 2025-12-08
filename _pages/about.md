@@ -962,6 +962,12 @@ document.addEventListener('keydown', function(event) {
 <br>
 
 ## 2. 会议报告 (Conference Presentations)
+**兰州市第三人民医院学术讲座**  
+- 报告题目：人工智能与认知建模在精神分裂症执行功能研究中的应用 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides4.pdf)
+- 时间：2025年12月05日
+- 地点：兰州市第三人民医院
+- [报道链接](https://mp.weixin.qq.com/s/rTePQw_mfU1r-ok_Hh4imQ)
+
 
 **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**  
 - 报告形式：海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
