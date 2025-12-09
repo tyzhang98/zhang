@@ -6,6 +6,25 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
+<div class="author__avatar">
+  {% if author.avatar contains "://" %}
+    {% assign avatar_url = author.avatar %}
+  {% else %}
+    {% assign avatar_url = author.avatar | prepend: "/images/" | prepend: base_path %}
+  {% endif %}
+  <img src="{{ avatar_url }}" class="author__avatar" alt="{{ author.name }}" fetchpriority="high" 
+       onclick="document.getElementById('avatarModal').style.display='block'" 
+       style="cursor: pointer;" />
+</div>
+
+<!-- 点击放大弹窗 -->
+<div id="avatarModal" onclick="this.style.display='none'" 
+     style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.85); cursor:pointer;">
+  <img src="{{ avatar_url }}" alt="{{ author.name }}"
+       style="max-width:90%; max-height:90%; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); border-radius:8px; box-shadow:0 0 20px rgba(0,0,0,0.5);" />
+  <span style="position:absolute; top:20px; right:30px; color:#fff; font-size:30px; cursor:pointer;">&times;</span>
+</div>
+
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
