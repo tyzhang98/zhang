@@ -287,7 +287,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 ## 个人简介 (About Me)
 <a id="about"></a>
-&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等期刊发表论文，并主持2025年甘肃省高校研究生"创新之星"项目一项。研究方向聚焦于运用计算建模与脑成像方法理解人类高级认知加工，兼及认知发展与精神障碍认知缺陷领域。具体而言，综合认知行为实验、功能磁共振成像（fMRI）等认知神经科学手段，结合计算建模、机器学习及大语言模型等前沿技术，致力于揭示高级认知功能的计算机制，并探索精神分裂症、重度抑郁症等精神障碍认知损伤的干预策略。
+&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等期刊发表论文，并主持省级高校研究生"创新之星"项目一项。研究方向聚焦于运用计算建模与脑成像方法理解人类高级认知加工，兼及认知发展与精神障碍认知缺陷领域。具体而言，综合认知行为实验、功能磁共振成像（fMRI）等认知神经科学手段，结合计算建模、机器学习及大语言模型等前沿技术，致力于揭示高级认知功能的计算机制，并探索精神分裂症、重度抑郁症等精神障碍认知损伤的干预策略。
 
 **当前关注的核心研究问题：**
 
