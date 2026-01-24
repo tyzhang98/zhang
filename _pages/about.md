@@ -1006,32 +1006,6 @@ document.addEventListener('keydown', function(event) {
 
 ## 4. 寻求科研合作 (Seeking Research Collaboration)
 
-### 合作模式
-
-<table>
-  <thead>
-    <tr style="background-color: #0a7e8c;">
-      <th>合作类型</th>
-      <th>我的职责</th>
-      <th>合作方职责</th>
-      <th>署名方式</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>全程主导</strong></td>
-      <td>研究构思、数据分析、论文撰写与投稿</td>
-      <td>数据采集</td>
-      <td>我为共一,次序第一；合作方为共一,次序第二；我导师为通讯</td>
-    </tr>
-    <tr>
-      <td><strong>技术与研究思路支持</strong></td>
-      <td>研究构思、数据分析(含方法与结果部分撰写)</td>
-      <td>数据采集、其他部分撰写、投稿与修稿</td>
-      <td>我为共一,次序第二；合作方为共一,次序第一；我导师为通讯</td>
-    </tr>
-  </tbody>
-</table>
 
 ---
 
