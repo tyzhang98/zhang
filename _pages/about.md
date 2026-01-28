@@ -171,8 +171,8 @@ redirect_from:
 </style>
 
 <!-- 右侧大纲导航 -->
-<aside class="toc-sidebar">
-    <div class="toc-title"></div>
+<aside class="toc-sidebar" aria-label="Table of contents">
+    <div class="toc-title">Outline</div>
     <ul class="toc-list">
         <li class="toc-item"><a href="#top" class="toc-link">• Home</a></li>
         
@@ -186,7 +186,6 @@ redirect_from:
                 <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. IC Development (Child Dev.)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">6. LLMs-EFs (PNAS.)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-0" class="toc-sublink">In preparation ...</a></li>
-
             </ul>
         </li>
         
@@ -212,6 +211,8 @@ window.addEventListener('DOMContentLoaded', function() {
             { id: 'paper-prep-3', element: document.getElementById('paper-prep-3') },
             { id: 'paper-prep-4', element: document.getElementById('paper-prep-4') },
             { id: 'paper-prep-5', element: document.getElementById('paper-prep-5') },
+            { id: 'paper-prep-6', element: document.getElementById('paper-prep-6') },
+            { id: 'paper-prep-0', element: document.getElementById('paper-prep-0') },
             { id: 'conf-talks', element: document.getElementById('conf-talks') },
             { id: 'research-projects', element: document.getElementById('research-projects') },
             { id: 'collab', element: document.getElementById('collab') },
@@ -300,7 +301,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 <div align="center">
   <img src="images/研究框架.gif" alt="研究框架" width="65%" style="cursor: pointer;" onclick="this.style.width=this.style.width=='65%'?'95%':'65%'">
-  <p style="font-size: 0.9em; color: #f5f5f5ff;"></p>
+  <p style="font-size: 0.9em; color: #6b7280;"></p>
 </div>
 
 ---
@@ -651,10 +652,10 @@ window.addEventListener('DOMContentLoaded', function() {
     <div class="timeline">
 
         <!-- 准备中 #1 -->
-        <div class="timeline-item">
+        <div class="timeline-item" id="paper-prep-7">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年</div>
+                <div class="tl-date">2026年</div>
                 <span class="tl-status preparation">准备中...</span>
                 <div class="tl-paper-title">Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study</div>
                 <div class="tl-info-line">
@@ -663,27 +664,25 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-
         <!-- 准备中 #2 -->
-        <div class="timeline-item">
+        <div class="timeline-item" id="paper-prep-8">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年</div>
+                <div class="tl-date">2026年</div>
                 <span class="tl-status preparation">准备中...</span>
                 <div class="tl-paper-title">Shared and Distinct Cognitive Processes in Interference Control and Response Inhibition: A Cross-Site Multi-Task Drift Diffusion Modeling Study</div>
                 <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/Preregistered.docx" class="tl-link-btn">2025-10-05 Preregistered</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Preregistered.docx" class="tl-link-btn" target="_blank" rel="noopener noreferrer">2025-10-05 Preregistered</a>
                     <span></span>
                 </div>
             </div>
         </div>
 
-
         <!-- 准备中 #3 -->
         <div class="timeline-item" id="paper-prep-0">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年</div>
+                <div class="tl-date">2026年</div>
                 <span class="tl-status preparation">准备中...</span>
                 <div class="tl-paper-title">Computational basis of executive function: A multi-task drift diffusion modeling and fMRI study</div>
                 <div class="tl-info-line">
@@ -693,7 +692,7 @@ window.addEventListener('DOMContentLoaded', function() {
         </div>
 
         <!-- 准备中 #4 -->
-        <div class="timeline-item">
+        <div class="timeline-item" id="paper-prep-9">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026年</div>
@@ -705,24 +704,24 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Under Review #7 -->
-        <div class="timeline-item" id="paper-prep-6">
+        <!-- Under Review / Submitted #7 -->
+        <div class="timeline-item" id="paper-prep-10">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年</div>
+                <div class="tl-date">2026年</div>
                 <span class="tl-status review">Submitted</span>
                 <div class="tl-paper-title">Shared and disorder-specific computational mechanisms of inhibitory control in schizophrenia and major depressive disorder</div>
-                <div class="tl-journal">Submitted to Psychological Medicine-</div>
+                <div class="tl-journal">Submitted to Psychological Medicine</div>
                 <div class="tl-info-line">
                     <span>(中科院一区Top, IF 5.5)</span>
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper7.pdf" class="tl-link-btn">PDF for Manuscript</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper7.pdf" class="tl-link-btn" target="_blank" rel="noopener noreferrer">PDF for Manuscript</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper7.docx" class="tl-link-btn">Supplementary Materials</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper7.docx" class="tl-link-btn" target="_blank" rel="noopener noreferrer">Supplementary Materials</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://github.com/tyzhang98/Inhibitory-Control-SCZ-MDD-HDDM" class="tl-link-btn">代码</a>
+                    <a href="https://github.com/tyzhang98/Inhibitory-Control-SCZ-MDD-HDDM" class="tl-link-btn" target="_blank" rel="noopener noreferrer">代码</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
@@ -739,12 +738,11 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-
-        <!-- Under Review #6 -->
+        <!-- Under Review / Submitted #6 (TOC: paper-prep-6) -->
         <div class="timeline-item" id="paper-prep-6">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年</div>
+                <div class="tl-date">2026年</div>
                 <span class="tl-status review">Submitted</span>
                 <div class="tl-paper-title">Selective replication of executive functions in large language models: Static maintenance versus dynamic control</div>
                 <div class="tl-journal">Submitted to Cognitive Science-</div>
@@ -753,11 +751,11 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper6.pdf" class="tl-link-btn">PDF for Manuscript</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper6.pdf" class="tl-link-btn" target="_blank" rel="noopener noreferrer">PDF for Manuscript</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper6.docx" class="tl-link-btn">Supplementary Materials</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper6.docx" class="tl-link-btn" target="_blank" rel="noopener noreferrer">Supplementary Materials</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://osf.io/hfnt6" class="tl-link-btn">代码</a>
+                    <a href="https://osf.io/hfnt6" class="tl-link-btn" target="_blank" rel="noopener noreferrer">代码</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
@@ -771,7 +769,7 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Under Review #5 -->
+        <!-- Under Review #5 (TOC: paper-prep-5) -->
         <div class="timeline-item" id="paper-prep-5">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -783,8 +781,8 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span>(中科院二区, IF 4.9)</span>
                     <span class="tl-info-separator">|</span>
                     <span>共同一作（第二次序）</span>
-
                 </div>
+
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
                     <div class="tl-abstract-content">
@@ -797,12 +795,11 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-
-        <!-- Under Review #4 -->
-        <div class="timeline-item" id="paper-prep-5">
+        <!-- Under Review #4 (Unique id, not in TOC) -->
+        <div class="timeline-item" id="paper-prep-11">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年</div>
+                <div class="tl-date">2026年</div>
                 <span class="tl-status review">Major Revision</span>
                 <div class="tl-paper-title">Differential Profiles of Executive Function Dimensions in First-Episode and Chronic Schizophrenia: Identifying Markers of Illness Progression</div>
                 <div class="tl-journal">Submitted to European Journal of Psychiatry</div>
@@ -810,8 +807,8 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span>(中科院四区, IF 1.5)</span>
                     <span class="tl-info-separator">|</span>
                     <span>共同一作（第二次序）</span>
-
                 </div>
+
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
                     <div class="tl-abstract-content">
@@ -824,10 +821,8 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-
-
-        <!-- Under Review #3 -->
-        <div class="timeline-item" id="paper-prep-5">
+        <!-- Under Review #3 (TOC: paper-prep-3) -->
+        <div class="timeline-item" id="paper-prep-3">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
@@ -839,9 +834,9 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper5.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper5.pdf" class="tl-link-btn" target="_blank" rel="noopener noreferrer">PDF</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code" class="tl-link-btn">代码</a>
+                    <a href="https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code" class="tl-link-btn" target="_blank" rel="noopener noreferrer">代码</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
@@ -855,7 +850,7 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Under Review #2 -->
+        <!-- Under Review #2 (TOC: paper-prep-4) -->
         <div class="timeline-item" id="paper-prep-4">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -868,9 +863,9 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper4.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper4.pdf" class="tl-link-btn" target="_blank" rel="noopener noreferrer">PDF</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ" class="tl-link-btn">代码</a>
+                    <a href="https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ" class="tl-link-btn" target="_blank" rel="noopener noreferrer">代码</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
@@ -887,52 +882,52 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Under Review #1 -->
-        <div class="timeline-item" id="paper-prep-3">
+        <!-- Published #1 (TOC: paper-prep-1) -->
+        <div class="timeline-item" id="paper-prep-1">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年-11月</div>
+                <div class="tl-date">2025年-6月</div>
                 <span class="tl-status published">Published</span>
-                <div class="tl-paper-title">Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights</div>
-                <div class="tl-journal">Submitted to Schizophrenia Bulletin</div>
+                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <strong><em>Schizophrenia Research</em></strong>, <em>282</em>, 203-213. <a href="https://doi.org/10.1016/j.schres.2025.06.012" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.schres.2025.06.012</a></div>
                 <div class="tl-info-line">
-                    <span>(中科院一区Top, IF 4.8)</span>
+                    <span>(中科院二区, IF 3.5)</span>
                     <span class="tl-info-separator">|</span>
-                    <span>共同一作(次序第一)</span>
+                    <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper2.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper1.pdf" class="tl-link-btn" target="_blank" rel="noopener noreferrer">PDF</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://github.com/tyzhang98/SCZ-EF-stacked-classifiers" class="tl-link-btn">代码</a>
+                    <a href="https://github.com/tyzhang98/Two-back-task-HDDM" class="tl-link-btn" target="_blank" rel="noopener noreferrer">代码</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
                     <div class="tl-abstract-content">
-                        <strong>Background:</strong> Executive functioning (EF) impairments are often seen in mental disorders, particularly schizophrenia, where they relate to adverse outcomes. As a heterogeneous construct, how specifically each dimension of EF to characterize the diagnostic and prognostic aspects of schizophrenia remains opaque.<br><br>
-                        <strong>Study Design:</strong> We used classification models with a stacking approach on systematically measured EFs using 6 tasks to discriminate 195 patients with schizophrenia from healthy individuals. Baseline EF measurements were moreover employed to predict symptomatically remitted or non-remitted prognostic subgroups. EF feature importance was determined at the group-level and the ensuing individual importance scores were associated with four symptom dimensions.<br><br>
-                        <strong>Study Results:</strong> The models highlighted the importance of inhibitory control (interference and response inhibitions) or working memory in accurately identifying individuals with schizophrenia (area under the curve [AUC] = 0.87) or those in remission (AUC = 0.81). Patients who are correctly classified, in association with the contribution of interference inhibition function to our diagnostic classifier, present more severe baseline negative symptoms compared to those who are more likely to be misclassified. Also, linked to the function of working memory updating, patients who are successfully classified as remitted display milder cognitive symptoms at follow-up. Remitted patients do not differ significantly from non-remitted cases in baseline EF assessments or overall symptom severity.
+                        <strong>Background:</strong> Cognitive dysfunction, particularly working memory (WM) impairment, constitutes a core feature of schizophrenia and is largely unresponsive to available antipsychotic treatments. The computational mechanisms underlying WM deficits at different illness stages and their associations with clinical symptom dimensions remain poorly understood.<br><br>
+                        <strong>Methods:</strong> We applied hierarchical drift diffusion modeling (HDDM) to dissect latent cognitive processes underlying WM performance in a two-back task among patients with first-episode schizophrenia (FES, N = 103, illness duration ≤2 years), chronic schizophrenia (ChSz, N = 108, illness duration ≥5 years), and healthy controls (HCs, N = 85). Multiple regression and mediation analyses were conducted to examine associations between HDDM parameters, clinical symptoms, and conventional metrics.<br><br>
+                        <strong>Results:</strong> Both patient groups exhibited significant WM deficits compared to HCs, with ChSz patients demonstrating more pronounced impairments than FES patients. HDDM analysis revealed that patients showed significantly reduced drift rate and prolonged non-decision time compared to HCs. Notably, while non-decision time remained comparable between FES and ChSz groups, drift rate was significantly lower in ChSz patients, mediated the relationship between illness stage and WM performance, and negatively correlated with negative symptoms and general psychopathology.<br><br>
+                        <strong>Conclusions:</strong> This study reveals distinct computational profiles of WM deficits across different stages of schizophrenia. While non-decision time impairments emerge early and persist, reduced drift rate progressively deteriorates with illness duration and is closely linked to specific clinical symptoms. These findings enhance our understanding of WM dysfunction across illness stages and support the development of targeted cognitive interventions tailored to illness stage and symptom severity.
                     </div>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure2.jpg')">
-                    <img src="/zhang/images/Page1-Figure2.jpg" alt="研究设计及分析流程示意图">
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure1.jpg')">
+                    <img src="/zhang/images/Page1-Figure1.jpg" alt="研究设计及分析流程示意图">
                 </div>
             </div>
         </div>
 
-        <!-- Published #2 -->
+        <!-- Published #2 (TOC: paper-prep-2) -->
         <div class="timeline-item" id="paper-prep-2">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年-9月</div>
                 <span class="tl-status published">Published</span>
-                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <strong><em>International Journal of Clinical and Health Psychology</em></strong>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ijchp.2025.100628</a></div>
+                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <strong><em>International Journal of Clinical and Health Psychology</em></strong>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.ijchp.2025.100628</a></div>
                 <div class="tl-info-line">
                     <span>(中科院二区, IF 4.4)</span>
                     <span class="tl-info-separator">|</span>
                     <span>共同一作(次序第一)</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper3.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper3.pdf" class="tl-link-btn" target="_blank" rel="noopener noreferrer">PDF</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://github.com/tyzhang98/ML-PsyExecShift" class="tl-link-btn">代码</a>
+                    <a href="https://github.com/tyzhang98/ML-PsyExecShift" class="tl-link-btn" target="_blank" rel="noopener noreferrer">代码</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
@@ -949,36 +944,37 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Published #1 -->
-        <div class="timeline-item" id="paper-prep-1">
+        <!-- Published #3 (TOC: paper-prep-3 already used above for Child Dev major revision; keep this as unique published entry id) -->
+        <div class="timeline-item" id="paper-prep-12">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年-6月</div>
+                <div class="tl-date">2025年-11月</div>
                 <span class="tl-status published">Published</span>
-                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <strong><em>Schizophrenia Research</em></strong>, <em>282</em>, 203-213. <a href="https://doi.org/10.1016/j.schres.2025.06.012" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.schres.2025.06.012</a></div>
+                <div class="tl-paper-title">Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights</div>
+                <div class="tl-journal">Published in Schizophrenia Bulletin</div>
                 <div class="tl-info-line">
-                    <span>(中科院二区, IF 3.5)</span>
+                    <span>(中科院一区Top, IF 4.8)</span>
                     <span class="tl-info-separator">|</span>
-                    <span>独立一作</span>
+                    <span>共同一作(次序第一)</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper1.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper2.pdf" class="tl-link-btn" target="_blank" rel="noopener noreferrer">PDF</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://github.com/tyzhang98/Two-back-task-HDDM" class="tl-link-btn">代码</a>
+                    <a href="https://github.com/tyzhang98/SCZ-EF-stacked-classifiers" class="tl-link-btn" target="_blank" rel="noopener noreferrer">代码</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
                     <div class="tl-abstract-content">
-                        <strong>Background:</strong> Cognitive dysfunction, particularly working memory (WM) impairment, constitutes a core feature of schizophrenia and is largely unresponsive to available antipsychotic treatments. The computational mechanisms underlying WM deficits at different illness stages and their associations with clinical symptom dimensions remain poorly understood.<br><br>
-                        <strong>Methods:</strong> We applied hierarchical drift diffusion modeling (HDDM) to dissect latent cognitive processes underlying WM performance in a two-back task among patients with first-episode schizophrenia (FES, N = 103, illness duration ≤2 years), chronic schizophrenia (ChSz, N = 108, illness duration ≥5 years), and healthy controls (HCs, N = 85). Multiple regression and mediation analyses were conducted to examine associations between HDDM parameters, clinical symptoms, and conventional metrics.<br><br>
-                        <strong>Results:</strong> Both patient groups exhibited significant WM deficits compared to HCs, with ChSz patients demonstrating more pronounced impairments than FES patients. HDDM analysis revealed that patients showed significantly reduced drift rate and prolonged non-decision time compared to HCs. Notably, while non-decision time remained comparable between FES and ChSz groups, drift rate was significantly lower in ChSz patients, mediated the relationship between illness stage and WM performance, and negatively correlated with negative symptoms and general psychopathology.<br><br>
-                        <strong>Conclusions:</strong> This study reveals distinct computational profiles of WM deficits across different stages of schizophrenia. While non-decision time impairments emerge early and persist, reduced drift rate progressively deteriorates with illness duration and is closely linked to specific clinical symptoms. These findings enhance our understanding of WM dysfunction across illness stages and support the development of targeted cognitive interventions tailored to illness stage and symptom severity.
+                        <strong>Background:</strong> Executive functioning (EF) impairments are often seen in mental disorders, particularly schizophrenia, where they relate to adverse outcomes. As a heterogeneous construct, how specifically each dimension of EF to characterize the diagnostic and prognostic aspects of schizophrenia remains opaque.<br><br>
+                        <strong>Study Design:</strong> We used classification models with a stacking approach on systematically measured EFs using 6 tasks to discriminate 195 patients with schizophrenia from healthy individuals. Baseline EF measurements were moreover employed to predict symptomatically remitted or non-remitted prognostic subgroups. EF feature importance was determined at the group-level and the ensuing individual importance scores were associated with four symptom dimensions.<br><br>
+                        <strong>Study Results:</strong> The models highlighted the importance of inhibitory control (interference and response inhibitions) or working memory in accurately identifying individuals with schizophrenia (area under the curve [AUC] = 0.87) or those in remission (AUC = 0.81). Patients who are correctly classified, in association with the contribution of interference inhibition function to our diagnostic classifier, present more severe baseline negative symptoms compared to those who are more likely to be misclassified. Also, linked to the function of working memory updating, patients who are successfully classified as remitted display milder cognitive symptoms at follow-up. Remitted patients do not differ significantly from non-remitted cases in baseline EF assessments or overall symptom severity.
                     </div>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure1.jpg')">
-                    <img src="/zhang/images/Page1-Figure1.jpg" alt="研究设计及分析流程示意图">
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure2.jpg')">
+                    <img src="/zhang/images/Page1-Figure2.jpg" alt="研究设计及分析流程示意图">
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 
