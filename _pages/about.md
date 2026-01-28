@@ -1097,7 +1097,7 @@ document.addEventListener('keydown', function(event) {
 ---
 
 <p align="center">
-Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, China.
+Last updated on January 28, 2026, at 10:28:38 (GMT+8), Tongyi Zhang, Suzhou, China.
 </p>
 
 ---
