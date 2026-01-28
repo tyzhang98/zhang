@@ -651,33 +651,6 @@ window.addEventListener('DOMContentLoaded', function() {
     <div class="timeline">
 
         <!-- 准备中 #1 -->
-        <div class="timeline-item" id="paper-prep-0">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2025年</div>
-                <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
-                <div class="tl-info-line">
-                    <span></span>
-                </div>
-            </div>
-        </div>
-
-        <!-- 准备中 #2 -->
-        <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2025年</div>
-                <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">Why do inhibitory control tasks show low correlations? A preregistered cross-site cognitive modeling study</div>
-                <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/Preregistered.docx" class="tl-link-btn">2025-10-05 Preregistered</a>
-                    <span></span>
-                </div>
-            </div>
-        </div>
-
-        <!-- 准备中 #3 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -690,55 +663,93 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
+
+        <!-- 准备中 #2 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">Shared and Distinct Cognitive Processes in Interference Control and Response Inhibition: A Cross-Site Multi-Task Drift Diffusion Modeling Study</div>
+                <div class="tl-info-line">
+                    <a href="https://tyzhang98.github.io/zhang/files/Preregistered.docx" class="tl-link-btn">2025-10-05 Preregistered</a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 准备中 #3 -->
+        <div class="timeline-item" id="paper-prep-0">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status preparation">准备中...</span>
+                <div class="tl-paper-title">Computational basis of executive function: A multi-task drift diffusion modeling and fMRI study</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
         <!-- 准备中 #4 -->
         <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026年</div>
                 <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">Computational phenotyping of brain-behavior dynamics in interference inhibition across major depressive disorder, bipolar disorder, and schizophrenia</div>
-                <div class="tl-info-line">
-                    <span></span>
-                </div>
-            </div>
-        </div>
-        <!-- 准备中 #5 -->
-        <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">干扰抑制和反应抑制的共享与特异性计算神经机制</div>
+                <div class="tl-paper-title">Multi-task learning in neural networks reveals the computational structure of executive function</div>
                 <div class="tl-info-line">
                     <span></span>
                 </div>
             </div>
         </div>
 
-        <!-- 准备中 #6 -->
-        <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">生成式人工智能对青少年执行功能的影响</div>
-                <div class="tl-info-line">
-                    <span></span>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Under Review #4 -->
+        <!-- Under Review #7 -->
         <div class="timeline-item" id="paper-prep-6">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
                 <span class="tl-status review">Submitted</span>
-                <div class="tl-paper-title">Boundaries of Executive Functions in Large Language Models: GPT-4o Selectively Replicates Human Performance</div>
-                <div class="tl-journal">Submitted to PNAS</div>
+                <div class="tl-paper-title">Shared and disorder-specific computational mechanisms of inhibitory control in schizophrenia and major depressive disorder</div>
+                <div class="tl-journal">Submitted to Psychological Medicine-</div>
                 <div class="tl-info-line">
-                    <span>(中科院一区Top, IF 9.1)</span>
+                    <span>(中科院一区Top, IF 5.5)</span>
+                    <span class="tl-info-separator">|</span>
+                    <span>独立一作</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper7.pdf" class="tl-link-btn">PDF for Manuscript</a>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper7.docx" class="tl-link-btn">Supplementary Materials</a>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://github.com/tyzhang98/Inhibitory-Control-SCZ-MDD-HDDM" class="tl-link-btn">代码</a>
+                </div>
+                <div class="tl-abstract">
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
+                    <div class="tl-abstract-content">
+                        <strong>Abstract:Background: Inhibitory control impairments are well documented in both schizophrenia (SCZ) and major depressive disorder (MDD). However, whether these deficits arise from shared or distinct computational mechanisms remains unclear.
+                        Methods: We recruited 87 patients with SCZ, 86 patients with MDD, and 86 healthy controls. Interference inhibition and response inhibition were assessed using the Stroop and Go/No-Go tasks, respectively. Hierarchical drift-diffusion modeling (HDDM) was used to decompose behavioral performance into drift rate, decision boundary, non-decision time, and starting point bias. Group differences were examined using Bayesian inference and machine learning classification.
+                        Results: Both patient groups exhibited significant behavioral impairments, with more pronounced deficits observed in SCZ. Confirmatory factor analysis supported a two-factor structure of inhibitory control, although inter-factor correlations were attenuated in the patient groups. Reduced drift rate emerged as the primary shared impairment and was more pronounced in SCZ. Decision boundary did not differ across groups. SCZ was associated with substantial non-decision time prolongation across both tasks, whereas MDD showed only modest prolongation. Clinical correlates differed between disorders: impairments in SCZ were associated with negative symptoms and illness duration, suggesting trait-like characteristics, whereas impairments in MDD were associated with current symptom severity, indicating more state-dependent features.
+                        Conclusions: Reduced drift rate represents a transdiagnostic mechanism underlying inhibitory control deficits in both disorders, reflecting a shared impairment in evidence accumulation efficiency. However, the two disorders differed in the severity of impairment, non-decision time profiles, and clinical correlates. These findings provide a foundation for computational phenotyping approaches to precision assessment and stratified intervention.
+                    </div>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure7.png')">
+                    <img src="/zhang/images/Page1-Figure7.png" alt="研究设计及分析流程示意图">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Under Review #6 -->
+        <div class="timeline-item" id="paper-prep-6">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status review">Submitted</span>
+                <div class="tl-paper-title">Selective replication of executive functions in large language models: Static maintenance versus dynamic control</div>
+                <div class="tl-journal">Submitted to Cognitive Science-</div>
+                <div class="tl-info-line">
+                    <span>(中科院二区, IF 2.4)</span>
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
@@ -751,7 +762,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
                     <div class="tl-abstract-content">
-                        <strong>Abstract:</strong> Large language models (LLMs) have demonstrated considerable capabilities in complex reasoning and problem-solving tasks that, in humans, depend on executive functions (EFs). However, the extent to which these models replicate human EF patterns remains unclear. We systematically evaluated GPT-4o's performance across three core EF dimensions—inhibitory control, working memory, and cognitive flexibility—using established behavioral paradigms. Additionally, we examined whether model-internal log probability parameters could serve as quantitative indicators of cognitive processing analogous to human neural activity. Using two independent datasets (N₁=1,970; N₂=39), we simulated trial-by-trial responses through GPT-4o while recording log probability metrics. Bayesian analyses revealed selective replication of human EF patterns. GPT-4o successfully reproduced human-like performance in interference inhibition (stroop), working memory capacity (digit span), and working memory updating (n-back). In contrast, the model showed divergent patterns in response inhibition (Go/No-Go), time-sensitive working memory updating (running memory task with presentation times of 1750 ms and 750 ms), and cognitive flexibility (number-switching task). Log probability parameters demonstrated task-specific associations with behavioral measures and corresponded with activation patterns in EF-related brain regions during working memory and task-switching paradigms. These findings suggest that GPT-4o captures specific aspects of human EF, particularly those involving symbolic representation and static information maintenance, while showing limitations in dynamic control and temporal processing. This selective replication pattern provides insights into both the computational basis of EF and the cognitive boundaries of current LLM architectures. Our results indicate that log probability parameters may offer a window into LLM cognitive processing, providing a methodological framework for evaluating artificial cognitive mechanisms.
+                        <strong>Abstract:</strong> Large language models (LLMs) have demonstrated remarkable capabilities in complex reasoning and problem-solving tasks that, in humans, depend on executive functions (EFs). However, the degree to which these models reproduce patterns characteristic of human EF remains unclear. In this study, we systematically evaluated LLM performance across three core EF dimensions—inhibitory control, working memory, and cognitive flexibility—using established behavioral paradigms. We also examined whether model-internal log probability parameters could serve as quantitative indicators of cognitive processing analogous to human neural activity. Using two independent datasets (N₁ = 1,970; N₂ = 39), we simulated trial-by-trial responses while recording log probability metrics. Bayesian analyses revealed selective replication of human EF patterns. Specifically, LLMs reproduced human-like performance in interference inhibition (Stroop task), working memory capacity (digit span task), and working memory updating (n-back task). In contrast, the models showed divergent patterns in response inhibition (Go/No-Go task), time-sensitive working memory updating (running memory task), and cognitive flexibility (number-switching task). Log probability parameters demonstrated task-specific associations with behavioral measures and showed correspondence with activation patterns in EF-related brain regions during working memory and task-switching paradigms. These findings suggest that current LLMs capture certain aspects of human EFs—particularly those involving symbolic representation and the maintenance of static information—while showing limitations in dynamic control and temporal processing. This selective replication pattern offers insights into both the computational basis of EF and the cognitive constraints of current LLM architectures. Notably, log probability parameters may provide a valuable methodological framework for evaluating artificial cognitive mechanisms.
                     </div>
                 </div>
                 <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure6.png')">
@@ -759,6 +770,60 @@ window.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
         </div>
+
+        <!-- Under Review #5 -->
+        <div class="timeline-item" id="paper-prep-5">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status review">Under Review</span>
+                <div class="tl-paper-title">Identifying Generative AI Use Profiles Among College Students Using Latent Profile Analysis: Associations with Depression and Anxiety</div>
+                <div class="tl-journal">Submitted to Journal of Affective Disorders</div>
+                <div class="tl-info-line">
+                    <span>(中科院二区, IF 4.9)</span>
+                    <span class="tl-info-separator">|</span>
+                    <span>共同一作（第二次序）</span>
+
+                </div>
+                <div class="tl-abstract">
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
+                    <div class="tl-abstract-content">
+                        <strong>Abstract:</strong> Background: Generative artificial intelligence (GenAI) has become widely adopted among college students, yet its relationship with mental health remains poorly understood. Most existing studies treat AI users as a homogeneous group, failing to capture considerable heterogeneity in usage patterns. This study aimed to identify latent profiles of GenAI use among Chinese college students and examine their differential associations with depression and anxiety.
+                        Methods: A cross-sectional survey was conducted with 5,748 Chinese college students. Participants completed measures of AI usage behaviors, motivations, AI literacy, dependency, depression (BDI-II), and anxiety (BAI). Latent profile analysis identified distinct usage patterns, and random forest classification with SHAP analysis validated the profiles and identified key distinguishing features.
+                        Results: Four distinct profiles emerged: Rational-Instrumental, Adaptive-Compensatory, Problematic-Dependent, and Light-Exploratory. The Problematic-Dependent profile (15%) was characterized by high escapism motivation, low AI literacy, and high dependency, and was associated with significantly elevated depression and anxiety. In contrast, the Rational-Instrumental profile, marked by high AI literacy and instrumental motivation, showed the most favorable mental health outcomes. The random forest classifier achieved good performance (accuracy=.81; mean AUC=.894). SHAP analysis identified depression, smartphone addiction, and executive function deficits as key features of the Problematic-Dependent profile, whereas conscientiousness was most strongly associated with the Rational-Instrumental profile.
+                        Conclusions: These findings reveal that GenAI usage patterns among college students vary considerably in their associations with depressive and anxiety symptoms. Interventions should target usage motivations and AI literacy rather than usage frequency alone, underscoring the importance of person-centered approaches for understanding technology use and psychological well-being.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Under Review #4 -->
+        <div class="timeline-item" id="paper-prep-5">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025年</div>
+                <span class="tl-status review">Major Revision</span>
+                <div class="tl-paper-title">Differential Profiles of Executive Function Dimensions in First-Episode and Chronic Schizophrenia: Identifying Markers of Illness Progression</div>
+                <div class="tl-journal">Submitted to European Journal of Psychiatry</div>
+                <div class="tl-info-line">
+                    <span>(中科院四区, IF 1.5)</span>
+                    <span class="tl-info-separator">|</span>
+                    <span>共同一作（第二次序）</span>
+
+                </div>
+                <div class="tl-abstract">
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
+                    <div class="tl-abstract-content">
+                        <strong>Abstract:</strong> Background and objectives: Executive function (EF) impairment represents a core feature of schizophrenia, yet how specific EF dimensions differ across illness stages remains poorly understood. This study aimed to characterize the differential profiles of three EF dimensions between first-episode schizophrenia (FES) and chronic schizophrenia (ChSz) patients, and to identify which dimensions are most sensitive to illness progression.
+                        Methods: A total of 182 schizophrenia patients (85 FES, illness duration ≤ 2 years; 97 ChSz, illness duration ≥ 5 years) completed five behavioral paradigms assessing inhibitory control, working memory, and cognitive flexibility. Mixed-model ANCOVA examined differential EF impairment patterns between groups. Random forest classifiers with nested cross-validation and Shapley Additive Explanations (SHAP) identified the EF dimensions that most strongly differentiated between illness stages.
+                        Results: Mixed-model ANCOVA revealed a significant group-by-dimension interaction. FES patients exhibited milder deficits in inhibitory control and working memory updating compared to ChSz patients (all pfdr < 0.05), with the largest effect size for interference inhibition (η² = 0.140). Correlation analyses linked EF impairments to illness duration, symptom severity, and antipsychotic dosage. SHAP analysis identified interference inhibition and working memory updating as the dimensions most strongly associated with illness stage.
+                        Conclusions: This study revealed stage-specific EF impairment profiles in schizophrenia, with inhibitory control and working memory updating showing the greatest deterioration from FES to ChSz. These dimensions may serve as sensitive markers of illness progression and potential targets for stage-specific cognitive interventions.
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
         <!-- Under Review #3 -->
