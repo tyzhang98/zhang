@@ -8,16 +8,16 @@ author_profile: true
 /* 语言切换按钮 */
 .lang-switcher {
     position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1001;
+    top: 80px;
+    right: 30px;
+    z-index: 9999;
     background: white;
-    border: 1px solid #e5e7eb;
+    border: 2px solid #3b82f6;
     border-radius: 20px;
-    padding: 6px;
+    padding: 8px;
     display: flex;
     gap: 4px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .lang-switcher a {
