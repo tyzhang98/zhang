@@ -356,7 +356,7 @@ window.addEventListener('DOMContentLoaded', function() {
 - Cognitive characteristics and early intervention in child and adolescent psychiatric disorders
 
 <div align="center">
-  <img src="images/研究框架.gif" alt="Research framework illustration" width="65%" style="cursor: pointer;" onclick="this.style.width=this.style.width=='65%'?'95%':'65%'">
+  <img src="/zhang/images/研究框架.gif" alt="Research framework illustration" width="65%" style="cursor: pointer;" onclick="this.style.width=this.style.width=='65%'?'95%':'65%'">
   <p style="font-size: 0.9em; color: #f5f5f5ff;"></p>
 </div>
 
