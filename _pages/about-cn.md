@@ -5,88 +5,54 @@ author_profile: true
 ---
 
 <style>
-/* 语言切换按钮 - 现代化设计 */
+/* Language Switcher - Simple & Clean */
 .lang-switcher {
     position: fixed;
     top: 90px;
     right: 30px;
-    z-index: 9999;
+    z-index: 999;
     display: flex;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 25px;
-    padding: 4px;
-    box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.lang-switcher:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 24px rgba(102, 126, 234, 0.4);
+    gap: 2px;
 }
 
 .lang-switcher a {
-    padding: 8px 18px;
+    padding: 4px 10px;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 0.875em;
-    font-weight: 600;
-    border-radius: 20px;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
-    letter-spacing: 0.3px;
-}
-
-.lang-switcher a::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 0;
-    height: 0;
-    background: white;
-    border-radius: 20px;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    z-index: -1;
-    opacity: 0;
+    color: #6b7280;
+    font-size: 0.8em;
+    font-weight: 500;
+    transition: color 0.2s;
+    border-bottom: 2px solid transparent;
 }
 
 .lang-switcher a.active {
-    color: #667eea;
-}
-
-.lang-switcher a.active::before {
-    width: 100%;
-    height: 100%;
-    opacity: 1;
+    color: #2563eb;
+    border-bottom-color: #2563eb;
 }
 
 .lang-switcher a:hover:not(.active) {
-    color: white;
-    transform: scale(1.05);
+    color: #3b82f6;
 }
 
 @media (prefers-color-scheme: dark) {
-    .lang-switcher {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        box-shadow: 0 8px 16px rgba(102, 126, 234, 0.4);
+    .lang-switcher a {
+        color: #9ca3af;
     }
 
-    .lang-switcher:hover {
-        box-shadow: 0 12px 24px rgba(102, 126, 234, 0.5);
+    .lang-switcher a.active {
+        color: #60a5fa;
+        border-bottom-color: #60a5fa;
+    }
+
+    .lang-switcher a:hover:not(.active) {
+        color: #93c5fd;
     }
 }
 
 @media (max-width: 768px) {
     .lang-switcher {
-        top: 10px;
-        right: 10px;
-        padding: 3px;
-    }
-
-    .lang-switcher a {
-        padding: 6px 12px;
-        font-size: 0.8em;
+        top: 80px;
+        right: 20px;
     }
 }
 
