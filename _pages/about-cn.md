@@ -8,8 +8,8 @@ author_profile: true
 /* 语言切换按钮 - 现代化设计 */
 .lang-switcher {
     position: fixed;
-    top: 15px;
-    right: 20px;
+    top: 90px;
+    right: 30px;
     z-index: 9999;
     display: flex;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
