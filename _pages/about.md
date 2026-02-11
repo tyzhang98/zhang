@@ -1,7 +1,6 @@
 ---
 permalink: /
 title: ""
-description: "Tongyi Zhang - PhD candidate in Psychology at Northwest Normal University, specializing in computational mechanisms of higher cognition, development, and pathological impairments"
 author_profile: true
 redirect_from:
   - /about/
@@ -9,94 +8,68 @@ redirect_from:
 ---
 
 <style>
-/* Language Switcher */
+/* Language Switcher - Top Right */
 .lang-switcher {
     position: fixed;
     top: 20px;
     right: 20px;
-    z-index: 1000;
+    z-index: 1001;
     background: white;
-    border-radius: 25px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    padding: 8px 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 6px;
     display: flex;
-    gap: 12px;
-    align-items: center;
+    gap: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .lang-switcher a {
+    padding: 6px 14px;
     text-decoration: none;
-    color: #666;
+    color: #6b7280;
+    font-size: 0.85em;
     font-weight: 500;
-    padding: 6px 12px;
     border-radius: 15px;
     transition: all 0.2s;
-    font-size: 0.9em;
 }
 
 .lang-switcher a.active {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #3b82f6;
     color: white;
 }
 
 .lang-switcher a:hover:not(.active) {
     background: #f3f4f6;
-    color: #0066cc;
+    color: #3b82f6;
 }
 
-/* Wider Main Content */
-.page {
-    width: 100%;
-    max-width: none !important;
-}
-
-@media (min-width: 64em) {
-    .page__content {
-        width: calc(100% - 350px) !important;
-        float: left;
-        padding-right: 3em;
+@media (prefers-color-scheme: dark) {
+    .lang-switcher {
+        background: #1f2937;
+        border-color: #374151;
     }
 
-    .page__related {
-        width: calc(100% - 350px) !important;
-        float: left;
-        padding-right: 3em;
-    }
-}
-
-/* Right Sidebar - Move Further Right */
-.author__avatar {
-    display: table-cell;
-    vertical-align: top;
-    width: 36px;
-    height: 36px;
-}
-
-@media (min-width: 64em) {
-    .sidebar {
-        float: right !important;
-        width: 300px !important;
-        margin-right: 0 !important;
-        opacity: 0.75;
-        transition: opacity 0.3s;
+    .lang-switcher a {
+        color: #9ca3af;
     }
 
-    .sidebar:hover {
-        opacity: 1;
+    .lang-switcher a.active {
+        background: #2563eb;
+        color: white;
     }
 
-    .sidebar.sticky {
-        overflow-y: auto;
-        height: auto;
+    .lang-switcher a:hover:not(.active) {
+        background: #374151;
+        color: #60a5fa;
     }
 }
 
-/* TOC Sidebar Adjustments for Wider Content */
+/* Right Sidebar TOC Navigation - Comfortable Colors */
 .toc-sidebar {
     position: fixed;
-    right: 330px;
+    right: 20px;
     top: 100px;
-    width: 360px;
+    width: 380px;
     max-height: calc(100vh - 120px);
     overflow-y: auto;
     background: transparent;
@@ -126,6 +99,7 @@ redirect_from:
     margin: 5px 0;
 }
 
+/* Main link styles */
 .toc-link {
     display: block;
     padding: 7px 12px;
@@ -152,6 +126,7 @@ redirect_from:
     font-weight: 600;
 }
 
+/* Sublist styles - Always expanded */
 .toc-sublist {
     list-style: none;
     padding: 0;
@@ -165,6 +140,7 @@ redirect_from:
     margin: 3px 0;
 }
 
+/* Sublink styles */
 .toc-sublink {
     display: block;
     padding: 5px 10px;
@@ -191,12 +167,14 @@ redirect_from:
     font-weight: 500;
 }
 
-@media (max-width: 1600px) {
+/* Responsive: Hide TOC on small screens */
+@media (max-width: 1550px) {
     .toc-sidebar {
         display: none;
     }
 }
 
+/* Custom scrollbar */
 .toc-sidebar::-webkit-scrollbar {
     width: 5px;
 }
@@ -215,21 +193,8 @@ redirect_from:
     background: rgba(160, 174, 192, 0.8);
 }
 
+/* Dark mode support */
 @media (prefers-color-scheme: dark) {
-    .lang-switcher {
-        background: #1f2937;
-        border-color: rgba(255, 255, 255, 0.1);
-    }
-
-    .lang-switcher a {
-        color: #9ca3af;
-    }
-
-    .lang-switcher a:hover:not(.active) {
-        background: #374151;
-        color: #60a5fa;
-    }
-
     .toc-sidebar {
         border-color: rgba(200, 200, 200, 0.2);
     }
@@ -267,30 +232,35 @@ redirect_from:
     <a href="/zhang/about-cn">中文</a>
 </div>
 
-<!-- TOC Sidebar -->
-<aside class="toc-sidebar" aria-label="Page Navigation">
+<!-- Right Sidebar TOC Navigation -->
+<aside class="toc-sidebar">
     <div class="toc-title">Contents</div>
     <ul class="toc-list">
         <li class="toc-item"><a href="#top" class="toc-link">• Home</a></li>
+
         <li class="toc-item">
-            <a href="#publications" class="toc-link">• Publications</a>
-            <ul class="toc-sublist">
-                <li class="toc-subitem"><a href="#paper-1" class="toc-sublink">1. WM Stages (Schizophr. Res.)</a></li>
-                <li class="toc-subitem"><a href="#paper-2" class="toc-sublink">2. WM Training (Int. J. Clin.)</a></li>
-                <li class="toc-subitem"><a href="#paper-3" class="toc-sublink">3. EF Classifiers (Schizophr. Bull.)</a></li>
-                <li class="toc-subitem"><a href="#paper-4" class="toc-sublink">4. EF Subtypes (BMC Med.)</a></li>
-                <li class="toc-subitem"><a href="#paper-5" class="toc-sublink">5. IC Development (Child Dev.)</a></li>
-                <li class="toc-subitem"><a href="#paper-6" class="toc-sublink">6. LLMs & EF (PNAS)</a></li>
+            <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
+            <ul class="toc-sublist" id="papers-sublist">
+                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">1. WM Stage-specific (Schizophr. Res.)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. WM Training (Int. J. Clin. Health Psychol.)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. EF Stacking Model (Schizophr. Bull.)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. EF Subtypes (BMC Med.)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. IC Development (Child Dev.)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">6. LLMs-EFs (PNAS.)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-0" class="toc-sublink">In preparation ...</a></li>
+
             </ul>
         </li>
-        <li class="toc-item"><a href="#conferences" class="toc-link">• Conferences</a></li>
-        <li class="toc-item"><a href="#projects" class="toc-link">• Projects</a></li>
-        <li class="toc-item"><a href="#collaboration" class="toc-link">• Collaboration</a></li>
+
+        <li class="toc-item"><a href="#conf-talks" class="toc-link">• Conference</a></li>
+        <li class="toc-item"><a href="#research-projects" class="toc-link">• Projects</a></li>
+        <li class="toc-item"><a href="#collab" class="toc-link">• Collaboration</a></li>
         <li class="toc-item"><a href="#resources" class="toc-link">• Resources</a></li>
     </ul>
 </aside>
 
 <script>
+// TOC navigation activation and submenu control
 window.addEventListener('DOMContentLoaded', function() {
     const tocLinks = document.querySelectorAll('.toc-link');
     const tocSublinks = document.querySelectorAll('.toc-sublink');
@@ -298,16 +268,15 @@ window.addEventListener('DOMContentLoaded', function() {
     function updateActiveLink() {
         const sections = [
             { id: 'top', element: document.body, offset: 0 },
-            { id: 'publications', element: document.getElementById('publications') },
-            { id: 'paper-1', element: document.getElementById('paper-1') },
-            { id: 'paper-2', element: document.getElementById('paper-2') },
-            { id: 'paper-3', element: document.getElementById('paper-3') },
-            { id: 'paper-4', element: document.getElementById('paper-4') },
-            { id: 'paper-5', element: document.getElementById('paper-5') },
-            { id: 'paper-6', element: document.getElementById('paper-6') },
-            { id: 'conferences', element: document.getElementById('conferences') },
-            { id: 'projects', element: document.getElementById('projects') },
-            { id: 'collaboration', element: document.getElementById('collaboration') },
+            { id: 'pub-papers', element: document.getElementById('pub-papers') },
+            { id: 'paper-prep-1', element: document.getElementById('paper-prep-1') },
+            { id: 'paper-prep-2', element: document.getElementById('paper-prep-2') },
+            { id: 'paper-prep-3', element: document.getElementById('paper-prep-3') },
+            { id: 'paper-prep-4', element: document.getElementById('paper-prep-4') },
+            { id: 'paper-prep-5', element: document.getElementById('paper-prep-5') },
+            { id: 'conf-talks', element: document.getElementById('conf-talks') },
+            { id: 'research-projects', element: document.getElementById('research-projects') },
+            { id: 'collab', element: document.getElementById('collab') },
             { id: 'resources', element: document.getElementById('resources') }
         ];
 
@@ -323,16 +292,19 @@ window.addEventListener('DOMContentLoaded', function() {
             }
         });
 
+        // Update main link active state
         tocLinks.forEach(link => {
             link.classList.remove('active');
             if (link.getAttribute('href') === '#' + current) {
                 link.classList.add('active');
             }
-            if (current.startsWith('paper-') && link.getAttribute('href') === '#publications') {
+            // Activate Publications main link if currently on paper sub-item
+            if (current.startsWith('paper-prep-') && link.getAttribute('href') === '#pub-papers') {
                 link.classList.add('active');
             }
         });
 
+        // Update sublink active state
         tocSublinks.forEach(link => {
             link.classList.remove('active');
             if (link.getAttribute('href') === '#' + current) {
@@ -344,6 +316,7 @@ window.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', updateActiveLink);
     updateActiveLink();
 
+    // Smooth scroll - main links
     tocLinks.forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
@@ -360,6 +333,7 @@ window.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // Smooth scroll - sublinks
     tocSublinks.forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
@@ -375,93 +349,55 @@ window.addEventListener('DOMContentLoaded', function() {
 
 ## About Me
 <a id="about"></a>
+&emsp;&emsp;I am a second-year PhD candidate in Psychology at Northwest Normal University. As first author, I have published papers in *Child Development*, *Schizophrenia Bulletin*, *BMC Medicine*, *International Journal of Clinical and Health Psychology*, and *Schizophrenia Research*. I also lead a provincial-level graduate "Innovation Star" research project. My research focuses on the computational, developmental, and pathological mechanisms of higher-order cognition. Integrating cognitive behavioral experiments, functional magnetic resonance imaging (fMRI), and other cognitive neuroscience methods with computational modeling, machine learning, and large language models, I aim to reveal the computational and developmental mechanisms of higher cognitive functions and explore intervention strategies for cognitive impairments in schizophrenia, major depression, and other psychiatric disorders.
 
-I am a second-year PhD candidate in Psychology at Northwest Normal University. As a first author, I have published papers in journals including *Child Development*, *Schizophrenia Bulletin*, *BMC Medicine*, *International Journal of Clinical and Health Psychology*, and *Schizophrenia Research*. I also lead a provincial graduate research innovation project. My research focuses on the computational, developmental, and pathological mechanisms of higher-order cognition, integrating cognitive behavioral experiments, functional magnetic resonance imaging (fMRI), computational modeling, machine learning, and large language models to understand cognitive development and investigate interventions for cognitive impairments in schizophrenia, major depression, and other psychiatric disorders.
-
-**Current Research Focus**
-
+**Current Core Research Questions:**
 **Fundamental Questions**
-- Representational similarity between large language models' cognitive processing patterns and human cognition/brain activity
-- Unified computational models for simulating and predicting human cognitive processing and development
+- Representational similarity between cognitive processing patterns in large language models and human cognition/brain activity
+- Feasibility of simulating and predicting human cognitive processing and development through unified computational models
 
 **Clinical & Applied Questions**
-- Computational mechanisms of cognitive impairments in schizophrenia and identification of intervention targets
+- Computational mechanisms of cognitive impairments in schizophrenia and other psychiatric disorders, and identification of intervention targets
 - Cognitive characteristics and early intervention in child and adolescent psychiatric disorders
 
 <div align="center">
-  <img src="images/研究框架.gif" alt="Research framework illustration showing cognitive psychology methods and approaches" width="65%" style="cursor: pointer;" onclick="this.style.width=this.style.width=='65%'?'95%':'65%'" loading="lazy">
+  <img src="images/研究框架.gif" alt="Research framework illustration" width="65%" style="cursor: pointer;" onclick="this.style.width=this.style.width=='65%'?'95%':'65%'">
+  <p style="font-size: 0.9em; color: #f5f5f5ff;"></p>
 </div>
 
 ---
 
-<a id="publications"></a>
+<a id="pub-papers"></a>
 
 >**Email:** tyzhang9804@gmail.com
 
 ---
+<br>
 <br>
 
 ## Research Publications
 
 <style>
     .publications-container {
-        max-width: 1400px;
+        max-width: 1200px;
         margin: 40px auto;
         padding: 0 20px;
     }
 
-    .papers-in-prep-section {
-        margin-bottom: 30px;
-        border: 1px solid #e5e7eb;
-        border-radius: 6px;
-        overflow: hidden;
-        background: #f9fafb;
-    }
-
-    .papers-in-prep-toggle {
-        width: 100%;
-        padding: 15px 20px;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        border: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        font-size: 1em;
+    .section-title {
+        font-size: 1.4em;
         font-weight: 600;
-        color: white;
+        color: #111827;
+        margin: 40px 0 20px 0;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #0066cc;
+        transition: color 0.3s, border-bottom-color 0.3s;
     }
-
-    .papers-in-prep-toggle:hover {
-        background: linear-gradient(135deg, #5a67d8 0%, #6b3fa0 100%);
-        transform: translateY(-1px);
-        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
-    }
-
-    .papers-in-prep-toggle::after {
-        content: '▼';
-        font-size: 0.9em;
-        transition: transform 0.3s ease;
-    }
-
-    .papers-in-prep-toggle.collapsed::after {
-        transform: rotate(-90deg);
-    }
-
-    .papers-in-prep-content {
-        max-height: 2000px;
-        overflow: hidden;
-        transition: max-height 0.5s ease, opacity 0.3s ease;
-        opacity: 1;
-        padding: 20px;
-        background: white;
-    }
-
-    .papers-in-prep-content.collapsed {
-        max-height: 0;
-        opacity: 0;
-        padding: 0 20px;
+    @media (prefers-color-scheme: dark) {
+        .section-title {
+            color: #f3f4f6;
+            border-bottom-color: #60a5fa;
+        }
     }
 
     .timeline {
@@ -476,7 +412,7 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
         top: 0;
         bottom: 0;
         width: 2px;
-        background: linear-gradient(180deg, #d1d5db 0%, #e5e7eb 100%);
+        background: #d1d5db;
     }
 
     .timeline-item {
@@ -487,14 +423,13 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
     }
 
     .timeline-item:nth-child(1) { animation-delay: 0.1s; }
-    .timeline-item:nth-child(2) { animation-delay: 0.15s; }
-    .timeline-item:nth-child(3) { animation-delay: 0.2s; }
-    .timeline-item:nth-child(4) { animation-delay: 0.25s; }
-    .timeline-item:nth-child(5) { animation-delay: 0.3s; }
-    .timeline-item:nth-child(6) { animation-delay: 0.35s; }
-    .timeline-item:nth-child(7) { animation-delay: 0.4s; }
-    .timeline-item:nth-child(8) { animation-delay: 0.45s; }
-    .timeline-item:nth-child(9) { animation-delay: 0.5s; }
+    .timeline-item:nth-child(2) { animation-delay: 0.2s; }
+    .timeline-item:nth-child(3) { animation-delay: 0.3s; }
+    .timeline-item:nth-child(4) { animation-delay: 0.4s; }
+    .timeline-item:nth-child(5) { animation-delay: 0.5s; }
+    .timeline-item:nth-child(6) { animation-delay: 0.6s; }
+    .timeline-item:nth-child(7) { animation-delay: 0.7s; }
+    .timeline-item:nth-child(8) { animation-delay: 0.8s; }
 
     @keyframes fadeInLeft {
         from {
@@ -522,30 +457,29 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
 
     .timeline-item:hover .timeline-marker {
         transform: scale(1.3);
-        background: #0066cc;
-        box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.2);
+        background: #cc0000ff;
     }
 
     .timeline-content {
         background: white;
         padding: 25px;
-        border-radius: 6px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12);
         transition: transform 0.3s, box-shadow 0.3s;
         border-left: 3px solid #0066cc;
     }
 
     .timeline-content:hover {
         transform: translateX(5px);
-        box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
 
     .tl-date {
         display: inline-block;
-        background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+        background: #3b82f6;
         color: white;
-        padding: 5px 14px;
-        border-radius: 4px;
+        padding: 4px 12px;
+        border-radius: 3px;
         font-size: 0.85em;
         font-weight: 600;
         margin-bottom: 10px;
@@ -553,8 +487,8 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
 
     .tl-status {
         display: inline-block;
-        padding: 5px 12px;
-        border-radius: 4px;
+        padding: 4px 10px;
+        border-radius: 3px;
         font-size: 0.75em;
         font-weight: 600;
         margin-left: 8px;
@@ -562,21 +496,21 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
     }
 
     .tl-status.published {
-        background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+        background: #d1fae5;
         color: #065f46;
         border-color: #6ee7b7;
     }
 
     .tl-status.review {
-        background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+        background: #fef3c7;
         color: #92400e;
         border-color: #fcd34d;
     }
 
     .tl-status.preparation {
-        background: linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%);
+        background: #e5e7eb;
         color: #374151;
-        border-color: #9ca3af;
+        border-color: #d1d5db;
     }
 
     .tl-paper-title {
@@ -585,6 +519,12 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
         color: #111827;
         margin-bottom: 12px;
         line-height: 1.6;
+        font-style: normal;
+    }
+
+    .tl-paper-title .journal-name {
+        font-style: italic;
+        font-weight: 700;
     }
 
     .tl-journal {
@@ -605,6 +545,12 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
         color: #374151;
     }
 
+    .tl-info-line > span,
+    .tl-info-line > a {
+        display: inline-flex;
+        align-items: center;
+    }
+
     .tl-info-separator {
         color: #9ca3af;
         font-weight: 300;
@@ -616,6 +562,7 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
         border: none;
         text-decoration: none;
         color: #0066cc;
+        font-size: 1em;
         transition: all 0.2s;
         cursor: pointer;
     }
@@ -627,7 +574,7 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
 
     .tl-figure {
         margin-top: 18px;
-        border-radius: 6px;
+        border-radius: 4px;
         overflow: hidden;
         border: 1px solid #e5e7eb;
         cursor: pointer;
@@ -643,7 +590,7 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
     }
 
     .tl-figure:hover img {
-        transform: scale(1.02);
+        transform: scale(1.01);
     }
 
     .tl-figure::after {
@@ -653,8 +600,8 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
         right: 10px;
         background: rgba(0,0,0,0.75);
         color: white;
-        padding: 6px 14px;
-        border-radius: 4px;
+        padding: 5px 12px;
+        border-radius: 3px;
         font-size: 0.75em;
         opacity: 0;
         transition: opacity 0.3s;
@@ -670,24 +617,21 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
 
     .tl-abstract-trigger {
         display: inline-block;
-        padding: 7px 16px;
-        background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
-        border-radius: 4px;
+        padding: 6px 14px;
+        background: white;
+        border-radius: 3px;
         font-size: 0.8em;
         color: #374151;
         cursor: pointer;
         transition: all 0.2s;
-        border: 2px solid #d1d5db;
+        border: 2px solid #000;
         user-select: none;
         font-weight: 500;
     }
 
     .tl-abstract-trigger:hover {
-        background: linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%);
+        background: #f9fafb;
         color: #0066cc;
-        border-color: #0066cc;
-        transform: translateY(-1px);
-        box-shadow: 0 2px 6px rgba(0, 102, 204, 0.15);
     }
 
     .tl-abstract-content {
@@ -695,7 +639,7 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
         margin-top: 12px;
         background: #f9fafb;
         border: 1px solid #e5e7eb;
-        border-radius: 6px;
+        border-radius: 4px;
         padding: 18px;
         font-size: 0.85em;
         line-height: 1.7;
@@ -723,13 +667,12 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
     .img-modal-content {
         margin: auto;
         display: block;
-        max-width: 85%;
-        max-height: 85%;
+        max-width: 75%;
+        max-height: 75%;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border-radius: 8px;
     }
 
     .img-modal-close {
@@ -740,7 +683,6 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
         font-size: 40px;
         font-weight: bold;
         cursor: pointer;
-        transition: color 0.2s;
     }
 
     .img-modal-close:hover {
@@ -764,85 +706,93 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
             max-width: 95%;
             max-height: 95%;
         }
-
-        .timeline-content {
-            padding: 18px;
-        }
     }
 </style>
 
 <div class="publications-container">
+    <div class="timeline">
 
-    <!-- Papers in Preparation Section - Collapsible -->
-    <div class="papers-in-prep-section">
-        <button class="papers-in-prep-toggle collapsed" onclick="togglePapersInPrep(this)" aria-expanded="false">
-            <span>Papers in Preparation (6)</span>
-        </button>
-        <div class="papers-in-prep-content collapsed" id="papers-in-prep-content">
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="tl-date">2025</div>
-                        <span class="tl-status preparation">In Prep</span>
-                        <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="tl-date">2025</div>
-                        <span class="tl-status preparation">In Prep</span>
-                        <div class="tl-paper-title">Why do inhibitory control tasks show low correlations? A preregistered cross-site cognitive modeling study</div>
-                        <div class="tl-info-line">
-                            <a href="https://tyzhang98.github.io/zhang/files/Preregistered.docx" class="tl-link-btn">📄 Preregistration (2025-10-05)</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="tl-date">2025</div>
-                        <span class="tl-status preparation">In Prep</span>
-                        <div class="tl-paper-title">Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study</div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="tl-date">2026</div>
-                        <span class="tl-status preparation">In Prep</span>
-                        <div class="tl-paper-title">Computational phenotyping of brain-behavior dynamics in interference inhibition across major depressive disorder, bipolar disorder, and schizophrenia</div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="tl-date">2026</div>
-                        <span class="tl-status preparation">In Prep</span>
-                        <div class="tl-paper-title">Shared and specific computational neural mechanisms underlying interference and response inhibition (干扰抑制和反应抑制的共享与特异性计算神经机制)</div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="tl-date">2026</div>
-                        <span class="tl-status preparation">In Prep</span>
-                        <div class="tl-paper-title">Effects of generative AI on adolescent executive functions (生成式人工智能对青少年执行功能的影响)</div>
-                    </div>
+        <!-- In Preparation #1 -->
+        <div class="timeline-item" id="paper-prep-0">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025</div>
+                <span class="tl-status preparation">In Preparation...</span>
+                <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
+                <div class="tl-info-line">
+                    <span></span>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Published & Under Review Timeline -->
-    <div class="timeline">
-        <div class="timeline-item" id="paper-6">
+        <!-- In Preparation #2 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025</div>
+                <span class="tl-status preparation">In Preparation...</span>
+                <div class="tl-paper-title">Why do inhibitory control tasks show low correlations? A preregistered cross-site cognitive modeling study</div>
+                <div class="tl-info-line">
+                    <a href="https://tyzhang98.github.io/zhang/files/Preregistered.docx" class="tl-link-btn">2025-10-05 Preregistered</a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- In Preparation #3 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2025</div>
+                <span class="tl-status preparation">In Preparation...</span>
+                <div class="tl-paper-title">Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- In Preparation #4 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026</div>
+                <span class="tl-status preparation">In Preparation...</span>
+                <div class="tl-paper-title">Computational phenotyping of brain-behavior dynamics in interference inhibition across major depressive disorder, bipolar disorder, and schizophrenia</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- In Preparation #5 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026</div>
+                <span class="tl-status preparation">In Preparation...</span>
+                <div class="tl-paper-title">Shared and specific computational neural mechanisms underlying interference and response inhibition</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- In Preparation #6 -->
+        <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026</div>
+                <span class="tl-status preparation">In Preparation...</span>
+                <div class="tl-paper-title">Effects of generative AI on adolescent executive functions</div>
+                <div class="tl-info-line">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Under Review #4 -->
+        <div class="timeline-item" id="paper-prep-6">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025</div>
@@ -852,27 +802,29 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
                 <div class="tl-info-line">
                     <span>(JCR Q1, IF 9.1)</span>
                     <span class="tl-info-separator">|</span>
-                    <span>First author</span>
+                    <span>First Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper6.pdf" class="tl-link-btn">📄 PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper6.pdf" class="tl-link-btn">PDF for Manuscript</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper6.docx" class="tl-link-btn">📋 Supplement</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper6.docx" class="tl-link-btn">Supplementary Materials</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://osf.io/hfnt6" class="tl-link-btn">💻 Code</a>
+                    <a href="https://osf.io/hfnt6" class="tl-link-btn">Code</a>
                 </div>
                 <div class="tl-abstract">
-                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)" role="button" tabindex="0">View Abstract</span>
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
                     <div class="tl-abstract-content">
-                        <strong>Abstract:</strong> Large language models (LLMs) have demonstrated considerable capabilities in complex reasoning and problem-solving tasks that, in humans, depend on executive functions (EFs). However, the extent to which these models replicate human EF patterns remains unclear. We systematically evaluated GPT-4o's performance across three core EF dimensions—inhibitory control, working memory, and cognitive flexibility—using established behavioral paradigms. Additionally, we examined whether model-internal log probability parameters could serve as quantitative indicators of cognitive processing analogous to human neural activity. Using two independent datasets (N₁=1,970; N₂=39), we simulated trial-by-trial responses through GPT-4o while recording log probability metrics. Bayesian analyses revealed selective replication of human EF patterns. GPT-4o successfully reproduced human-like performance in interference inhibition (stroop), working memory capacity (digit span), and working memory updating (n-back). In contrast, the model showed divergent patterns in response inhibition (Go/No-Go), time-sensitive working memory updating (running memory task with presentation times of 1750 ms and 750 ms), and cognitive flexibility (number-switching task). Log probability parameters demonstrated task-specific associations with behavioral measures and corresponded with activation patterns in EF-related brain regions during working memory and task-switching paradigms. These findings suggest that GPT-4o captures specific aspects of human EF, particularly those involving symbolic representation and static information maintenance, while showing limitations in dynamic control and temporal processing.
+                        <strong>Abstract:</strong> Large language models (LLMs) have demonstrated considerable capabilities in complex reasoning and problem-solving tasks that, in humans, depend on executive functions (EFs). However, the extent to which these models replicate human EF patterns remains unclear. We systematically evaluated GPT-4o's performance across three core EF dimensions—inhibitory control, working memory, and cognitive flexibility—using established behavioral paradigms. Additionally, we examined whether model-internal log probability parameters could serve as quantitative indicators of cognitive processing analogous to human neural activity. Using two independent datasets (N₁=1,970; N₂=39), we simulated trial-by-trial responses through GPT-4o while recording log probability metrics. Bayesian analyses revealed selective replication of human EF patterns. GPT-4o successfully reproduced human-like performance in interference inhibition (stroop), working memory capacity (digit span), and working memory updating (n-back). In contrast, the model showed divergent patterns in response inhibition (Go/No-Go), time-sensitive working memory updating (running memory task with presentation times of 1750 ms and 750 ms), and cognitive flexibility (number-switching task). Log probability parameters demonstrated task-specific associations with behavioral measures and corresponded with activation patterns in EF-related brain regions during working memory and task-switching paradigms. These findings suggest that GPT-4o captures specific aspects of human EF, particularly those involving symbolic representation and static information maintenance, while showing limitations in dynamic control and temporal processing. This selective replication pattern provides insights into both the computational basis of EF and the cognitive boundaries of current LLM architectures. Our results indicate that log probability parameters may offer a window into LLM cognitive processing, providing a methodological framework for evaluating artificial cognitive mechanisms.
                     </div>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure6.png')" ondblclick="openImgModal('/zhang/images/Page1-Figure6.png')" role="button" tabindex="0">
-                    <img src="/zhang/images/Page1-Figure6.png" alt="GPT-4o executive functions study design and analysis flowchart" loading="lazy">
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure6.png')">
+                    <img src="/zhang/images/Page1-Figure6.png" alt="Research design and analysis flowchart">
                 </div>
             </div>
         </div>
 
-        <div class="timeline-item" id="paper-5">
+
+        <!-- Under Review #3 -->
+        <div class="timeline-item" id="paper-prep-5">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025</div>
@@ -882,25 +834,26 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
                 <div class="tl-info-line">
                     <span>(JCR Q1, IF 3.8)</span>
                     <span class="tl-info-separator">|</span>
-                    <span>First author</span>
+                    <span>First Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper5.pdf" class="tl-link-btn">📄 PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper5.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code" class="tl-link-btn">💻 Code</a>
+                    <a href="https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code" class="tl-link-btn">Code</a>
                 </div>
                 <div class="tl-abstract">
-                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)" role="button" tabindex="0">View Abstract</span>
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
                     <div class="tl-abstract-content">
-                        <strong>Abstract:</strong> This study examined inhibitory control development in two samples of Chinese children: a primary sample (n = 1,122; 45.5% female; 91.9% Han, Mage = 12.42 years, range: 6.0–18.7) with 6-month longitudinal follow-up and an independent replication sample (n = 1,026; 45.1% female; 90.8% Han, Mage = 12.44 years, range: 6.1–18.8). Generalized Additive Models applied to Stroop and Go/No-Go tasks revealed four-phase nonlinear developmental trajectories. Response inhibition stabilized by 13.4 years, while interference inhibition developed until 15.8 years. Hierarchical drift diffusion modeling showed that interference inhibition developed through enhanced information accumulation (drift rate), whereas response inhibition developed through enhanced response bias control (starting point). Age-related processing speed improvements suggest shared foundational mechanisms.
+                        <strong>Abstract:</strong> This study examined inhibitory control development in two samples of Chinese children: a primary sample (n = 1,122; 45.5% female; 91.9% Han, Mage = 12.42 years, range: 6.0–18.7) with 6-month longitudinal follow-up and an independent replication sample (n = 1,026; 45.1% female; 90.8% Han, Mage = 12.44 years, range: 6.1–18.8). Generalized Additive Models applied to Stroop and Go/No-Go tasks revealed four-phase nonlinear developmental trajectories. Response inhibition stabilized by 13.4 years, while interference inhibition developed until 15.8 years. Hierarchical drift diffusion modeling showed that interference inhibition developed through enhanced information accumulation (drift rate), whereas response inhibition developed through enhanced response bias control (starting point). Age-related processing speed improvements suggest shared foundational mechanisms. The findings contribute to a decision-computational framework.
                     </div>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure5.png')" ondblclick="openImgModal('/zhang/images/Page1-Figure5.png')" role="button" tabindex="0">
-                    <img src="/zhang/images/Page1-Figure5.png" alt="Inhibitory control development study design" loading="lazy">
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure5.png')">
+                    <img src="/zhang/images/Page1-Figure5.png" alt="Research design and analysis flowchart">
                 </div>
             </div>
         </div>
 
-        <div class="timeline-item" id="paper-4">
+        <!-- Under Review #2 -->
+        <div class="timeline-item" id="paper-prep-4">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025</div>
@@ -910,78 +863,116 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
                 <div class="tl-info-line">
                     <span>(JCR Q1, IF 8.3)</span>
                     <span class="tl-info-separator">|</span>
-                    <span>First author</span>
+                    <span>First Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper4.pdf" class="tl-link-btn">📄 PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper4.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ" class="tl-link-btn">💻 Code</a>
+                    <a href="https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ" class="tl-link-btn">Code</a>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure4.jpg')" ondblclick="openImgModal('/zhang/images/Page1-Figure4.jpg')" role="button" tabindex="0">
-                    <img src="/zhang/images/Page1-Figure4.jpg" alt="EF subtypes in schizophrenia study design" loading="lazy">
+                <div class="tl-abstract">
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
+                    <div class="tl-abstract-content">
+                        <strong>Introduction:</strong> Executive function (EF) is a heterogeneous neuropsychological construct, and impairments in EF dimensions represent a core aspect of psychopathology in schizophrenia that vary across individual patients. Currently, how this inter-individual variability characterizes schizophrenia subgroups, along with their distinctions in clinical characteristics and prognostic outcomes, remains unclear.<br><br>
+                        <strong>Methods:</strong> Three EF dimensions (inhibitory control, working memory, cognitive flexibility) were assessed in the main sample (N=329), its follow-up subset, and an independently "recurring local validation" patient sample (N=114). Fuzzy clustering was applied to baseline EF assessments to discover and validate the core subtypes after excluding cluster-ambiguous cases in the main and independent samples, respectively. Subtype-based classification trained on the main sample was then tested in the independent sample. Importantly, the stability of these subtypes and their remission statuses, along with associated longitudinal changes in clinical and biological factors, were evaluated, and baseline subtype memberships were also used to predict outcomes.<br><br>
+                        <strong>Results:</strong> Two longitudinally stable, independently validated core EF subtypes were identified, with significantly variable baseline positive, affective, and cognitive symptoms; working memory updating functioning; and peripheral inflammatory and metabolic levels. This two-subtype differentiation allowed an accurate classification of novel patients' subtype memberships and patients' remission statuses not due to overall severity at intake. Remitted patients experienced significantly greater reductions in negative and cognitive symptoms, improved working memory maintenance, lower peripheral inflammatory levels, and more-superior metabolic functions over time.<br><br>
+                        <strong>Conclusions:</strong> EF subtyping successfully captured the symptomatic, biochemical, and prognostic variations in individuals with schizophrenia, which could help to stratify patients with this disorder for targeted treatments.
+                    </div>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure4.jpg')">
+                    <img src="/zhang/images/Page1-Figure4.jpg" alt="Research design and analysis flowchart">
                 </div>
             </div>
         </div>
 
-        <div class="timeline-item" id="paper-3">
+        <!-- Published #1 -->
+        <div class="timeline-item" id="paper-prep-3">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">Nov 2025</div>
+                <div class="tl-date">November 2025</div>
                 <span class="tl-status published">Published</span>
                 <div class="tl-paper-title">Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights</div>
                 <div class="tl-journal">Schizophrenia Bulletin</div>
                 <div class="tl-info-line">
                     <span>(JCR Q1, IF 4.8)</span>
                     <span class="tl-info-separator">|</span>
-                    <span>Co-first author</span>
+                    <span>Co-first Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper2.pdf" class="tl-link-btn">📄 PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper2.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://github.com/tyzhang98/SCZ-EF-stacked-classifiers" class="tl-link-btn">💻 Code</a>
+                    <a href="https://github.com/tyzhang98/SCZ-EF-stacked-classifiers" class="tl-link-btn">Code</a>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure2.jpg')" ondblclick="openImgModal('/zhang/images/Page1-Figure2.jpg')" role="button" tabindex="0">
-                    <img src="/zhang/images/Page1-Figure2.jpg" alt="Stacked classifiers for EF in schizophrenia" loading="lazy">
+                <div class="tl-abstract">
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
+                    <div class="tl-abstract-content">
+                        <strong>Background:</strong> Executive functioning (EF) impairments are often seen in mental disorders, particularly schizophrenia, where they relate to adverse outcomes. As a heterogeneous construct, how specifically each dimension of EF to characterize the diagnostic and prognostic aspects of schizophrenia remains opaque.<br><br>
+                        <strong>Study Design:</strong> We used classification models with a stacking approach on systematically measured EFs using 6 tasks to discriminate 195 patients with schizophrenia from healthy individuals. Baseline EF measurements were moreover employed to predict symptomatically remitted or non-remitted prognostic subgroups. EF feature importance was determined at the group-level and the ensuing individual importance scores were associated with four symptom dimensions.<br><br>
+                        <strong>Study Results:</strong> The models highlighted the importance of inhibitory control (interference and response inhibitions) or working memory in accurately identifying individuals with schizophrenia (area under the curve [AUC] = 0.87) or those in remission (AUC = 0.81). Patients who are correctly classified, in association with the contribution of interference inhibition function to our diagnostic classifier, present more severe baseline negative symptoms compared to those who are more likely to be misclassified. Also, linked to the function of working memory updating, patients who are successfully classified as remitted display milder cognitive symptoms at follow-up. Remitted patients do not differ significantly from non-remitted cases in baseline EF assessments or overall symptom severity.
+                    </div>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure2.jpg')">
+                    <img src="/zhang/images/Page1-Figure2.jpg" alt="Research design and analysis flowchart">
                 </div>
             </div>
         </div>
 
-        <div class="timeline-item" id="paper-2">
+        <!-- Published #2 -->
+        <div class="timeline-item" id="paper-prep-2">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">Sep 2025</div>
+                <div class="tl-date">September 2025</div>
                 <span class="tl-status published">Published</span>
-                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <em>International Journal of Clinical and Health Psychology</em>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn">https://doi.org/10.1016/j.ijchp.2025.100628</a></div>
+                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <strong><em>International Journal of Clinical and Health Psychology</em></strong>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ijchp.2025.100628</a></div>
                 <div class="tl-info-line">
                     <span>(JCR Q2, IF 4.4)</span>
                     <span class="tl-info-separator">|</span>
-                    <span>Co-first author</span>
+                    <span>Co-first Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper3.pdf" class="tl-link-btn">📄 PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper3.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://github.com/tyzhang98/ML-PsyExecShift" class="tl-link-btn">💻 Code</a>
+                    <a href="https://github.com/tyzhang98/ML-PsyExecShift" class="tl-link-btn">Code</a>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure3.jpg')" ondblclick="openImgModal('/zhang/images/Page1-Figure3.jpg')" role="button" tabindex="0">
-                    <img src="/zhang/images/Page1-Figure3.jpg" alt="WM training effects study design" loading="lazy">
+                <div class="tl-abstract">
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
+                    <div class="tl-abstract-content">
+                        <strong>Background:</strong> Executive dysfunction in schizophrenia profoundly impairs functional outcomes and remains insufficiently addressed by standard pharmacological treatments. While computerized cognitive training offers promise, traditional evaluation methods often fail to capture nuanced improvements along the psychosis-health continuum. This study aims to quantify executive function (EF) profile changes following working memory training and identify robust baseline predictors of treatment response.<br><br>
+                        <strong>Methods:</strong> Ninety-four schizophrenia patients were randomized to adaptive N-back training (n = 32), non-adaptive 1-back control (n = 33), or treatment-as-usual (n = 29). EF was assessed across working memory, cognitive flexibility, and inhibitory control domains. A support vector machine classifier, trained on an independent sample (195 patients, 169 controls) and calibrated via Platt scaling, quantified EF profile changes. An exploratory framework based on Granger causality principles identified baseline treatment predictors.<br><br>
+                        <strong>Results:</strong> Adaptive training produced significant near-transfer effects on untrained working memory tasks and reduced general psychopathology (pfdr < 0.05), but no far-transfer effects to other EF domains. The probability of neurotypical EF classification increased substantially in the adaptive group (13.21% to 38.79%, p < 0.001), correlating with symptom reduction. Working memory maintenance and response inhibition emerged as the most robust baseline predictors of treatment response.<br><br>
+                        <strong>Conclusions:</strong> Working memory training induces meaningful shifts in EF profiles in schizophrenia, promoting movement along the psychosis-health continuum toward neurotypical functioning. The classifier-based approach provides a more refined assessment compared to traditional binary measures, while the exploratory framework identifies specific EF domains predicting treatment response with potential causal relevance. These findings warrant validation through larger, multi-center trials with extended follow-up periods.
+                    </div>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure3.jpg')">
+                    <img src="/zhang/images/Page1-Figure3.jpg" alt="Research design and analysis flowchart">
                 </div>
             </div>
         </div>
 
-        <div class="timeline-item" id="paper-1">
+        <!-- Published #3 -->
+        <div class="timeline-item" id="paper-prep-1">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">Jun 2025</div>
+                <div class="tl-date">June 2025</div>
                 <span class="tl-status published">Published</span>
-                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <em>Schizophrenia Research</em>, <em>282</em>, 203-213. <a href="https://doi.org/10.1016/j.schres.2025.06.012" class="tl-link-btn">https://doi.org/10.1016/j.schres.2025.06.012</a></div>
+                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <strong><em>Schizophrenia Research</em></strong>, <em>282</em>, 203-213. <a href="https://doi.org/10.1016/j.schres.2025.06.012" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.schres.2025.06.012</a></div>
                 <div class="tl-info-line">
                     <span>(JCR Q2, IF 3.5)</span>
                     <span class="tl-info-separator">|</span>
-                    <span>First author</span>
+                    <span>First Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper1.pdf" class="tl-link-btn">📄 PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper1.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://github.com/tyzhang98/Two-back-task-HDDM" class="tl-link-btn">💻 Code</a>
+                    <a href="https://github.com/tyzhang98/Two-back-task-HDDM" class="tl-link-btn">Code</a>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure1.jpg')" ondblclick="openImgModal('/zhang/images/Page1-Figure1.jpg')" role="button" tabindex="0">
-                    <img src="/zhang/images/Page1-Figure1.jpg" alt="WM deficits stages study design" loading="lazy">
+                <div class="tl-abstract">
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
+                    <div class="tl-abstract-content">
+                        <strong>Background:</strong> Cognitive dysfunction, particularly working memory (WM) impairment, constitutes a core feature of schizophrenia and is largely unresponsive to available antipsychotic treatments. The computational mechanisms underlying WM deficits at different illness stages and their associations with clinical symptom dimensions remain poorly understood.<br><br>
+                        <strong>Methods:</strong> We applied hierarchical drift diffusion modeling (HDDM) to dissect latent cognitive processes underlying WM performance in a two-back task among patients with first-episode schizophrenia (FES, N = 103, illness duration ≤2 years), chronic schizophrenia (ChSz, N = 108, illness duration ≥5 years), and healthy controls (HCs, N = 85). Multiple regression and mediation analyses were conducted to examine associations between HDDM parameters, clinical symptoms, and conventional metrics.<br><br>
+                        <strong>Results:</strong> Both patient groups exhibited significant WM deficits compared to HCs, with ChSz patients demonstrating more pronounced impairments than FES patients. HDDM analysis revealed that patients showed significantly reduced drift rate and prolonged non-decision time compared to HCs. Notably, while non-decision time remained comparable between FES and ChSz groups, drift rate was significantly lower in ChSz patients, mediated the relationship between illness stage and WM performance, and negatively correlated with negative symptoms and general psychopathology.<br><br>
+                        <strong>Conclusions:</strong> This study reveals distinct computational profiles of WM deficits across different stages of schizophrenia. While non-decision time impairments emerge early and persist, reduced drift rate progressively deteriorates with illness duration and is closely linked to specific clinical symptoms. These findings enhance our understanding of WM dysfunction across illness stages and support the development of targeted cognitive interventions tailored to illness stage and symptom severity.
+                    </div>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure1.jpg')">
+                    <img src="/zhang/images/Page1-Figure1.jpg" alt="Research design and analysis flowchart">
                 </div>
             </div>
         </div>
@@ -989,27 +980,12 @@ I am a second-year PhD candidate in Psychology at Northwest Normal University. A
 </div>
 
 <!-- Image Modal -->
-<div id="imgModal" class="img-modal" onclick="closeImgModal()" ondblclick="closeImgModal()" role="dialog" aria-modal="true">
+<div id="imgModal" class="img-modal" onclick="closeImgModal()">
     <span class="img-modal-close" onclick="closeImgModal()">&times;</span>
-    <img class="img-modal-content" id="modalImg" alt="Enlarged research figure">
+    <img class="img-modal-content" id="modalImg">
 </div>
 
 <script>
-function togglePapersInPrep(button) {
-    const content = document.getElementById('papers-in-prep-content');
-    const isCollapsed = content.classList.contains('collapsed');
-
-    if (isCollapsed) {
-        content.classList.remove('collapsed');
-        button.classList.remove('collapsed');
-        button.setAttribute('aria-expanded', 'true');
-    } else {
-        content.classList.add('collapsed');
-        button.classList.add('collapsed');
-        button.setAttribute('aria-expanded', 'false');
-    }
-}
-
 function toggleAbstract(trigger) {
     var content = trigger.nextElementSibling;
     content.classList.toggle('show');
@@ -1026,105 +1002,99 @@ function openImgModal(imgSrc) {
     var modalImg = document.getElementById("modalImg");
     modal.style.display = "block";
     modalImg.src = imgSrc;
-    document.body.style.overflow = 'hidden';
 }
 
 function closeImgModal() {
     var modal = document.getElementById("imgModal");
     modal.style.display = "none";
-    document.body.style.overflow = '';
 }
 
+// Close modal on ESC key
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
         closeImgModal();
     }
 });
-
-document.querySelectorAll('.tl-figure').forEach(figure => {
-    figure.addEventListener('keypress', function(e) {
-        if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            const imgSrc = this.querySelector('img').src;
-            openImgModal(imgSrc);
-        }
-    });
-});
 </script>
 
-<a id="conferences"></a>
+<a id="conf-talks"></a>
+<br>
 <br>
 
-## Conference Presentations
-
+## 2. Conference Presentations
 **Lanzhou Third People's Hospital Academic Lecture**
-- Topic: Application of AI and Cognitive Modeling in Executive Function Research in Schizophrenia [Download (PDF)](https://tyzhang98.github.io/zhang/files/slides4.pdf)
+- Topic: Application of AI and Cognitive Modeling in Executive Function Research in Schizophrenia [Download Slides (PDF)](https://tyzhang98.github.io/zhang/files/slides4.pdf)
 - Date: December 5, 2025
 - Location: Lanzhou Third People's Hospital
-- [Report Link](https://mp.weixin.qq.com/s/rTePQw_mfU1r-ok_Hh4imQ)
+- [News Report](https://mp.weixin.qq.com/s/rTePQw_mfU1r-ok_Hh4imQ)
+
 
 **2025 Joint Forum on Psychology and Cognitive Science & Peking University Graduate Forum**
-- Format: Poster presentation [Download (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
+- Format: Poster presentation [Download Poster (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
 - Date: April 19, 2025
 - Location: Peking University
 
 **Lanzhou Third People's Hospital Academic Lecture**
-- Topic: Computational Psychiatry: From Theory to Practice [Download (PDF)](https://tyzhang98.github.io/zhang/files/slides3.pdf)
+- Topic: Computational Psychiatry: From Theory to Practice [Download Slides (PDF)](https://tyzhang98.github.io/zhang/files/slides3.pdf)
 - Date: November 26, 2024
 - Location: Lanzhou Third People's Hospital
-- [Report Link](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
+- [News Report](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
 
 **25th National Conference of Psychology**
-- Format: Oral presentation [Download (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
+- Format: Oral presentation at symposium [Download Slides (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
 - Date: October 14, 2024
 - Location: Sichuan Normal University
 
-<a id="projects"></a>
+<a id="research-projects"></a>
+<br>
+<br>
 <br>
 
-## Research Projects
+## 3. Research Projects
 
 **Principal Investigator**
-- **2024 Provincial Graduate Innovation Star Project** (No. 2025CXZX-366) - Completed (December 2025)
+- **2024 Provincial Graduate Innovation Star Project (No. 2025CXZX-366)** (Completed December 2025)
 
 **Co-Investigator**
-- **National Natural Science Foundation Regional Project** (32260207) "Cognitive Training for Rural Children's Executive Functions" (2022-2025)
-- **National Key R&D Program** (2021ZD0203800) Brain Science and Brain-like Research Major Project: Neural Circuit Mechanisms of Attention (Task 4: Attention in Special Populations) (2021.12-2026.12)
+- **National Natural Science Foundation Regional Project** (32260207) "Cognitive Training for Rural Children's Executive Functions" (Participant, 2022-2025)
+- **National Key R&D Program** (2021ZD0203800) Brain Science and Brain-like Research Major Project: Neural Circuit Mechanisms of Attention (Task 4: Attention in Special Populations) (Participant, 2021.12-2026.12)
 
-<a id="collaboration"></a>
+<a id="collab"></a>
+<br>
+<br>
 <br>
 
 ---
 
-## Research Collaboration
+## 4. Seeking Research Collaboration
 
-I welcome collaboration in the following areas:
-- Cognitive psychology and computational modeling
-- Cognitive impairment mechanisms in psychiatric disorders
-- Machine learning applications in psychology
-- Large language models and cognitive science
+
+---
 
 ### Contact
 
-For academic collaboration or discussion, please contact: **tyzhang9804@gmail.com**
+Welcome academic collaboration and exchange! For collaboration intentions or academic discussions, please contact: **tyzhang9804@gmail.com**
 
 > **Note:** As a current PhD candidate, collaborations require advisor approval
 
 <a id="resources"></a>
 <br>
+<br>
+<br>
 
-## Research Resources
+## 5. Research Resources
 
 ### Open Code
-- **Stacking Model with SHAP Explanation** ([Download](https://tyzhang98.github.io/zhang/files/Stacking-SHAP.zip))
+- **Stacking Model with SHAP Explanation** ([Download Code](https://tyzhang98.github.io/zhang/files/Stacking-SHAP.zip))
   - **Citation:** Zhang, T., Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging stacked classifiers for multi-task executive function in schizophrenia yields diagnostic and prognostic insights. *medRxiv*. https://doi.org/10.1101/2024.12.05.24318587
 
+<br>
 <br>
 
 ---
 
 <p align="center">
-  <small>Last updated: February 11, 2026, 16:00:00 (GMT+8) | Tongyi Zhang, Lanzhou, China</small>
+Last updated on February 11, 2026, at 17:30:00 (GMT+8) by Tongyi Zhang, Lanzhou, China.
 </p>
 
 ---
@@ -1134,18 +1104,18 @@ For academic collaboration or discussion, please contact: **tyzhang9804@gmail.co
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-window.addEventListener('load', function() {
+  window.addEventListener('load', function() {
     var map = L.map('locationMap').setView([36.0611, 103.8343], 13);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap contributors',
-        maxZoom: 18
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Esri',
+      maxZoom: 18
     }).addTo(map);
 
     L.marker([36.0611, 103.8343]).addTo(map)
-        .bindPopup('<div style="text-align: center; padding: 5px;"><b>Northwest Normal University<br>西北师范大学</b></div>')
-        .openPopup();
-});
+      .bindPopup('<div style="text-align: center; padding: 5px;"><b>Northwest Normal University<br>西北师范大学</div>')
+      .openPopup();
+  });
 </script>
 
 ---
