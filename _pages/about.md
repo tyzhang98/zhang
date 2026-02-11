@@ -8,59 +8,88 @@ redirect_from:
 ---
 
 <style>
-/* Language Switcher - Top Right */
+/* Language Switcher - Modern Design */
 .lang-switcher {
     position: fixed;
-    top: 80px;
-    right: 30px;
+    top: 15px;
+    right: 20px;
     z-index: 9999;
-    background: white;
-    border: 2px solid #3b82f6;
-    border-radius: 20px;
-    padding: 8px;
     display: flex;
-    gap: 4px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 25px;
+    padding: 4px;
+    box-shadow: 0 8px 16px rgba(102, 126, 234, 0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lang-switcher:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(102, 126, 234, 0.4);
 }
 
 .lang-switcher a {
-    padding: 6px 14px;
+    padding: 8px 18px;
     text-decoration: none;
-    color: #6b7280;
-    font-size: 0.85em;
-    font-weight: 500;
-    border-radius: 15px;
-    transition: all 0.2s;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875em;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    letter-spacing: 0.3px;
+}
+
+.lang-switcher a::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    background: white;
+    border-radius: 20px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: -1;
+    opacity: 0;
 }
 
 .lang-switcher a.active {
-    background: #3b82f6;
-    color: white;
+    color: #667eea;
+}
+
+.lang-switcher a.active::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
 }
 
 .lang-switcher a:hover:not(.active) {
-    background: #f3f4f6;
-    color: #3b82f6;
+    color: white;
+    transform: scale(1.05);
 }
 
 @media (prefers-color-scheme: dark) {
     .lang-switcher {
-        background: #1f2937;
-        border-color: #374151;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        box-shadow: 0 8px 16px rgba(102, 126, 234, 0.4);
+    }
+
+    .lang-switcher:hover {
+        box-shadow: 0 12px 24px rgba(102, 126, 234, 0.5);
+    }
+}
+
+@media (max-width: 768px) {
+    .lang-switcher {
+        top: 10px;
+        right: 10px;
+        padding: 3px;
     }
 
     .lang-switcher a {
-        color: #9ca3af;
-    }
-
-    .lang-switcher a.active {
-        background: #2563eb;
-        color: white;
-    }
-
-    .lang-switcher a:hover:not(.active) {
-        background: #374151;
-        color: #60a5fa;
+        padding: 6px 12px;
+        font-size: 0.8em;
     }
 }
 
