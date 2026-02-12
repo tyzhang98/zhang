@@ -8,7 +8,10 @@
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           {% for link in site.data.navigation.main %}
+            {% assign first_char = link.url | slice: 0 %}
             {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+            {% elsif first_char == '#' %}
               {% assign domain = '' %}
             {% else %}
               {% assign domain = base_path %}
@@ -27,29 +30,27 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var navLinks = document.querySelectorAll('#site-nav .visible-links a, #site-nav .hidden-links a');
+  var navLinks = document.querySelectorAll('#site-nav .visible-links .masthead__menu-item a[href]');
   navLinks.forEach(function(link) {
     link.addEventListener('click', function(e) {
       var href = this.getAttribute('href');
-      var hashIndex = href.indexOf('#');
-      if (hashIndex !== -1) {
-        var targetId = href.substring(hashIndex + 1);
-        var targetEl = document.getElementById(targetId);
+      if (!href) return;
+      if (href.charAt(0) === '#') {
+        var targetEl = document.getElementById(href.substring(1));
         if (targetEl) {
           e.preventDefault();
           targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          history.replaceState(null, '', '#' + targetId);
-          return;
-        }
-      }
-      if (hashIndex === -1 && href.indexOf('http') !== 0) {
-        var path = window.location.pathname.replace(/\/$/, '');
-        var linkPath = href.replace(/\/$/, '');
-        if (path === linkPath || linkPath === '{{ base_path }}') {
-          e.preventDefault();
-          window.scrollTo({ top: 0, behavior: 'smooth' });
           history.replaceState(null, '', href);
         }
+        return;
+      }
+      var loc = window.location;
+      var currentPath = loc.origin + loc.pathname.replace(/\/$/, '');
+      var linkPath = href.replace(/\/$/, '');
+      if (currentPath === linkPath || loc.pathname.replace(/\/$/, '') === linkPath.replace(/\/$/, '')) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        history.replaceState(null, '', loc.pathname);
       }
     });
   });
