@@ -24,3 +24,35 @@
     </div>
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var navLinks = document.querySelectorAll('#site-nav .visible-links a, #site-nav .hidden-links a');
+  navLinks.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      var href = this.getAttribute('href');
+      // Extract hash from href (e.g. "/zhang#pub-papers" -> "pub-papers")
+      var hashIndex = href.indexOf('#');
+      if (hashIndex !== -1) {
+        var targetId = href.substring(hashIndex + 1);
+        var targetEl = document.getElementById(targetId);
+        if (targetEl) {
+          e.preventDefault();
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          history.replaceState(null, '', '#' + targetId);
+        }
+      }
+      // Handle Home link (href = "/" or "/zhang/") — scroll to top if already on homepage
+      if (hashIndex === -1 && !href.startsWith('http')) {
+        var path = window.location.pathname.replace(/\/$/, '');
+        var linkPath = href.replace(/\/$/, '');
+        if (path === linkPath || linkPath === '{{ base_path }}') {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          history.replaceState(null, '', href);
+        }
+      }
+    });
+  });
+});
+</script>
