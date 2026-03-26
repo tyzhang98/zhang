@@ -645,35 +645,37 @@ window.addEventListener('DOMContentLoaded', function() {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        background: rgba(0,0,0,0.5);
+        background: rgba(0,0,0,0.6);
         color: white;
         border: none;
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         cursor: pointer;
-        font-size: 14px;
+        font-size: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
         opacity: 0;
         transition: opacity 0.3s;
-        z-index: 2;
+        z-index: 10;
     }
     .tl-carousel:hover .tl-carousel-nav { opacity: 1; }
+    .tl-carousel-nav:hover { background: rgba(0,0,0,0.8); }
     .tl-carousel-nav.prev { left: 8px; }
     .tl-carousel-nav.next { right: 8px; }
     .tl-carousel-dots {
         display: flex;
         justify-content: center;
-        gap: 6px;
-        padding: 8px 0;
+        gap: 8px;
+        padding: 10px 0;
         background: #f9fafb;
     }
     .tl-carousel-dots span {
-        width: 6px; height: 6px;
+        width: 10px; height: 10px;
         border-radius: 50%;
         background: #cbd5e1;
+        cursor: pointer;
         transition: background 0.3s;
     }
     .tl-carousel-dots span.active { background: #3b82f6; }
@@ -1118,30 +1120,31 @@ document.addEventListener('keydown', function(event) {
 
 // Carousel
 function carouselNav(btn, dir) {
-    var track = btn.parentElement.querySelector('.tl-carousel-track');
+    event.stopPropagation();
+    var carousel = btn.closest('.tl-carousel');
+    var track = carousel.querySelector('.tl-carousel-track');
     var w = track.clientWidth;
     track.scrollBy({ left: dir * w, behavior: 'smooth' });
 }
-document.addEventListener('scroll', function() {
-    document.querySelectorAll('.tl-carousel-track').forEach(function(track) {
-        var dots = track.parentElement.querySelector('.tl-carousel-dots');
-        if (!dots) return;
-        var idx = Math.round(track.scrollLeft / track.clientWidth);
-        dots.querySelectorAll('span').forEach(function(d, i) {
-            d.classList.toggle('active', i === idx);
-        });
-    });
-}, true);
-// Update dots on carousel scroll
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.tl-carousel-track').forEach(function(track) {
         track.addEventListener('scroll', function() {
-            var dots = track.parentElement.querySelector('.tl-carousel-dots');
+            var dots = track.closest('.tl-carousel').querySelector('.tl-carousel-dots');
             if (!dots) return;
             var idx = Math.round(track.scrollLeft / track.clientWidth);
             dots.querySelectorAll('span').forEach(function(d, i) {
                 d.classList.toggle('active', i === idx);
             });
+        });
+    });
+    // Dot click navigation
+    document.querySelectorAll('.tl-carousel-dots span').forEach(function(dot) {
+        dot.addEventListener('click', function(e) {
+            e.stopPropagation();
+            var dots = dot.parentElement;
+            var idx = Array.from(dots.children).indexOf(dot);
+            var track = dots.closest('.tl-carousel').querySelector('.tl-carousel-track');
+            track.scrollTo({ left: idx * track.clientWidth, behavior: 'smooth' });
         });
     });
 });
