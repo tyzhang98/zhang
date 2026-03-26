@@ -236,18 +236,17 @@ author_profile: true
                 <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">1. Schizophr. Res. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. Int. J. Clin. Health Psychol. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. Schizophr. Bull. (Published)</a></li>
-                <li class="toc-subitem"><a href="#paper-pub-ejp" class="toc-sublink">4. Eur. J. Psychiatry (Published)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">5. BMC Med. (Major Revision)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">6. Child Dev. (Major Revision)</a></li>
-                <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">7. JEP: General (With Editor)</a></li>
-                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">8. Transl. Psychiatry (Under Review)</a></li>
-                <li class="toc-subitem"><a href="#paper-review-jad" class="toc-sublink">9. J. Affect. Disord. (Under Review)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">10. Cognitive Science (Under Review)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Major Revision)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Major Revision)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (With Editor)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Under Review)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Under Review)</a></li>
                 <li class="toc-subitem"><a href="#paper-inprep-1" class="toc-sublink">准备中 ...</a></li>
 
             </ul>
         </li>
 
+        <li class="toc-item"><a href="#collaborative-pubs" class="toc-link">• 合作发表</a></li>
         <li class="toc-item"><a href="#conf-talks" class="toc-link">• Conference</a></li>
         <li class="toc-item"><a href="#research-projects" class="toc-link">• Projects</a></li>
         <li class="toc-item"><a href="#collab" class="toc-link">• Collaboration</a></li>
@@ -268,14 +267,15 @@ window.addEventListener('DOMContentLoaded', function() {
             { id: 'paper-prep-1', element: document.getElementById('paper-prep-1') },
             { id: 'paper-prep-2', element: document.getElementById('paper-prep-2') },
             { id: 'paper-prep-3', element: document.getElementById('paper-prep-3') },
-            { id: 'paper-pub-ejp', element: document.getElementById('paper-pub-ejp') },
             { id: 'paper-prep-4', element: document.getElementById('paper-prep-4') },
             { id: 'paper-prep-5', element: document.getElementById('paper-prep-5') },
             { id: 'paper-review-jep', element: document.getElementById('paper-review-jep') },
             { id: 'paper-review-tp', element: document.getElementById('paper-review-tp') },
-            { id: 'paper-review-jad', element: document.getElementById('paper-review-jad') },
             { id: 'paper-prep-6', element: document.getElementById('paper-prep-6') },
             { id: 'paper-inprep-1', element: document.getElementById('paper-inprep-1') },
+            { id: 'collaborative-pubs', element: document.getElementById('collaborative-pubs') },
+            { id: 'paper-review-jad', element: document.getElementById('paper-review-jad') },
+            { id: 'paper-pub-ejp', element: document.getElementById('paper-pub-ejp') },
             { id: 'conf-talks', element: document.getElementById('conf-talks') },
             { id: 'research-projects', element: document.getElementById('research-projects') },
             { id: 'collab', element: document.getElementById('collab') },
@@ -769,24 +769,6 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Under Review - Journal of Affective Disorders -->
-        <div class="timeline-item" id="paper-review-jad">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status review">Under Review</span>
-                <div class="tl-paper-title">Identifying Generative AI Use Profiles Among College Students Using Latent Profile Analysis: Associations with Depression and Anxiety</div>
-                <div class="tl-journal">Submitted to Journal of Affective Disorders</div>
-                <div class="tl-info-line">
-                    <span>(中科院一区)</span>
-                    <span class="tl-info-separator">|</span>
-                    <span>共同一作(次序第二)</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">PDF</a>
-                </div>
-            </div>
-        </div>
-
         <!-- Under Review - Cognitive Science -->
         <div class="timeline-item" id="paper-prep-6">
             <div class="timeline-marker"></div>
@@ -876,22 +858,6 @@ window.addEventListener('DOMContentLoaded', function() {
                 </div>
                 <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure4.jpg')">
                     <img src="/zhang/images/Page1-Figure4.jpg" alt="研究设计及分析流程示意图">
-                </div>
-            </div>
-        </div>
-
-        <!-- Published - European Journal of Psychiatry -->
-        <div class="timeline-item" id="paper-pub-ejp">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status published">Published</span>
-                <div class="tl-paper-title">Differential Profiles of Executive Function Dimensions in First-Episode and Chronic Schizophrenia: Identifying Markers of Illness Stage</div>
-                <div class="tl-journal">The European Journal of Psychiatry</div>
-                <div class="tl-info-line">
-                    <span>共同一作(次序第二)</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/European-Journal-of-Psychiatry.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>
@@ -1028,6 +994,52 @@ document.addEventListener('keydown', function(event) {
     }
 });
 </script>
+
+<a id="collaborative-pubs"></a>
+<br>
+<br>
+
+## 合作发表 (Collaborative Publications)
+
+<div class="publications-container">
+    <div class="timeline">
+
+        <!-- 合作发表 - Journal of Affective Disorders (史昊阳) -->
+        <div class="timeline-item" id="paper-review-jad">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026年</div>
+                <span class="tl-status review">Under Review</span>
+                <div class="tl-paper-title">Identifying Generative AI Use Profiles Among College Students Using Latent Profile Analysis: Associations with Depression and Anxiety</div>
+                <div class="tl-journal">Submitted to Journal of Affective Disorders</div>
+                <div class="tl-info-line">
+                    <span>(中科院一区)</span>
+                    <span class="tl-info-separator">|</span>
+                    <span>共同一作(次序第二)</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 合作发表 - European Journal of Psychiatry (杨小龙) -->
+        <div class="timeline-item" id="paper-pub-ejp">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026年</div>
+                <span class="tl-status published">Published</span>
+                <div class="tl-paper-title">Differential Profiles of Executive Function Dimensions in First-Episode and Chronic Schizophrenia: Identifying Markers of Illness Stage</div>
+                <div class="tl-journal">The European Journal of Psychiatry</div>
+                <div class="tl-info-line">
+                    <span>共同一作(次序第二)</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/European-Journal-of-Psychiatry.pdf" class="tl-link-btn">PDF</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 <a id="conf-talks"></a>
 <br>
