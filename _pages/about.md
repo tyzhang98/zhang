@@ -744,7 +744,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>Co-first Author (1st)</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper-jep.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/general.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>
