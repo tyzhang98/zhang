@@ -1096,9 +1096,6 @@ document.addEventListener('keydown', function(event) {
 
 ## 4. Seeking Research Collaboration
 
-
----
-
 ### Contact
 
 Welcome academic collaboration and exchange! For collaboration intentions or academic discussions, please contact: **tyzhang9804@gmail.com**

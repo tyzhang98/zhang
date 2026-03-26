@@ -1092,9 +1092,6 @@ document.addEventListener('keydown', function(event) {
 
 ## 4. 寻求科研合作 (Seeking Research Collaboration)
 
-
----
-
 ### 联系方式
 
 欢迎学术合作与交流!如有合作意向或学术问题讨论,请联系:**tyzhang9804@gmail.com**
