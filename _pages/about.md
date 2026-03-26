@@ -744,7 +744,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>Co-first Author (1st)</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/general.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/JEP-General.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>
@@ -762,7 +762,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>First Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper-tp.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Translational-Psychiatry.pdf" class="tl-link-btn">PDF</a>
                 </div>
                 <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure-TP.png')">
                     <img src="/zhang/images/Page1-Figure-TP.png" alt="Research design flowchart">
@@ -783,7 +783,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>Co-first Author (2nd)</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper-jad-shi.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>
@@ -801,9 +801,9 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>First Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper6.pdf" class="tl-link-btn">PDF for Manuscript</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Cognitive-Science.pdf" class="tl-link-btn">PDF for Manuscript</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper6.docx" class="tl-link-btn">Supplementary Materials</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Cognitive-Science-Supplementary.docx" class="tl-link-btn">Supplementary Materials</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://osf.io/hfnt6" class="tl-link-btn">Code</a>
                 </div>
@@ -833,7 +833,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>First Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper5.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Child-Development.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code" class="tl-link-btn">Code</a>
                 </div>
@@ -862,7 +862,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>First Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper4.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/BMC-Medicine.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ" class="tl-link-btn">Code</a>
                 </div>
@@ -892,7 +892,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 <div class="tl-info-line">
                     <span>Co-first Author (2nd)</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper-ejp.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/European-Journal-of-Psychiatry.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>
@@ -910,7 +910,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>Co-first Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper2.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Schizophrenia-Bulletin.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://github.com/tyzhang98/SCZ-EF-stacked-classifiers" class="tl-link-btn">Code</a>
                 </div>
@@ -940,7 +940,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>Co-first Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper3.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/IJCHP.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://github.com/tyzhang98/ML-PsyExecShift" class="tl-link-btn">Code</a>
                 </div>
@@ -971,7 +971,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>First Author</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper1.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Schizophrenia-Research.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://github.com/tyzhang98/Two-back-task-HDDM" class="tl-link-btn">Code</a>
                 </div>

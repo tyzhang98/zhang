@@ -1,0 +1,10 @@
+{
+  "model": "sonnet",
+  "projectName": "个人学术主页 - 张统一",
+  "description": "Jekyll 学术主页维护项目，专注于内容更新、视觉设计和技术优化",
+  "tags": ["学术主页", "Jekyll", "网页设计", "GitHub Pages"],
+  "settings": {
+    "autoSave": true,
+    "defaultLanguage": "zh-CN"
+  }
+}
