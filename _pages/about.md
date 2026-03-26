@@ -737,7 +737,7 @@ window.addEventListener('DOMContentLoaded', function() {
             <div class="timeline-content">
                 <div class="tl-date">2026</div>
                 <span class="tl-status review">With Editor</span>
-                <div class="tl-paper-title">Why do inhibitory control tasks show low correlations? A preregistered cross-site cognitive modeling study</div>
+                <div class="tl-paper-title">Hierarchical organization of cognitive processes underlies low cross-task correlations in inhibitory control: Evidence from drift diffusion modeling</div>
                 <div class="tl-journal">Submitted to Journal of Experimental Psychology: General</div>
                 <div class="tl-info-line">
                     <span>(JCR Q1)</span>
@@ -745,6 +745,9 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span>Co-first Author (1st)</span>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/JEP-General.pdf" class="tl-link-btn">PDF</a>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure-JEP.png')">
+                    <img src="/zhang/images/Page1-Figure-JEP.png" alt="Research design flowchart">
                 </div>
             </div>
         </div>
