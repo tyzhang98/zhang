@@ -365,11 +365,6 @@ window.addEventListener('DOMContentLoaded', function() {
 - Computational mechanisms of cognitive impairments in schizophrenia and other psychiatric disorders, and identification of intervention targets
 - Cognitive characteristics and early intervention in child and adolescent psychiatric disorders
 
-<div align="center">
-  <img src="/zhang/images/研究框架.gif" alt="Research framework illustration" width="65%" style="cursor: pointer;" onclick="this.style.width=this.style.width=='65%'?'95%':'65%'">
-  <p style="font-size: 0.9em; color: #f5f5f5ff;"></p>
-</div>
-
 ---
 
 <a id="pub-papers"></a>
@@ -751,7 +746,7 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class="timeline-item" id="paper-inprep-1">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025</div>
+                <div class="tl-date">2026</div>
                 <span class="tl-status preparation">In Preparation...</span>
                 <div class="tl-paper-title">Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study</div>
                 <div class="tl-info-line">
@@ -1007,10 +1002,9 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class="timeline-item" id="paper-prep-3">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">November 2025</div>
+                <div class="tl-date">March 2026</div>
                 <span class="tl-status published">Published</span>
-                <div class="tl-paper-title">Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights</div>
-                <div class="tl-journal">Schizophrenia Bulletin</div>
+                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2026). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. <strong><em>Schizophrenia Bulletin</em></strong>, <em>52</em>(2), sbaf218. <a href="https://doi.org/10.1093/schbul/sbaf218" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/schbul/sbaf218</a></div>
                 <div class="tl-info-line">
                     <span>(JCR Q1, IF 4.8)</span>
                     <span class="tl-info-separator">|</span>

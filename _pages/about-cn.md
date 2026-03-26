@@ -362,11 +362,6 @@ window.addEventListener('DOMContentLoaded', function() {
 - 精神分裂症等精神障碍认知损伤的计算机制与干预靶点识别
 - 儿童青少年精神障碍的认知特征与早期干预
 
-<div align="center">
-  <img src="/zhang/images/研究框架.gif" alt="研究框架" width="65%" style="cursor: pointer;" onclick="this.style.width=this.style.width=='65%'?'95%':'65%'">
-  <p style="font-size: 0.9em; color: #f5f5f5ff;"></p>
-</div>
-
 ---
 
 <a id="pub-papers"></a>
@@ -748,7 +743,7 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class="timeline-item" id="paper-inprep-1">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年</div>
+                <div class="tl-date">2026年</div>
                 <span class="tl-status preparation">准备中...</span>
                 <div class="tl-paper-title">Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study</div>
                 <div class="tl-info-line">
@@ -1003,10 +998,9 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class="timeline-item" id="paper-prep-3">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年-11月</div>
+                <div class="tl-date">2026年-3月</div>
                 <span class="tl-status published">Published</span>
-                <div class="tl-paper-title">Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights</div>
-                <div class="tl-journal">Submitted to Schizophrenia Bulletin</div>
+                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2026). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. <strong><em>Schizophrenia Bulletin</em></strong>, <em>52</em>(2), sbaf218. <a href="https://doi.org/10.1093/schbul/sbaf218" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/schbul/sbaf218</a></div>
                 <div class="tl-info-line">
                     <span>(中科院一区Top, IF 4.8)</span>
                     <span class="tl-info-separator">|</span>
