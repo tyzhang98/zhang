@@ -616,6 +616,71 @@ window.addEventListener('DOMContentLoaded', function() {
         opacity: 1;
     }
 
+    /* Figure Carousel */
+    .tl-carousel {
+        margin-top: 18px;
+        position: relative;
+        border-radius: 4px;
+        overflow: hidden;
+        border: 1px solid #e5e7eb;
+        background: #f9fafb;
+    }
+    .tl-carousel-track {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+    .tl-carousel-track::-webkit-scrollbar { display: none; }
+    .tl-carousel-slide {
+        flex: 0 0 100%;
+        scroll-snap-align: start;
+        cursor: pointer;
+    }
+    .tl-carousel-slide img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .tl-carousel-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0,0,0,0.5);
+        color: white;
+        border: none;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.3s;
+        z-index: 2;
+    }
+    .tl-carousel:hover .tl-carousel-nav { opacity: 1; }
+    .tl-carousel-nav.prev { left: 8px; }
+    .tl-carousel-nav.next { right: 8px; }
+    .tl-carousel-dots {
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+        padding: 8px 0;
+        background: #f9fafb;
+    }
+    .tl-carousel-dots span {
+        width: 6px; height: 6px;
+        border-radius: 50%;
+        background: #cbd5e1;
+        transition: background 0.3s;
+    }
+    .tl-carousel-dots span.active { background: #3b82f6; }
+
     .tl-abstract {
         margin-top: 14px;
     }
@@ -746,8 +811,16 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/JEP-General.pdf" class="tl-link-btn">PDF</a>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure-JEP.png')">
-                    <img src="/zhang/images/Page1-Figure-JEP.png" alt="Research design flowchart">
+                <div class="tl-carousel">
+                    <button class="tl-carousel-nav prev" onclick="carouselNav(this,-1)">&#8249;</button>
+                    <button class="tl-carousel-nav next" onclick="carouselNav(this,1)">&#8250;</button>
+                    <div class="tl-carousel-track">
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/JEP-Figure1.png')"><img src="/zhang/images/JEP-Figure1.png" alt="Figure 1"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/JEP-Figure2.png')"><img src="/zhang/images/JEP-Figure2.png" alt="Figure 2"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/JEP-Figure3.png')"><img src="/zhang/images/JEP-Figure3.png" alt="Figure 3"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/JEP-Figure4.png')"><img src="/zhang/images/JEP-Figure4.png" alt="Figure 4"></div>
+                    </div>
+                    <div class="tl-carousel-dots"><span class="active"></span><span></span><span></span><span></span></div>
                 </div>
             </div>
         </div>
@@ -767,8 +840,18 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/Translational-Psychiatry.pdf" class="tl-link-btn">PDF</a>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure-TP.png')">
-                    <img src="/zhang/images/Page1-Figure-TP.png" alt="Research design flowchart">
+                <div class="tl-carousel">
+                    <button class="tl-carousel-nav prev" onclick="carouselNav(this,-1)">&#8249;</button>
+                    <button class="tl-carousel-nav next" onclick="carouselNav(this,1)">&#8250;</button>
+                    <div class="tl-carousel-track">
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/TP-Figure1.png')"><img src="/zhang/images/TP-Figure1.png" alt="Figure 1"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/TP-Figure2.png')"><img src="/zhang/images/TP-Figure2.png" alt="Figure 2"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/TP-Figure3.png')"><img src="/zhang/images/TP-Figure3.png" alt="Figure 3"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/TP-Figure4.png')"><img src="/zhang/images/TP-Figure4.png" alt="Figure 4"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/TP-Figure5.png')"><img src="/zhang/images/TP-Figure5.png" alt="Figure 5"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/TP-Figure6.png')"><img src="/zhang/images/TP-Figure6.png" alt="Figure 6"></div>
+                    </div>
+                    <div class="tl-carousel-dots"><span class="active"></span><span></span><span></span><span></span><span></span><span></span></div>
                 </div>
             </div>
         </div>
@@ -798,8 +881,18 @@ window.addEventListener('DOMContentLoaded', function() {
                         <strong>Abstract:</strong> Large language models (LLMs) have demonstrated considerable capabilities in complex reasoning and problem-solving tasks that, in humans, depend on executive functions (EFs). However, the extent to which these models replicate human EF patterns remains unclear. We systematically evaluated GPT-4o's performance across three core EF dimensions—inhibitory control, working memory, and cognitive flexibility—using established behavioral paradigms. Additionally, we examined whether model-internal log probability parameters could serve as quantitative indicators of cognitive processing analogous to human neural activity. Using two independent datasets (N₁=1,970; N₂=39), we simulated trial-by-trial responses through GPT-4o while recording log probability metrics. Bayesian analyses revealed selective replication of human EF patterns. GPT-4o successfully reproduced human-like performance in interference inhibition (stroop), working memory capacity (digit span), and working memory updating (n-back). In contrast, the model showed divergent patterns in response inhibition (Go/No-Go), time-sensitive working memory updating (running memory task with presentation times of 1750 ms and 750 ms), and cognitive flexibility (number-switching task). Log probability parameters demonstrated task-specific associations with behavioral measures and corresponded with activation patterns in EF-related brain regions during working memory and task-switching paradigms. These findings suggest that GPT-4o captures specific aspects of human EF, particularly those involving symbolic representation and static information maintenance, while showing limitations in dynamic control and temporal processing. This selective replication pattern provides insights into both the computational basis of EF and the cognitive boundaries of current LLM architectures. Our results indicate that log probability parameters may offer a window into LLM cognitive processing, providing a methodological framework for evaluating artificial cognitive mechanisms.
                     </div>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure6.png')">
-                    <img src="/zhang/images/Page1-Figure6.png" alt="Research design and analysis flowchart">
+                <div class="tl-carousel">
+                    <button class="tl-carousel-nav prev" onclick="carouselNav(this,-1)">&#8249;</button>
+                    <button class="tl-carousel-nav next" onclick="carouselNav(this,1)">&#8250;</button>
+                    <div class="tl-carousel-track">
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/CogSci-Figure1.jpg')"><img src="/zhang/images/CogSci-Figure1.jpg" alt="Figure 1"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/CogSci-Figure2.jpg')"><img src="/zhang/images/CogSci-Figure2.jpg" alt="Figure 2"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/CogSci-Figure3.jpg')"><img src="/zhang/images/CogSci-Figure3.jpg" alt="Figure 3"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/CogSci-Figure4.jpg')"><img src="/zhang/images/CogSci-Figure4.jpg" alt="Figure 4"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/CogSci-Figure5.jpg')"><img src="/zhang/images/CogSci-Figure5.jpg" alt="Figure 5"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/CogSci-Figure6.jpg')"><img src="/zhang/images/CogSci-Figure6.jpg" alt="Figure 6"></div>
+                    </div>
+                    <div class="tl-carousel-dots"><span class="active"></span><span></span><span></span><span></span><span></span><span></span></div>
                 </div>
             </div>
         </div>
@@ -828,8 +921,18 @@ window.addEventListener('DOMContentLoaded', function() {
                         <strong>Abstract:</strong> This study examined inhibitory control development in two samples of Chinese children: a primary sample (n = 1,122; 45.5% female; 91.9% Han, Mage = 12.42 years, range: 6.0–18.7) with 6-month longitudinal follow-up and an independent replication sample (n = 1,026; 45.1% female; 90.8% Han, Mage = 12.44 years, range: 6.1–18.8). Generalized Additive Models applied to Stroop and Go/No-Go tasks revealed four-phase nonlinear developmental trajectories. Response inhibition stabilized by 13.4 years, while interference inhibition developed until 15.8 years. Hierarchical drift diffusion modeling showed that interference inhibition developed through enhanced information accumulation (drift rate), whereas response inhibition developed through enhanced response bias control (starting point). Age-related processing speed improvements suggest shared foundational mechanisms. The findings contribute to a decision-computational framework.
                     </div>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure5.png')">
-                    <img src="/zhang/images/Page1-Figure5.png" alt="Research design and analysis flowchart">
+                <div class="tl-carousel">
+                    <button class="tl-carousel-nav prev" onclick="carouselNav(this,-1)">&#8249;</button>
+                    <button class="tl-carousel-nav next" onclick="carouselNav(this,1)">&#8250;</button>
+                    <div class="tl-carousel-track">
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/ChildDev-Figure1.png')"><img src="/zhang/images/ChildDev-Figure1.png" alt="Figure 1"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/ChildDev-Figure2.png')"><img src="/zhang/images/ChildDev-Figure2.png" alt="Figure 2"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/ChildDev-Figure3.png')"><img src="/zhang/images/ChildDev-Figure3.png" alt="Figure 3"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/ChildDev-Figure4.png')"><img src="/zhang/images/ChildDev-Figure4.png" alt="Figure 4"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/ChildDev-Figure5.png')"><img src="/zhang/images/ChildDev-Figure5.png" alt="Figure 5"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/ChildDev-Figure6.png')"><img src="/zhang/images/ChildDev-Figure6.png" alt="Figure 6"></div>
+                    </div>
+                    <div class="tl-carousel-dots"><span class="active"></span><span></span><span></span><span></span><span></span><span></span></div>
                 </div>
             </div>
         </div>
@@ -860,8 +963,18 @@ window.addEventListener('DOMContentLoaded', function() {
                         <strong>Conclusions:</strong> EF subtyping successfully captured the symptomatic, biochemical, and prognostic variations in individuals with schizophrenia, which could help to stratify patients with this disorder for targeted treatments.
                     </div>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure4.jpg')">
-                    <img src="/zhang/images/Page1-Figure4.jpg" alt="Research design and analysis flowchart">
+                <div class="tl-carousel">
+                    <button class="tl-carousel-nav prev" onclick="carouselNav(this,-1)">&#8249;</button>
+                    <button class="tl-carousel-nav next" onclick="carouselNav(this,1)">&#8250;</button>
+                    <div class="tl-carousel-track">
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/BMCMed-Figure1.jpg')"><img src="/zhang/images/BMCMed-Figure1.jpg" alt="Figure 1"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/BMCMed-Figure2.jpg')"><img src="/zhang/images/BMCMed-Figure2.jpg" alt="Figure 2"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/BMCMed-Figure3.jpg')"><img src="/zhang/images/BMCMed-Figure3.jpg" alt="Figure 3"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/BMCMed-Figure4.png')"><img src="/zhang/images/BMCMed-Figure4.png" alt="Figure 4"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/BMCMed-Figure5.png')"><img src="/zhang/images/BMCMed-Figure5.png" alt="Figure 5"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/BMCMed-Figure6.jpg')"><img src="/zhang/images/BMCMed-Figure6.jpg" alt="Figure 6"></div>
+                    </div>
+                    <div class="tl-carousel-dots"><span class="active"></span><span></span><span></span><span></span><span></span><span></span></div>
                 </div>
             </div>
         </div>
@@ -891,8 +1004,17 @@ window.addEventListener('DOMContentLoaded', function() {
                         <strong>Study Results:</strong> The models highlighted the importance of inhibitory control (interference and response inhibitions) or working memory in accurately identifying individuals with schizophrenia (area under the curve [AUC] = 0.87) or those in remission (AUC = 0.81). Patients who are correctly classified, in association with the contribution of interference inhibition function to our diagnostic classifier, present more severe baseline negative symptoms compared to those who are more likely to be misclassified. Also, linked to the function of working memory updating, patients who are successfully classified as remitted display milder cognitive symptoms at follow-up. Remitted patients do not differ significantly from non-remitted cases in baseline EF assessments or overall symptom severity.
                     </div>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure2.jpg')">
-                    <img src="/zhang/images/Page1-Figure2.jpg" alt="Research design and analysis flowchart">
+                <div class="tl-carousel">
+                    <button class="tl-carousel-nav prev" onclick="carouselNav(this,-1)">&#8249;</button>
+                    <button class="tl-carousel-nav next" onclick="carouselNav(this,1)">&#8250;</button>
+                    <div class="tl-carousel-track">
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/SchizBull-Figure1.jpg')"><img src="/zhang/images/SchizBull-Figure1.jpg" alt="Figure 1"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/SchizBull-Figure2.jpg')"><img src="/zhang/images/SchizBull-Figure2.jpg" alt="Figure 2"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/SchizBull-Figure3.jpg')"><img src="/zhang/images/SchizBull-Figure3.jpg" alt="Figure 3"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/SchizBull-Figure4.jpg')"><img src="/zhang/images/SchizBull-Figure4.jpg" alt="Figure 4"></div>
+                        <div class="tl-carousel-slide" onclick="openImgModal('/zhang/images/SchizBull-Figure5.jpg')"><img src="/zhang/images/SchizBull-Figure5.jpg" alt="Figure 5"></div>
+                    </div>
+                    <div class="tl-carousel-dots"><span class="active"></span><span></span><span></span><span></span><span></span></div>
                 </div>
             </div>
         </div>
@@ -996,6 +1118,36 @@ document.addEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
         closeImgModal();
     }
+});
+
+// Carousel
+function carouselNav(btn, dir) {
+    var track = btn.parentElement.querySelector('.tl-carousel-track');
+    var w = track.clientWidth;
+    track.scrollBy({ left: dir * w, behavior: 'smooth' });
+}
+document.addEventListener('scroll', function() {
+    document.querySelectorAll('.tl-carousel-track').forEach(function(track) {
+        var dots = track.parentElement.querySelector('.tl-carousel-dots');
+        if (!dots) return;
+        var idx = Math.round(track.scrollLeft / track.clientWidth);
+        dots.querySelectorAll('span').forEach(function(d, i) {
+            d.classList.toggle('active', i === idx);
+        });
+    });
+}, true);
+// Update dots on carousel scroll
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.tl-carousel-track').forEach(function(track) {
+        track.addEventListener('scroll', function() {
+            var dots = track.parentElement.querySelector('.tl-carousel-dots');
+            if (!dots) return;
+            var idx = Math.round(track.scrollLeft / track.clientWidth);
+            dots.querySelectorAll('span').forEach(function(d, i) {
+                d.classList.toggle('active', i === idx);
+            });
+        });
+    });
 });
 </script>
 
