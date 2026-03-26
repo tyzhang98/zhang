@@ -233,13 +233,17 @@ author_profile: true
         <li class="toc-item">
             <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
             <ul class="toc-sublist" id="papers-sublist">
-                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">1. WM Stage-specific (Schizophr. Res.)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. WM Training (Int. J. Clin. Health Psychol.)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. EF Stacking Model (Schizophr. Bull.)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. EF Subtypes (BMC Med.)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. IC Development (Child Dev.)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">6. LLMs-EFs (PNAS.)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-0" class="toc-sublink">In preparation ...</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">1. Schizophr. Res. (Published)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. Int. J. Clin. Health Psychol. (Published)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. Schizophr. Bull. (Published)</a></li>
+                <li class="toc-subitem"><a href="#paper-pub-ejp" class="toc-sublink">4. Eur. J. Psychiatry (Published)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">5. BMC Med. (Major Revision)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">6. Child Dev. (Major Revision)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">7. JEP: General (With Editor)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">8. Transl. Psychiatry (Under Review)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-jad" class="toc-sublink">9. J. Affect. Disord. (Under Review)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">10. Cognitive Science (Under Review)</a></li>
+                <li class="toc-subitem"><a href="#paper-inprep-1" class="toc-sublink">准备中 ...</a></li>
 
             </ul>
         </li>
@@ -264,8 +268,14 @@ window.addEventListener('DOMContentLoaded', function() {
             { id: 'paper-prep-1', element: document.getElementById('paper-prep-1') },
             { id: 'paper-prep-2', element: document.getElementById('paper-prep-2') },
             { id: 'paper-prep-3', element: document.getElementById('paper-prep-3') },
+            { id: 'paper-pub-ejp', element: document.getElementById('paper-pub-ejp') },
             { id: 'paper-prep-4', element: document.getElementById('paper-prep-4') },
             { id: 'paper-prep-5', element: document.getElementById('paper-prep-5') },
+            { id: 'paper-review-jep', element: document.getElementById('paper-review-jep') },
+            { id: 'paper-review-tp', element: document.getElementById('paper-review-tp') },
+            { id: 'paper-review-jad', element: document.getElementById('paper-review-jad') },
+            { id: 'paper-prep-6', element: document.getElementById('paper-prep-6') },
+            { id: 'paper-inprep-1', element: document.getElementById('paper-inprep-1') },
             { id: 'conf-talks', element: document.getElementById('conf-talks') },
             { id: 'research-projects', element: document.getElementById('research-projects') },
             { id: 'collab', element: document.getElementById('collab') },
@@ -705,34 +715,7 @@ window.addEventListener('DOMContentLoaded', function() {
     <div class="timeline">
 
         <!-- 准备中 #1 -->
-        <div class="timeline-item" id="paper-prep-0">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2025年</div>
-                <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
-                <div class="tl-info-line">
-                    <span></span>
-                </div>
-            </div>
-        </div>
-
-        <!-- 准备中 #2 -->
-        <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2025年</div>
-                <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">Why do inhibitory control tasks show low correlations? A preregistered cross-site cognitive modeling study</div>
-                <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/Preregistered.docx" class="tl-link-btn">2025-10-05 Preregistered</a>
-                    <span></span>
-                </div>
-            </div>
-        </div>
-
-        <!-- 准备中 #3 -->
-        <div class="timeline-item">
+        <div class="timeline-item" id="paper-inprep-1">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
@@ -744,61 +727,82 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- 准备中 #4 -->
-        <div class="timeline-item">
+        <!-- Under Review - JEP:General -->
+        <div class="timeline-item" id="paper-review-jep">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026年</div>
-                <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">Computational phenotyping of brain-behavior dynamics in interference inhibition across major depressive disorder, bipolar disorder, and schizophrenia</div>
+                <span class="tl-status review">With Editor</span>
+                <div class="tl-paper-title">Hierarchical organization of cognitive processes underlies low cross-task correlations in inhibitory control: Evidence from drift diffusion modeling</div>
+                <div class="tl-journal">Submitted to Journal of Experimental Psychology: General</div>
                 <div class="tl-info-line">
-                    <span></span>
+                    <span>(中科院一区)</span>
+                    <span class="tl-info-separator">|</span>
+                    <span>共同一作(次序第一)</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/JEP-General.pdf" class="tl-link-btn">PDF</a>
                 </div>
-            </div>
-        </div>
-        <!-- 准备中 #5 -->
-        <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">干扰抑制和反应抑制的共享与特异性计算神经机制</div>
-                <div class="tl-info-line">
-                    <span></span>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure-JEP.png')">
+                    <img src="/zhang/images/Page1-Figure-JEP.png" alt="研究设计流程图">
                 </div>
             </div>
         </div>
 
-        <!-- 准备中 #6 -->
-        <div class="timeline-item">
+        <!-- Under Review - Translational Psychiatry -->
+        <div class="timeline-item" id="paper-review-tp">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026年</div>
-                <span class="tl-status preparation">准备中...</span>
-                <div class="tl-paper-title">生成式人工智能对青少年执行功能的影响</div>
+                <span class="tl-status review">Under Review</span>
+                <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
+                <div class="tl-journal">Submitted to Translational Psychiatry</div>
                 <div class="tl-info-line">
-                    <span></span>
+                    <span>(中科院一区, Nature子刊)</span>
+                    <span class="tl-info-separator">|</span>
+                    <span>独立一作</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/Translational-Psychiatry.pdf" class="tl-link-btn">PDF</a>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure-TP.png')">
+                    <img src="/zhang/images/Page1-Figure-TP.png" alt="研究设计流程图">
                 </div>
             </div>
         </div>
 
+        <!-- Under Review - Journal of Affective Disorders -->
+        <div class="timeline-item" id="paper-review-jad">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026年</div>
+                <span class="tl-status review">Under Review</span>
+                <div class="tl-paper-title">Identifying Generative AI Use Profiles Among College Students Using Latent Profile Analysis: Associations with Depression and Anxiety</div>
+                <div class="tl-journal">Submitted to Journal of Affective Disorders</div>
+                <div class="tl-info-line">
+                    <span>(中科院一区)</span>
+                    <span class="tl-info-separator">|</span>
+                    <span>共同一作(次序第二)</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">PDF</a>
+                </div>
+            </div>
+        </div>
 
-        <!-- Under Review #4 -->
+        <!-- Under Review - Cognitive Science -->
         <div class="timeline-item" id="paper-prep-6">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025年</div>
-                <span class="tl-status review">Submitted</span>
+                <span class="tl-status review">Under Review</span>
                 <div class="tl-paper-title">Boundaries of Executive Functions in Large Language Models: GPT-4o Selectively Replicates Human Performance</div>
-                <div class="tl-journal">Submitted to PNAS</div>
+                <div class="tl-journal">Submitted to Cognitive Science</div>
                 <div class="tl-info-line">
-                    <span>(中科院一区Top, IF 9.1)</span>
+                    <span>(中科院一区)</span>
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper6.pdf" class="tl-link-btn">PDF for Manuscript</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Cognitive-Science.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper6.docx" class="tl-link-btn">Supplementary Materials</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Cognitive-Science-Supplementary.docx" class="tl-link-btn">补充材料</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://osf.io/hfnt6" class="tl-link-btn">代码</a>
                 </div>
@@ -828,7 +832,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper5.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Child-Development.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://github.com/tyzhang98/inhibitory-control-dev-cogmodel-code" class="tl-link-btn">代码</a>
                 </div>
@@ -857,7 +861,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper4.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/BMC-Medicine.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://github.com/tyzhang98/Code_Heterogeneous_EFs_in_SCZ" class="tl-link-btn">代码</a>
                 </div>
@@ -876,7 +880,23 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Under Review #1 -->
+        <!-- Published - European Journal of Psychiatry -->
+        <div class="timeline-item" id="paper-pub-ejp">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026年</div>
+                <span class="tl-status published">Published</span>
+                <div class="tl-paper-title">Differential Profiles of Executive Function Dimensions in First-Episode and Chronic Schizophrenia: Identifying Markers of Illness Stage</div>
+                <div class="tl-journal">The European Journal of Psychiatry</div>
+                <div class="tl-info-line">
+                    <span>共同一作(次序第二)</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/European-Journal-of-Psychiatry.pdf" class="tl-link-btn">PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Published - Schizophrenia Bulletin -->
         <div class="timeline-item" id="paper-prep-3">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -889,7 +909,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>共同一作(次序第一)</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper2.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Schizophrenia-Bulletin.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://github.com/tyzhang98/SCZ-EF-stacked-classifiers" class="tl-link-btn">代码</a>
                 </div>
@@ -919,7 +939,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>共同一作(次序第一)</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper3.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/IJCHP.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://github.com/tyzhang98/ML-PsyExecShift" class="tl-link-btn">代码</a>
                 </div>
@@ -950,7 +970,7 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/paper1.pdf" class="tl-link-btn">PDF</a>
+                    <a href="https://tyzhang98.github.io/zhang/files/Schizophrenia-Research.pdf" class="tl-link-btn">PDF</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://github.com/tyzhang98/Two-back-task-HDDM" class="tl-link-btn">代码</a>
                 </div>
