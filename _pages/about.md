@@ -743,6 +743,8 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span>(JCR Q1)</span>
                     <span class="tl-info-separator">|</span>
                     <span>Co-first Author (1st)</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper-jep.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>
@@ -759,6 +761,11 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span>(JCR Q1, Nature Portfolio)</span>
                     <span class="tl-info-separator">|</span>
                     <span>First Author</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/paper-tp.pdf" class="tl-link-btn">PDF</a>
+                </div>
+                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure-TP.png')">
+                    <img src="/zhang/images/Page1-Figure-TP.png" alt="Research design flowchart">
                 </div>
             </div>
         </div>
