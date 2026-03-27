@@ -1075,11 +1075,11 @@ window.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 2</div>
-                        <img src="/zhang/images/IJCHP-Figure2.jpg" alt="Figure 2" onclick="openImgModal('/zhang/images/IJCHP-Figure2.jpg')">
+                        <img src="/zhang/images/IJCHP-Figure2.png" alt="Figure 2" onclick="openImgModal('/zhang/images/IJCHP-Figure2.png')">
                     </div>
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 3</div>
-                        <img src="/zhang/images/IJCHP-Figure3.jpg" alt="Figure 3" onclick="openImgModal('/zhang/images/IJCHP-Figure3.jpg')">
+                        <img src="/zhang/images/IJCHP-Figure3.png" alt="Figure 3" onclick="openImgModal('/zhang/images/IJCHP-Figure3.png')">
                     </div>
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 4</div>
@@ -1088,6 +1088,10 @@ window.addEventListener('DOMContentLoaded', function() {
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 5</div>
                         <img src="/zhang/images/IJCHP-Figure5.jpg" alt="Figure 5" onclick="openImgModal('/zhang/images/IJCHP-Figure5.jpg')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 6</div>
+                        <img src="/zhang/images/IJCHP-Figure6.jpg" alt="Figure 6" onclick="openImgModal('/zhang/images/IJCHP-Figure6.jpg')">
                     </div>
                 </div>
             </div>
