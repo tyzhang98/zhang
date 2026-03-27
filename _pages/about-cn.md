@@ -349,11 +349,11 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-## 个人简介 (About Me)
+## 个人简介（About Me）
 <a id="about"></a>
-&emsp;&emsp;西北师范大学心理学博士研究生(二年级在读),以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等期刊发表论文,并主持省级高校研究生"创新之星"项目一项。研究方向聚焦于人类高级认知的计算、发展与病理损伤机制。综合认知行为实验、功能磁共振成像(fMRI)等认知神经科学手段,结合计算建模、机器学习及大语言模型等技术,致力于揭示高级认知功能的计算与发展机制,并探究精神分裂症、重度抑郁症等精神障碍认知损伤的干预策略。
+&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等期刊发表论文，并主持省级高校研究生"创新之星"项目一项。研究方向聚焦于人类高级认知的计算、发展与病理损伤机制。综合认知行为实验、功能磁共振成像（fMRI）等认知神经科学手段，结合计算建模、机器学习及大语言模型等技术，致力于揭示高级认知功能的计算与发展机制，并探究精神分裂症、重度抑郁症等精神障碍认知损伤的干预策略。
 
-**当前关注的核心研究问题:**
+**当前关注的核心研究问题：**
 **基础问题**
 - 大语言模型的认知加工模式与人类认知加工及大脑活动的表征相似性
 - 通过统一计算模型模拟与预测人类认知加工与发展的可能性
@@ -1188,7 +1188,7 @@ document.addEventListener('keydown', function(event) {
 <br>
 <br>
 
-## 合作发表 (Collaborative Publications)
+## 合作发表（Collaborative Publications）
 
 <div class="publications-container">
     <div class="timeline">
@@ -1234,43 +1234,43 @@ document.addEventListener('keydown', function(event) {
 <br>
 <br>
 
-## 2. 会议报告 (Conference Presentations)
+## 2. 会议报告（Conference Presentations）
 **兰州市第三人民医院学术讲座**
-- 报告题目:人工智能与认知建模在精神分裂症执行功能研究中的应用 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides4.pdf)
-- 时间:2025年12月05日
-- 地点:兰州市第三人民医院
+- 报告题目：人工智能与认知建模在精神分裂症执行功能研究中的应用 [下载报告（PDF）](https://tyzhang98.github.io/zhang/files/slides4.pdf)
+- 时间：2025年12月05日
+- 地点：兰州市第三人民医院
 - [报道链接](https://mp.weixin.qq.com/s/rTePQw_mfU1r-ok_Hh4imQ)
 
 
 **2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**
-- 报告形式:海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
-- 时间:2025年4月19日
-- 地点:北京大学
+- 报告形式：海报展贴 [下载海报（PDF）](https://tyzhang98.github.io/zhang/files/slides1.pdf)
+- 时间：2025年4月19日
+- 地点：北京大学
 
 **兰州市第三人民医院学术讲座**
-- 报告题目:认知计算精神病学:从思路到实操 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides3.pdf)
-- 时间:2024年11月26日
-- 地点:兰州市第三人民医院
+- 报告题目：认知计算精神病学：从思路到实操 [下载报告（PDF）](https://tyzhang98.github.io/zhang/files/slides3.pdf)
+- 时间：2024年11月26日
+- 地点：兰州市第三人民医院
 - [报道链接](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
 
 **第二十五届全国心理学学术会议**
-- 报告形式:分论坛口头报告 [下载报告 (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
-- 时间:2024年10月14日
-- 地点:四川师范大学
+- 报告形式：分论坛口头报告 [下载报告（PDF）](https://tyzhang98.github.io/zhang/files/slides2.pdf)
+- 时间：2024年10月14日
+- 地点：四川师范大学
 
 <a id="research-projects"></a>
 <br>
 <br>
 <br>
 
-## 3. 科研项目 (Research Projects)
+## 3. 科研项目（Research Projects）
 
 **主持项目**
-- **2024年省级博士创新之星科研项目(No. 2025CXZX-366)** (2025-12 结项)
+- **2024年省级博士创新之星科研项目（No. 2025CXZX-366）**（2025-12 结项）
 
 **参与项目**
-- **国家自然科学基金地区项目**(32260207)"认知训练对乡村儿童执行功能的提升"(参与,2022-2025)
-- **国家重点研发计划**(2021ZD0203800)科技创新2030—脑科学与类脑研究"重大项目:注意的神经环路机制研究(课题4:特殊人群注意研究及应用)(参与,2021.12-2026.12)
+- **国家自然科学基金地区项目**（32260207）"认知训练对乡村儿童执行功能的提升"（参与，2022-2025）
+- **国家重点研发计划**（2021ZD0203800）科技创新2030—脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12-2026.12）
 
 <a id="collab"></a>
 <br>
@@ -1279,22 +1279,22 @@ document.addEventListener('keydown', function(event) {
 
 ---
 
-## 4. 寻求科研合作 (Seeking Research Collaboration)
+## 4. 寻求科研合作（Seeking Research Collaboration）
 
 ### 联系方式
 
-欢迎学术合作与交流!如有合作意向或学术问题讨论,请联系:**tyzhang9804@gmail.com**
+欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：**tyzhang9804@gmail.com**
 
-> **注:** 本人目前为在读博士研究生,合作前需征得导师同意
+> **注：** 本人目前为在读博士研究生，合作前需征得导师同意
 
 <a id="resources"></a>
 <br>
 <br>
 <br>
 
-## 5. 研究资源 (Research Resources)
+## 5. 研究资源（Research Resources）
 
-### 开放代码 (Open Code)
+### 开放代码（Open Code）
 - **Stacking Model with SHAP Explanation** ([下载代码](https://tyzhang98.github.io/zhang/files/Stacking-SHAP.zip))
   - **Citation:** Zhang, T., Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2024). Leveraging stacked classifiers for multi-task executive function in schizophrenia yields diagnostic and prognostic insights. *medRxiv*. https://doi.org/10.1101/2024.12.05.24318587
 
