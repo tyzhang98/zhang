@@ -61,7 +61,7 @@ author_profile: true
     position: fixed;
     right: 20px;
     top: 100px;
-    width: 320px;
+    width: 350px;
     max-height: calc(100vh - 120px);
     overflow-y: auto;
     background: transparent;
