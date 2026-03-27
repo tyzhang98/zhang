@@ -9,7 +9,7 @@ author_profile: true
 .lang-switcher {
     position: fixed;
     top: 90px;
-    right: 30px;
+    right: 70px;
     z-index: 999;
     display: flex;
     gap: 2px;
@@ -52,14 +52,14 @@ author_profile: true
 @media (max-width: 768px) {
     .lang-switcher {
         top: 80px;
-        right: 30px;
+        right: 70px;
     }
 }
 
 /* 右侧大纲导航样式 - 统一舒适配色 */
 .toc-sidebar {
     position: fixed;
-    right: 30px;
+    right: 70px;
     top: 100px;
     width: 350px;
     max-height: calc(100vh - 120px);

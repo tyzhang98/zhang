@@ -12,7 +12,7 @@ redirect_from:
 .lang-switcher {
     position: fixed;
     top: 90px;
-    right: 30px;
+    right: 70px;
     z-index: 999;
     display: flex;
     gap: 2px;
@@ -55,14 +55,14 @@ redirect_from:
 @media (max-width: 768px) {
     .lang-switcher {
         top: 80px;
-        right: 30px;
+        right: 70px;
     }
 }
 
 /* Right Sidebar TOC Navigation - Comfortable Colors */
 .toc-sidebar {
     position: fixed;
-    right: 30px;
+    right: 70px;
     top: 100px;
     width: 350px;
     max-height: calc(100vh - 120px);
