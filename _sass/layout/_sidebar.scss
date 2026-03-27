@@ -36,8 +36,10 @@
   }
 
   @include breakpoint($x-large) {
-    max-width: $sidebar-link-max-width;
+    max-width: none;
     padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
   }
 
   h2, h3, h4, h5, h6 {
