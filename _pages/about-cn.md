@@ -59,9 +59,9 @@ author_profile: true
 /* 右侧大纲导航样式 - 统一舒适配色 */
 .toc-sidebar {
     position: fixed;
-    right: 20px;
+    right: 10px;
     top: 100px;
-    width: 380px;
+    width: 260px;
     max-height: calc(100vh - 120px);
     overflow-y: auto;
     background: transparent;

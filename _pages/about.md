@@ -62,9 +62,9 @@ redirect_from:
 /* Right Sidebar TOC Navigation - Comfortable Colors */
 .toc-sidebar {
     position: fixed;
-    right: 20px;
+    right: 10px;
     top: 100px;
-    width: 380px;
+    width: 260px;
     max-height: calc(100vh - 120px);
     overflow-y: auto;
     background: transparent;
