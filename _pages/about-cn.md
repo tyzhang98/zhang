@@ -52,14 +52,14 @@ author_profile: true
 @media (max-width: 768px) {
     .lang-switcher {
         top: 80px;
-        right: 20px;
+        right: 30px;
     }
 }
 
 /* 右侧大纲导航样式 - 统一舒适配色 */
 .toc-sidebar {
     position: fixed;
-    right: 20px;
+    right: 30px;
     top: 100px;
     width: 350px;
     max-height: calc(100vh - 120px);

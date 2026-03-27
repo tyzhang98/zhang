@@ -55,14 +55,14 @@ redirect_from:
 @media (max-width: 768px) {
     .lang-switcher {
         top: 80px;
-        right: 20px;
+        right: 30px;
     }
 }
 
 /* Right Sidebar TOC Navigation - Comfortable Colors */
 .toc-sidebar {
     position: fixed;
-    right: 20px;
+    right: 30px;
     top: 100px;
     width: 350px;
     max-height: calc(100vh - 120px);
