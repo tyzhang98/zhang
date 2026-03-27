@@ -1068,8 +1068,27 @@ window.addEventListener('DOMContentLoaded', function() {
                         <strong>Conclusions:</strong> Working memory training induces meaningful shifts in EF profiles in schizophrenia, promoting movement along the psychosis-health continuum toward neurotypical functioning. The classifier-based approach provides a more refined assessment compared to traditional binary measures, while the exploratory framework identifies specific EF domains predicting treatment response with potential causal relevance. These findings warrant validation through larger, multi-center trials with extended follow-up periods.
                     </div>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure3.jpg')">
-                    <img src="/zhang/images/Page1-Figure3.jpg" alt="研究设计及分析流程示意图">
+                <div class="tl-gallery">
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 1</div>
+                        <img src="/zhang/images/IJCHP-Figure1.jpg" alt="Figure 1" onclick="openImgModal('/zhang/images/IJCHP-Figure1.jpg')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 2</div>
+                        <img src="/zhang/images/IJCHP-Figure2.jpg" alt="Figure 2" onclick="openImgModal('/zhang/images/IJCHP-Figure2.jpg')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 3</div>
+                        <img src="/zhang/images/IJCHP-Figure3.jpg" alt="Figure 3" onclick="openImgModal('/zhang/images/IJCHP-Figure3.jpg')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 4</div>
+                        <img src="/zhang/images/IJCHP-Figure4.jpg" alt="Figure 4" onclick="openImgModal('/zhang/images/IJCHP-Figure4.jpg')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 5</div>
+                        <img src="/zhang/images/IJCHP-Figure5.jpg" alt="Figure 5" onclick="openImgModal('/zhang/images/IJCHP-Figure5.jpg')">
+                    </div>
                 </div>
             </div>
         </div>
@@ -1099,8 +1118,23 @@ window.addEventListener('DOMContentLoaded', function() {
                         <strong>Conclusions:</strong> This study reveals distinct computational profiles of WM deficits across different stages of schizophrenia. While non-decision time impairments emerge early and persist, reduced drift rate progressively deteriorates with illness duration and is closely linked to specific clinical symptoms. These findings enhance our understanding of WM dysfunction across illness stages and support the development of targeted cognitive interventions tailored to illness stage and symptom severity.
                     </div>
                 </div>
-                <div class="tl-figure" onclick="openImgModal('/zhang/images/Page1-Figure1.jpg')">
-                    <img src="/zhang/images/Page1-Figure1.jpg" alt="研究设计及分析流程示意图">
+                <div class="tl-gallery">
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 1</div>
+                        <img src="/zhang/images/SchizRes-Figure1.jpg" alt="Figure 1" onclick="openImgModal('/zhang/images/SchizRes-Figure1.jpg')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 2</div>
+                        <img src="/zhang/images/SchizRes-Figure2.jpg" alt="Figure 2" onclick="openImgModal('/zhang/images/SchizRes-Figure2.jpg')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 3</div>
+                        <img src="/zhang/images/SchizRes-Figure3.jpg" alt="Figure 3" onclick="openImgModal('/zhang/images/SchizRes-Figure3.jpg')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 4</div>
+                        <img src="/zhang/images/SchizRes-Figure4.jpg" alt="Figure 4" onclick="openImgModal('/zhang/images/SchizRes-Figure4.jpg')">
+                    </div>
                 </div>
             </div>
         </div>
