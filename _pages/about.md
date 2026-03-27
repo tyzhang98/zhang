@@ -62,7 +62,7 @@ redirect_from:
 /* Right Sidebar TOC Navigation - Comfortable Colors */
 .toc-sidebar {
     position: fixed;
-    right: 10px;
+    right: 20px;
     top: 100px;
     width: 260px;
     max-height: calc(100vh - 120px);

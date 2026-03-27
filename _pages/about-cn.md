@@ -59,7 +59,7 @@ author_profile: true
 /* 右侧大纲导航样式 - 统一舒适配色 */
 .toc-sidebar {
     position: fixed;
-    right: 10px;
+    right: 20px;
     top: 100px;
     width: 260px;
     max-height: calc(100vh - 120px);
