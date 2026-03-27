@@ -1218,9 +1218,11 @@ document.addEventListener('keydown', function(event) {
                 <div class="tl-date">2026年</div>
                 <span class="tl-status published">Published</span>
                 <div class="tl-paper-title">Differential Profiles of Executive Function Dimensions in First-Episode and Chronic Schizophrenia: Identifying Markers of Illness Stage</div>
-                <div class="tl-journal">The European Journal of Psychiatry</div>
+                <div class="tl-journal">The European Journal of Psychiatry, 40, 100351 (2026)</div>
                 <div class="tl-info-line">
                     <span>共同一作(次序第二)</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://doi.org/10.1016/j.ejpsy.2026.100351" class="tl-link-btn">DOI</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/European-Journal-of-Psychiatry.pdf" class="tl-link-btn">PDF</a>
                 </div>
