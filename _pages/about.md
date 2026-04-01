@@ -241,7 +241,7 @@ redirect_from:
                 <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. Schizophr. Bull. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Major Revision)</a></li>
-                <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (With Editor)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Under Review)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Under Review)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Under Review)</a></li>
                 <li class="toc-subitem"><a href="#paper-inprep-1" class="toc-sublink">In preparation ...</a></li>
@@ -761,7 +761,7 @@ window.addEventListener('DOMContentLoaded', function() {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026</div>
-                <span class="tl-status review">With Editor</span>
+                <span class="tl-status review">Under Review</span>
                 <div class="tl-paper-title">Hierarchical organization of cognitive processes underlies low cross-task correlations in inhibitory control: Evidence from drift diffusion modeling</div>
                 <div class="tl-journal">Submitted to Journal of Experimental Psychology: General</div>
                 <div class="tl-info-line">
