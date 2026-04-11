@@ -1198,7 +1198,7 @@ document.addEventListener('keydown', function(event) {
             <div class="timeline-content">
                 <div class="tl-date">2026年</div>
                 <span class="tl-status published">Published</span>
-                <div class="tl-journal">Yang, X., Zhang, T., Ren, X., Wang, Y., Lv, H., Su, M., Huo, X., & Zhao, X. (2026). Differential profiles of executive function dimensions in first-episode and chronic schizophrenia: Identifying markers of illness stage. <em>The European Journal of Psychiatry</em>, <em>40</em>(2), 100351. <a href="https://doi.org/10.1016/j.ejpsy.2026.100351" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ejpsy.2026.100351</a></div>
+                <div class="tl-journal">Yang, X., Zhang, T., Ren, X., Wang, Y., Lv, H., Su, M., Huo, X., & Zhao, X. (2026). Differential profiles of executive function dimensions in first-episode and chronic schizophrenia: Identifying markers of illness stage. <em>The European Journal of Psychiatry</em>, 40(2), 100351. <a href="https://doi.org/10.1016/j.ejpsy.2026.100351" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ejpsy.2026.100351</a></div>
                 <div class="tl-info-line">
                     <span>共同一作(次序第二)</span>
                     <span class="tl-info-separator">|</span>
