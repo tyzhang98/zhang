@@ -242,7 +242,7 @@ redirect_from:
                 <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Under Review)</a></li>
-                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Under Review)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Under Review)</a></li>
                 <li class="toc-subitem"><a href="#paper-inprep-1" class="toc-sublink">In preparation ...</a></li>
 
@@ -797,7 +797,7 @@ window.addEventListener('DOMContentLoaded', function() {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026</div>
-                <span class="tl-status review">Under Review</span>
+                <span class="tl-status review">Major Revision</span>
                 <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
                 <div class="tl-journal">Submitted to Translational Psychiatry</div>
                 <div class="tl-info-line">
@@ -1241,6 +1241,16 @@ document.addEventListener('keydown', function(event) {
 <br>
 
 ## 2. Conference Presentations
+**Joint ESCoP-CoPM Meeting 2026 (China-Europe International Conference on Human Cognition and Artificial Intelligence)**
+- Format: Oral presentation (Accepted)
+- Date: September 2026
+- Location: Zhejiang University, Hangzhou, China
+
+**2026 Tsinghua University Department of Psychology and Cognitive Sciences PhD Forum**
+- Format: Poster presentation
+- Date: April 2026
+- Location: Tsinghua University, Beijing, China
+
 **Lanzhou Third People's Hospital Academic Lecture**
 - Topic: Application of AI and Cognitive Modeling in Executive Function Research in Schizophrenia [Download Slides (PDF)](https://tyzhang98.github.io/zhang/files/slides4.pdf)
 - Date: December 5, 2025
@@ -1261,8 +1271,8 @@ document.addEventListener('keydown', function(event) {
 
 **25th National Conference of Psychology**
 - Format: Oral presentation at symposium [Download Slides (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
-- Date: October 14, 2024
-- Location: Sichuan Normal University
+- Date: October 2023
+- Location: Sichuan Normal University, Chengdu, China
 
 <a id="research-projects"></a>
 <br>
@@ -1310,7 +1320,7 @@ Welcome academic collaboration and exchange! For collaboration intentions or aca
 ---
 
 <p align="center">
-Last updated on February 11, 2026, at 17:30:00 (GMT+8) by Tongyi Zhang, Lanzhou, China.
+Last updated on April 11, 2026, at 17:27:00 (GMT+8) by Tongyi Zhang, Lanzhou, China.
 </p>
 
 ---
