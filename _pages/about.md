@@ -1201,7 +1201,6 @@ document.addEventListener('keydown', function(event) {
             <div class="timeline-content">
                 <div class="tl-date">2026</div>
                 <span class="tl-status published">Published</span>
-                <div class="tl-paper-title">Differential Profiles of Executive Function Dimensions in First-Episode and Chronic Schizophrenia: Identifying Markers of Illness Stage</div>
                 <div class="tl-journal">Yang, X., Zhang, T., Ren, X., Wang, Y., Lv, H., Su, M., Huo, X., & Zhao, X. (2026). Differential profiles of executive function dimensions in first-episode and chronic schizophrenia: Identifying markers of illness stage. <em>The European Journal of Psychiatry</em>, <em>40</em>(2), 100351. <a href="https://doi.org/10.1016/j.ejpsy.2026.100351" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ejpsy.2026.100351</a></div>
                 <div class="tl-info-line">
                     <span>Co-first Author (2nd)</span>
