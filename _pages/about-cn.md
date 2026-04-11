@@ -239,7 +239,7 @@ author_profile: true
                 <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Under Review)</a></li>
-                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Under Review)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Under Review)</a></li>
                 <li class="toc-subitem"><a href="#paper-inprep-1" class="toc-sublink">准备中 ...</a></li>
 
@@ -353,14 +353,10 @@ window.addEventListener('DOMContentLoaded', function() {
 <a id="about"></a>
 &emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等期刊发表论文，并主持省级高校研究生"创新之星"项目一项。研究方向聚焦于人类高级认知的计算、发展与病理损伤机制。综合认知行为实验、功能磁共振成像（fMRI）等认知神经科学手段，结合计算建模、机器学习及大语言模型等技术，致力于揭示高级认知功能的计算与发展机制，并探究精神分裂症、重度抑郁症等精神障碍认知损伤的干预策略。
 
-**当前关注的核心研究问题：**
-**基础问题**
-- 大语言模型的认知加工模式与人类认知加工及大脑活动的表征相似性
-- 通过统一计算模型模拟与预测人类认知加工与发展的可能性
-
-**临床与应用问题**
-- 精神分裂症等精神障碍认知损伤的计算机制与干预靶点识别
-- 儿童青少年精神障碍的认知特征与早期干预
+**研究方向：**
+1. 执行功能的计算神经机制
+2. 基于大语言模型的类脑认知智能研究
+3. 精神分裂症与抑郁症的认知计算机制
 
 ---
 
@@ -793,7 +789,7 @@ window.addEventListener('DOMContentLoaded', function() {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026年</div>
-                <span class="tl-status review">Under Review</span>
+                <span class="tl-status review">Major Revision</span>
                 <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
                 <div class="tl-journal">Submitted to Translational Psychiatry</div>
                 <div class="tl-info-line">
@@ -1237,6 +1233,16 @@ document.addEventListener('keydown', function(event) {
 <br>
 
 ## 2. 会议报告（Conference Presentations）
+**2026年中欧人类认知与人工智能国际会议（Joint ESCoP-CoPM Meeting 2026）**
+- 报告形式：口头报告（已录用）
+- 时间：2026年9月
+- 地点：浙江大学，杭州，中国
+
+**2026年清华大学心理与认知科学系博士生论坛**
+- 报告形式：海报展贴
+- 时间：2026年4月
+- 地点：清华大学，北京，中国
+
 **兰州市第三人民医院学术讲座**
 - 报告题目：人工智能与认知建模在精神分裂症执行功能研究中的应用 [下载报告（PDF）](https://tyzhang98.github.io/zhang/files/slides4.pdf)
 - 时间：2025年12月05日
@@ -1257,8 +1263,8 @@ document.addEventListener('keydown', function(event) {
 
 **第二十五届全国心理学学术会议**
 - 报告形式：分论坛口头报告 [下载报告（PDF）](https://tyzhang98.github.io/zhang/files/slides2.pdf)
-- 时间：2024年10月14日
-- 地点：四川师范大学
+- 时间：2023年10月
+- 地点：四川师范大学，成都，中国
 
 <a id="research-projects"></a>
 <br>
