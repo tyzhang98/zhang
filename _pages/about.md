@@ -244,7 +244,6 @@ redirect_from:
                 <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Under Review)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Under Review)</a></li>
-                <li class="toc-subitem"><a href="#paper-inprep-1" class="toc-sublink">In preparation ...</a></li>
 
             </ul>
         </li>
@@ -275,7 +274,6 @@ window.addEventListener('DOMContentLoaded', function() {
             { id: 'paper-review-jep', element: document.getElementById('paper-review-jep') },
             { id: 'paper-review-tp', element: document.getElementById('paper-review-tp') },
             { id: 'paper-prep-6', element: document.getElementById('paper-prep-6') },
-            { id: 'paper-inprep-1', element: document.getElementById('paper-inprep-1') },
             { id: 'collaborative-pubs', element: document.getElementById('collaborative-pubs') },
             { id: 'paper-review-jad', element: document.getElementById('paper-review-jad') },
             { id: 'paper-pub-ejp', element: document.getElementById('paper-pub-ejp') },
@@ -738,20 +736,6 @@ window.addEventListener('DOMContentLoaded', function() {
 <div class="publications-container">
     <div class="timeline">
 
-        <!-- In Preparation #1 -->
-        <div class="timeline-item" id="paper-inprep-1">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2026</div>
-                <span class="tl-status preparation">In Preparation...</span>
-                <div class="tl-paper-title">Working memory updating deficits exert time perception dysfunction in schizophrenia: A cognitive computation study</div>
-                <div class="tl-info-line">
-                    <span></span>
-                </div>
-            </div>
-        </div>
-
-        <!-- In Preparation #4 -->
         <!-- Under Review #6 - JEP:General -->
         <div class="timeline-item" id="paper-review-jep">
             <div class="timeline-marker"></div>
