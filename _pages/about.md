@@ -356,14 +356,10 @@ window.addEventListener('DOMContentLoaded', function() {
 <a id="about"></a>
 &emsp;&emsp;I am a second-year PhD candidate in Psychology at Northwest Normal University. As first author, I have published papers in *Child Development*, *Schizophrenia Bulletin*, *BMC Medicine*, *International Journal of Clinical and Health Psychology*, and *Schizophrenia Research*. I also lead a provincial-level graduate "Innovation Star" research project. My research focuses on the computational, developmental, and pathological mechanisms of higher-order cognition. Integrating cognitive behavioral experiments, functional magnetic resonance imaging (fMRI), and other cognitive neuroscience methods with computational modeling, machine learning, and large language models, I aim to reveal the computational and developmental mechanisms of higher cognitive functions and explore intervention strategies for cognitive impairments in schizophrenia, major depression, and other psychiatric disorders.
 
-**Current Core Research Questions:**
-**Fundamental Questions**
-- Representational similarity between cognitive processing patterns in large language models and human cognition/brain activity
-- Feasibility of simulating and predicting human cognitive processing and development through unified computational models
-
-**Clinical & Applied Questions**
-- Computational mechanisms of cognitive impairments in schizophrenia and other psychiatric disorders, and identification of intervention targets
-- Cognitive characteristics and early intervention in child and adolescent psychiatric disorders
+**Research Directions:**
+1. Computational neural mechanisms of executive functions
+2. Brain-inspired cognitive intelligence based on large language models
+3. Computational mechanisms of cognition in schizophrenia and depression
 
 ---
 
