@@ -1289,8 +1289,6 @@ document.addEventListener('keydown', function(event) {
 <br>
 <br>
 
----
-
 ## 4. Seeking Research Collaboration
 
 ### Contact
