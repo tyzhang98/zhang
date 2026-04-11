@@ -351,7 +351,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 ## 个人简介（About Me）
 <a id="about"></a>
-&emsp;&emsp;西北师范大学心理学博士研究生（二年级在读），以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等期刊发表论文，并主持省级高校研究生"创新之星"项目一项。研究方向聚焦于人类高级认知的计算、发展与病理损伤机制。综合认知行为实验、功能磁共振成像（fMRI）等认知神经科学手段，结合计算建模、机器学习及大语言模型等技术，致力于揭示高级认知功能的计算与发展机制，并探究精神分裂症、重度抑郁症等精神障碍认知损伤的干预策略。
+&emsp;&emsp;西北师范大学心理学院博士研究生（2024级在读）。以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等国际期刊发表学术论文，并主持省级高校研究生"创新之星"科研项目一项。研究方向聚焦于人类高级认知的计算机制、发展规律与精神病理损伤，综合运用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法与计算建模、机器学习及大语言模型等计算技术，致力于阐明执行功能等高级认知过程的计算神经机制，并探索精神分裂症、抑郁症等精神障碍认知损伤的计算标记与干预靶点。
 
 **研究方向：**
 1. 执行功能的计算神经机制
@@ -1245,7 +1245,7 @@ document.addEventListener('keydown', function(event) {
 
 **兰州市第三人民医院学术讲座**
 - 报告题目：人工智能与认知建模在精神分裂症执行功能研究中的应用 [下载报告（PDF）](https://tyzhang98.github.io/zhang/files/slides4.pdf)
-- 时间：2025年12月05日
+- 时间：2025年12月5日
 - 地点：兰州市第三人民医院
 - [报道链接](https://mp.weixin.qq.com/s/rTePQw_mfU1r-ok_Hh4imQ)
 
@@ -1277,8 +1277,8 @@ document.addEventListener('keydown', function(event) {
 - **2024年省级博士创新之星科研项目（No. 2025CXZX-366）**（2025-12 结项）
 
 **参与项目**
-- **国家自然科学基金地区项目**（32260207）"认知训练对乡村儿童执行功能的提升"（参与，2022-2025）
-- **国家重点研发计划**（2021ZD0203800）科技创新2030—脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12-2026.12）
+- **国家自然科学基金地区项目**（32260207）"认知训练对乡村儿童执行功能的提升"（参与，2022—2025）
+- **国家重点研发计划**（2021ZD0203800）科技创新2030"脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12—2026.12）
 
 <a id="collab"></a>
 <br>

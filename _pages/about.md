@@ -354,12 +354,12 @@ window.addEventListener('DOMContentLoaded', function() {
 
 ## About Me
 <a id="about"></a>
-&emsp;&emsp;I am a second-year PhD candidate in Psychology at Northwest Normal University. As first author, I have published papers in *Child Development*, *Schizophrenia Bulletin*, *BMC Medicine*, *International Journal of Clinical and Health Psychology*, and *Schizophrenia Research*. I also lead a provincial-level graduate "Innovation Star" research project. My research focuses on the computational, developmental, and pathological mechanisms of higher-order cognition. Integrating cognitive behavioral experiments, functional magnetic resonance imaging (fMRI), and other cognitive neuroscience methods with computational modeling, machine learning, and large language models, I aim to reveal the computational and developmental mechanisms of higher cognitive functions and explore intervention strategies for cognitive impairments in schizophrenia, major depression, and other psychiatric disorders.
+&emsp;&emsp;I am a second-year PhD candidate in Psychology at Northwest Normal University. I have published first-author papers in *Child Development*, *Schizophrenia Bulletin*, *BMC Medicine*, *International Journal of Clinical and Health Psychology*, and *Schizophrenia Research*, and I currently lead a provincial-level Graduate Innovation Star research project. My research centers on the computational, developmental, and psychopathological mechanisms of higher-order cognition. Drawing on cognitive-behavioral experiments, functional magnetic resonance imaging (fMRI), and related cognitive neuroscience paradigms—combined with computational modeling, machine learning, and large language models—I aim to elucidate the computational and developmental architecture of executive and higher-order cognitive functions, and to identify cognitive intervention targets in schizophrenia, major depressive disorder, and related psychiatric conditions.
 
 **Research Directions:**
 1. Computational neural mechanisms of executive functions
-2. Brain-inspired cognitive intelligence based on large language models
-3. Computational mechanisms of cognition in schizophrenia and depression
+2. Brain-inspired cognitive modeling with large language models
+3. Computational mechanisms of cognitive impairment in schizophrenia and depression
 
 ---
 
@@ -1237,7 +1237,7 @@ document.addEventListener('keydown', function(event) {
 <br>
 
 ## 2. Conference Presentations
-**Joint ESCoP-CoPM Meeting 2026 (China-Europe International Conference on Human Cognition and Artificial Intelligence)**
+**Joint ESCoP-CoPM Meeting 2026**
 - Format: Oral presentation (Accepted)
 - Date: September 2026
 - Location: Zhejiang University, Hangzhou, China
@@ -1281,8 +1281,8 @@ document.addEventListener('keydown', function(event) {
 - **2024 Provincial Graduate Innovation Star Project (No. 2025CXZX-366)** (Completed December 2025)
 
 **Co-Investigator**
-- **National Natural Science Foundation Regional Project** (32260207) "Cognitive Training for Rural Children's Executive Functions" (Participant, 2022-2025)
-- **National Key R&D Program** (2021ZD0203800) Brain Science and Brain-like Research Major Project: Neural Circuit Mechanisms of Attention (Task 4: Attention in Special Populations) (Participant, 2021.12-2026.12)
+- **National Natural Science Foundation of China (NSFC) Regional Project** (32260207) "Cognitive Training for Rural Children's Executive Functions" (Participant, 2022–2025)
+- **National Key R&D Program** (2021ZD0203800) "Brain Science and Brain-Inspired Research" Major Project: Neural Circuit Mechanisms of Attention (Task 4: Attention in Special Populations) (Participant, 2021.12–2026.12)
 
 <a id="collab"></a>
 <br>
