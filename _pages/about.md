@@ -239,7 +239,7 @@ redirect_from:
                 <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">1. Schizophr. Res. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. Int. J. Clin. Health Psychol. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. Schizophr. Bull. (Published)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Major Revision)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Accepted)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Under Review)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Major Revision)</a></li>
@@ -928,9 +928,9 @@ window.addEventListener('DOMContentLoaded', function() {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025</div>
-                <span class="tl-status review">Major Revision</span>
+                <span class="tl-status published">Accepted</span>
                 <div class="tl-paper-title">Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses</div>
-                <div class="tl-journal">Submitted to BMC Medicine</div>
+                <div class="tl-journal">BMC Medicine</div>
                 <div class="tl-info-line">
                     <span>(JCR Q1, IF 8.3)</span>
                     <span class="tl-info-separator">|</span>
