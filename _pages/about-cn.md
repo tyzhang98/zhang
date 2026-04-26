@@ -1310,38 +1310,146 @@ document.addEventListener('keydown', function(event) {
 <br>
 
 ## 2. 会议报告（Conference Presentations）
-**2026年中欧人类认知与人工智能国际会议（Joint ESCoP-CoPM Meeting 2026）**
-- 报告形式：口头报告（已录用）
-- 时间：2026年9月
-- 地点：浙江大学，杭州，中国
 
-**2026年清华大学心理与认知科学系博士生论坛**
-- 报告形式：海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides5.pdf)
-- 时间：2026年4月
-- 地点：清华大学，北京，中国
+<style>
+.events-list {
+    max-width: 1200px;
+    margin: 20px auto 30px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.event-card {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 20px;
+    padding: 16px 22px;
+    background: white;
+    border-left: 3px solid #0066cc;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    transition: transform .2s, box-shadow .2s;
+}
+.event-card:hover { transform: translateX(3px); box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
+.event-date { color: #6b7280; font-size: 0.88em; font-weight: 600; padding-top: 2px; white-space: nowrap; }
+.event-title { font-weight: 600; color: #111827; margin-bottom: 6px; line-height: 1.5; font-size: 0.98em; }
+.event-meta { font-size: 0.85em; color: #4b5563; display: flex; gap: 10px 14px; flex-wrap: wrap; align-items: center; }
+.event-tag {
+    display: inline-block; padding: 2px 10px; border-radius: 3px;
+    font-size: 0.78em; font-weight: 600; letter-spacing: 0.2px;
+}
+.event-tag.tag-oral    { background: #d1fae5; color: #065f46; }
+.event-tag.tag-poster  { background: #dbeafe; color: #1e40af; }
+.event-tag.tag-talk    { background: #ede9fe; color: #5b21b6; }
+.event-tag.tag-pi      { background: #fef3c7; color: #92400e; }
+.event-tag.tag-coi     { background: #e0e7ff; color: #3730a3; }
+.event-link { color: #0066cc; text-decoration: none; }
+.event-link:hover { text-decoration: underline; }
+.event-meta-divider { color: #d1d5db; }
 
-**兰州市第三人民医院学术讲座**
-- 报告题目：人工智能与认知建模在精神分裂症执行功能研究中的应用 [下载报告（PDF）](https://tyzhang98.github.io/zhang/files/slides4.pdf)
-- 时间：2025年12月5日
-- 地点：兰州市第三人民医院
-- [报道链接](https://mp.weixin.qq.com/s/rTePQw_mfU1r-ok_Hh4imQ)
+@media (max-width: 768px) {
+    .event-card { grid-template-columns: 1fr; gap: 8px; }
+    .event-date { font-size: 0.82em; }
+}
+@media (prefers-color-scheme: dark) {
+    .event-card { background: #1f2937; border-left-color: #60a5fa; box-shadow: 0 1px 3px rgba(0,0,0,0.4); }
+    .event-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+    .event-date { color: #9ca3af; }
+    .event-title { color: #f3f4f6; }
+    .event-meta { color: #cbd5e1; }
+    .event-tag.tag-oral    { background: #064e3b; color: #a7f3d0; }
+    .event-tag.tag-poster  { background: #1e3a8a; color: #bfdbfe; }
+    .event-tag.tag-talk    { background: #4c1d95; color: #ddd6fe; }
+    .event-tag.tag-pi      { background: #78350f; color: #fde68a; }
+    .event-tag.tag-coi     { background: #312e81; color: #c7d2fe; }
+    .event-link { color: #60a5fa; }
+    .event-link:hover { color: #93c5fd; }
+    .event-meta-divider { color: #4b5563; }
+}
+</style>
 
+<div class="events-list">
+    <div class="event-card">
+        <div class="event-date">2026年9月</div>
+        <div>
+            <div class="event-title">中欧人类认知与人工智能国际会议（Joint ESCoP-CoPM Meeting 2026）</div>
+            <div class="event-meta">
+                <span class="event-tag tag-oral">口头报告 · 已录用</span>
+                <span>浙江大学，杭州</span>
+            </div>
+        </div>
+    </div>
 
-**2025年心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛**
-- 报告形式：海报展贴 [下载海报（PDF）](https://tyzhang98.github.io/zhang/files/slides1.pdf)
-- 时间：2025年4月19日
-- 地点：北京大学
+    <div class="event-card">
+        <div class="event-date">2026年4月</div>
+        <div>
+            <div class="event-title">清华大学心理与认知科学系博士生论坛</div>
+            <div class="event-meta">
+                <span class="event-tag tag-poster">海报展贴</span>
+                <span>清华大学，北京</span>
+                <span class="event-meta-divider">·</span>
+                <a href="https://tyzhang98.github.io/zhang/files/slides5.pdf" class="event-link">海报（PDF）</a>
+            </div>
+        </div>
+    </div>
 
-**兰州市第三人民医院学术讲座**
-- 报告题目：认知计算精神病学：从思路到实操 [下载报告（PDF）](https://tyzhang98.github.io/zhang/files/slides3.pdf)
-- 时间：2024年11月26日
-- 地点：兰州市第三人民医院
-- [报道链接](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
+    <div class="event-card">
+        <div class="event-date">2025年12月5日</div>
+        <div>
+            <div class="event-title">兰州市第三人民医院学术讲座 — 人工智能与认知建模在精神分裂症执行功能研究中的应用</div>
+            <div class="event-meta">
+                <span class="event-tag tag-talk">特邀报告</span>
+                <span>兰州市第三人民医院</span>
+                <span class="event-meta-divider">·</span>
+                <a href="https://tyzhang98.github.io/zhang/files/slides4.pdf" class="event-link">报告（PDF）</a>
+                <span class="event-meta-divider">·</span>
+                <a href="https://mp.weixin.qq.com/s/rTePQw_mfU1r-ok_Hh4imQ" class="event-link">报道</a>
+            </div>
+        </div>
+    </div>
 
-**第二十五届全国心理学学术会议**
-- 报告形式：分论坛口头报告 [下载报告（PDF）](https://tyzhang98.github.io/zhang/files/slides2.pdf)
-- 时间：2023年10月
-- 地点：四川师范大学，成都，中国
+    <div class="event-card">
+        <div class="event-date">2025年4月19日</div>
+        <div>
+            <div class="event-title">心理与认知科学联合论坛暨北京大学心理与认知科学学院博士生论坛</div>
+            <div class="event-meta">
+                <span class="event-tag tag-poster">海报展贴</span>
+                <span>北京大学</span>
+                <span class="event-meta-divider">·</span>
+                <a href="https://tyzhang98.github.io/zhang/files/slides1.pdf" class="event-link">海报（PDF）</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="event-card">
+        <div class="event-date">2024年11月26日</div>
+        <div>
+            <div class="event-title">兰州市第三人民医院学术讲座 — 认知计算精神病学：从思路到实操</div>
+            <div class="event-meta">
+                <span class="event-tag tag-talk">特邀报告</span>
+                <span>兰州市第三人民医院</span>
+                <span class="event-meta-divider">·</span>
+                <a href="https://tyzhang98.github.io/zhang/files/slides3.pdf" class="event-link">报告（PDF）</a>
+                <span class="event-meta-divider">·</span>
+                <a href="https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1" class="event-link">报道</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="event-card">
+        <div class="event-date">2023年10月</div>
+        <div>
+            <div class="event-title">第二十五届全国心理学学术会议</div>
+            <div class="event-meta">
+                <span class="event-tag tag-oral">分论坛口头报告</span>
+                <span>四川师范大学，成都</span>
+                <span class="event-meta-divider">·</span>
+                <a href="https://tyzhang98.github.io/zhang/files/slides2.pdf" class="event-link">报告（PDF）</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <a id="research-projects"></a>
 <br>
@@ -1350,12 +1458,40 @@ document.addEventListener('keydown', function(event) {
 
 ## 3. 科研项目（Research Projects）
 
-**主持项目**
-- **2024年省级博士创新之星科研项目（No. 2025CXZX-366）**（2025-12 结项）
+<div class="events-list">
+    <div class="event-card">
+        <div class="event-date">2024 – 2025</div>
+        <div>
+            <div class="event-title">省级博士创新之星科研项目（No. 2025CXZX-366）</div>
+            <div class="event-meta">
+                <span class="event-tag tag-pi">主持</span>
+                <span>2025-12 结项</span>
+            </div>
+        </div>
+    </div>
 
-**参与项目**
-- **国家自然科学基金地区项目**（32260207）"认知训练对乡村儿童执行功能的提升"（参与，2022—2025）
-- **国家重点研发计划**（2021ZD0203800）科技创新2030"脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12—2026.12）
+    <div class="event-card">
+        <div class="event-date">2022 – 2025</div>
+        <div>
+            <div class="event-title">国家自然科学基金地区项目（32260207）— 认知训练对乡村儿童执行功能的提升</div>
+            <div class="event-meta">
+                <span class="event-tag tag-coi">参与</span>
+                <span>国家自然科学基金委</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="event-card">
+        <div class="event-date">2021 – 2026</div>
+        <div>
+            <div class="event-title">国家重点研发计划（2021ZD0203800）— 科技创新 2030 "脑科学与类脑研究" 重大项目：注意的神经环路机制研究（课题 4：特殊人群注意研究及应用）</div>
+            <div class="event-meta">
+                <span class="event-tag tag-coi">参与</span>
+                <span>重大研发项目</span>
+            </div>
+        </div>
+    </div>
+</div>
 
 <a id="collab"></a>
 <br>
