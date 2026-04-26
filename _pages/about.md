@@ -459,7 +459,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
     .timeline-item:hover .timeline-marker {
         transform: scale(1.3);
-        background: #cc0000ff;
+        background: #0066cc;
     }
 
     .timeline-content {
@@ -596,7 +596,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
     .tl-figure::after {
-        content: '🔍 Click to enlarge';
+        content: 'Click to enlarge';
         position: absolute;
         bottom: 10px;
         right: 10px;
@@ -653,10 +653,10 @@ window.addEventListener('DOMContentLoaded', function() {
         background: white;
         border-radius: 3px;
         font-size: 0.8em;
-        color: #374151;
+        color: #0066cc;
         cursor: pointer;
         transition: all 0.2s;
-        border: 2px solid #000;
+        border: 1px solid #0066cc;
         user-select: none;
         font-weight: 500;
     }
@@ -1528,6 +1528,8 @@ Last updated on April 26, 2026, at 21:57:00 (GMT+8) by Tongyi Zhang, Lanzhou, Ch
 </p>
 
 ---
+
+## Location
 
 <div id="locationMap" style="height: 400px; width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
 
