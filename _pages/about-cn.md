@@ -456,7 +456,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
     .timeline-item:hover .timeline-marker {
         transform: scale(1.3);
-        background: #0066cc;
+        background: #cc0000ff;
     }
 
     .timeline-content {
@@ -593,7 +593,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
     .tl-figure::after {
-        content: '点击查看大图';
+        content: '🔍 点击查看大图';
         position: absolute;
         bottom: 10px;
         right: 10px;
@@ -650,10 +650,10 @@ window.addEventListener('DOMContentLoaded', function() {
         background: white;
         border-radius: 3px;
         font-size: 0.8em;
-        color: #0066cc;
+        color: #374151;
         cursor: pointer;
         transition: all 0.2s;
-        border: 1px solid #0066cc;
+        border: 2px solid #000;
         user-select: none;
         font-weight: 500;
     }
@@ -1525,8 +1525,6 @@ Last updated on April 26, 2026, at 21:57:00 (GMT+8) by Tongyi Zhang, Lanzhou, Ch
 </p>
 
 ---
-
-## 所在地（Location）
 
 <div id="locationMap" style="height: 400px; width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></div>
 
