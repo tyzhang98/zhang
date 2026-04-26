@@ -416,14 +416,22 @@ window.addEventListener('DOMContentLoaded', function() {
         animation: fadeInLeft 0.6s forwards;
     }
 
-    .timeline-item:nth-child(1) { animation-delay: 0.1s; }
-    .timeline-item:nth-child(2) { animation-delay: 0.2s; }
-    .timeline-item:nth-child(3) { animation-delay: 0.3s; }
-    .timeline-item:nth-child(4) { animation-delay: 0.4s; }
-    .timeline-item:nth-child(5) { animation-delay: 0.5s; }
-    .timeline-item:nth-child(6) { animation-delay: 0.6s; }
-    .timeline-item:nth-child(7) { animation-delay: 0.7s; }
-    .timeline-item:nth-child(8) { animation-delay: 0.8s; }
+    .timeline-item:nth-child(1) { animation-delay: 0.05s; }
+    .timeline-item:nth-child(2) { animation-delay: 0.10s; }
+    .timeline-item:nth-child(3) { animation-delay: 0.15s; }
+    .timeline-item:nth-child(4) { animation-delay: 0.20s; }
+    .timeline-item:nth-child(5) { animation-delay: 0.25s; }
+    .timeline-item:nth-child(6) { animation-delay: 0.30s; }
+    .timeline-item:nth-child(7) { animation-delay: 0.35s; }
+    .timeline-item:nth-child(8) { animation-delay: 0.40s; }
+    .timeline-item:nth-child(9) { animation-delay: 0.45s; }
+    .timeline-item:nth-child(10) { animation-delay: 0.50s; }
+    .timeline-item:nth-child(11) { animation-delay: 0.55s; }
+    .timeline-item:nth-child(12) { animation-delay: 0.60s; }
+    .timeline-item:nth-child(13) { animation-delay: 0.65s; }
+    .timeline-item:nth-child(14) { animation-delay: 0.70s; }
+    .timeline-item:nth-child(15) { animation-delay: 0.75s; }
+    .timeline-item:nth-child(n+16) { animation-delay: 0.80s; }
 
     @keyframes fadeInLeft {
         from {
@@ -729,6 +737,93 @@ window.addEventListener('DOMContentLoaded', function() {
         .img-modal-content {
             max-width: 95%;
             max-height: 95%;
+        }
+    }
+
+    /* ===== Dark Mode for Publications ===== */
+    @media (prefers-color-scheme: dark) {
+        .timeline::before {
+            background: #374151;
+        }
+        .timeline-marker {
+            background: #1f2937;
+            border-color: #60a5fa;
+        }
+        .timeline-item:hover .timeline-marker {
+            background: #f87171;
+        }
+        .timeline-content {
+            background: #1f2937;
+            border-left-color: #60a5fa;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+        }
+        .timeline-content:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        }
+        .tl-date {
+            background: #2563eb;
+            color: #f3f4f6;
+        }
+        .tl-status.published {
+            background: #064e3b;
+            color: #a7f3d0;
+            border-color: #047857;
+        }
+        .tl-status.review {
+            background: #78350f;
+            color: #fde68a;
+            border-color: #b45309;
+        }
+        .tl-status.preparation {
+            background: #374151;
+            color: #d1d5db;
+            border-color: #4b5563;
+        }
+        .tl-paper-title {
+            color: #f3f4f6;
+        }
+        .tl-journal {
+            color: #93c5fd;
+        }
+        .tl-info-line {
+            color: #cbd5e1;
+        }
+        .tl-info-separator {
+            color: #6b7280;
+        }
+        .tl-link-btn {
+            color: #60a5fa;
+        }
+        .tl-link-btn:hover {
+            color: #93c5fd;
+        }
+        .tl-figure {
+            border-color: #374151;
+            background: #111827;
+        }
+        .tl-gallery {
+            background: #111827;
+            border-color: #374151;
+        }
+        .tl-gallery-item + .tl-gallery-item {
+            border-top-color: #374151;
+        }
+        .tl-gallery-label {
+            color: #cbd5e1;
+        }
+        .tl-abstract-trigger {
+            background: #1f2937;
+            color: #e5e7eb;
+            border-color: #60a5fa;
+        }
+        .tl-abstract-trigger:hover {
+            background: #374151;
+            color: #93c5fd;
+        }
+        .tl-abstract-content {
+            background: #111827;
+            border-color: #374151;
+            color: #cbd5e1;
         }
     }
 </style>
