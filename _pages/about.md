@@ -1313,146 +1313,38 @@ document.addEventListener('keydown', function(event) {
 <br>
 
 ## 2. Conference Presentations
+**Joint ESCoP-CoPM Meeting 2026**
+- Format: Oral presentation (Accepted)
+- Date: September 2026
+- Location: Zhejiang University, Hangzhou, China
 
-<style>
-.events-list {
-    max-width: 1200px;
-    margin: 20px auto 30px;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-}
-.event-card {
-    display: grid;
-    grid-template-columns: 130px 1fr;
-    gap: 20px;
-    padding: 16px 22px;
-    background: white;
-    border-left: 3px solid #0066cc;
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-    transition: transform .2s, box-shadow .2s;
-}
-.event-card:hover { transform: translateX(3px); box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
-.event-date { color: #6b7280; font-size: 0.88em; font-weight: 600; padding-top: 2px; white-space: nowrap; }
-.event-title { font-weight: 600; color: #111827; margin-bottom: 6px; line-height: 1.5; font-size: 0.98em; }
-.event-meta { font-size: 0.85em; color: #4b5563; display: flex; gap: 10px 14px; flex-wrap: wrap; align-items: center; }
-.event-tag {
-    display: inline-block; padding: 2px 10px; border-radius: 3px;
-    font-size: 0.78em; font-weight: 600; letter-spacing: 0.2px;
-}
-.event-tag.tag-oral    { background: #d1fae5; color: #065f46; }
-.event-tag.tag-poster  { background: #dbeafe; color: #1e40af; }
-.event-tag.tag-talk    { background: #ede9fe; color: #5b21b6; }
-.event-tag.tag-pi      { background: #fef3c7; color: #92400e; }
-.event-tag.tag-coi     { background: #e0e7ff; color: #3730a3; }
-.event-link { color: #0066cc; text-decoration: none; }
-.event-link:hover { text-decoration: underline; }
-.event-meta-divider { color: #d1d5db; }
+**2026 Tsinghua University Department of Psychology and Cognitive Sciences PhD Forum**
+- Format: Poster presentation [Download Poster (PDF)](https://tyzhang98.github.io/zhang/files/slides5.pdf)
+- Date: April 2026
+- Location: Tsinghua University, Beijing, China
 
-@media (max-width: 768px) {
-    .event-card { grid-template-columns: 1fr; gap: 8px; }
-    .event-date { font-size: 0.82em; }
-}
-@media (prefers-color-scheme: dark) {
-    .event-card { background: #1f2937; border-left-color: #60a5fa; box-shadow: 0 1px 3px rgba(0,0,0,0.4); }
-    .event-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
-    .event-date { color: #9ca3af; }
-    .event-title { color: #f3f4f6; }
-    .event-meta { color: #cbd5e1; }
-    .event-tag.tag-oral    { background: #064e3b; color: #a7f3d0; }
-    .event-tag.tag-poster  { background: #1e3a8a; color: #bfdbfe; }
-    .event-tag.tag-talk    { background: #4c1d95; color: #ddd6fe; }
-    .event-tag.tag-pi      { background: #78350f; color: #fde68a; }
-    .event-tag.tag-coi     { background: #312e81; color: #c7d2fe; }
-    .event-link { color: #60a5fa; }
-    .event-link:hover { color: #93c5fd; }
-    .event-meta-divider { color: #4b5563; }
-}
-</style>
+**Lanzhou Third People's Hospital Academic Lecture**
+- Topic: Application of AI and Cognitive Modeling in Executive Function Research in Schizophrenia [Download Slides (PDF)](https://tyzhang98.github.io/zhang/files/slides4.pdf)
+- Date: December 5, 2025
+- Location: Lanzhou Third People's Hospital
+- [News Report](https://mp.weixin.qq.com/s/rTePQw_mfU1r-ok_Hh4imQ)
 
-<div class="events-list">
-    <div class="event-card">
-        <div class="event-date">Sep 2026</div>
-        <div>
-            <div class="event-title">Joint ESCoP-CoPM Meeting 2026</div>
-            <div class="event-meta">
-                <span class="event-tag tag-oral">Oral · Accepted</span>
-                <span>Zhejiang University, Hangzhou, China</span>
-            </div>
-        </div>
-    </div>
 
-    <div class="event-card">
-        <div class="event-date">Apr 2026</div>
-        <div>
-            <div class="event-title">Tsinghua University Department of Psychology and Cognitive Sciences PhD Forum</div>
-            <div class="event-meta">
-                <span class="event-tag tag-poster">Poster</span>
-                <span>Tsinghua University, Beijing, China</span>
-                <span class="event-meta-divider">·</span>
-                <a href="https://tyzhang98.github.io/zhang/files/slides5.pdf" class="event-link">Poster (PDF)</a>
-            </div>
-        </div>
-    </div>
+**2025 Joint Forum on Psychology and Cognitive Science & Peking University Graduate Forum**
+- Format: Poster presentation [Download Poster (PDF)](https://tyzhang98.github.io/zhang/files/slides1.pdf)
+- Date: April 19, 2025
+- Location: Peking University
 
-    <div class="event-card">
-        <div class="event-date">Dec 5, 2025</div>
-        <div>
-            <div class="event-title">Lanzhou Third People's Hospital Academic Lecture — Application of AI and Cognitive Modeling in Executive Function Research in Schizophrenia</div>
-            <div class="event-meta">
-                <span class="event-tag tag-talk">Invited Talk</span>
-                <span>Lanzhou Third People's Hospital</span>
-                <span class="event-meta-divider">·</span>
-                <a href="https://tyzhang98.github.io/zhang/files/slides4.pdf" class="event-link">Slides (PDF)</a>
-                <span class="event-meta-divider">·</span>
-                <a href="https://mp.weixin.qq.com/s/rTePQw_mfU1r-ok_Hh4imQ" class="event-link">News</a>
-            </div>
-        </div>
-    </div>
+**Lanzhou Third People's Hospital Academic Lecture**
+- Topic: Computational Psychiatry: From Theory to Practice [Download Slides (PDF)](https://tyzhang98.github.io/zhang/files/slides3.pdf)
+- Date: November 26, 2024
+- Location: Lanzhou Third People's Hospital
+- [News Report](https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1)
 
-    <div class="event-card">
-        <div class="event-date">Apr 19, 2025</div>
-        <div>
-            <div class="event-title">Joint Forum on Psychology and Cognitive Science & Peking University Graduate Forum</div>
-            <div class="event-meta">
-                <span class="event-tag tag-poster">Poster</span>
-                <span>Peking University</span>
-                <span class="event-meta-divider">·</span>
-                <a href="https://tyzhang98.github.io/zhang/files/slides1.pdf" class="event-link">Poster (PDF)</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="event-card">
-        <div class="event-date">Nov 26, 2024</div>
-        <div>
-            <div class="event-title">Lanzhou Third People's Hospital Academic Lecture — Computational Psychiatry: From Theory to Practice</div>
-            <div class="event-meta">
-                <span class="event-tag tag-talk">Invited Talk</span>
-                <span>Lanzhou Third People's Hospital</span>
-                <span class="event-meta-divider">·</span>
-                <a href="https://tyzhang98.github.io/zhang/files/slides3.pdf" class="event-link">Slides (PDF)</a>
-                <span class="event-meta-divider">·</span>
-                <a href="https://mp.weixin.qq.com/s/9FDqAlwUzW0x5VWXVVJ02g?scene=1" class="event-link">News</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="event-card">
-        <div class="event-date">Oct 2023</div>
-        <div>
-            <div class="event-title">25th National Conference of Psychology</div>
-            <div class="event-meta">
-                <span class="event-tag tag-oral">Oral · Symposium</span>
-                <span>Sichuan Normal University, Chengdu, China</span>
-                <span class="event-meta-divider">·</span>
-                <a href="https://tyzhang98.github.io/zhang/files/slides2.pdf" class="event-link">Slides (PDF)</a>
-            </div>
-        </div>
-    </div>
-</div>
+**25th National Conference of Psychology**
+- Format: Oral presentation at symposium [Download Slides (PDF)](https://tyzhang98.github.io/zhang/files/slides2.pdf)
+- Date: October 2023
+- Location: Sichuan Normal University, Chengdu, China
 
 <a id="research-projects"></a>
 <br>
@@ -1461,40 +1353,12 @@ document.addEventListener('keydown', function(event) {
 
 ## 3. Research Projects
 
-<div class="events-list">
-    <div class="event-card">
-        <div class="event-date">2024 – 2025</div>
-        <div>
-            <div class="event-title">Provincial Graduate Innovation Star Project (No. 2025CXZX-366)</div>
-            <div class="event-meta">
-                <span class="event-tag tag-pi">Principal Investigator</span>
-                <span>Completed December 2025</span>
-            </div>
-        </div>
-    </div>
+**Principal Investigator**
+- **2024 Provincial Graduate Innovation Star Project (No. 2025CXZX-366)** (Completed December 2025)
 
-    <div class="event-card">
-        <div class="event-date">2022 – 2025</div>
-        <div>
-            <div class="event-title">NSFC Regional Project (32260207) — Cognitive Training for Rural Children's Executive Functions</div>
-            <div class="event-meta">
-                <span class="event-tag tag-coi">Co-Investigator</span>
-                <span>National Natural Science Foundation of China</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="event-card">
-        <div class="event-date">2021 – 2026</div>
-        <div>
-            <div class="event-title">National Key R&amp;D Program (2021ZD0203800) — Brain Science and Brain-Inspired Research: Neural Circuit Mechanisms of Attention (Task 4: Attention in Special Populations)</div>
-            <div class="event-meta">
-                <span class="event-tag tag-coi">Co-Investigator</span>
-                <span>Major Program</span>
-            </div>
-        </div>
-    </div>
-</div>
+**Co-Investigator**
+- **National Natural Science Foundation of China (NSFC) Regional Project** (32260207) "Cognitive Training for Rural Children's Executive Functions" (Participant, 2022–2025)
+- **National Key R&D Program** (2021ZD0203800) "Brain Science and Brain-Inspired Research" Major Project: Neural Circuit Mechanisms of Attention (Task 4: Attention in Special Populations) (Participant, 2021.12–2026.12)
 
 <a id="collab"></a>
 <br>
