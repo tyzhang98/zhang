@@ -1224,7 +1224,7 @@ document.addEventListener('keydown', function(event) {
 - Location: Zhejiang University, Hangzhou, China
 
 **2026 Tsinghua University Department of Psychology and Cognitive Sciences PhD Forum**
-- Format: Poster presentation
+- Format: Poster presentation [Download Poster (PDF)](https://tyzhang98.github.io/zhang/files/slides5.pdf)
 - Date: April 2026
 - Location: Tsinghua University, Beijing, China
 

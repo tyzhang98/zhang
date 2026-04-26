@@ -1221,7 +1221,7 @@ document.addEventListener('keydown', function(event) {
 - 地点：浙江大学，杭州，中国
 
 **2026年清华大学心理与认知科学系博士生论坛**
-- 报告形式：海报展贴
+- 报告形式：海报展贴 [下载海报 (PDF)](https://tyzhang98.github.io/zhang/files/slides5.pdf)
 - 时间：2026年4月
 - 地点：清华大学，北京，中国
 
