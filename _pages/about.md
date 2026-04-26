@@ -1274,7 +1274,9 @@ document.addEventListener('keydown', function(event) {
 
 ### Contact
 
-Open to collaborations on computational modeling of executive function and psychiatric cognition. For inquiries, please contact: **tyzhang9804@gmail.com**
+Welcome academic collaboration and exchange! For collaboration intentions or academic discussions, please contact: **tyzhang9804@gmail.com**
+
+> **Note:** As a current PhD candidate, collaborations require advisor approval
 
 <a id="resources"></a>
 <br>
@@ -1293,7 +1295,7 @@ Open to collaborations on computational modeling of executive function and psych
 ---
 
 <p align="center">
-Last updated on April 26, 2026, at 21:57:00 (GMT+8) by Tongyi Zhang, Lanzhou, China.
+Last updated on April 11, 2026, at 17:27:00 (GMT+8) by Tongyi Zhang, Lanzhou, China.
 </p>
 
 ---

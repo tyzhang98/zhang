@@ -1271,7 +1271,9 @@ document.addEventListener('keydown', function(event) {
 
 ### 联系方式
 
-欢迎在执行功能计算建模、精神疾病认知机制等方向开展学术合作。如有合作意向或学术问题讨论，请联系：**tyzhang9804@gmail.com**
+欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：**tyzhang9804@gmail.com**
+
+> **注：** 本人目前为在读博士研究生，合作前需征得导师同意
 
 <a id="resources"></a>
 <br>
@@ -1290,7 +1292,7 @@ document.addEventListener('keydown', function(event) {
 ---
 
 <p align="center">
-Last updated on April 26, 2026, at 21:57:00 (GMT+8) by Tongyi Zhang, Lanzhou, China.
+Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, China.
 </p>
 
 ---
