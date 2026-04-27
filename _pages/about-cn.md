@@ -228,7 +228,11 @@ author_profile: true
 <aside class="toc-sidebar">
     <div class="toc-title"></div>
     <ul class="toc-list">
-        <li class="toc-item"><a href="#top" class="toc-link">• Home</a></li>
+        <li class="toc-item"><a href="#top" class="toc-link">• 首页</a></li>
+        <li class="toc-item"><a href="#education" class="toc-link">• 教育经历</a></li>
+        <li class="toc-item"><a href="#awards" class="toc-link">• 荣誉与奖励</a></li>
+        <li class="toc-item"><a href="#profiles" class="toc-link">• 学术资料</a></li>
+        <li class="toc-item"><a href="#news" class="toc-link">• 近期动态</a></li>
 
         <li class="toc-item">
             <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
@@ -349,12 +353,53 @@ window.addEventListener('DOMContentLoaded', function() {
 
 ## 个人简介（About Me）
 <a id="about"></a>
-&emsp;&emsp;西北师范大学心理学院博士研究生（2024级在读）。以第一作者身份在 *Schizophrenia Bulletin*、*BMC Medicine*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等国际期刊发表学术论文，并主持省级高校研究生"创新之星"科研项目一项。研究方向聚焦于人类高级认知的计算机制、发展规律与精神病理损伤，综合运用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法与计算建模、机器学习及大语言模型等计算技术，致力于阐明执行功能等高级认知过程的计算神经机制，并探索精神分裂症、抑郁症等精神障碍认知损伤的计算标记与干预靶点。
+&emsp;&emsp;西北师范大学心理学院博士研究生（2024 级在读），师从赵鑫教授，硕士阶段同样就读于该校并于 2024 年 6 月毕业（应用心理学专业）。目前主持省级高校研究生"创新之星"科研项目一项。
+
+&emsp;&emsp;近期研究主要包括：（i）基于纵向稳定的执行功能亚型，揭示**精神分裂症的两类核心亚组**及其在症状、外周炎症与治疗反应上的差异（*BMC Medicine*，已接收）；（ii）运用漂移扩散建模在 2,000+ 儿童青少年样本中**解离抑制控制子成分的发育轨迹**（*Child Development*，修回中）；（iii）刻画首发与慢性精神分裂症患者**工作记忆缺陷的阶段依赖计算签名**（*Schizophrenia Bulletin*，已发表）；（iv）系统评估 **GPT-4o 在经典执行功能范式上的认知边界**（*Cognitive Science*，审稿中）。
+
+&emsp;&emsp;研究方向聚焦于人类高级认知的计算机制、发展规律与精神病理损伤，综合运用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法，与计算建模、机器学习及大语言模型等计算技术，致力于阐明执行功能等高级认知过程的计算神经机制，并探索精神分裂症、抑郁症等精神障碍认知损伤的计算标记与干预靶点。
 
 **研究方向：**
 1. 执行功能的计算神经机制
 2. 基于大语言模型的类脑认知智能研究
 3. 精神分裂症与抑郁症的认知计算机制
+
+---
+
+## 教育经历（Education）
+<a id="education"></a>
+
+- **2024 年 — 至今** &nbsp;·&nbsp; **博士在读**，西北师范大学 心理学 &nbsp;·&nbsp; 导师：赵鑫 教授
+- **— 2024 年 6 月** &nbsp;·&nbsp; **硕士**，西北师范大学 应用心理学 &nbsp;·&nbsp; 导师：赵鑫 教授 &nbsp;·&nbsp; 学位论文：*Another Possibility: Multi-task Executive Function Provides Diagnostic and Prognostic Information in Schizophrenia* &nbsp;·&nbsp; [硕士论文（PDF）](https://tyzhang98.github.io/zhang/files/Master.pdf)
+
+---
+
+## 荣誉与奖励（Awards & Honors）
+<a id="awards"></a>
+
+- **2024** &nbsp;·&nbsp; 甘肃省教育厅 高校研究生"创新之星"科研项目（No. 2025CXZX-366）
+- *更多奖项/奖学金待补充——请告诉我需要展示哪些。*
+
+---
+
+## 学术资料（Academic Profiles）
+<a id="profiles"></a>
+
+- **邮箱**：[tyzhang9804@gmail.com](mailto:tyzhang9804@gmail.com)
+- **GitHub**：[github.com/tyzhang98](https://github.com/tyzhang98)
+- *Google Scholar / ORCID / OSF / ResearchGate — 请提供链接，添加到此处。*
+
+---
+
+## 近期动态（News）
+<a id="news"></a>
+
+- **2026-04** &nbsp;·&nbsp; *BMC Medicine* 论文 **已接收**（精神分裂症执行功能亚型分型）
+- **2026-04** &nbsp;·&nbsp; 清华大学心理与认知科学系博士生论坛 海报展示（4 月 18 日）
+- **2026-03** &nbsp;·&nbsp; *Translational Psychiatry* 进入 Major Revision
+- **2026-01** &nbsp;·&nbsp; *Child Development* R1 修回返回
+- **2025-12** &nbsp;·&nbsp; 兰州市第三人民医院 特邀学术讲座
+- **2025** &nbsp;·&nbsp; 三篇一作论文发表（*Schizophrenia Bulletin*、*IJCHP*、*Schizophrenia Research*）
 
 ---
 
@@ -1292,7 +1337,7 @@ document.addEventListener('keydown', function(event) {
 ---
 
 <p align="center">
-Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, China.
+Last updated on April 27, 2026, at 10:00:00 (GMT+8) by Tongyi Zhang, Lanzhou, China.
 </p>
 
 ---
