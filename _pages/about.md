@@ -232,10 +232,6 @@ redirect_from:
     <div class="toc-title">Contents</div>
     <ul class="toc-list">
         <li class="toc-item"><a href="#top" class="toc-link">• Home</a></li>
-        <li class="toc-item"><a href="#education" class="toc-link">• Education</a></li>
-        <li class="toc-item"><a href="#awards" class="toc-link">• Awards</a></li>
-        <li class="toc-item"><a href="#profiles" class="toc-link">• Profiles</a></li>
-        <li class="toc-item"><a href="#news" class="toc-link">• News</a></li>
 
         <li class="toc-item">
             <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
@@ -356,53 +352,12 @@ window.addEventListener('DOMContentLoaded', function() {
 
 ## About Me
 <a id="about"></a>
-&emsp;&emsp;I am a second-year PhD candidate in Psychology at Northwest Normal University, where I also completed my M.A. in Applied Psychology under Prof. Xin Zhao (June 2024). I currently lead a provincial-level Graduate Innovation Star research project.
-
-&emsp;&emsp;My recent work has (i) identified two longitudinally stable **executive-function subtypes of schizophrenia** with distinct symptom, inflammatory, and treatment-response profiles (*BMC Medicine*, in press); (ii) **dissociated the developmental trajectories of inhibitory-control sub-processes** across childhood and adolescence in 2,000+ children using drift-diffusion modeling (*Child Development*, in revision); (iii) characterized **stage-dependent computational signatures of working-memory deficits** in first-episode versus chronic schizophrenia (*Schizophrenia Bulletin*); and (iv) probed the **cognitive boundaries of GPT-4o** on classical executive-function paradigms (*Cognitive Science*, under review).
-
-&emsp;&emsp;My research centers on the computational, developmental, and psychopathological mechanisms of higher-order cognition. Drawing on cognitive-behavioral experiments, functional magnetic resonance imaging (fMRI), and related cognitive-neuroscience paradigms—combined with computational modeling, machine learning, and large language models—I aim to elucidate the computational architecture of executive and higher-order cognitive functions, and to identify cognitive intervention targets in schizophrenia, major depressive disorder, and related psychiatric conditions.
+&emsp;&emsp;I am a second-year PhD candidate in Psychology at Northwest Normal University. I have published first-author papers in *Schizophrenia Bulletin*, *BMC Medicine*, *International Journal of Clinical and Health Psychology*, and *Schizophrenia Research*, and I currently lead a provincial-level Graduate Innovation Star research project. My research centers on the computational, developmental, and psychopathological mechanisms of higher-order cognition. Drawing on cognitive-behavioral experiments, functional magnetic resonance imaging (fMRI), and related cognitive neuroscience paradigms—combined with computational modeling, machine learning, and large language models—I aim to elucidate the computational and developmental architecture of executive and higher-order cognitive functions, and to identify cognitive intervention targets in schizophrenia, major depressive disorder, and related psychiatric conditions.
 
 **Research Directions:**
 1. Computational neural mechanisms of executive functions
 2. Brain-inspired cognitive modeling with large language models
 3. Computational mechanisms of cognitive impairment in schizophrenia and depression
-
----
-
-## Education
-<a id="education"></a>
-
-- **2024 – present** &nbsp;·&nbsp; **Ph.D. in Psychology**, Northwest Normal University, Lanzhou, China &nbsp;·&nbsp; Advisor: Prof. Xin Zhao
-- **— 2024.06** &nbsp;·&nbsp; **M.A. in Applied Psychology**, Northwest Normal University &nbsp;·&nbsp; Advisor: Prof. Xin Zhao &nbsp;·&nbsp; Thesis: *Another Possibility: Multi-task Executive Function Provides Diagnostic and Prognostic Information in Schizophrenia* &nbsp;·&nbsp; [Thesis (PDF)](https://tyzhang98.github.io/zhang/files/Master.pdf)
-
----
-
-## Awards & Honors
-<a id="awards"></a>
-
-- **2024** &nbsp;·&nbsp; Provincial Graduate Innovation Star Project, Department of Education of Gansu Province (No. 2025CXZX-366)
-- *More awards/scholarships to be added — please tell me what to include.*
-
----
-
-## Academic Profiles
-<a id="profiles"></a>
-
-- **Email**: [tyzhang9804@gmail.com](mailto:tyzhang9804@gmail.com)
-- **GitHub**: [github.com/tyzhang98](https://github.com/tyzhang98)
-- *Google Scholar / ORCID / OSF / ResearchGate — please send me the URLs and I will add them.*
-
----
-
-## News
-<a id="news"></a>
-
-- **2026-04** &nbsp;·&nbsp; *BMC Medicine* paper **accepted** (executive-function subtypes in schizophrenia)
-- **2026-04** &nbsp;·&nbsp; Poster presentation at the Tsinghua University PhD Forum (April 18)
-- **2026-03** &nbsp;·&nbsp; *Translational Psychiatry* manuscript invited for Major Revision
-- **2026-01** &nbsp;·&nbsp; *Child Development* R1 revision returned
-- **2025-12** &nbsp;·&nbsp; Invited academic lecture at Lanzhou Third People's Hospital
-- **2025** &nbsp;·&nbsp; Three first-author papers published (*Schizophrenia Bulletin*, *IJCHP*, *Schizophrenia Research*)
 
 ---
 
@@ -1340,7 +1295,7 @@ Welcome academic collaboration and exchange! For collaboration intentions or aca
 ---
 
 <p align="center">
-Last updated on April 27, 2026, at 10:00:00 (GMT+8) by Tongyi Zhang, Lanzhou, China.
+Last updated on April 11, 2026, at 17:27:00 (GMT+8) by Tongyi Zhang, Lanzhou, China.
 </p>
 
 ---
