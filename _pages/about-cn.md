@@ -237,7 +237,7 @@ author_profile: true
                 <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. Int. J. Clin. Health Psychol. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. Schizophr. Bull. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Accepted)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Major Revision)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Accepted)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Under Review)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Under Review)</a></li>
@@ -349,7 +349,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 ## 个人简介（About Me）
 <a id="about"></a>
-&emsp;&emsp;西北师范大学心理学院博士研究生（2024级在读）。以第一作者身份在 *Schizophrenia Bulletin*、*BMC Medicine*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等国际期刊发表学术论文，并主持省级高校研究生"创新之星"科研项目一项。研究方向聚焦于人类高级认知的计算机制、发展规律与精神病理损伤，综合运用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法与计算建模、机器学习及大语言模型等计算技术，致力于阐明执行功能等高级认知过程的计算神经机制，并探索精神分裂症、抑郁症等精神障碍认知损伤的计算标记与干预靶点。
+&emsp;&emsp;西北师范大学心理学院博士研究生（2024级在读）。以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等国际期刊发表学术论文，并主持省级高校研究生"创新之星"科研项目一项。研究方向聚焦于人类高级认知的计算机制、发展规律与精神病理损伤，综合运用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法与计算建模、机器学习及大语言模型等计算技术，致力于阐明执行功能等高级认知过程的计算神经机制，并探索精神分裂症、抑郁症等精神障碍认知损伤的计算标记与干预靶点。
 
 **研究方向：**
 1. 执行功能的计算神经机制
@@ -868,14 +868,14 @@ window.addEventListener('DOMContentLoaded', function() {
         </div>
 
 
-        <!-- Under Review #3 -->
+        <!-- Accepted #3 -->
         <div class="timeline-item" id="paper-prep-5">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年</div>
-                <span class="tl-status review">Major Revision</span>
+                <div class="tl-date">2026年</div>
+                <span class="tl-status published">Accepted</span>
                 <div class="tl-paper-title">Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence</div>
-                <div class="tl-journal">Submitted to Child Development</div>
+                <div class="tl-journal">Child Development</div>
                 <div class="tl-info-line">
                     <span>(中科院一区Top, IF 3.8)</span>
                     <span class="tl-info-separator">|</span>

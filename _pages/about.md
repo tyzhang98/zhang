@@ -240,7 +240,7 @@ redirect_from:
                 <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. Int. J. Clin. Health Psychol. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. Schizophr. Bull. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Accepted)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Major Revision)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Accepted)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Under Review)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Under Review)</a></li>
@@ -352,7 +352,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 ## About Me
 <a id="about"></a>
-&emsp;&emsp;I am a second-year PhD candidate in Psychology at Northwest Normal University. I have published first-author papers in *Schizophrenia Bulletin*, *BMC Medicine*, *International Journal of Clinical and Health Psychology*, and *Schizophrenia Research*, and I currently lead a provincial-level Graduate Innovation Star research project. My research centers on the computational, developmental, and psychopathological mechanisms of higher-order cognition. Drawing on cognitive-behavioral experiments, functional magnetic resonance imaging (fMRI), and related cognitive neuroscience paradigms—combined with computational modeling, machine learning, and large language models—I aim to elucidate the computational and developmental architecture of executive and higher-order cognitive functions, and to identify cognitive intervention targets in schizophrenia, major depressive disorder, and related psychiatric conditions.
+&emsp;&emsp;I am a second-year PhD candidate in Psychology at Northwest Normal University. I have published first-author papers in *Child Development*, *Schizophrenia Bulletin*, *BMC Medicine*, *International Journal of Clinical and Health Psychology*, and *Schizophrenia Research*, and I currently lead a provincial-level Graduate Innovation Star research project. My research centers on the computational, developmental, and psychopathological mechanisms of higher-order cognition. Drawing on cognitive-behavioral experiments, functional magnetic resonance imaging (fMRI), and related cognitive neuroscience paradigms—combined with computational modeling, machine learning, and large language models—I aim to elucidate the computational and developmental architecture of executive and higher-order cognitive functions, and to identify cognitive intervention targets in schizophrenia, major depressive disorder, and related psychiatric conditions.
 
 **Research Directions:**
 1. Computational neural mechanisms of executive functions
@@ -871,14 +871,14 @@ window.addEventListener('DOMContentLoaded', function() {
         </div>
 
 
-        <!-- Under Review #3 -->
+        <!-- Accepted #3 -->
         <div class="timeline-item" id="paper-prep-5">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025</div>
-                <span class="tl-status review">Major Revision</span>
+                <div class="tl-date">2026</div>
+                <span class="tl-status published">Accepted</span>
                 <div class="tl-paper-title">Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence</div>
-                <div class="tl-journal">Submitted to Child Development</div>
+                <div class="tl-journal">Child Development</div>
                 <div class="tl-info-line">
                     <span>(JCR Q1, IF 3.8)</span>
                     <span class="tl-info-separator">|</span>
