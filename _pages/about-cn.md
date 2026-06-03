@@ -238,8 +238,8 @@ author_profile: true
                 <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. Schizophr. Bull. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Accepted)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Accepted)</a></li>
-                <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Under Review)</a></li>
-                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Major Revision)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Major Revision)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (R1 Under Review)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Under Review)</a></li>
 
             </ul>
@@ -733,12 +733,12 @@ window.addEventListener('DOMContentLoaded', function() {
 <div class="publications-container">
     <div class="timeline">
 
-        <!-- Under Review - JEP:General -->
+        <!-- Major Revision - JEP:General -->
         <div class="timeline-item" id="paper-review-jep">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026年</div>
-                <span class="tl-status review">Under Review</span>
+                <span class="tl-status review">Major Revision</span>
                 <div class="tl-paper-title">Hierarchical organization of cognitive processes underlies low cross-task correlations in inhibitory control: Evidence from drift diffusion modeling</div>
                 <div class="tl-journal">Submitted to Journal of Experimental Psychology: General</div>
                 <div class="tl-info-line">
@@ -769,12 +769,12 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Under Review - Translational Psychiatry -->
+        <!-- R1 Under Review - Translational Psychiatry -->
         <div class="timeline-item" id="paper-review-tp">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026年</div>
-                <span class="tl-status review">Major Revision</span>
+                <span class="tl-status review">R1 Under Review</span>
                 <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
                 <div class="tl-journal">Submitted to Translational Psychiatry</div>
                 <div class="tl-info-line">
