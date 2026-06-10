@@ -243,7 +243,7 @@ redirect_from:
                 <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Accepted)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (R1 Under Review)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Under Review)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Major Revision)</a></li>
 
             </ul>
         </li>
@@ -816,12 +816,12 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Under Review - Cognitive Science -->
+        <!-- Major Revision - Cognitive Science -->
         <div class="timeline-item" id="paper-prep-6">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2025</div>
-                <span class="tl-status review">Under Review</span>
+                <span class="tl-status review">Major Revision</span>
                 <div class="tl-paper-title">Boundaries of Executive Functions in Large Language Models: GPT-4o Selectively Replicates Human Performance</div>
                 <div class="tl-journal">Submitted to Cognitive Science</div>
                 <div class="tl-info-line">
