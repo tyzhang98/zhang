@@ -240,7 +240,7 @@ redirect_from:
                 <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. Int. J. Clin. Health Psychol. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. Schizophr. Bull. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Accepted)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Accepted)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (R1 Under Review)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Major Revision)</a></li>
@@ -871,14 +871,13 @@ window.addEventListener('DOMContentLoaded', function() {
         </div>
 
 
-        <!-- Accepted #3 -->
+        <!-- Published - Child Development -->
         <div class="timeline-item" id="paper-prep-5">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2026</div>
-                <span class="tl-status published">Accepted</span>
-                <div class="tl-paper-title">Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence</div>
-                <div class="tl-journal">Child Development</div>
+                <div class="tl-date">July 2026</div>
+                <span class="tl-status published">Published</span>
+                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Gong, Y., & Zhao, X. (2026). Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence. <strong><em>Child Development</em></strong>, aacag107. <a href="https://doi.org/10.1093/chidev/aacag107" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/chidev/aacag107</a></div>
                 <div class="tl-info-line">
                     <span>(JCR Q1, IF 3.8)</span>
                     <span class="tl-info-separator">|</span>
