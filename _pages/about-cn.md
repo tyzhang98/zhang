@@ -239,7 +239,7 @@ author_profile: true
                 <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Accepted)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Major Revision)</a></li>
-                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (R1 Under Review)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Accepted)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Major Revision)</a></li>
 
             </ul>
@@ -349,7 +349,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 ## 个人简介（About Me）
 <a id="about"></a>
-&emsp;&emsp;西北师范大学心理学院博士研究生（2024级在读）。以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等国际期刊发表学术论文，并主持省级高校研究生"创新之星"科研项目一项。研究方向聚焦于人类高级认知的计算机制、发展规律与精神病理损伤，综合运用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法与计算建模、机器学习及大语言模型等计算技术，致力于阐明执行功能等高级认知过程的计算神经机制，并探索精神分裂症、抑郁症等精神障碍认知损伤的计算标记与干预靶点。
+&emsp;&emsp;西北师范大学心理学院博士研究生（2024级在读）。以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*Translational Psychiatry*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等国际期刊发表学术论文，并主持省级高校研究生"创新之星"科研项目一项。研究方向聚焦于人类高级认知的计算机制、发展规律与精神病理损伤，综合运用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法与计算建模、机器学习及大语言模型等计算技术，致力于阐明执行功能等高级认知过程的计算神经机制，并探索精神分裂症、抑郁症等精神障碍认知损伤的计算标记与干预靶点。
 
 **研究方向：**
 1. 执行功能的计算神经机制
@@ -769,14 +769,14 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- R1 Under Review - Translational Psychiatry -->
+        <!-- Accepted - Translational Psychiatry -->
         <div class="timeline-item" id="paper-review-tp">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026年</div>
-                <span class="tl-status review">R1 Under Review</span>
+                <span class="tl-status published">Accepted</span>
                 <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
-                <div class="tl-journal">Submitted to Translational Psychiatry</div>
+                <div class="tl-journal">Translational Psychiatry</div>
                 <div class="tl-info-line">
                     <span>(中科院一区, Nature子刊)</span>
                     <span class="tl-info-separator">|</span>
