@@ -1,13 +1,1 @@
-main:
-  - title: "Home"
-    url: "/"         # ← 只写根路径
-  - title: "Publications"
-    url: "#pub-papers"
-  - title: "Conference Presentations"
-    url: "#conf-talks"
-  - title: "Projects"
-    url: "#research-projects"
-  - title: "Collaboration"
-    url: "#collab"
-  - title: "Resources"
-    url: "#resources"
+@_data/navigation.yml
