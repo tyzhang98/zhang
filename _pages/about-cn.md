@@ -248,7 +248,6 @@ author_profile: true
         <li class="toc-item"><a href="#collaborative-pubs" class="toc-link">• 合作发表</a></li>
         <li class="toc-item"><a href="#conf-talks" class="toc-link">• Conference</a></li>
         <li class="toc-item"><a href="#research-projects" class="toc-link">• Projects</a></li>
-        <li class="toc-item"><a href="#collab" class="toc-link">• Collaboration</a></li>
     </ul>
 </aside>
 
@@ -275,7 +274,6 @@ window.addEventListener('DOMContentLoaded', function() {
             { id: 'paper-pub-ejp', element: document.getElementById('paper-pub-ejp') },
             { id: 'conf-talks', element: document.getElementById('conf-talks') },
             { id: 'research-projects', element: document.getElementById('research-projects') },
-            { id: 'collab', element: document.getElementById('collab') },
         ];
 
         let current = 'top';
@@ -1246,19 +1244,6 @@ document.addEventListener('keydown', function(event) {
 **参与项目**
 - **国家自然科学基金地区项目**（32260207）"认知训练对乡村儿童执行功能的提升"（参与，2022—2025）
 - **国家重点研发计划**（2021ZD0203800）科技创新2030"脑科学与类脑研究"重大项目：注意的神经环路机制研究（课题4：特殊人群注意研究及应用）（参与，2021.12—2026.12）
-
-<a id="collab"></a>
-<br>
-<br>
-<br>
-
-## 4. 寻求科研合作（Seeking Research Collaboration）
-
-### 联系方式
-
-欢迎学术合作与交流！如有合作意向或学术问题讨论，请联系：**tyzhang9804@gmail.com**
-
-> **注：** 本人目前为在读博士研究生，合作前需征得导师同意
 
 ---
 

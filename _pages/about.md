@@ -251,7 +251,6 @@ redirect_from:
         <li class="toc-item"><a href="#collaborative-pubs" class="toc-link">• Collaborative</a></li>
         <li class="toc-item"><a href="#conf-talks" class="toc-link">• Conference</a></li>
         <li class="toc-item"><a href="#research-projects" class="toc-link">• Projects</a></li>
-        <li class="toc-item"><a href="#collab" class="toc-link">• Collaboration</a></li>
     </ul>
 </aside>
 
@@ -278,7 +277,6 @@ window.addEventListener('DOMContentLoaded', function() {
             { id: 'paper-pub-ejp', element: document.getElementById('paper-pub-ejp') },
             { id: 'conf-talks', element: document.getElementById('conf-talks') },
             { id: 'research-projects', element: document.getElementById('research-projects') },
-            { id: 'collab', element: document.getElementById('collab') },
         ];
 
         let current = 'top';
@@ -1249,19 +1247,6 @@ document.addEventListener('keydown', function(event) {
 **Co-Investigator**
 - **National Natural Science Foundation of China (NSFC) Regional Project** (32260207) "Cognitive Training for Rural Children's Executive Functions" (Participant, 2022–2025)
 - **National Key R&D Program** (2021ZD0203800) "Brain Science and Brain-Inspired Research" Major Project: Neural Circuit Mechanisms of Attention (Task 4: Attention in Special Populations) (Participant, 2021.12–2026.12)
-
-<a id="collab"></a>
-<br>
-<br>
-<br>
-
-## 4. Seeking Research Collaboration
-
-### Contact
-
-Welcome academic collaboration and exchange! For collaboration intentions or academic discussions, please contact: **tyzhang9804@gmail.com**
-
-> **Note:** As a current PhD candidate, collaborations require advisor approval
 
 ---
 
