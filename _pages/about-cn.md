@@ -239,8 +239,8 @@ author_profile: true
                 <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Accepted)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Published)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Major Revision)</a></li>
-                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Accepted)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Major Revision)</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">7. Cognitive Science (Major Revision)</a></li>
+                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">8. Transl. Psychiatry (Accepted)</a></li>
                 <li class="toc-subitem"><a href="#paper-submitted-cognition" class="toc-sublink">9. Cognition (Submitted)</a></li>
 
             </ul>
@@ -269,8 +269,8 @@ window.addEventListener('DOMContentLoaded', function() {
             { id: 'paper-prep-4', element: document.getElementById('paper-prep-4') },
             { id: 'paper-prep-5', element: document.getElementById('paper-prep-5') },
             { id: 'paper-review-jep', element: document.getElementById('paper-review-jep') },
-            { id: 'paper-review-tp', element: document.getElementById('paper-review-tp') },
             { id: 'paper-prep-6', element: document.getElementById('paper-prep-6') },
+            { id: 'paper-review-tp', element: document.getElementById('paper-review-tp') },
             { id: 'collaborative-pubs', element: document.getElementById('collaborative-pubs') },
             { id: 'paper-review-jad', element: document.getElementById('paper-review-jad') },
             { id: 'paper-pub-ejp', element: document.getElementById('paper-pub-ejp') },
@@ -785,49 +785,6 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Published - Translational Psychiatry -->
-        <div class="timeline-item" id="paper-review-tp">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status published">Published</span>
-                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Wang, S., Shi, H., Li, J., Yang, X., Jiao, J., Huo, X., & Zhao, X. (2026). Shared and disorder-specific computational mechanisms of interference and response inhibition in schizophrenia and major depressive disorder. <strong><em>Translational Psychiatry</em></strong>, <em>16</em>, 590. <a href="https://doi.org/10.1038/s41398-026-04345-3" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1038/s41398-026-04345-3</a></div>
-                <div class="tl-info-line">
-                    <span>(中科院一区, Nature子刊)</span>
-                    <span class="tl-info-separator">|</span>
-                    <span>独立一作</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/Translational-Psychiatry.pdf" class="tl-link-btn">PDF</a>
-                </div>
-                <div class="tl-gallery">
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 1</div>
-                        <img src="/zhang/images/TP-Figure1.png" alt="Figure 1" onclick="openImgModal('/zhang/images/TP-Figure1.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 2</div>
-                        <img src="/zhang/images/TP-Figure2.png" alt="Figure 2" onclick="openImgModal('/zhang/images/TP-Figure2.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 3</div>
-                        <img src="/zhang/images/TP-Figure3.png" alt="Figure 3" onclick="openImgModal('/zhang/images/TP-Figure3.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 4</div>
-                        <img src="/zhang/images/TP-Figure4.png" alt="Figure 4" onclick="openImgModal('/zhang/images/TP-Figure4.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 5</div>
-                        <img src="/zhang/images/TP-Figure5.png" alt="Figure 5" onclick="openImgModal('/zhang/images/TP-Figure5.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 6</div>
-                        <img src="/zhang/images/TP-Figure6.png" alt="Figure 6" onclick="openImgModal('/zhang/images/TP-Figure6.png')">
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Major Revision - Cognitive Science -->
         <div class="timeline-item" id="paper-prep-6">
             <div class="timeline-marker"></div>
@@ -876,6 +833,49 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
+
+        <!-- Published - Translational Psychiatry -->
+        <div class="timeline-item" id="paper-review-tp">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026年</div>
+                <span class="tl-status published">Published</span>
+                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Wang, S., Shi, H., Li, J., Yang, X., Jiao, J., Huo, X., & Zhao, X. (2026). Shared and disorder-specific computational mechanisms of interference and response inhibition in schizophrenia and major depressive disorder. <strong><em>Translational Psychiatry</em></strong>, <em>16</em>, 590. <a href="https://doi.org/10.1038/s41398-026-04345-3" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1038/s41398-026-04345-3</a></div>
+                <div class="tl-info-line">
+                    <span>(中科院一区, Nature子刊)</span>
+                    <span class="tl-info-separator">|</span>
+                    <span>独立一作</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/Translational-Psychiatry.pdf" class="tl-link-btn">PDF</a>
+                </div>
+                <div class="tl-gallery">
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 1</div>
+                        <img src="/zhang/images/TP-Figure1.png" alt="Figure 1" onclick="openImgModal('/zhang/images/TP-Figure1.png')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 2</div>
+                        <img src="/zhang/images/TP-Figure2.png" alt="Figure 2" onclick="openImgModal('/zhang/images/TP-Figure2.png')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 3</div>
+                        <img src="/zhang/images/TP-Figure3.png" alt="Figure 3" onclick="openImgModal('/zhang/images/TP-Figure3.png')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 4</div>
+                        <img src="/zhang/images/TP-Figure4.png" alt="Figure 4" onclick="openImgModal('/zhang/images/TP-Figure4.png')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 5</div>
+                        <img src="/zhang/images/TP-Figure5.png" alt="Figure 5" onclick="openImgModal('/zhang/images/TP-Figure5.png')">
+                    </div>
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 6</div>
+                        <img src="/zhang/images/TP-Figure6.png" alt="Figure 6" onclick="openImgModal('/zhang/images/TP-Figure6.png')">
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Published - Child Development -->
         <div class="timeline-item" id="paper-prep-5">
