@@ -362,16 +362,31 @@ window.addEventListener('DOMContentLoaded', function() {
 >**Email:** tyzhang9804@gmail.com
 
 ---
-<br>
-<br>
 
 ## Research Publications
 
 <style>
+    /* Compact section spacing without changing content or text size. */
+    .page__content > h2 {
+        margin-top: 1.25em;
+        margin-bottom: 0.55em;
+    }
+    .page__content > hr {
+        margin: 1em 0;
+    }
+    .timeline-item:last-child {
+        margin-bottom: 0;
+    }
+    @media (max-width: 768px) {
+        .timeline-content {
+            padding: 12px 14px;
+        }
+    }
+
     .publications-container {
         max-width: 1200px;
-        margin: 40px auto;
-        padding: 0 20px;
+        margin: 16px auto;
+        padding: 0;
     }
 
     .section-title {
@@ -392,13 +407,13 @@ window.addEventListener('DOMContentLoaded', function() {
 
     .timeline {
         position: relative;
-        padding: 20px 0 20px 40px;
+        padding: 8px 0 0 24px;
     }
 
     .timeline::before {
         content: '';
         position: absolute;
-        left: 18px;
+        left: 8px;
         top: 0;
         bottom: 0;
         width: 2px;
@@ -406,7 +421,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
     .timeline-item {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         position: relative;
         opacity: 0;
         animation: fadeInLeft 0.6s forwards;
@@ -434,7 +449,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
     .timeline-marker {
         position: absolute;
-        left: -22px;
+        left: -21px;
         top: 8px;
         width: 12px;
         height: 12px;
@@ -452,7 +467,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
     .timeline-content {
         background: white;
-        padding: 25px;
+        padding: 16px 18px;
         border-radius: 4px;
         box-shadow: 0 1px 3px rgba(0,0,0,0.12);
         transition: transform 0.3s, box-shadow 0.3s;
@@ -507,7 +522,7 @@ window.addEventListener('DOMContentLoaded', function() {
         font-size: 0.95em;
         font-weight: 600;
         color: #111827;
-        margin-bottom: 12px;
+        margin-bottom: 8px;
         line-height: 1.6;
         font-style: normal;
     }
@@ -528,8 +543,8 @@ window.addEventListener('DOMContentLoaded', function() {
     .tl-info-line {
         display: flex;
         align-items: center;
-        gap: 10px;
-        margin-top: 12px;
+        gap: 8px;
+        margin-top: 8px;
         flex-wrap: wrap;
         font-size: 0.85em;
         color: #374151;
@@ -603,14 +618,14 @@ window.addEventListener('DOMContentLoaded', function() {
 
     /* First-figure preview */
     .tl-gallery {
-        margin-top: 18px;
+        margin-top: 12px;
         border-radius: 4px;
         border: 1px solid #e5e7eb;
         background: #f9fafb;
         overflow: hidden;
     }
     .tl-gallery-item {
-        padding: 12px 0;
+        padding: 4px 0;
     }
     .tl-gallery-item + .tl-gallery-item {
         border-top: 1px solid #e5e7eb;
@@ -620,7 +635,7 @@ window.addEventListener('DOMContentLoaded', function() {
         font-weight: 700;
         font-size: 0.85em;
         color: #4a5568;
-        padding: 8px 0 6px;
+        padding: 4px 0;
     }
     .tl-gallery img {
         width: 100%;
@@ -631,7 +646,7 @@ window.addEventListener('DOMContentLoaded', function() {
     .tl-gallery img:hover { opacity: 0.95; }
 
     .tl-abstract {
-        margin-top: 14px;
+        margin-top: 10px;
     }
 
     .tl-abstract-trigger {
@@ -710,15 +725,15 @@ window.addEventListener('DOMContentLoaded', function() {
 
     @media (max-width: 768px) {
         .timeline {
-            padding-left: 30px;
+            padding-left: 20px;
         }
 
         .timeline::before {
-            left: 12px;
+            left: 5px;
         }
 
         .timeline-marker {
-            left: -16px;
+            left: -20px;
         }
 
         .img-modal-content {
@@ -1004,8 +1019,6 @@ document.addEventListener('keydown', function(event) {
 </script>
 
 <a id="collaborative-pubs"></a>
-<br>
-<br>
 
 ## Collaborative Publications
 
@@ -1045,8 +1058,6 @@ document.addEventListener('keydown', function(event) {
 </div>
 
 <a id="conf-talks"></a>
-<br>
-<br>
 
 ## 2. Conference Presentations
 **Joint ESCoP-CoPM Meeting 2026**
@@ -1083,9 +1094,6 @@ document.addEventListener('keydown', function(event) {
 - Location: Sichuan Normal University, Chengdu, China
 
 <a id="research-projects"></a>
-<br>
-<br>
-<br>
 
 ## 3. Research Projects
 
