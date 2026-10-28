@@ -744,8 +744,6 @@ window.addEventListener('DOMContentLoaded', function() {
                 <div class="tl-journal">Submitted to Cognition</div>
                 <div class="tl-info-line">
                     <span>First Author</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/Cognition.pdf" class="tl-link-btn">PDF for Manuscript</a>
                 </div>
                 <div class="tl-gallery">
                     <div class="tl-gallery-item">
@@ -768,8 +766,6 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span>(JCR Q1)</span>
                     <span class="tl-info-separator">|</span>
                     <span>Co-first Author (1st)</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/JEP-General.pdf" class="tl-link-btn">PDF</a>
                 </div>
                 <div class="tl-gallery">
                     <div class="tl-gallery-item">
@@ -850,10 +846,6 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span>(JCR Q1)</span>
                     <span class="tl-info-separator">|</span>
                     <span>First Author</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/Cognitive-Science.pdf" class="tl-link-btn">PDF for Manuscript</a>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/Cognitive-Science-Supplementary.docx" class="tl-link-btn">Supplementary Materials</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
@@ -952,8 +944,6 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span>(JCR Q1, IF 8.3)</span>
                     <span class="tl-info-separator">|</span>
                     <span>First Author</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/BMC-Medicine.pdf" class="tl-link-btn">PDF</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
@@ -1198,8 +1188,6 @@ document.addEventListener('keydown', function(event) {
                     <span>(JCR Q1)</span>
                     <span class="tl-info-separator">|</span>
                     <span>Co-first Author (2nd)</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>

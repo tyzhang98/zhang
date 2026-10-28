@@ -741,8 +741,6 @@ window.addEventListener('DOMContentLoaded', function() {
                 <div class="tl-journal">Submitted to Cognition</div>
                 <div class="tl-info-line">
                     <span>独立一作</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/Cognition.pdf" class="tl-link-btn">论文正文 PDF</a>
                 </div>
                 <div class="tl-gallery">
                     <div class="tl-gallery-item">
@@ -765,8 +763,6 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span>(中科院一区)</span>
                     <span class="tl-info-separator">|</span>
                     <span>共同一作(次序第一)</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/JEP-General.pdf" class="tl-link-btn">PDF</a>
                 </div>
                 <div class="tl-gallery">
                     <div class="tl-gallery-item">
@@ -847,10 +843,6 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span>(中科院一区)</span>
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/Cognitive-Science.pdf" class="tl-link-btn">PDF</a>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/Cognitive-Science-Supplementary.docx" class="tl-link-btn">补充材料</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
@@ -949,8 +941,6 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span>(中科院一区Top, IF 8.3)</span>
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/BMC-Medicine.pdf" class="tl-link-btn">PDF</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
@@ -1195,8 +1185,6 @@ document.addEventListener('keydown', function(event) {
                     <span>(中科院一区)</span>
                     <span class="tl-info-separator">|</span>
                     <span>共同一作(次序第二)</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>
