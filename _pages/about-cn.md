@@ -226,29 +226,28 @@ author_profile: true
 
 <!-- 右侧大纲导航 -->
 <aside class="toc-sidebar">
-    <div class="toc-title"></div>
+    <div class="toc-title">目录</div>
     <ul class="toc-list">
-        <li class="toc-item"><a href="#top" class="toc-link">• Home</a></li>
+        <li class="toc-item"><a href="#top" class="toc-link">• 首页</a></li>
 
         <li class="toc-item">
-            <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• Publications</a>
+            <a href="#pub-papers" class="toc-link" data-parent="pub-papers">• 论文成果</a>
             <ul class="toc-sublist" id="papers-sublist">
-                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">1. Schizophr. Res. (Published)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">2. Int. J. Clin. Health Psychol. (Published)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">3. Schizophr. Bull. (Published)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">4. BMC Med. (Accepted)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. (Published)</a></li>
-                <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Major Revision)</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">7. Cognitive Science (Major Revision)</a></li>
-                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">8. Transl. Psychiatry (Accepted)</a></li>
-                <li class="toc-subitem"><a href="#paper-submitted-cognition" class="toc-sublink">9. Cognition (Submitted)</a></li>
-
+                <li class="toc-subitem"><a href="#paper-submitted-cognition" class="toc-sublink">1. Cognition （已投稿）</a></li>
+                <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">2. JEP: General （大修）</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">3. Cognitive Science （大修）</a></li>
+                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">4. Transl. Psychiatry （已发表）</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. （已发表）</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">6. BMC Med. （已接收）</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">7. Schizophr. Bull. （已发表）</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">8. Int. J. Clin. Health Psychol. （已发表）</a></li>
+                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">9. Schizophr. Res. （已发表）</a></li>
             </ul>
         </li>
 
         <li class="toc-item"><a href="#collaborative-pubs" class="toc-link">• 合作发表</a></li>
-        <li class="toc-item"><a href="#conf-talks" class="toc-link">• Conference</a></li>
-        <li class="toc-item"><a href="#research-projects" class="toc-link">• Projects</a></li>
+        <li class="toc-item"><a href="#conf-talks" class="toc-link">• 会议报告</a></li>
+        <li class="toc-item"><a href="#research-projects" class="toc-link">• 科研项目</a></li>
     </ul>
 </aside>
 
@@ -257,58 +256,24 @@ author_profile: true
 window.addEventListener('DOMContentLoaded', function() {
     const tocLinks = document.querySelectorAll('.toc-link');
     const tocSublinks = document.querySelectorAll('.toc-sublink');
+    const publicationIds = new Set(Array.from(tocSublinks, link => link.getAttribute('href').slice(1)));
+    const sections = [document.body, ...document.querySelectorAll('#pub-papers, .timeline-item, #collaborative-pubs, #conf-talks, #research-projects')];
 
     function updateActiveLink() {
-        const sections = [
-            { id: 'top', element: document.body, offset: 0 },
-            { id: 'pub-papers', element: document.getElementById('pub-papers') },
-            { id: 'paper-submitted-cognition', element: document.getElementById('paper-submitted-cognition') },
-            { id: 'paper-prep-1', element: document.getElementById('paper-prep-1') },
-            { id: 'paper-prep-2', element: document.getElementById('paper-prep-2') },
-            { id: 'paper-prep-3', element: document.getElementById('paper-prep-3') },
-            { id: 'paper-prep-4', element: document.getElementById('paper-prep-4') },
-            { id: 'paper-prep-5', element: document.getElementById('paper-prep-5') },
-            { id: 'paper-review-jep', element: document.getElementById('paper-review-jep') },
-            { id: 'paper-prep-6', element: document.getElementById('paper-prep-6') },
-            { id: 'paper-review-tp', element: document.getElementById('paper-review-tp') },
-            { id: 'collaborative-pubs', element: document.getElementById('collaborative-pubs') },
-            { id: 'paper-review-jad', element: document.getElementById('paper-review-jad') },
-            { id: 'paper-pub-ejp', element: document.getElementById('paper-pub-ejp') },
-            { id: 'conf-talks', element: document.getElementById('conf-talks') },
-            { id: 'research-projects', element: document.getElementById('research-projects') },
-        ];
-
+        const scrollPos = window.scrollY;
         let current = 'top';
-        const scrollPos = window.pageYOffset;
-
-        sections.forEach(section => {
-            if (section.element) {
-                const sectionTop = section.id === 'top' ? 0 : section.element.offsetTop;
-                if (scrollPos >= sectionTop - 150) {
-                    current = section.id;
-                }
+        let closestTop = -Infinity;
+        sections.forEach(element => {
+            const sectionTop = element === document.body ? 0 : element.getBoundingClientRect().top + scrollPos;
+            if (sectionTop <= scrollPos + 150 && sectionTop >= closestTop) {
+                current = element === document.body ? 'top' : element.id;
+                closestTop = sectionTop;
             }
         });
-
-        // 更新主链接激活状态
-        tocLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href') === '#' + current) {
-                link.classList.add('active');
-            }
-            // 如果当前在论文子项,激活Publications主链接
-            if (current.startsWith('paper-prep-') && link.getAttribute('href') === '#pub-papers') {
-                link.classList.add('active');
-            }
-        });
-
-        // 更新子链接激活状态
-        tocSublinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href') === '#' + current) {
-                link.classList.add('active');
-            }
-        });
+        const parent = publicationIds.has(current) ? 'pub-papers'
+            : current.startsWith('paper-') ? 'collaborative-pubs' : current;
+        tocLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + parent));
+        tocSublinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + current));
     }
 
     window.addEventListener('scroll', updateActiveLink);
@@ -600,14 +565,13 @@ window.addEventListener('DOMContentLoaded', function() {
         opacity: 1;
     }
 
-    /* Figure Gallery - vertical scroll */
+    /* First-figure preview */
     .tl-gallery {
         margin-top: 18px;
         border-radius: 4px;
         border: 1px solid #e5e7eb;
         background: #f9fafb;
-        max-height: 500px;
-        overflow-y: auto;
+        overflow: hidden;
     }
     .tl-gallery-item {
         padding: 12px 0;
@@ -854,32 +818,30 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Under Review #2 -->
+        <!-- Published - BMC Medicine -->
         <div class="timeline-item" id="paper-prep-4">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年</div>
-                <span class="tl-status published">Accepted</span>
-                <div class="tl-paper-title">Heterogeneous executive functions in schizophrenia delineate patient subtypes with different symptom profiles, inflammatory levels, and treatment responses</div>
-                <div class="tl-journal">BMC Medicine</div>
+                <div class="tl-date">2026年</div>
+                <span class="tl-status published">Published</span>
+                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Huo, X., Chen, J., & Zhao, X. (2026). Executive function profiles identify stable schizophrenia subtypes with distinct symptoms, biological markers and treatment responses: A cross-time clustering and validation study. <strong><em>BMC Medicine</em></strong>, <em>24</em>, 403. <a href="https://doi.org/10.1186/s12916-026-04955-0" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1186/s12916-026-04955-0</a></div>
                 <div class="tl-info-line">
                     <span>(中科院一区Top, IF 8.3)</span>
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/BMC-Medicine.pdf" class="tl-link-btn">PDF</a>
                 </div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
                     <div class="tl-abstract-content">
-                        <strong>Introduction:</strong> Executive function (EF) is a heterogeneous neuropsychological construct, and impairments in EF dimensions represent a core aspect of psychopathology in schizophrenia that vary across individual patients. Currently, how this inter-individual variability characterizes schizophrenia subgroups, along with their distinctions in clinical characteristics and prognostic outcomes, remains unclear.<br><br>
-                        <strong>Methods:</strong> Three EF dimensions (inhibitory control, working memory, cognitive flexibility) were assessed in the main sample (N=329), its follow-up subset, and an independently "recurring local validation" patient sample (N=114). Fuzzy clustering was applied to baseline EF assessments to discover and validate the core subtypes after excluding cluster-ambiguous cases in the main and independent samples, respectively. Subtype-based classification trained on the main sample was then tested in the independent sample. Importantly, the stability of these subtypes and their remission statuses, along with associated longitudinal changes in clinical and biological factors, were evaluated, and baseline subtype memberships were also used to predict outcomes.<br><br>
-                        <strong>Results:</strong> Two longitudinally stable, independently validated core EF subtypes were identified, with significantly variable baseline positive, affective, and cognitive symptoms; working memory updating functioning; and peripheral inflammatory and metabolic levels. This two-subtype differentiation allowed an accurate classification of novel patients' subtype memberships and patients' remission statuses not due to overall severity at intake. Remitted patients experienced significantly greater reductions in negative and cognitive symptoms, improved working memory maintenance, lower peripheral inflammatory levels, and more-superior metabolic functions over time.<br><br>
-                        <strong>Conclusions:</strong> EF subtyping successfully captured the symptomatic, biochemical, and prognostic variations in individuals with schizophrenia, which could help to stratify patients with this disorder for targeted treatments.
+                        <strong>Background:</strong> Executive function (EF) is a heterogeneous neuropsychological construct, and impairments in EF dimensions represent a core aspect of psychopathology in schizophrenia that varies across individual patients. Currently, how this inter-individual variability characterizes schizophrenia subgroups, along with their distinctions in clinical characteristics and prognostic outcomes, remains unclear.<br><br><strong>Methods:</strong> Three EF dimensions (inhibitory control, working memory, cognitive flexibility) were assessed in the main sample (N = 329), its follow-up subset, and an independently “recurring local validation” patient sample (N = 114). Fuzzy clustering was applied to baseline EF assessments to discover and validate the core subtypes after excluding cluster-ambiguous cases in the main and independent samples, respectively. Subtype-based classification trained on the main sample was then tested in the independent sample. Importantly, the stability of these subtypes and their remission statuses, along with associated longitudinal changes in clinical and biological factors, were evaluated, and baseline subtype statuses were also used to predict outcomes.<br><br><strong>Results:</strong> Two longitudinally stable, independently validated core EF subtypes were identified, with Subtype I exhibiting selective deficits limited to response inhibition and cognitive flexibility (“EF-Focal”) and Subtype II showing broad EF impairments across all dimensions (“EF-Global”). Compared to the “EF-Global” subtype, patients within the “EF-Focal” subtype presented significantly milder positive, affective, and cognitive symptoms, worse working memory updating, lower inflammatory markers, and better metabolic profiles at baseline. Models trained on baseline EF assessments from the main sample accurately classified patient subtypes in the independent sample (area under the curve [AUC] = 0.79); these baseline subtypes moreover classified patients’ remission statuses independently of overall severity at intake (AUC = 0.78). Remitted patients were observed to have significantly greater reductions in negative and cognitive symptoms, improved working memory maintenance, lower peripheral inflammatory levels, and superior metabolic functions over time.<br><br><strong>Conclusions:</strong> EF subtyping was associated with symptomatic, biochemical, and prognostic variations in individuals with schizophrenia, which could help to stratify patients within this disorder for targeted treatments.
                     </div>
                 </div>
                 <div class="tl-gallery">
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 1</div>
-                        <img src="/zhang/images/BMCMed-Figure1.jpg" alt="Figure 1" onclick="openImgModal('/zhang/images/BMCMed-Figure1.jpg')">
+                        <img src="/zhang/images/BMCMed-Figure1.png" alt="Figure 1" onclick="openImgModal('/zhang/images/BMCMed-Figure1.png')">
                     </div>
                 </div>
             </div>
