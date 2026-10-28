@@ -745,6 +745,12 @@ window.addEventListener('DOMContentLoaded', function() {
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/Cognition.pdf" class="tl-link-btn">PDF for Manuscript</a>
                 </div>
+                <div class="tl-gallery">
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 1</div>
+                        <img src="/zhang/images/Cognition-Figure1.jpg" alt="Cognition Figure 1: Study design and analytical framework" onclick="openImgModal('/zhang/images/Cognition-Figure1.jpg')">
+                    </div>
+                </div>
             </div>
         </div>
 
