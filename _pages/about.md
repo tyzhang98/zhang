@@ -772,18 +772,6 @@ window.addEventListener('DOMContentLoaded', function() {
                         <div class="tl-gallery-label">Figure 1</div>
                         <img src="/zhang/images/JEP-Figure1.png" alt="Figure 1" onclick="openImgModal('/zhang/images/JEP-Figure1.png')">
                     </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 2</div>
-                        <img src="/zhang/images/JEP-Figure2.png" alt="Figure 2" onclick="openImgModal('/zhang/images/JEP-Figure2.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 3</div>
-                        <img src="/zhang/images/JEP-Figure3.png" alt="Figure 3" onclick="openImgModal('/zhang/images/JEP-Figure3.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 4</div>
-                        <img src="/zhang/images/JEP-Figure4.png" alt="Figure 4" onclick="openImgModal('/zhang/images/JEP-Figure4.png')">
-                    </div>
                 </div>
             </div>
         </div>
@@ -811,26 +799,6 @@ window.addEventListener('DOMContentLoaded', function() {
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 1</div>
                         <img src="/zhang/images/CogSci-Figure1.jpg" alt="Figure 1" onclick="openImgModal('/zhang/images/CogSci-Figure1.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 2</div>
-                        <img src="/zhang/images/CogSci-Figure2.jpg" alt="Figure 2" onclick="openImgModal('/zhang/images/CogSci-Figure2.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 3</div>
-                        <img src="/zhang/images/CogSci-Figure3.jpg" alt="Figure 3" onclick="openImgModal('/zhang/images/CogSci-Figure3.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 4</div>
-                        <img src="/zhang/images/CogSci-Figure4.jpg" alt="Figure 4" onclick="openImgModal('/zhang/images/CogSci-Figure4.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 5</div>
-                        <img src="/zhang/images/CogSci-Figure5.jpg" alt="Figure 5" onclick="openImgModal('/zhang/images/CogSci-Figure5.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 6</div>
-                        <img src="/zhang/images/CogSci-Figure6.jpg" alt="Figure 6" onclick="openImgModal('/zhang/images/CogSci-Figure6.jpg')">
                     </div>
                 </div>
             </div>
