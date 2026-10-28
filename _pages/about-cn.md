@@ -241,6 +241,7 @@ author_profile: true
                 <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">6. JEP: General (Major Revision)</a></li>
                 <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">7. Transl. Psychiatry (Accepted)</a></li>
                 <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">8. Cognitive Science (Major Revision)</a></li>
+                <li class="toc-subitem"><a href="#paper-submitted-cognition" class="toc-sublink">9. Cognition (Submitted)</a></li>
 
             </ul>
         </li>
@@ -261,6 +262,7 @@ window.addEventListener('DOMContentLoaded', function() {
         const sections = [
             { id: 'top', element: document.body, offset: 0 },
             { id: 'pub-papers', element: document.getElementById('pub-papers') },
+            { id: 'paper-submitted-cognition', element: document.getElementById('paper-submitted-cognition') },
             { id: 'paper-prep-1', element: document.getElementById('paper-prep-1') },
             { id: 'paper-prep-2', element: document.getElementById('paper-prep-2') },
             { id: 'paper-prep-3', element: document.getElementById('paper-prep-3') },
