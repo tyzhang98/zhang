@@ -1030,11 +1030,12 @@ document.addEventListener('keydown', function(event) {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026</div>
-                <span class="tl-status review">Under Review</span>
-                <div class="tl-paper-title">Identifying Generative AI Use Profiles Among College Students Using Latent Profile Analysis: Associations with Depression and Anxiety</div>
-                <div class="tl-journal">Submitted to Journal of Affective Disorders</div>
+                <span class="tl-status published">Published</span>
+                <div class="tl-paper-title">Shi, H., <strong><u>Zhang, T.</u></strong>, Wang, Z., Yang, X., Shao, Z., & Ma, X. (2026). Latent profiles of generative artificial intelligence use among Chinese college students: Associations with depression and anxiety. <strong><em>Journal of Affective Disorders</em></strong>, <em>415</em>, 122428. <a href="https://doi.org/10.1016/j.jad.2026.122428" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.jad.2026.122428</a></div>
                 <div class="tl-info-line">
                     <span>Co-first Author (2nd)</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>
