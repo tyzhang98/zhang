@@ -821,26 +821,6 @@ window.addEventListener('DOMContentLoaded', function() {
                         <div class="tl-gallery-label">Figure 1</div>
                         <img src="/zhang/images/TP-Figure1.png" alt="Figure 1" onclick="openImgModal('/zhang/images/TP-Figure1.png')">
                     </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 2</div>
-                        <img src="/zhang/images/TP-Figure2.png" alt="Figure 2" onclick="openImgModal('/zhang/images/TP-Figure2.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 3</div>
-                        <img src="/zhang/images/TP-Figure3.png" alt="Figure 3" onclick="openImgModal('/zhang/images/TP-Figure3.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 4</div>
-                        <img src="/zhang/images/TP-Figure4.png" alt="Figure 4" onclick="openImgModal('/zhang/images/TP-Figure4.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 5</div>
-                        <img src="/zhang/images/TP-Figure5.png" alt="Figure 5" onclick="openImgModal('/zhang/images/TP-Figure5.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 6</div>
-                        <img src="/zhang/images/TP-Figure6.png" alt="Figure 6" onclick="openImgModal('/zhang/images/TP-Figure6.png')">
-                    </div>
                 </div>
             </div>
         </div>
@@ -869,26 +849,6 @@ window.addEventListener('DOMContentLoaded', function() {
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 1</div>
                         <img src="/zhang/images/ChildDev-Figure1.png" alt="Figure 1" onclick="openImgModal('/zhang/images/ChildDev-Figure1.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 2</div>
-                        <img src="/zhang/images/ChildDev-Figure2.png" alt="Figure 2" onclick="openImgModal('/zhang/images/ChildDev-Figure2.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 3</div>
-                        <img src="/zhang/images/ChildDev-Figure3.png" alt="Figure 3" onclick="openImgModal('/zhang/images/ChildDev-Figure3.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 4</div>
-                        <img src="/zhang/images/ChildDev-Figure4.png" alt="Figure 4" onclick="openImgModal('/zhang/images/ChildDev-Figure4.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 5</div>
-                        <img src="/zhang/images/ChildDev-Figure5.png" alt="Figure 5" onclick="openImgModal('/zhang/images/ChildDev-Figure5.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 6</div>
-                        <img src="/zhang/images/ChildDev-Figure6.png" alt="Figure 6" onclick="openImgModal('/zhang/images/ChildDev-Figure6.png')">
                     </div>
                 </div>
             </div>
@@ -921,26 +881,6 @@ window.addEventListener('DOMContentLoaded', function() {
                         <div class="tl-gallery-label">Figure 1</div>
                         <img src="/zhang/images/BMCMed-Figure1.jpg" alt="Figure 1" onclick="openImgModal('/zhang/images/BMCMed-Figure1.jpg')">
                     </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 2</div>
-                        <img src="/zhang/images/BMCMed-Figure2.jpg" alt="Figure 2" onclick="openImgModal('/zhang/images/BMCMed-Figure2.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 3</div>
-                        <img src="/zhang/images/BMCMed-Figure3.jpg" alt="Figure 3" onclick="openImgModal('/zhang/images/BMCMed-Figure3.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 4</div>
-                        <img src="/zhang/images/BMCMed-Figure4.png" alt="Figure 4" onclick="openImgModal('/zhang/images/BMCMed-Figure4.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 5</div>
-                        <img src="/zhang/images/BMCMed-Figure5.png" alt="Figure 5" onclick="openImgModal('/zhang/images/BMCMed-Figure5.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 6</div>
-                        <img src="/zhang/images/BMCMed-Figure6.jpg" alt="Figure 6" onclick="openImgModal('/zhang/images/BMCMed-Figure6.jpg')">
-                    </div>
                 </div>
             </div>
         </div>
@@ -971,22 +911,6 @@ window.addEventListener('DOMContentLoaded', function() {
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 1</div>
                         <img src="/zhang/images/SchizBull-Figure1.jpg" alt="Figure 1" onclick="openImgModal('/zhang/images/SchizBull-Figure1.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 2</div>
-                        <img src="/zhang/images/SchizBull-Figure2.jpg" alt="Figure 2" onclick="openImgModal('/zhang/images/SchizBull-Figure2.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 3</div>
-                        <img src="/zhang/images/SchizBull-Figure3.jpg" alt="Figure 3" onclick="openImgModal('/zhang/images/SchizBull-Figure3.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 4</div>
-                        <img src="/zhang/images/SchizBull-Figure4.jpg" alt="Figure 4" onclick="openImgModal('/zhang/images/SchizBull-Figure4.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 5</div>
-                        <img src="/zhang/images/SchizBull-Figure5.jpg" alt="Figure 5" onclick="openImgModal('/zhang/images/SchizBull-Figure5.jpg')">
                     </div>
                 </div>
             </div>
@@ -1020,26 +944,6 @@ window.addEventListener('DOMContentLoaded', function() {
                         <div class="tl-gallery-label">Figure 1</div>
                         <img src="/zhang/images/IJCHP-Figure1.jpg" alt="Figure 1" onclick="openImgModal('/zhang/images/IJCHP-Figure1.jpg')">
                     </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 2</div>
-                        <img src="/zhang/images/IJCHP-Figure2.png" alt="Figure 2" onclick="openImgModal('/zhang/images/IJCHP-Figure2.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 3</div>
-                        <img src="/zhang/images/IJCHP-Figure3.png" alt="Figure 3" onclick="openImgModal('/zhang/images/IJCHP-Figure3.png')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 4</div>
-                        <img src="/zhang/images/IJCHP-Figure4.jpg" alt="Figure 4" onclick="openImgModal('/zhang/images/IJCHP-Figure4.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 5</div>
-                        <img src="/zhang/images/IJCHP-Figure5.jpg" alt="Figure 5" onclick="openImgModal('/zhang/images/IJCHP-Figure5.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 6</div>
-                        <img src="/zhang/images/IJCHP-Figure6.jpg" alt="Figure 6" onclick="openImgModal('/zhang/images/IJCHP-Figure6.jpg')">
-                    </div>
                 </div>
             </div>
         </div>
@@ -1071,18 +975,6 @@ window.addEventListener('DOMContentLoaded', function() {
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 1</div>
                         <img src="/zhang/images/SchizRes-Figure1.jpg" alt="Figure 1" onclick="openImgModal('/zhang/images/SchizRes-Figure1.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 2</div>
-                        <img src="/zhang/images/SchizRes-Figure2.jpg" alt="Figure 2" onclick="openImgModal('/zhang/images/SchizRes-Figure2.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 3</div>
-                        <img src="/zhang/images/SchizRes-Figure3.jpg" alt="Figure 3" onclick="openImgModal('/zhang/images/SchizRes-Figure3.jpg')">
-                    </div>
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 4</div>
-                        <img src="/zhang/images/SchizRes-Figure4.jpg" alt="Figure 4" onclick="openImgModal('/zhang/images/SchizRes-Figure4.jpg')">
                     </div>
                 </div>
             </div>
