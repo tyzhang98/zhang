@@ -378,7 +378,7 @@ window.addEventListener('DOMContentLoaded', function() {
         margin-bottom: 0;
     }
     @media (max-width: 768px) {
-        .timeline-content {
+        .timeline .timeline-content {
             padding: 12px 14px;
         }
     }
