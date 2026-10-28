@@ -345,7 +345,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 ## 个人简介（About Me）
 <a id="about"></a>
-&emsp;&emsp;西北师范大学心理学院博士研究生（2024级在读）。以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*Translational Psychiatry*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等国际期刊发表学术论文，并主持省级高校研究生"创新之星"科研项目一项。研究方向聚焦于人类高级认知的计算机制、发展规律与精神病理损伤，综合运用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法与计算建模、机器学习及大语言模型等计算技术，致力于阐明执行功能等高级认知过程的计算神经机制，并探索精神分裂症、抑郁症等精神障碍认知损伤的计算标记与干预靶点。
+&emsp;&emsp;西北师范大学心理学院博士三年级研究生（2024级），目前在北京大学心理与认知科学学院访学（visiting student）。以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*Translational Psychiatry*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等国际期刊发表学术论文，入选2026年中国科协青年科技人才培育工程博士生专项计划，曾主持省级高校研究生"创新之星"科研项目一项（2025年12月结项）。研究方向聚焦于人类高级认知的计算机制、发展规律与精神病理损伤，综合运用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法与计算建模、机器学习及大语言模型等计算技术，致力于阐明执行功能等高级认知过程的计算神经机制，并探索精神分裂症、抑郁症等精神障碍认知损伤的计算标记与干预靶点。
 
 **研究方向：**
 1. 执行功能的计算神经机制
@@ -729,6 +729,22 @@ window.addEventListener('DOMContentLoaded', function() {
 <div class="publications-container">
     <div class="timeline">
 
+        <!-- Submitted - Cognition -->
+        <div class="timeline-item" id="paper-submitted-cognition">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026年</div>
+                <span class="tl-status review">已投稿</span>
+                <div class="tl-paper-title">General decision parameters account for shared behavioural and neural variation across interference and response inhibition</div>
+                <div class="tl-journal">Submitted to Cognition</div>
+                <div class="tl-info-line">
+                    <span>独立一作</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/Cognition.pdf" class="tl-link-btn">论文正文 PDF</a>
+                </div>
+            </div>
+        </div>
+
         <!-- Major Revision - JEP:General -->
         <div class="timeline-item" id="paper-review-jep">
             <div class="timeline-marker"></div>
@@ -765,18 +781,20 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Accepted - Translational Psychiatry -->
+        <!-- Published - Translational Psychiatry -->
         <div class="timeline-item" id="paper-review-tp">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026年</div>
-                <span class="tl-status published">Accepted</span>
-                <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
-                <div class="tl-journal">Translational Psychiatry</div>
+                <span class="tl-status published">Published</span>
+                <div class="tl-paper-title">Shared and disorder-specific computational mechanisms of interference and response inhibition in schizophrenia and major depressive disorder</div>
+                <div class="tl-journal">Translational Psychiatry, 16, 590 (2026)</div>
                 <div class="tl-info-line">
                     <span>(中科院一区, Nature子刊)</span>
                     <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://doi.org/10.1038/s41398-026-04345-3" class="tl-link-btn">DOI</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/Translational-Psychiatry.pdf" class="tl-link-btn">PDF</a>
                 </div>
@@ -1238,6 +1256,9 @@ document.addEventListener('keydown', function(event) {
 
 ## 3. 科研项目（Research Projects）
 
+**人才培育支持**
+- **2026年中国科协青年科技人才培育工程博士生专项计划**
+
 **主持项目**
 - **2024年省级博士创新之星科研项目（No. 2025CXZX-366）**（2025-12 结项）
 
@@ -1248,7 +1269,7 @@ document.addEventListener('keydown', function(event) {
 ---
 
 <p align="center">
-Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, China.
+最后更新于2026年10月28日（GMT+8），张统一，北京，中国。
 </p>
 
 ---
@@ -1259,15 +1280,15 @@ Last updated on July 29, 2025, at 16:07:06 (GMT+8) by Tongyi Zhang, Lanzhou, Chi
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
   window.addEventListener('load', function() {
-    var map = L.map('locationMap').setView([36.0611, 103.8343], 13);
+    var map = L.map('locationMap').setView([39.9928, 116.3055], 13);
 
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
       attribution: 'Esri',
       maxZoom: 18
     }).addTo(map);
 
-    L.marker([36.0611, 103.8343]).addTo(map)
-      .bindPopup('<div style="text-align: center; padding: 5px;"><b>西北师范大学<br>Northwest Normal University</div>')
+    L.marker([39.9928, 116.3055]).addTo(map)
+      .bindPopup('<div style="text-align: center; padding: 5px;"><b>北京大学（访学）<br>Peking University</div>')
       .openPopup();
   });
 </script>

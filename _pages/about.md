@@ -348,7 +348,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 ## About Me
 <a id="about"></a>
-&emsp;&emsp;I am a second-year PhD candidate in Psychology at Northwest Normal University. I have published first-author papers in *Child Development*, *Schizophrenia Bulletin*, *BMC Medicine*, *Translational Psychiatry*, *International Journal of Clinical and Health Psychology*, and *Schizophrenia Research*, and I currently lead a provincial-level Graduate Innovation Star research project. My research centers on the computational, developmental, and psychopathological mechanisms of higher-order cognition. Drawing on cognitive-behavioral experiments, functional magnetic resonance imaging (fMRI), and related cognitive neuroscience paradigms—combined with computational modeling, machine learning, and large language models—I aim to elucidate the computational and developmental architecture of executive and higher-order cognitive functions, and to identify cognitive intervention targets in schizophrenia, major depressive disorder, and related psychiatric conditions.
+&emsp;&emsp;I am a third-year PhD candidate in Psychology at Northwest Normal University and am currently a visiting student at the School of Psychological and Cognitive Sciences, Peking University. I have published first-author papers in *Child Development*, *Schizophrenia Bulletin*, *BMC Medicine*, *Translational Psychiatry*, *International Journal of Clinical and Health Psychology*, and *Schizophrenia Research*, and I was selected for the 2026 Doctoral Student Special Program of the China Association for Science and Technology (CAST) Young Science and Technology Talent Development Project. I also led a provincial-level Graduate Innovation Star research project (completed in December 2025). My research centers on the computational, developmental, and psychopathological mechanisms of higher-order cognition. Drawing on cognitive-behavioral experiments, functional magnetic resonance imaging (fMRI), and related cognitive neuroscience paradigms—combined with computational modeling, machine learning, and large language models—I aim to elucidate the computational and developmental architecture of executive and higher-order cognitive functions, and to identify cognitive intervention targets in schizophrenia, major depressive disorder, and related psychiatric conditions.
 
 **Research Directions:**
 1. Computational neural mechanisms of executive functions
@@ -732,6 +732,22 @@ window.addEventListener('DOMContentLoaded', function() {
 <div class="publications-container">
     <div class="timeline">
 
+        <!-- Submitted - Cognition -->
+        <div class="timeline-item" id="paper-submitted-cognition">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <div class="tl-date">2026</div>
+                <span class="tl-status review">Submitted</span>
+                <div class="tl-paper-title">General decision parameters account for shared behavioural and neural variation across interference and response inhibition</div>
+                <div class="tl-journal">Submitted to Cognition</div>
+                <div class="tl-info-line">
+                    <span>First Author</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://tyzhang98.github.io/zhang/files/Cognition.pdf" class="tl-link-btn">PDF for Manuscript</a>
+                </div>
+            </div>
+        </div>
+
         <!-- Major Revision #6 - JEP:General -->
         <div class="timeline-item" id="paper-review-jep">
             <div class="timeline-marker"></div>
@@ -768,18 +784,20 @@ window.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <!-- Accepted #7 - Translational Psychiatry -->
+        <!-- Published - Translational Psychiatry -->
         <div class="timeline-item" id="paper-review-tp">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
                 <div class="tl-date">2026</div>
-                <span class="tl-status published">Accepted</span>
-                <div class="tl-paper-title">Computational mechanisms of inhibitory control deficits in schizophrenia and major depressive disorder: Evidence from drift diffusion modeling</div>
-                <div class="tl-journal">Translational Psychiatry</div>
+                <span class="tl-status published">Published</span>
+                <div class="tl-paper-title">Shared and disorder-specific computational mechanisms of interference and response inhibition in schizophrenia and major depressive disorder</div>
+                <div class="tl-journal">Translational Psychiatry, 16, 590 (2026)</div>
                 <div class="tl-info-line">
                     <span>(JCR Q1, Nature Portfolio)</span>
                     <span class="tl-info-separator">|</span>
                     <span>First Author</span>
+                    <span class="tl-info-separator">|</span>
+                    <a href="https://doi.org/10.1038/s41398-026-04345-3" class="tl-link-btn">DOI</a>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/Translational-Psychiatry.pdf" class="tl-link-btn">PDF</a>
                 </div>
@@ -1241,6 +1259,9 @@ document.addEventListener('keydown', function(event) {
 
 ## 3. Research Projects
 
+**Talent Development Support**
+- **2026 CAST Young Science and Technology Talent Development Project — Doctoral Student Special Program**
+
 **Principal Investigator**
 - **2024 Provincial Graduate Innovation Star Project (No. 2025CXZX-366)** (Completed December 2025)
 
@@ -1251,7 +1272,7 @@ document.addEventListener('keydown', function(event) {
 ---
 
 <p align="center">
-Last updated on April 11, 2026, at 17:27:00 (GMT+8) by Tongyi Zhang, Lanzhou, China.
+Last updated on October 28, 2026 (GMT+8) by Tongyi Zhang, Beijing, China.
 </p>
 
 ---
@@ -1262,15 +1283,15 @@ Last updated on April 11, 2026, at 17:27:00 (GMT+8) by Tongyi Zhang, Lanzhou, Ch
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
   window.addEventListener('load', function() {
-    var map = L.map('locationMap').setView([36.0611, 103.8343], 13);
+    var map = L.map('locationMap').setView([39.9928, 116.3055], 13);
 
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
       attribution: 'Esri',
       maxZoom: 18
     }).addTo(map);
 
-    L.marker([36.0611, 103.8343]).addTo(map)
-      .bindPopup('<div style="text-align: center; padding: 5px;"><b>Northwest Normal University<br>西北师范大学</div>')
+    L.marker([39.9928, 116.3055]).addTo(map)
+      .bindPopup('<div style="text-align: center; padding: 5px;"><b>Peking University<br>北京大学（访学）</div>')
       .openPopup();
   });
 </script>
