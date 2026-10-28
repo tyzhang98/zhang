@@ -162,7 +162,32 @@ author_profile: true
 /* 响应式:在小屏幕隐藏大纲 */
 @media (max-width: 1550px) {
     .toc-sidebar {
-        display: none;
+        top: auto;
+        bottom: 20px;
+        right: 16px;
+        width: min(340px, calc(100vw - 32px));
+        max-height: calc(100vh - 120px);
+        max-height: calc(100dvh - 120px);
+        box-sizing: border-box;
+        background: #fff;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    }
+    .toc-sidebar:not([open]) {
+        width: auto;
+        padding: 12px 18px;
+    }
+}
+.toc-title {
+    cursor: pointer;
+}
+.toc-sidebar:not([open]) > .toc-title {
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+@media (prefers-color-scheme: dark) and (max-width: 1550px) {
+    .toc-sidebar {
+        background: #1f2937;
     }
 }
 
@@ -225,8 +250,8 @@ author_profile: true
 </div>
 
 <!-- 右侧大纲导航 -->
-<aside class="toc-sidebar">
-    <div class="toc-title">目录</div>
+<details class="toc-sidebar" open>
+    <summary class="toc-title">目录</summary>
     <ul class="toc-list">
         <li class="toc-item"><a href="#top" class="toc-link">• 首页</a></li>
 
@@ -249,11 +274,17 @@ author_profile: true
         <li class="toc-item"><a href="#conf-talks" class="toc-link">• 会议报告</a></li>
         <li class="toc-item"><a href="#research-projects" class="toc-link">• 科研项目</a></li>
     </ul>
-</aside>
+</details>
 
 <script>
 // 大纲导航激活状态和子菜单展开控制
 window.addEventListener('DOMContentLoaded', function() {
+    const toc = document.querySelector('.toc-sidebar');
+    const compactToc = window.matchMedia('(max-width: 1550px)');
+    const syncToc = () => { toc.open = !compactToc.matches; };
+    const closeCompactToc = () => { if (compactToc.matches) toc.open = false; };
+    syncToc();
+    compactToc.addEventListener('change', syncToc);
     const tocLinks = document.querySelectorAll('.toc-link');
     const tocSublinks = document.querySelectorAll('.toc-sublink');
     const publicationIds = new Set(Array.from(tocSublinks, link => link.getAttribute('href').slice(1)));
@@ -283,6 +314,7 @@ window.addEventListener('DOMContentLoaded', function() {
     tocLinks.forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
+            closeCompactToc();
             const targetId = this.getAttribute('href').substring(1);
 
             if (targetId === 'top') {
@@ -300,6 +332,7 @@ window.addEventListener('DOMContentLoaded', function() {
     tocSublinks.forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
+            closeCompactToc();
             const targetId = this.getAttribute('href').substring(1);
             const targetElement = document.getElementById(targetId);
             if (targetElement) {
@@ -724,8 +757,6 @@ window.addEventListener('DOMContentLoaded', function() {
                 <div class="tl-paper-title">Hierarchical organization of cognitive processes underlies low cross-task correlations in inhibitory control: Evidence from drift diffusion modeling</div>
                 <div class="tl-journal">Submitted to Journal of Experimental Psychology: General</div>
                 <div class="tl-info-line">
-                    <span>(中科院一区)</span>
-                    <span class="tl-info-separator">|</span>
                     <span>共同一作(次序第一)</span>
                 </div>
                 <div class="tl-gallery">
@@ -746,8 +777,6 @@ window.addEventListener('DOMContentLoaded', function() {
                 <div class="tl-paper-title">Boundaries of Executive Functions in Large Language Models: GPT-4o Selectively Replicates Human Performance</div>
                 <div class="tl-journal">Submitted to Cognitive Science</div>
                 <div class="tl-info-line">
-                    <span>(中科院一区)</span>
-                    <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                 </div>
                 <div class="tl-abstract">
@@ -774,8 +803,6 @@ window.addEventListener('DOMContentLoaded', function() {
                 <span class="tl-status published">Published</span>
                 <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Wang, S., Shi, H., Li, J., Yang, X., Jiao, J., Huo, X., & Zhao, X. (2026). Shared and disorder-specific computational mechanisms of interference and response inhibition in schizophrenia and major depressive disorder. <strong><em>Translational Psychiatry</em></strong>, <em>16</em>, 590. <a href="https://doi.org/10.1038/s41398-026-04345-3" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1038/s41398-026-04345-3</a></div>
                 <div class="tl-info-line">
-                    <span>(中科院一区, Nature子刊)</span>
-                    <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/Translational-Psychiatry.pdf" class="tl-link-btn">PDF</a>
@@ -793,12 +820,10 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class="timeline-item" id="paper-prep-5">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2026年-7月</div>
+                <div class="tl-date">2026年</div>
                 <span class="tl-status published">Published</span>
                 <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Gong, Y., & Zhao, X. (2026). Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence. <strong><em>Child Development</em></strong>, aacag107. <a href="https://doi.org/10.1093/chidev/aacag107" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/chidev/aacag107</a></div>
                 <div class="tl-info-line">
-                    <span>(中科院一区Top, IF 3.8)</span>
-                    <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/Child-Development.pdf" class="tl-link-btn">PDF</a>
@@ -826,8 +851,6 @@ window.addEventListener('DOMContentLoaded', function() {
                 <span class="tl-status published">Published</span>
                 <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Huo, X., Chen, J., & Zhao, X. (2026). Executive function profiles identify stable schizophrenia subtypes with distinct symptoms, biological markers and treatment responses: A cross-time clustering and validation study. <strong><em>BMC Medicine</em></strong>, <em>24</em>, 403. <a href="https://doi.org/10.1186/s12916-026-04955-0" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1186/s12916-026-04955-0</a></div>
                 <div class="tl-info-line">
-                    <span>(中科院一区Top, IF 8.3)</span>
-                    <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/BMC-Medicine.pdf" class="tl-link-btn">PDF</a>
@@ -851,12 +874,10 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class="timeline-item" id="paper-prep-3">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2026年-3月</div>
+                <div class="tl-date">2026年</div>
                 <span class="tl-status published">Published</span>
                 <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2026). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. <strong><em>Schizophrenia Bulletin</em></strong>, <em>52</em>(2), sbaf218. <a href="https://doi.org/10.1093/schbul/sbaf218" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/schbul/sbaf218</a></div>
                 <div class="tl-info-line">
-                    <span>(中科院一区Top, IF 4.8)</span>
-                    <span class="tl-info-separator">|</span>
                     <span>共同一作(次序第一)</span>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/Schizophrenia-Bulletin.pdf" class="tl-link-btn">PDF</a>
@@ -882,12 +903,10 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class="timeline-item" id="paper-prep-2">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年-9月</div>
+                <div class="tl-date">2025年</div>
                 <span class="tl-status published">Published</span>
                 <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <strong><em>International Journal of Clinical and Health Psychology</em></strong>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ijchp.2025.100628</a></div>
                 <div class="tl-info-line">
-                    <span>(中科院二区, IF 4.4)</span>
-                    <span class="tl-info-separator">|</span>
                     <span>共同一作(次序第一)</span>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/IJCHP.pdf" class="tl-link-btn">PDF</a>
@@ -914,12 +933,10 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class="timeline-item" id="paper-prep-1">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-                <div class="tl-date">2025年-6月</div>
+                <div class="tl-date">2025年</div>
                 <span class="tl-status published">Published</span>
                 <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <strong><em>Schizophrenia Research</em></strong>, <em>282</em>, 203-213. <a href="https://doi.org/10.1016/j.schres.2025.06.012" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.schres.2025.06.012</a></div>
                 <div class="tl-info-line">
-                    <span>(中科院二区, IF 3.5)</span>
-                    <span class="tl-info-separator">|</span>
                     <span>独立一作</span>
                     <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/Schizophrenia-Research.pdf" class="tl-link-btn">PDF</a>
@@ -1001,8 +1018,6 @@ document.addEventListener('keydown', function(event) {
                 <div class="tl-paper-title">Identifying Generative AI Use Profiles Among College Students Using Latent Profile Analysis: Associations with Depression and Anxiety</div>
                 <div class="tl-journal">Submitted to Journal of Affective Disorders</div>
                 <div class="tl-info-line">
-                    <span>(中科院一区)</span>
-                    <span class="tl-info-separator">|</span>
                     <span>共同一作(次序第二)</span>
                 </div>
             </div>
