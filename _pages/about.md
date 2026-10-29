@@ -2,10 +2,10 @@
 layout: vision
 title: Home
 heading: Home
-permalink: /
+permalink: /en/
 lang: en
 nav_key: home
-other_lang_url: /about-cn/
+other_lang_url: /
 redirect_from:
 - /about/
 - /about.html

@@ -29,9 +29,10 @@
           {% if nav_key == '' %}{% assign nav_key = 'home' %}{% endif %}
           {% assign nav_url = item.url %}
           {% assign nav_label = item.title %}
+          {% if nav_key == 'home' %}{% assign nav_url = '/en/' %}{% endif %}
           {% if page.lang == 'cn' %}
             {% case nav_key %}
-              {% when 'home' %}{% assign nav_url = '/about-cn/' %}{% assign nav_label = '首页' %}
+              {% when 'home' %}{% assign nav_url = '/' %}{% assign nav_label = '首页' %}
               {% when 'publications' %}{% assign nav_url = '/publications-cn/' %}{% assign nav_label = '论文成果' %}
               {% when 'conference' %}{% assign nav_url = '/conference-cn/' %}{% assign nav_label = '会议报告' %}
               {% when 'projects' %}{% assign nav_url = '/projects-cn/' %}{% assign nav_label = '科研项目' %}

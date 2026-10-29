@@ -1,14 +1,14 @@
 /* Layout follows the Vision and Attention Lab reference: grey canvas,
-   white 80% page, grey header/sidebar, purple headings and vertical navigation. */
+   white 80% page, grey header/sidebar, university-blue headings and vertical navigation. */
 html { scroll-behavior: smooth; }
 body { font: 100% Verdana, Arial, Helvetica, sans-serif; background: #666; margin: 0; padding: 0; color: #000; }
 * { box-sizing: border-box; }
 #container { width: 80%; margin: 0 auto; background: #fff; border: 1px solid #000; text-align: left; }
 #header { background: #ddd; padding: 0 10px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
-#header h1 { color: #400080; font-size: 2em; margin: 0; padding: 10px 0; line-height: 1.25; }
-a { color: #400080; }
-a:hover { color: #6000a0; }
-a:focus-visible, summary:focus-visible { outline: 2px solid #400080; outline-offset: 3px; }
+#header h1 { color: #003d7e; font-size: 2em; margin: 0; padding: 10px 0; line-height: 1.25; }
+a { color: #003d7e; }
+a:hover { color: #002b59; }
+a:focus-visible, summary:focus-visible { outline: 2px solid #003d7e; outline-offset: 3px; }
 .language-switch { display: flex; gap: 8px; align-items: center; white-space: nowrap; font-size: .85em; }
 .language-switch a[aria-current] { font-weight: bold; }
 .vision-columns { display: grid; grid-template-columns: 12em minmax(0, 1fr); align-items: start; }
@@ -16,7 +16,7 @@ a:focus-visible, summary:focus-visible { outline: 2px solid #400080; outline-off
 #sidebar1 h3 { margin: 1em 10px; font-size: 1.17em; line-height: 1.35; }
 #sidebar1 a[aria-current] { text-decoration-thickness: 2px; text-underline-offset: 3px; }
 #mainContent { min-width: 0; padding: 0 20px 22px 16px; line-height: 1.65; overflow-wrap: anywhere; }
-h2 { color: #400080; font-size: 1.5em; line-height: 1.35; margin: .83em 0; }
+h2 { color: #003d7e; font-size: 1.5em; line-height: 1.35; margin: .83em 0; }
 h3 { font-size: 1.17em; }
 p { margin: 1em 0; }
 li { margin-bottom: 4px; }
@@ -29,7 +29,7 @@ hr { border: 0; border-top: 1px solid #ccc; }
 .skip-link { position: absolute; left: -10000px; padding: 8px; background: #fff; z-index: 2000; }
 .skip-link:focus { left: 12px; top: 12px; }
 .publication-index { border-bottom: 1px solid #ccc; padding: 6px 0 12px; font-size: .9em; }
-.publication-index summary { cursor: pointer; color: #400080; font-weight: bold; }
+.publication-index summary { cursor: pointer; color: #003d7e; font-weight: bold; }
 .publication-index-list { margin: 10px 0 0; padding-left: 22px; }
 .publication-index-list li { margin: 3px 0; }
 #mainContent .tl-paper-title a { overflow-wrap: anywhere; }

@@ -2,11 +2,12 @@
 layout: vision
 title: 首页
 heading: 首页
-permalink: /about-cn/
+permalink: /
 lang: cn
 nav_key: home
-other_lang_url: /
+other_lang_url: /en/
 redirect_from:
+- /about-cn/
 - /about-cn.html
 ---
 
