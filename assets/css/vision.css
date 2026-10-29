@@ -1,0 +1,59 @@
+/* Layout follows the Vision and Attention Lab reference: grey canvas,
+   white 80% page, grey header/sidebar, purple headings and vertical navigation. */
+html { scroll-behavior: smooth; }
+body { font: 100% Verdana, Arial, Helvetica, sans-serif; background: #666; margin: 0; padding: 0; color: #000; }
+* { box-sizing: border-box; }
+#container { width: 80%; margin: 0 auto; background: #fff; border: 1px solid #000; text-align: left; }
+#header { background: #ddd; padding: 0 10px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+#header h1 { color: #400080; font-size: 2em; margin: 0; padding: 10px 0; line-height: 1.25; }
+a { color: #400080; }
+a:hover { color: #6000a0; }
+a:focus-visible, summary:focus-visible { outline: 2px solid #400080; outline-offset: 3px; }
+.language-switch { display: flex; gap: 8px; align-items: center; white-space: nowrap; font-size: .85em; }
+.language-switch a[aria-current] { font-weight: bold; }
+.vision-columns { display: grid; grid-template-columns: 12em minmax(0, 1fr); align-items: start; }
+#sidebar1 { background: #ebebeb; padding: 15px 0; }
+#sidebar1 h3 { margin: 1em 10px; font-size: 1.17em; line-height: 1.35; }
+#sidebar1 a[aria-current] { text-decoration-thickness: 2px; text-underline-offset: 3px; }
+#mainContent { min-width: 0; padding: 0 20px 22px 16px; line-height: 1.65; overflow-wrap: anywhere; }
+h2 { color: #400080; font-size: 1.5em; line-height: 1.35; margin: .83em 0; }
+h3 { font-size: 1.17em; }
+p { margin: 1em 0; }
+li { margin-bottom: 4px; }
+img { max-width: 100%; }
+.profile-photo { width: 155px; height: auto; float: right; margin: 0 0 16px 24px; }
+.profile-links { clear: both; font-size: .9em; }
+#footer { padding: 0 10px; background: #ddd; clear: both; }
+#footer p { margin: 0; padding: 10px 0; text-align: center; font-size: .85em; line-height: 1.5; }
+hr { border: 0; border-top: 1px solid #ccc; }
+.skip-link { position: absolute; left: -10000px; padding: 8px; background: #fff; z-index: 2000; }
+.skip-link:focus { left: 12px; top: 12px; }
+.publication-index { border-bottom: 1px solid #ccc; padding: 6px 0 12px; font-size: .9em; }
+.publication-index summary { cursor: pointer; color: #400080; font-weight: bold; }
+.publication-index-list { margin: 10px 0 0; padding-left: 22px; }
+.publication-index-list li { margin: 3px 0; }
+#mainContent .tl-paper-title a { overflow-wrap: anywhere; }
+#mainContent #locationMap { max-width: 100%; }
+@media (max-width: 900px) {
+  #container { width: 94%; }
+  .vision-columns { grid-template-columns: 10.5em minmax(0, 1fr); }
+  #sidebar1 h3 { font-size: 1em; }
+  #mainContent { padding-right: 14px; padding-left: 14px; }
+}
+@media (max-width: 640px) {
+  #container { width: 100%; border-left: 0; border-right: 0; }
+  #header { flex-wrap: wrap; gap: 0; padding-bottom: 8px; }
+  #header h1 { font-size: 1.55em; width: 100%; padding-bottom: 6px; }
+  .language-switch { margin-left: auto; }
+  .vision-columns { display: block; }
+  #sidebar1 { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 10px 14px; }
+  #sidebar1 h3 { font-size: .9em; margin: 0; }
+  #mainContent { padding: 0 12px 18px; }
+  .profile-photo { width: 112px; margin-left: 14px; }
+  #footer p { font-size: .75em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .timeline-item { opacity: 1 !important; }
+}

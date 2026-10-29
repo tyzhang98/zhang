@@ -1,9 +1,11 @@
 main:
   - title: "Home"
-    url: "/"         # ← 只写根路径
+    url: "/"
   - title: "Publications"
-    url: "#pub-papers"
+    url: "/publications/"
   - title: "Conference Presentations"
-    url: "#conf-talks"
+    url: "/conference/"
   - title: "Projects"
-    url: "#research-projects"
+    url: "/projects/"
+  - title: "Contact"
+    url: "/contact/"

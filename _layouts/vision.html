@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="{% if page.lang == 'cn' %}zh-CN{% else %}en{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} — Zhang Tongyi (张统一)</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/vision.css' | relative_url }}">
+  {% if page.nav_key == 'publications' %}
+  <link rel="stylesheet" href="{{ '/assets/css/publication-cards' | append: page.lang | replace: 'cardsen', 'cards' | replace: 'cardscn', 'cards-cn' | append: '.css' | relative_url }}">
+  {% endif %}
+</head>
+<body data-page="{{ page.nav_key }}" data-lang="{{ page.lang }}">
+  <a class="skip-link" href="#mainContent">{% if page.lang == 'cn' %}跳至正文{% else %}Skip to content{% endif %}</a>
+  <div id="container">
+    <header id="header">
+      <h1>张统一 (Zhang Tongyi)</h1>
+      <nav class="language-switch" aria-label="Language">
+        <a href="{% if page.lang == 'en' %}{{ page.url | relative_url }}{% else %}{{ page.other_lang_url | relative_url }}{% endif %}" lang="en"{% if page.lang == 'en' %} aria-current="page"{% endif %}>EN</a>
+        <span aria-hidden="true">|</span>
+        <a href="{% if page.lang == 'cn' %}{{ page.url | relative_url }}{% else %}{{ page.other_lang_url | relative_url }}{% endif %}" lang="zh-CN"{% if page.lang == 'cn' %} aria-current="page"{% endif %}>中文</a>
+      </nav>
+    </header>
+    <div class="vision-columns">
+      <nav id="sidebar1" aria-label="{% if page.lang == 'cn' %}主导航{% else %}Main navigation{% endif %}">
+        {% for item in site.data.navigation.main %}
+          {% assign nav_key = item.url | remove: '/' %}
+          {% if nav_key == '' %}{% assign nav_key = 'home' %}{% endif %}
+          {% assign nav_url = item.url %}
+          {% assign nav_label = item.title %}
+          {% if page.lang == 'cn' %}
+            {% case nav_key %}
+              {% when 'home' %}{% assign nav_url = '/about-cn/' %}{% assign nav_label = '首页' %}
+              {% when 'publications' %}{% assign nav_url = '/publications-cn/' %}{% assign nav_label = '论文成果' %}
+              {% when 'conference' %}{% assign nav_url = '/conference-cn/' %}{% assign nav_label = '会议报告' %}
+              {% when 'projects' %}{% assign nav_url = '/projects-cn/' %}{% assign nav_label = '科研项目' %}
+              {% when 'contact' %}{% assign nav_url = '/contact-cn/' %}{% assign nav_label = '联系方式' %}
+            {% endcase %}
+          {% endif %}
+          <h3><a href="{{ nav_url | relative_url }}"{% if page.nav_key == nav_key %} aria-current="page"{% endif %}>{{ nav_label }}</a></h3>
+        {% endfor %}
+      </nav>
+      <main id="mainContent" class="page__content">
+        <h2 class="page-heading">{{ page.heading }}</h2>
+        {{ content }}
+      </main>
+    </div>
+    <footer id="footer">
+      <p>{% if page.lang == 'cn' %}西北师范大学心理学院 · 北京大学心理与认知科学学院（访学）{% else %}Northwest Normal University · Visiting Student, Peking University{% endif %}</p>
+    </footer>
+  </div>
+  <script src="{{ '/assets/js/vision.js' | relative_url }}" defer></script>
+</body>
+</html>
