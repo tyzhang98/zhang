@@ -1,4 +1,4 @@
-/* Compact publication layout; content, dates and font sizes are unchanged. */
+/* Compact publication layout with slightly larger publication body text. */
 body[data-page="publications"] #mainContent > .page-heading {
     display: inline-block;
     margin: 12px 0 8px;
@@ -9,7 +9,7 @@ body[data-page="publications"] .publication-index {
     padding: 3px 9px;
     border: 1px solid #dbe4ec;
     border-radius: 4px;
-    font-size: .85em;
+    font-size: .92em;
     background: #f8fafc;
 }
 body[data-page="publications"] .publication-index[open] {
@@ -39,7 +39,7 @@ body[data-page="publications"] #mainContent > p:has(> a[id]:only-child) {
 }
 .tl-date {
     display: block; margin: 0 0 4px; color: #003d7e;
-    font-size: .85em; font-weight: 700; line-height: 1.5;
+    font-size: .92em; font-weight: 700; line-height: 1.5;
 }
 .timeline-content {
     display: grid; grid-template-columns: minmax(0, 1fr) minmax(190px, 30%);
@@ -65,13 +65,13 @@ body[data-page="publications"] #mainContent > p:has(> a[id]:only-child) {
 .tl-gallery-item { padding: 3px; }
 .tl-figure-trigger { display: block; width: 100%; padding: 0; border: 0; background: transparent; cursor: zoom-in; }
 .tl-figure-trigger:focus-visible { outline-offset: -3px; }
-.tl-gallery-label { padding: 1px 0 3px; text-align: center; color: #64748b; font-size: .75em; font-weight: 600; line-height: 1.3; }
+.tl-gallery-label { padding: 1px 0 3px; text-align: center; color: #64748b; font-size: .8125em; font-weight: 600; line-height: 1.3; }
 .tl-gallery img { display: block; width: 100%; height: 140px; object-fit: contain; background: #fff; cursor: zoom-in; }
 .tl-gallery img:hover { opacity: .94; }
 .tl-abstract { margin: 0; }
 .tl-abstract-trigger {
     display: inline-block; padding: 2px 8px; border: 1px solid #ccd9e4; border-radius: 3px;
-    color: #35536f; background: #f8fafc; font-family: inherit; font-size: .8em; font-weight: 500; line-height: 1.5;
+    color: #35536f; background: #f8fafc; font-family: inherit; font-size: .875em; font-weight: 500; line-height: 1.5;
     cursor: pointer; user-select: none;
 }
 .tl-abstract-trigger:hover { color: #003d7e; border-color: #7b9ebd; background: #f0f6fb; }
@@ -111,3 +111,7 @@ body[data-page="publications"] #mainContent > p:has(> a[id]:only-child) {
 
 #mainContent .authorship-note { clear: both; margin: 4px 0 8px; font-size: .85em; color: #555; }
 .tl-citation sup { font-size: .75em; line-height: 0; }
+
+/* Keep page/group headings and standalone manuscript titles unchanged. */
+#mainContent .tl-citation, #mainContent .tl-journal { font-size: 18.5px; }
+#mainContent .tl-abstract-content { font-size: 16.5px; }
