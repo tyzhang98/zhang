@@ -185,7 +185,7 @@ other_lang_url: /publications-cn/
             <div class="timeline-marker"></div>
             <time class="tl-date" datetime="2025-10">October 2025</time>
             <div class="timeline-content">
-                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <strong><em>International Journal of Clinical and Health Psychology</em></strong>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ijchp.2025.100628</a> <a href="https://tyzhang98.github.io/zhang/files/IJCHP.pdf" class="tl-link-btn">[PDF]</a></div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong><sup>†</sup>, Su, M.<sup>†</sup>, Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <strong><em>International Journal of Clinical and Health Psychology</em></strong>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ijchp.2025.100628</a> <a href="https://tyzhang98.github.io/zhang/files/IJCHP.pdf" class="tl-link-btn">[PDF]</a></div>
                 <div class="tl-abstract">
                     <button type="button" class="tl-abstract-trigger" aria-expanded="false" aria-controls="abstract-5">View Abstract</button>
                     <div class="tl-abstract-content" id="abstract-5">
