@@ -355,10 +355,11 @@
 /* Keep the citation readable; the author name retains its explicit emphasis. */
 .tl-citation { font-weight: 400; }
 
-/* Keep the first group heading centered and close to the timeline. */
+/* Keep group headings centered and close to their timelines. */
 .page__content > h2.publication-group-title {
     text-align: center;
-    font-size: 1.05em;
+    font-family: "Kaiti SC", "STKaiti", "KaiTi", serif;
+    font-size: 1.25em;
     line-height: 1.3;
     margin: 0;
 }

@@ -97,9 +97,7 @@ other_lang_url: /publications/
     </div>
 </div>
 
-<a id="published-papers"></a>
-
-## 发表论文
+<h2 id="published-papers" class="publication-group-title">发表论文</h2>
 
 <div class="publications-container">
     <div class="timeline">
@@ -247,9 +245,7 @@ other_lang_url: /publications/
     </div>
 </div>
 
-<a id="collaborative-pubs"></a>
-
-## 合作论文
+<h2 id="collaborative-pubs" class="publication-group-title">合作论文</h2>
 
 <div class="publications-container">
     <div class="timeline">
