@@ -30,8 +30,9 @@ other_lang_url: /publications/
     </li>
     <li><a href="#collaborative-pubs">合作论文</a>
         <ul>
-            <li><a href="#paper-review-jad">1. J. Affect. Disord.</a></li>
-            <li><a href="#paper-pub-ejp">2. Eur. J. Psychiatry</a></li>
+            <li><a href="#paper-pub-blc">1. Bilingualism: Lang. Cogn.</a></li>
+            <li><a href="#paper-review-jad">2. J. Affect. Disord.</a></li>
+            <li><a href="#paper-pub-ejp">3. Eur. J. Psychiatry</a></li>
         </ul>
     </li>
 </ul>
@@ -234,6 +235,26 @@ other_lang_url: /publications/
 
 <div class="publications-container">
     <div class="timeline">
+
+        <div class="timeline-item" id="paper-pub-blc">
+            <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-09">2026年9月</time>
+            <div class="timeline-content">
+                <div class="tl-paper-title tl-citation">Wang, L., Chu, R., <strong><u>Zhang, T.</u></strong>, Li, H., Shi, H., & Wang, Z.<sup>*</sup> (2026). Domain-dependent mechanisms of L2 proficiency in interference suppression: A drift-diffusion analysis of verbal and spatial Stroop in Chinese–English bilinguals. <strong><em>Bilingualism: Language and Cognition</em></strong>, 1–16. <a href="https://doi.org/10.1017/S1366728926101965" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1017/S1366728926101965</a> <a href="https://tyzhang98.github.io/zhang/files/Bilingualism-Language-and-Cognition.pdf" class="tl-link-btn">[PDF]</a></div>
+                <div class="tl-abstract">
+                    <button type="button" class="tl-abstract-trigger" aria-expanded="false" aria-controls="abstract-9">查看摘要</button>
+                    <div class="tl-abstract-content" id="abstract-9">
+                        Whether and how second-language (L2) proficiency shapes cognitive control remain debated. We examined its influence on interference suppression across verbal and spatial domains in 154 Chinese–English bilinguals who completed parallel verbal and spatial Stroop tasks. L2 proficiency was modeled in three groups and continuously, and latent processes were decomposed via hierarchical Bayesian drift-diffusion modeling. Higher proficiency was associated with reduced interference in both domains, with a greater reduction in the verbal domain. Group-based model comparison favored verbal drift-rate variation and spatial decision-threshold variation. Joint regressions included proficiency, daily L2 use, L2 exposure, age of acquisition and years of learning. Proficiency was associated with higher drift rates and thresholds and shorter nondecision times in both tasks. Daily L2 use and L2 exposure were associated with verbal and spatial parameters, respectively. These findings provide computational evidence for a task-dependent account of bilingual cognitive control involving proficiency and other experience dimensions.
+                    </div>
+                </div>
+                <div class="tl-gallery">
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 1</div>
+                        <button type="button" class="tl-figure-trigger" aria-label="放大查看配图" data-img-src="/zhang/images/BLC-Figure1.png"><img src="/zhang/images/BLC-Figure1.png" alt="Figure 1: Trial design and procedure for the verbal and spatial Stroop tasks"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="timeline-item" id="paper-review-jad">
             <div class="timeline-marker"></div>
