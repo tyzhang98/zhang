@@ -13,8 +13,8 @@ other_lang_url: /publications-cn/
     <li><a href="#unpublished-papers">Manuscripts under review</a>
         <ul>
             <li><a href="#paper-submitted-cognition">1. Cognition</a></li>
-            <li><a href="#paper-review-jep">2. JEP: General</a></li>
-            <li><a href="#paper-prep-6">3. Cognitive Science</a></li>
+            <li><a href="#paper-review-jep">2. Cognition</a></li>
+            <li><a href="#paper-prep-6">3. Cognition</a></li>
         </ul>
     </li>
     <li><a href="#published-papers">Published papers</a>
@@ -48,7 +48,7 @@ other_lang_url: /publications-cn/
             <time class="tl-date" datetime="2026-10">October 2026</time>
             <div class="timeline-content">
                 <div class="tl-paper-title">General decision parameters account for shared behavioural and neural variation across interference and response inhibition</div>
-                <div class="tl-journal">Cognition</div>
+                <div class="tl-journal">Submitted to <strong><em>Cognition</em></strong></div>
                 <div class="tl-gallery">
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 1</div>
@@ -63,7 +63,7 @@ other_lang_url: /publications-cn/
             <time class="tl-date" datetime="2026-05">May 2026</time>
             <div class="timeline-content">
                 <div class="tl-paper-title">Hierarchical organization of cognitive processes underlies low cross-task correlations in inhibitory control: Evidence from drift diffusion modeling</div>
-                <div class="tl-journal">Journal of Experimental Psychology: General</div>
+                <div class="tl-journal">Submitted to <strong><em>Cognition</em></strong></div>
                 <div class="tl-gallery">
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 1</div>
@@ -78,7 +78,7 @@ other_lang_url: /publications-cn/
             <time class="tl-date" datetime="2026-01">January 2026</time>
             <div class="timeline-content">
                 <div class="tl-paper-title">Boundaries of Executive Functions in Large Language Models: GPT-4o Selectively Replicates Human Performance</div>
-                <div class="tl-journal">Cognitive Science</div>
+                <div class="tl-journal">Submitted to <strong><em>Cognition</em></strong></div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
                     <div class="tl-abstract-content">
