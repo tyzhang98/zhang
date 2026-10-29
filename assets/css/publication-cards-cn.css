@@ -49,7 +49,7 @@ body[data-page="publications"] #mainContent > p:has(> a[id]:only-child) {
     box-shadow: 0 1px 2px rgba(20, 45, 70, .04);
     transition: border-color .15s ease;
 }
-.timeline-content:hover, .timeline-content:focus-within { border-color: #e6b5b5; border-left-color: #c62828; }
+.timeline-content:hover, .timeline-content:focus-within { border-color: #e6b5b5; border-left-color: #ff0000; }
 .timeline-content:not(:has(> .tl-gallery)) { grid-template-columns: minmax(0, 1fr); }
 .tl-paper-title, .tl-journal, .tl-abstract { grid-column: 1; min-width: 0; }
 .tl-paper-title { margin: 0; color: #111827; font-weight: 400; line-height: 1.5; font-style: normal; }
