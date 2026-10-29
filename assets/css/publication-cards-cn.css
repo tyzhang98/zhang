@@ -39,7 +39,7 @@ body[data-page="publications"] #mainContent > p:has(> a[id]:only-child) {
 }
 .tl-date {
     display: block; margin: 0 0 4px; color: #003d7e;
-    font-size: .92em; font-weight: 700; line-height: 1.5;
+    font-size: 1em; font-weight: 700; line-height: 1.5;
 }
 .timeline-content {
     display: grid; grid-template-columns: minmax(0, 1fr) minmax(190px, 30%);
@@ -112,6 +112,6 @@ body[data-page="publications"] #mainContent > p:has(> a[id]:only-child) {
 #mainContent .authorship-note { clear: both; margin: 4px 0 8px; font-size: .85em; color: #555; }
 .tl-citation sup { font-size: .75em; line-height: 0; }
 
-/* Keep page/group headings and standalone manuscript titles unchanged. */
-#mainContent .tl-citation, #mainContent .tl-journal { font-size: 18.5px; }
+/* Enlarge paper text while retaining page and group heading sizes. */
+#mainContent .tl-paper-title, #mainContent .tl-journal { font-size: 18.5px; }
 #mainContent .tl-abstract-content { font-size: 16.5px; }
