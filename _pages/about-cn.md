@@ -11,7 +11,7 @@ redirect_from:
 - /about-cn.html
 ---
 
-<img class="profile-photo" src="/zhang/images/portrait.jpg" alt="张统一 / Tongyi Zhang">
+<img class="profile-photo" src="/zhang/images/bio-photo.jpg" alt="张统一 / Tongyi Zhang">
 
 <a id="about"></a>
 &emsp;&emsp;西北师范大学心理学院博士三年级研究生（2024级），目前在北京大学心理与认知科学学院访学（visiting student）。以第一作者身份在 *Child Development*、*Schizophrenia Bulletin*、*BMC Medicine*、*Translational Psychiatry*、*International Journal of Clinical and Health Psychology*、*Schizophrenia Research* 等国际期刊发表学术论文，入选2026年中国科协青年科技人才培育工程博士生专项计划，主持省级高校研究生"创新之星"科研项目一项。研究方向聚焦于人类高级认知的计算机制、发展规律与精神病理损伤，综合运用认知行为实验、功能磁共振成像（fMRI）等认知神经科学方法与计算建模、机器学习及大语言模型等计算技术，致力于阐明执行功能等高级认知过程的计算神经机制，并探索精神分裂症、抑郁症等精神障碍认知损伤的计算标记与干预靶点。
