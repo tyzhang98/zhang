@@ -13,8 +13,8 @@ other_lang_url: /publications-cn/
     <li><a href="#unpublished-papers">Manuscripts under review</a>
         <ul>
             <li><a href="#paper-submitted-cognition">1. Cognition</a></li>
-            <li><a href="#paper-review-jep">2. Cognition</a></li>
-            <li><a href="#paper-prep-6">3. Cognition</a></li>
+            <li><a href="#paper-review-jep">2. JEP: General</a></li>
+            <li><a href="#paper-prep-6">3. Cognitive Science</a></li>
         </ul>
     </li>
     <li><a href="#published-papers">Published papers</a>
@@ -63,7 +63,7 @@ other_lang_url: /publications-cn/
             <time class="tl-date" datetime="2026-05">May 2026</time>
             <div class="timeline-content">
                 <div class="tl-paper-title">Hierarchical organization of cognitive processes underlies low cross-task correlations in inhibitory control: Evidence from drift diffusion modeling</div>
-                <div class="tl-journal">Submitted to <strong><em>Cognition</em></strong></div>
+                <div class="tl-journal">Submitted to <strong><em>Journal of Experimental Psychology: General</em></strong></div>
                 <div class="tl-gallery">
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 1</div>
@@ -78,7 +78,7 @@ other_lang_url: /publications-cn/
             <time class="tl-date" datetime="2026-01">January 2026</time>
             <div class="timeline-content">
                 <div class="tl-paper-title">Boundaries of Executive Functions in Large Language Models: GPT-4o Selectively Replicates Human Performance</div>
-                <div class="tl-journal">Submitted to <strong><em>Cognition</em></strong></div>
+                <div class="tl-journal">Submitted to <strong><em>Cognitive Science</em></strong></div>
                 <div class="tl-gallery">
                     <div class="tl-gallery-item">
                         <div class="tl-gallery-label">Figure 1</div>
