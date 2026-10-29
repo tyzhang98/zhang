@@ -245,12 +245,6 @@ other_lang_url: /publications-cn/
                         Whether and how second-language (L2) proficiency shapes cognitive control remain debated. We examined its influence on interference suppression across verbal and spatial domains in 154 Chinese–English bilinguals who completed parallel verbal and spatial Stroop tasks. L2 proficiency was modeled in three groups and continuously, and latent processes were decomposed via hierarchical Bayesian drift-diffusion modeling. Higher proficiency was associated with reduced interference in both domains, with a greater reduction in the verbal domain. Group-based model comparison favored verbal drift-rate variation and spatial decision-threshold variation. Joint regressions included proficiency, daily L2 use, L2 exposure, age of acquisition and years of learning. Proficiency was associated with higher drift rates and thresholds and shorter nondecision times in both tasks. Daily L2 use and L2 exposure were associated with verbal and spatial parameters, respectively. These findings provide computational evidence for a task-dependent account of bilingual cognitive control involving proficiency and other experience dimensions.
                     </div>
                 </div>
-                <div class="tl-gallery">
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 1</div>
-                        <button type="button" class="tl-figure-trigger" aria-label="Enlarge figure" data-img-src="/zhang/images/BLC-Figure1.png"><img src="/zhang/images/BLC-Figure1.png" alt="Figure 1: Trial design and procedure for the verbal and spatial Stroop tasks"></button>
-                    </div>
-                </div>
             </div>
         </div>
 
