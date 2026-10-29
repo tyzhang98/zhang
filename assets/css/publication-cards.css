@@ -54,7 +54,7 @@ body[data-page="publications"] #mainContent > p:has(> a[id]:only-child) {
 .tl-paper-title, .tl-journal, .tl-abstract { grid-column: 1; min-width: 0; }
 .tl-paper-title { margin: 0; color: #111827; font-weight: 400; line-height: 1.5; font-style: normal; }
 .tl-citation { font-weight: 400; }
-.tl-journal { margin: 0; color: #003d7e; font-weight: 400; font-style: italic; line-height: 1.45; }
+.tl-journal { margin: 0; color: #000; font-weight: 400; font-style: italic; line-height: 1.45; }
 .tl-link-btn { padding: 0; border: 0; background: transparent; color: #003d7e; text-decoration: none; cursor: pointer; }
 .tl-link-btn:hover { color: #1677c8; text-decoration: underline; }
 .tl-gallery {
