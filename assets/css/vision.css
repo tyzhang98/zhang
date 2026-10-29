@@ -21,7 +21,7 @@ h3 { font-size: 1.17em; }
 p { margin: 1em 0; }
 li { margin-bottom: 4px; }
 img { max-width: 100%; }
-.profile-photo { width: 155px; height: auto; float: right; margin: 0 0 16px 24px; }
+.profile-photo { width: 155px; height: auto; float: left; margin: 0 24px 16px 0; }
 .profile-links { clear: both; font-size: .9em; }
 #footer { padding: 0 10px; background: #ddd; clear: both; }
 #footer p { margin: 0; padding: 10px 0; text-align: center; font-size: .85em; line-height: 1.5; }
@@ -50,7 +50,7 @@ hr { border: 0; border-top: 1px solid #ccc; }
   #sidebar1 h3 { font-size: .9em; margin: 0; }
   #mainContent { padding: 0 12px 18px; }
   #mainContent #locationMap { width: 100%; }
-  .profile-photo { width: 112px; margin-left: 14px; }
+  .profile-photo { width: 112px; margin-left: 0; margin-right: 14px; }
   #footer p { font-size: .75em; }
 }
 @media (prefers-reduced-motion: reduce) {
