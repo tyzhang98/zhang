@@ -58,3 +58,13 @@ hr { border: 0; border-top: 1px solid #ccc; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .timeline-item { opacity: 1 !important; }
 }
+
+/* Increase body text only; navigation, headings and layout retain their sizes. */
+#mainContent > p,
+#mainContent > ul,
+#mainContent > ol { font-size: 18px; }
+#mainContent .profile-links { font-size: 16.2px; }
+#mainContent .tl-paper-title,
+#mainContent .tl-journal { font-size: 17.1px; }
+#mainContent .tl-abstract-content,
+#mainContent .tl-info-line { font-size: 15.3px; }
