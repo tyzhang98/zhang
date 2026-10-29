@@ -100,10 +100,7 @@ other_lang_url: /publications-cn/
             <div class="timeline-marker"></div>
             <time class="tl-date" datetime="2026-07">July 2026</time>
             <div class="timeline-content">
-                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Wang, S., Shi, H., Li, J., Yang, X., Jiao, J., Huo, X., & Zhao, X. (2026). Shared and disorder-specific computational mechanisms of interference and response inhibition in schizophrenia and major depressive disorder. <strong><em>Translational Psychiatry</em></strong>, <em>16</em>, 590. <a href="https://doi.org/10.1038/s41398-026-04345-3" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1038/s41398-026-04345-3</a></div>
-                <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/Translational-Psychiatry.pdf" class="tl-link-btn">PDF</a>
-                </div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Wang, S., Shi, H., Li, J., Yang, X., Jiao, J., Huo, X., & Zhao, X. (2026). Shared and disorder-specific computational mechanisms of interference and response inhibition in schizophrenia and major depressive disorder. <strong><em>Translational Psychiatry</em></strong>, <em>16</em>, 590. <a href="https://doi.org/10.1038/s41398-026-04345-3" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1038/s41398-026-04345-3</a> <a href="https://tyzhang98.github.io/zhang/files/Translational-Psychiatry.pdf" class="tl-link-btn">[PDF]</a></div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
                     <div class="tl-abstract-content">
@@ -123,10 +120,7 @@ other_lang_url: /publications-cn/
             <div class="timeline-marker"></div>
             <time class="tl-date" datetime="2026-07">July 2026</time>
             <div class="timeline-content">
-                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Gong, Y., & Zhao, X. (2026). Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence. <strong><em>Child Development</em></strong>, aacag107. <a href="https://doi.org/10.1093/chidev/aacag107" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/chidev/aacag107</a></div>
-                <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/Child-Development.pdf" class="tl-link-btn">PDF</a>
-                </div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Gong, Y., & Zhao, X. (2026). Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence. <strong><em>Child Development</em></strong>, aacag107. <a href="https://doi.org/10.1093/chidev/aacag107" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/chidev/aacag107</a> <a href="https://tyzhang98.github.io/zhang/files/Child-Development.pdf" class="tl-link-btn">[PDF]</a></div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
                     <div class="tl-abstract-content">
@@ -146,10 +140,7 @@ other_lang_url: /publications-cn/
             <div class="timeline-marker"></div>
             <time class="tl-date" datetime="2026-05">May 2026</time>
             <div class="timeline-content">
-                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Huo, X., Chen, J., & Zhao, X. (2026). Executive function profiles identify stable schizophrenia subtypes with distinct symptoms, biological markers and treatment responses: A cross-time clustering and validation study. <strong><em>BMC Medicine</em></strong>, <em>24</em>, 403. <a href="https://doi.org/10.1186/s12916-026-04955-0" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1186/s12916-026-04955-0</a></div>
-                <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/BMC-Medicine.pdf" class="tl-link-btn">PDF</a>
-                </div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Huo, X., Chen, J., & Zhao, X. (2026). Executive function profiles identify stable schizophrenia subtypes with distinct symptoms, biological markers and treatment responses: A cross-time clustering and validation study. <strong><em>BMC Medicine</em></strong>, <em>24</em>, 403. <a href="https://doi.org/10.1186/s12916-026-04955-0" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1186/s12916-026-04955-0</a> <a href="https://tyzhang98.github.io/zhang/files/BMC-Medicine.pdf" class="tl-link-btn">[PDF]</a></div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
                     <div class="tl-abstract-content">
@@ -169,10 +160,7 @@ other_lang_url: /publications-cn/
             <div class="timeline-marker"></div>
             <time class="tl-date" datetime="2026-03">March 2026</time>
             <div class="timeline-content">
-                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2026). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. <strong><em>Schizophrenia Bulletin</em></strong>, <em>52</em>(2), sbaf218. <a href="https://doi.org/10.1093/schbul/sbaf218" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/schbul/sbaf218</a></div>
-                <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/Schizophrenia-Bulletin.pdf" class="tl-link-btn">PDF</a>
-                </div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2026). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. <strong><em>Schizophrenia Bulletin</em></strong>, <em>52</em>(2), sbaf218. <a href="https://doi.org/10.1093/schbul/sbaf218" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/schbul/sbaf218</a> <a href="https://tyzhang98.github.io/zhang/files/Schizophrenia-Bulletin.pdf" class="tl-link-btn">[PDF]</a></div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
                     <div class="tl-abstract-content">
@@ -194,10 +182,7 @@ other_lang_url: /publications-cn/
             <div class="timeline-marker"></div>
             <time class="tl-date" datetime="2025-10">October 2025</time>
             <div class="timeline-content">
-                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <strong><em>International Journal of Clinical and Health Psychology</em></strong>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ijchp.2025.100628</a></div>
-                <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/IJCHP.pdf" class="tl-link-btn">PDF</a>
-                </div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <strong><em>International Journal of Clinical and Health Psychology</em></strong>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ijchp.2025.100628</a> <a href="https://tyzhang98.github.io/zhang/files/IJCHP.pdf" class="tl-link-btn">[PDF]</a></div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
                     <div class="tl-abstract-content">
@@ -220,10 +205,7 @@ other_lang_url: /publications-cn/
             <div class="timeline-marker"></div>
             <time class="tl-date" datetime="2025-07">July 2025</time>
             <div class="timeline-content">
-                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <strong><em>Schizophrenia Research</em></strong>, <em>282</em>, 203-213. <a href="https://doi.org/10.1016/j.schres.2025.06.012" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.schres.2025.06.012</a></div>
-                <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/Schizophrenia-Research.pdf" class="tl-link-btn">PDF</a>
-                </div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <strong><em>Schizophrenia Research</em></strong>, <em>282</em>, 203-213. <a href="https://doi.org/10.1016/j.schres.2025.06.012" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.schres.2025.06.012</a> <a href="https://tyzhang98.github.io/zhang/files/Schizophrenia-Research.pdf" class="tl-link-btn">[PDF]</a></div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
                     <div class="tl-abstract-content">
@@ -254,10 +236,7 @@ other_lang_url: /publications-cn/
             <div class="timeline-marker"></div>
             <time class="tl-date" datetime="2026-08">August 2026</time>
             <div class="timeline-content">
-                <div class="tl-paper-title tl-citation">Shi, H., <strong><u>Zhang, T.</u></strong>, Wang, Z., Yang, X., Shao, Z., & Ma, X. (2026). Latent profiles of generative artificial intelligence use among Chinese college students: Associations with depression and anxiety. <strong><em>Journal of Affective Disorders</em></strong>, <em>415</em>, 122428. <a href="https://doi.org/10.1016/j.jad.2026.122428" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.jad.2026.122428</a></div>
-                <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">PDF</a>
-                </div>
+                <div class="tl-paper-title tl-citation">Shi, H., <strong><u>Zhang, T.</u></strong>, Wang, Z., Yang, X., Shao, Z., & Ma, X. (2026). Latent profiles of generative artificial intelligence use among Chinese college students: Associations with depression and anxiety. <strong><em>Journal of Affective Disorders</em></strong>, <em>415</em>, 122428. <a href="https://doi.org/10.1016/j.jad.2026.122428" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.jad.2026.122428</a> <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">[PDF]</a></div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
                     <div class="tl-abstract-content">
@@ -271,10 +250,7 @@ other_lang_url: /publications-cn/
             <div class="timeline-marker"></div>
             <time class="tl-date" datetime="2026-04">April 2026</time>
             <div class="timeline-content">
-                <div class="tl-paper-title tl-citation">Yang, X., <strong><u>Zhang, T.</u></strong>, Ren, X., Wang, Y., Lv, H., Su, M., Huo, X., & Zhao, X. (2026). Differential profiles of executive function dimensions in first-episode and chronic schizophrenia: Identifying markers of illness stage. <strong><em>The European Journal of Psychiatry</em></strong>, <em>40</em>(2), 100351. <a href="https://doi.org/10.1016/j.ejpsy.2026.100351" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ejpsy.2026.100351</a></div>
-                <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/European-Journal-of-Psychiatry.pdf" class="tl-link-btn">PDF</a>
-                </div>
+                <div class="tl-paper-title tl-citation">Yang, X., <strong><u>Zhang, T.</u></strong>, Ren, X., Wang, Y., Lv, H., Su, M., Huo, X., & Zhao, X. (2026). Differential profiles of executive function dimensions in first-episode and chronic schizophrenia: Identifying markers of illness stage. <strong><em>The European Journal of Psychiatry</em></strong>, <em>40</em>(2), 100351. <a href="https://doi.org/10.1016/j.ejpsy.2026.100351" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ejpsy.2026.100351</a> <a href="https://tyzhang98.github.io/zhang/files/European-Journal-of-Psychiatry.pdf" class="tl-link-btn">[PDF]</a></div>
                 <div class="tl-abstract">
                     <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
                     <div class="tl-abstract-content">
