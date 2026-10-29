@@ -33,7 +33,7 @@ hr { border: 0; border-top: 1px solid #ccc; }
 .publication-index-list { margin: 10px 0 0; padding-left: 22px; }
 .publication-index-list li { margin: 3px 0; }
 #mainContent .tl-paper-title a { overflow-wrap: anywhere; }
-#mainContent #locationMap { max-width: 100%; }
+#mainContent #locationMap { width: 82%; max-width: 900px; margin: 20px auto; }
 @media (max-width: 900px) {
   #container { width: 94%; }
   .vision-columns { grid-template-columns: 10.5em minmax(0, 1fr); }
@@ -49,6 +49,7 @@ hr { border: 0; border-top: 1px solid #ccc; }
   #sidebar1 { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 10px 14px; }
   #sidebar1 h3 { font-size: .9em; margin: 0; }
   #mainContent { padding: 0 12px 18px; }
+  #mainContent #locationMap { width: 100%; }
   .profile-photo { width: 112px; margin-left: 14px; }
   #footer p { font-size: .75em; }
 }
