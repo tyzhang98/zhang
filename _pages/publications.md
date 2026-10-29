@@ -38,9 +38,7 @@ other_lang_url: /publications-cn/
 
 <a id="pub-papers"></a>
 
-<a id="unpublished-papers"></a>
-
-## Manuscripts under review
+<h2 id="unpublished-papers" class="publication-group-title">Manuscripts under review</h2>
 
 <div class="publications-container">
     <div class="timeline">

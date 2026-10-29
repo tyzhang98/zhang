@@ -38,9 +38,7 @@ other_lang_url: /publications/
 
 <a id="pub-papers"></a>
 
-<a id="unpublished-papers"></a>
-
-## 在投论文
+<h2 id="unpublished-papers" class="publication-group-title">在投论文</h2>
 
 <div class="publications-container">
     <div class="timeline">
