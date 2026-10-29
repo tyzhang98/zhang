@@ -1,7 +1,7 @@
 /* Layout follows the Vision and Attention Lab reference: grey canvas,
    white 80% page, grey header/sidebar, university-blue headings and vertical navigation. */
 html { scroll-behavior: smooth; }
-body { font: 100% Verdana, Arial, Helvetica, sans-serif; background: #666; margin: 0; padding: 0; color: #000; }
+body { font: 100% "Times New Roman", "SimSun", "Songti SC", "STSong", serif; background: #666; margin: 0; padding: 0; color: #000; }
 * { box-sizing: border-box; }
 #container { width: 80%; max-width: 1600px; margin: 0 auto; background: #fff; border: 1px solid #000; text-align: left; }
 #header { background: #ddd; padding: 0 10px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
@@ -69,3 +69,7 @@ hr { border: 0; border-top: 1px solid #ccc; }
 #mainContent .tl-journal { font-size: 17.1px; }
 #mainContent .tl-abstract-content,
 #mainContent .tl-info-line { font-size: 15.3px; }
+
+/* Keep controls and third-party map text consistent with the site fonts. */
+button, input, select, textarea { font-family: inherit; }
+#locationMap, #locationMap * { font-family: inherit; }
