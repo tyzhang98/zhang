@@ -11,7 +11,7 @@ redirect_from:
 - /about.html
 ---
 
-<img class="profile-photo" src="/zhang/images/profile.png" alt="张统一 / Tongyi Zhang">
+<img class="profile-photo" src="/zhang/images/portrait.jpg" alt="张统一 / Tongyi Zhang">
 
 <a id="about"></a>
 &emsp;&emsp;I am a third-year PhD candidate in Psychology at Northwest Normal University and am currently a visiting student at the School of Psychological and Cognitive Sciences, Peking University. I have published first-author papers in *Child Development*, *Schizophrenia Bulletin*, *BMC Medicine*, *Translational Psychiatry*, *International Journal of Clinical and Health Psychology*, and *Schizophrenia Research*, and I was selected for the 2026 Doctoral Student Special Program of the China Association for Science and Technology (CAST) Young Science and Technology Talent Development Project. I also lead a provincial-level Graduate Innovation Star research project. My research centers on the computational, developmental, and psychopathological mechanisms of higher-order cognition. Drawing on cognitive-behavioral experiments, functional magnetic resonance imaging (fMRI), and related cognitive neuroscience paradigms—combined with computational modeling, machine learning, and large language models—I aim to elucidate the computational and developmental architecture of executive and higher-order cognitive functions, and to identify cognitive intervention targets in schizophrenia, major depressive disorder, and related psychiatric conditions.
