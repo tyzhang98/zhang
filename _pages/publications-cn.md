@@ -10,102 +10,45 @@ other_lang_url: /publications/
 
 <details class="publication-index"><summary>论文目录</summary>
 <ul class="publication-index-list">
-                <li class="toc-subitem"><a href="#paper-submitted-cognition" class="toc-sublink">1. Cognition （已投稿）</a></li>
-                <li class="toc-subitem"><a href="#paper-review-jep" class="toc-sublink">2. JEP: General （大修）</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-6" class="toc-sublink">3. Cognitive Science （大修）</a></li>
-                <li class="toc-subitem"><a href="#paper-review-tp" class="toc-sublink">4. Transl. Psychiatry （已发表）</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-5" class="toc-sublink">5. Child Dev. （已发表）</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-4" class="toc-sublink">6. BMC Med. （已接收）</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-3" class="toc-sublink">7. Schizophr. Bull. （已发表）</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-2" class="toc-sublink">8. Int. J. Clin. Health Psychol. （已发表）</a></li>
-                <li class="toc-subitem"><a href="#paper-prep-1" class="toc-sublink">9. Schizophr. Res. （已发表）</a></li>
-            </ul>
+    <li><a href="#paper-review-jad">1. J. Affect. Disord.</a></li>
+    <li><a href="#paper-review-tp">2. Transl. Psychiatry</a></li>
+    <li><a href="#paper-prep-5">3. Child Dev.</a></li>
+    <li><a href="#paper-prep-4">4. BMC Med.</a></li>
+    <li><a href="#paper-pub-ejp">5. Eur. J. Psychiatry</a></li>
+    <li><a href="#paper-prep-3">6. Schizophr. Bull.</a></li>
+    <li><a href="#paper-prep-2">7. Int. J. Clin. Health Psychol.</a></li>
+    <li><a href="#paper-prep-1">8. Schizophr. Res.</a></li>
+    <li><a href="#paper-submitted-cognition">9. Cognition</a></li>
+    <li><a href="#paper-review-jep">10. JEP: General</a></li>
+    <li><a href="#paper-prep-6">11. Cognitive Science</a></li>
+</ul>
 </details>
 
 <a id="pub-papers"></a>
+<a id="collaborative-pubs"></a>
 
-## 研究论文
+## 已发表论文
 
 <div class="publications-container">
     <div class="timeline">
 
-        <!-- Submitted - Cognition -->
-        <div class="timeline-item" id="paper-submitted-cognition">
+        <div class="timeline-item" id="paper-review-jad">
             <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-08">2026年8月</time>
             <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status review">已投稿</span>
-                <div class="tl-paper-title">General decision parameters account for shared behavioural and neural variation across interference and response inhibition</div>
-                <div class="tl-journal">Submitted to Cognition</div>
+                <div class="tl-paper-title tl-citation">Shi, H., <strong><u>Zhang, T.</u></strong>, Wang, Z., Yang, X., Shao, Z., & Ma, X. (2026). Latent profiles of generative artificial intelligence use among Chinese college students: Associations with depression and anxiety. <strong><em>Journal of Affective Disorders</em></strong>, <em>415</em>, 122428. <a href="https://doi.org/10.1016/j.jad.2026.122428" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.jad.2026.122428</a></div>
                 <div class="tl-info-line">
-                    <span>独立一作</span>
-                </div>
-                <div class="tl-gallery">
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 1</div>
-                        <img src="/zhang/images/Cognition-Figure1.jpg" alt="Cognition Figure 1: Study design and analytical framework" onclick="openImgModal('/zhang/images/Cognition-Figure1.jpg')">
-                    </div>
+                    <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>
 
-        <!-- Major Revision - JEP:General -->
-        <div class="timeline-item" id="paper-review-jep">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status review">Major Revision</span>
-                <div class="tl-paper-title">Hierarchical organization of cognitive processes underlies low cross-task correlations in inhibitory control: Evidence from drift diffusion modeling</div>
-                <div class="tl-journal">Submitted to Journal of Experimental Psychology: General</div>
-                <div class="tl-info-line">
-                    <span>共同一作(次序第一)</span>
-                </div>
-                <div class="tl-gallery">
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 1</div>
-                        <img src="/zhang/images/JEP-Figure1.png" alt="Figure 1" onclick="openImgModal('/zhang/images/JEP-Figure1.png')">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Major Revision - Cognitive Science -->
-        <div class="timeline-item" id="paper-prep-6">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2025年</div>
-                <span class="tl-status review">Major Revision</span>
-                <div class="tl-paper-title">Boundaries of Executive Functions in Large Language Models: GPT-4o Selectively Replicates Human Performance</div>
-                <div class="tl-journal">Submitted to Cognitive Science</div>
-                <div class="tl-info-line">
-                    <span>独立一作</span>
-                </div>
-                <div class="tl-abstract">
-                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
-                    <div class="tl-abstract-content">
-                        <strong>Abstract:</strong> Large language models (LLMs) have demonstrated considerable capabilities in complex reasoning and problem-solving tasks that, in humans, depend on executive functions (EFs). However, the extent to which these models replicate human EF patterns remains unclear. We systematically evaluated GPT-4o's performance across three core EF dimensions—inhibitory control, working memory, and cognitive flexibility—using established behavioral paradigms. Additionally, we examined whether model-internal log probability parameters could serve as quantitative indicators of cognitive processing analogous to human neural activity. Using two independent datasets (N₁=1,970; N₂=39), we simulated trial-by-trial responses through GPT-4o while recording log probability metrics. Bayesian analyses revealed selective replication of human EF patterns. GPT-4o successfully reproduced human-like performance in interference inhibition (stroop), working memory capacity (digit span), and working memory updating (n-back). In contrast, the model showed divergent patterns in response inhibition (Go/No-Go), time-sensitive working memory updating (running memory task with presentation times of 1750 ms and 750 ms), and cognitive flexibility (number-switching task). Log probability parameters demonstrated task-specific associations with behavioral measures and corresponded with activation patterns in EF-related brain regions during working memory and task-switching paradigms. These findings suggest that GPT-4o captures specific aspects of human EF, particularly those involving symbolic representation and static information maintenance, while showing limitations in dynamic control and temporal processing. This selective replication pattern provides insights into both the computational basis of EF and the cognitive boundaries of current LLM architectures. Our results indicate that log probability parameters may offer a window into LLM cognitive processing, providing a methodological framework for evaluating artificial cognitive mechanisms.
-                    </div>
-                </div>
-                <div class="tl-gallery">
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 1</div>
-                        <img src="/zhang/images/CogSci-Figure1.jpg" alt="Figure 1" onclick="openImgModal('/zhang/images/CogSci-Figure1.jpg')">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Published - Translational Psychiatry -->
         <div class="timeline-item" id="paper-review-tp">
             <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-07">2026年7月</time>
             <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status published">Published</span>
-                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Wang, S., Shi, H., Li, J., Yang, X., Jiao, J., Huo, X., & Zhao, X. (2026). Shared and disorder-specific computational mechanisms of interference and response inhibition in schizophrenia and major depressive disorder. <strong><em>Translational Psychiatry</em></strong>, <em>16</em>, 590. <a href="https://doi.org/10.1038/s41398-026-04345-3" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1038/s41398-026-04345-3</a></div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Wang, S., Shi, H., Li, J., Yang, X., Jiao, J., Huo, X., & Zhao, X. (2026). Shared and disorder-specific computational mechanisms of interference and response inhibition in schizophrenia and major depressive disorder. <strong><em>Translational Psychiatry</em></strong>, <em>16</em>, 590. <a href="https://doi.org/10.1038/s41398-026-04345-3" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1038/s41398-026-04345-3</a></div>
                 <div class="tl-info-line">
-                    <span>独立一作</span>
-                    <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/Translational-Psychiatry.pdf" class="tl-link-btn">PDF</a>
                 </div>
                 <div class="tl-gallery">
@@ -117,16 +60,12 @@ other_lang_url: /publications/
             </div>
         </div>
 
-        <!-- Published - Child Development -->
         <div class="timeline-item" id="paper-prep-5">
             <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-07">2026年7月</time>
             <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status published">Published</span>
-                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Gong, Y., & Zhao, X. (2026). Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence. <strong><em>Child Development</em></strong>, aacag107. <a href="https://doi.org/10.1093/chidev/aacag107" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/chidev/aacag107</a></div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Gong, Y., & Zhao, X. (2026). Two systems, two timelines: Computational evidence for dissociable development in inhibitory control across childhood and adolescence. <strong><em>Child Development</em></strong>, aacag107. <a href="https://doi.org/10.1093/chidev/aacag107" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/chidev/aacag107</a></div>
                 <div class="tl-info-line">
-                    <span>独立一作</span>
-                    <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/Child-Development.pdf" class="tl-link-btn">PDF</a>
                 </div>
                 <div class="tl-abstract">
@@ -144,16 +83,12 @@ other_lang_url: /publications/
             </div>
         </div>
 
-        <!-- Published - BMC Medicine -->
         <div class="timeline-item" id="paper-prep-4">
             <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-05">2026年5月</time>
             <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status published">Published</span>
-                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Huo, X., Chen, J., & Zhao, X. (2026). Executive function profiles identify stable schizophrenia subtypes with distinct symptoms, biological markers and treatment responses: A cross-time clustering and validation study. <strong><em>BMC Medicine</em></strong>, <em>24</em>, 403. <a href="https://doi.org/10.1186/s12916-026-04955-0" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1186/s12916-026-04955-0</a></div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Huo, X., Chen, J., & Zhao, X. (2026). Executive function profiles identify stable schizophrenia subtypes with distinct symptoms, biological markers and treatment responses: A cross-time clustering and validation study. <strong><em>BMC Medicine</em></strong>, <em>24</em>, 403. <a href="https://doi.org/10.1186/s12916-026-04955-0" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1186/s12916-026-04955-0</a></div>
                 <div class="tl-info-line">
-                    <span>独立一作</span>
-                    <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/BMC-Medicine.pdf" class="tl-link-btn">PDF</a>
                 </div>
                 <div class="tl-abstract">
@@ -171,16 +106,23 @@ other_lang_url: /publications/
             </div>
         </div>
 
-        <!-- Published - Schizophrenia Bulletin -->
+        <div class="timeline-item" id="paper-pub-ejp">
+            <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-04">2026年4月</time>
+            <div class="timeline-content">
+                <div class="tl-paper-title tl-citation">Yang, X., <strong><u>Zhang, T.</u></strong>, Ren, X., Wang, Y., Lv, H., Su, M., Huo, X., & Zhao, X. (2026). Differential profiles of executive function dimensions in first-episode and chronic schizophrenia: Identifying markers of illness stage. <strong><em>The European Journal of Psychiatry</em></strong>, <em>40</em>(2), 100351. <a href="https://doi.org/10.1016/j.ejpsy.2026.100351" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ejpsy.2026.100351</a></div>
+                <div class="tl-info-line">
+                    <a href="https://tyzhang98.github.io/zhang/files/European-Journal-of-Psychiatry.pdf" class="tl-link-btn">PDF</a>
+                </div>
+            </div>
+        </div>
+
         <div class="timeline-item" id="paper-prep-3">
             <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-03">2026年3月</time>
             <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status published">Published</span>
-                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2026). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. <strong><em>Schizophrenia Bulletin</em></strong>, <em>52</em>(2), sbaf218. <a href="https://doi.org/10.1093/schbul/sbaf218" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/schbul/sbaf218</a></div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Zhao, X., Yeo, B. T. T., Huo, X., Eickhoff, S. B., & Chen, J. (2026). Leveraging Stacked Classifiers for Multi-task Executive Function in Schizophrenia Yields Diagnostic and Prognostic Insights. <strong><em>Schizophrenia Bulletin</em></strong>, <em>52</em>(2), sbaf218. <a href="https://doi.org/10.1093/schbul/sbaf218" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1093/schbul/sbaf218</a></div>
                 <div class="tl-info-line">
-                    <span>共同一作(次序第一)</span>
-                    <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/Schizophrenia-Bulletin.pdf" class="tl-link-btn">PDF</a>
                 </div>
                 <div class="tl-abstract">
@@ -200,16 +142,12 @@ other_lang_url: /publications/
             </div>
         </div>
 
-        <!-- Published #2 -->
         <div class="timeline-item" id="paper-prep-2">
             <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2025-10">2025年10月</time>
             <div class="timeline-content">
-                <div class="tl-date">2025年</div>
-                <span class="tl-status published">Published</span>
-                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <strong><em>International Journal of Clinical and Health Psychology</em></strong>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ijchp.2025.100628</a></div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Su, M., Huo, X., & Zhao, X. (2025). Rethinking the effects of working memory training on executive functions in schizophrenia: A machine learning approach. <strong><em>International Journal of Clinical and Health Psychology</em></strong>, <em>25</em>(4), 100628. <a href="https://doi.org/10.1016/j.ijchp.2025.100628" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ijchp.2025.100628</a></div>
                 <div class="tl-info-line">
-                    <span>共同一作(次序第一)</span>
-                    <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/IJCHP.pdf" class="tl-link-btn">PDF</a>
                 </div>
                 <div class="tl-abstract">
@@ -230,16 +168,12 @@ other_lang_url: /publications/
             </div>
         </div>
 
-        <!-- Published #1 -->
         <div class="timeline-item" id="paper-prep-1">
             <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2025-07">2025年7月</time>
             <div class="timeline-content">
-                <div class="tl-date">2025年</div>
-                <span class="tl-status published">Published</span>
-                <div class="tl-paper-title"><strong><u>Zhang, T.</u></strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <strong><em>Schizophrenia Research</em></strong>, <em>282</em>, 203-213. <a href="https://doi.org/10.1016/j.schres.2025.06.012" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.schres.2025.06.012</a></div>
+                <div class="tl-paper-title tl-citation"><strong><u>Zhang, T.</u></strong>, Yang, X., Mu, P., Huo, X., & Zhao, X. (2025). Stage-specific computational mechanisms of working memory deficits in first-episode and chronic schizophrenia. <strong><em>Schizophrenia Research</em></strong>, <em>282</em>, 203-213. <a href="https://doi.org/10.1016/j.schres.2025.06.012" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.schres.2025.06.012</a></div>
                 <div class="tl-info-line">
-                    <span>独立一作</span>
-                    <span class="tl-info-separator">|</span>
                     <a href="https://tyzhang98.github.io/zhang/files/Schizophrenia-Research.pdf" class="tl-link-btn">PDF</a>
                 </div>
                 <div class="tl-abstract">
@@ -259,10 +193,71 @@ other_lang_url: /publications/
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 
-<!-- 图片模态框 -->
+<a id="unpublished-papers"></a>
+
+## 未发表稿件
+
+<div class="publications-container">
+    <div class="timeline">
+
+        <div class="timeline-item" id="paper-submitted-cognition">
+            <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-10">2026年10月</time>
+            <div class="timeline-content">
+                <div class="tl-paper-title">General decision parameters account for shared behavioural and neural variation across interference and response inhibition</div>
+                <div class="tl-journal">Cognition</div>
+                <div class="tl-gallery">
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 1</div>
+                        <img src="/zhang/images/Cognition-Figure1.jpg" alt="Cognition Figure 1: Study design and analytical framework" onclick="openImgModal('/zhang/images/Cognition-Figure1.jpg')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item" id="paper-review-jep">
+            <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-05">2026年5月</time>
+            <div class="timeline-content">
+                <div class="tl-paper-title">Hierarchical organization of cognitive processes underlies low cross-task correlations in inhibitory control: Evidence from drift diffusion modeling</div>
+                <div class="tl-journal">Journal of Experimental Psychology: General</div>
+                <div class="tl-gallery">
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 1</div>
+                        <img src="/zhang/images/JEP-Figure1.png" alt="Figure 1" onclick="openImgModal('/zhang/images/JEP-Figure1.png')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item" id="paper-prep-6">
+            <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-01">2026年1月</time>
+            <div class="timeline-content">
+                <div class="tl-paper-title">Boundaries of Executive Functions in Large Language Models: GPT-4o Selectively Replicates Human Performance</div>
+                <div class="tl-journal">Cognitive Science</div>
+                <div class="tl-abstract">
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">查看摘要</span>
+                    <div class="tl-abstract-content">
+                        <strong>Abstract:</strong> Large language models (LLMs) have demonstrated considerable capabilities in complex reasoning and problem-solving tasks that, in humans, depend on executive functions (EFs). However, the extent to which these models replicate human EF patterns remains unclear. We systematically evaluated GPT-4o's performance across three core EF dimensions—inhibitory control, working memory, and cognitive flexibility—using established behavioral paradigms. Additionally, we examined whether model-internal log probability parameters could serve as quantitative indicators of cognitive processing analogous to human neural activity. Using two independent datasets (N₁=1,970; N₂=39), we simulated trial-by-trial responses through GPT-4o while recording log probability metrics. Bayesian analyses revealed selective replication of human EF patterns. GPT-4o successfully reproduced human-like performance in interference inhibition (stroop), working memory capacity (digit span), and working memory updating (n-back). In contrast, the model showed divergent patterns in response inhibition (Go/No-Go), time-sensitive working memory updating (running memory task with presentation times of 1750 ms and 750 ms), and cognitive flexibility (number-switching task). Log probability parameters demonstrated task-specific associations with behavioral measures and corresponded with activation patterns in EF-related brain regions during working memory and task-switching paradigms. These findings suggest that GPT-4o captures specific aspects of human EF, particularly those involving symbolic representation and static information maintenance, while showing limitations in dynamic control and temporal processing. This selective replication pattern provides insights into both the computational basis of EF and the cognitive boundaries of current LLM architectures. Our results indicate that log probability parameters may offer a window into LLM cognitive processing, providing a methodological framework for evaluating artificial cognitive mechanisms.
+                    </div>
+                </div>
+                <div class="tl-gallery">
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 1</div>
+                        <img src="/zhang/images/CogSci-Figure1.jpg" alt="Figure 1" onclick="openImgModal('/zhang/images/CogSci-Figure1.jpg')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 <div id="imgModal" class="img-modal" onclick="closeImgModal()">
     <span class="img-modal-close" onclick="closeImgModal()">&times;</span>
     <img class="img-modal-content" id="modalImg">
@@ -300,43 +295,3 @@ document.addEventListener('keydown', function(event) {
 });
 
 </script>
-
-<a id="collaborative-pubs"></a>
-
-## 合作发表（Collaborative Publications）
-
-<div class="publications-container">
-    <div class="timeline">
-
-        <!-- 合作发表 - Journal of Affective Disorders (史昊阳) -->
-        <div class="timeline-item" id="paper-review-jad">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status published">Published</span>
-                <div class="tl-paper-title">Shi, H., <strong><u>Zhang, T.</u></strong>, Wang, Z., Yang, X., Shao, Z., & Ma, X. (2026). Latent profiles of generative artificial intelligence use among Chinese college students: Associations with depression and anxiety. <strong><em>Journal of Affective Disorders</em></strong>, <em>415</em>, 122428. <a href="https://doi.org/10.1016/j.jad.2026.122428" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.jad.2026.122428</a></div>
-                <div class="tl-info-line">
-                    <span>共同一作(次序第二)</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">PDF</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- 合作发表 - European Journal of Psychiatry (杨小龙) -->
-        <div class="timeline-item" id="paper-pub-ejp">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-                <div class="tl-date">2026年</div>
-                <span class="tl-status published">Published</span>
-                <div class="tl-paper-title">Yang, X., <strong><u>Zhang, T.</u></strong>, Ren, X., Wang, Y., Lv, H., Su, M., Huo, X., & Zhao, X. (2026). Differential profiles of executive function dimensions in first-episode and chronic schizophrenia: Identifying markers of illness stage. <strong><em>The European Journal of Psychiatry</em></strong>, <em>40</em>(2), 100351. <a href="https://doi.org/10.1016/j.ejpsy.2026.100351" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ejpsy.2026.100351</a></div>
-                <div class="tl-info-line">
-                    <span>共同一作(次序第二)</span>
-                    <span class="tl-info-separator">|</span>
-                    <a href="https://tyzhang98.github.io/zhang/files/European-Journal-of-Psychiatry.pdf" class="tl-link-btn">PDF</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
