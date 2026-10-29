@@ -10,38 +10,101 @@ other_lang_url: /publications-cn/
 
 <details class="publication-index"><summary>Contents</summary>
 <ul class="publication-index-list">
-    <li><a href="#paper-review-jad">1. J. Affect. Disord.</a></li>
-    <li><a href="#paper-review-tp">2. Transl. Psychiatry</a></li>
-    <li><a href="#paper-prep-5">3. Child Dev.</a></li>
-    <li><a href="#paper-prep-4">4. BMC Med.</a></li>
-    <li><a href="#paper-pub-ejp">5. Eur. J. Psychiatry</a></li>
-    <li><a href="#paper-prep-3">6. Schizophr. Bull.</a></li>
-    <li><a href="#paper-prep-2">7. Int. J. Clin. Health Psychol.</a></li>
-    <li><a href="#paper-prep-1">8. Schizophr. Res.</a></li>
-    <li><a href="#paper-submitted-cognition">9. Cognition</a></li>
-    <li><a href="#paper-review-jep">10. JEP: General</a></li>
-    <li><a href="#paper-prep-6">11. Cognitive Science</a></li>
+    <li><a href="#unpublished-papers">Manuscripts under review</a>
+        <ul>
+            <li><a href="#paper-submitted-cognition">1. Cognition</a></li>
+            <li><a href="#paper-review-jep">2. JEP: General</a></li>
+            <li><a href="#paper-prep-6">3. Cognitive Science</a></li>
+        </ul>
+    </li>
+    <li><a href="#published-papers">Published papers</a>
+        <ul>
+            <li><a href="#paper-review-tp">1. Transl. Psychiatry</a></li>
+            <li><a href="#paper-prep-5">2. Child Dev.</a></li>
+            <li><a href="#paper-prep-4">3. BMC Med.</a></li>
+            <li><a href="#paper-prep-3">4. Schizophr. Bull.</a></li>
+            <li><a href="#paper-prep-2">5. Int. J. Clin. Health Psychol.</a></li>
+            <li><a href="#paper-prep-1">6. Schizophr. Res.</a></li>
+        </ul>
+    </li>
+    <li><a href="#collaborative-pubs">Collaborative publications</a>
+        <ul>
+            <li><a href="#paper-review-jad">1. J. Affect. Disord.</a></li>
+            <li><a href="#paper-pub-ejp">2. Eur. J. Psychiatry</a></li>
+        </ul>
+    </li>
 </ul>
 </details>
 
 <a id="pub-papers"></a>
-<a id="collaborative-pubs"></a>
+
+<a id="unpublished-papers"></a>
+
+## Manuscripts under review
+
+<div class="publications-container">
+    <div class="timeline">
+
+        <div class="timeline-item" id="paper-submitted-cognition">
+            <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-10">October 2026</time>
+            <div class="timeline-content">
+                <div class="tl-paper-title">General decision parameters account for shared behavioural and neural variation across interference and response inhibition</div>
+                <div class="tl-journal">Cognition</div>
+                <div class="tl-gallery">
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 1</div>
+                        <img src="/zhang/images/Cognition-Figure1.jpg" alt="Cognition Figure 1: Study design and analytical framework" onclick="openImgModal('/zhang/images/Cognition-Figure1.jpg')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item" id="paper-review-jep">
+            <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-05">May 2026</time>
+            <div class="timeline-content">
+                <div class="tl-paper-title">Hierarchical organization of cognitive processes underlies low cross-task correlations in inhibitory control: Evidence from drift diffusion modeling</div>
+                <div class="tl-journal">Journal of Experimental Psychology: General</div>
+                <div class="tl-gallery">
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 1</div>
+                        <img src="/zhang/images/JEP-Figure1.png" alt="Figure 1" onclick="openImgModal('/zhang/images/JEP-Figure1.png')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item" id="paper-prep-6">
+            <div class="timeline-marker"></div>
+            <time class="tl-date" datetime="2026-01">January 2026</time>
+            <div class="timeline-content">
+                <div class="tl-paper-title">Boundaries of Executive Functions in Large Language Models: GPT-4o Selectively Replicates Human Performance</div>
+                <div class="tl-journal">Cognitive Science</div>
+                <div class="tl-abstract">
+                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
+                    <div class="tl-abstract-content">
+                        <strong>Abstract:</strong> Large language models (LLMs) have demonstrated considerable capabilities in complex reasoning and problem-solving tasks that, in humans, depend on executive functions (EFs). However, the extent to which these models replicate human EF patterns remains unclear. We systematically evaluated GPT-4o's performance across three core EF dimensions—inhibitory control, working memory, and cognitive flexibility—using established behavioral paradigms. Additionally, we examined whether model-internal log probability parameters could serve as quantitative indicators of cognitive processing analogous to human neural activity. Using two independent datasets (N₁=1,970; N₂=39), we simulated trial-by-trial responses through GPT-4o while recording log probability metrics. Bayesian analyses revealed selective replication of human EF patterns. GPT-4o successfully reproduced human-like performance in interference inhibition (stroop), working memory capacity (digit span), and working memory updating (n-back). In contrast, the model showed divergent patterns in response inhibition (Go/No-Go), time-sensitive working memory updating (running memory task with presentation times of 1750 ms and 750 ms), and cognitive flexibility (number-switching task). Log probability parameters demonstrated task-specific associations with behavioral measures and corresponded with activation patterns in EF-related brain regions during working memory and task-switching paradigms. These findings suggest that GPT-4o captures specific aspects of human EF, particularly those involving symbolic representation and static information maintenance, while showing limitations in dynamic control and temporal processing. This selective replication pattern provides insights into both the computational basis of EF and the cognitive boundaries of current LLM architectures. Our results indicate that log probability parameters may offer a window into LLM cognitive processing, providing a methodological framework for evaluating artificial cognitive mechanisms.
+                    </div>
+                </div>
+                <div class="tl-gallery">
+                    <div class="tl-gallery-item">
+                        <div class="tl-gallery-label">Figure 1</div>
+                        <img src="/zhang/images/CogSci-Figure1.jpg" alt="Figure 1" onclick="openImgModal('/zhang/images/CogSci-Figure1.jpg')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<a id="published-papers"></a>
 
 ## Published papers
 
 <div class="publications-container">
     <div class="timeline">
-
-        <div class="timeline-item" id="paper-review-jad">
-            <div class="timeline-marker"></div>
-            <time class="tl-date" datetime="2026-08">August 2026</time>
-            <div class="timeline-content">
-                <div class="tl-paper-title tl-citation">Shi, H., <strong><u>Zhang, T.</u></strong>, Wang, Z., Yang, X., Shao, Z., & Ma, X. (2026). Latent profiles of generative artificial intelligence use among Chinese college students: Associations with depression and anxiety. <strong><em>Journal of Affective Disorders</em></strong>, <em>415</em>, 122428. <a href="https://doi.org/10.1016/j.jad.2026.122428" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.jad.2026.122428</a></div>
-                <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">PDF</a>
-                </div>
-            </div>
-        </div>
 
         <div class="timeline-item" id="paper-review-tp">
             <div class="timeline-marker"></div>
@@ -102,17 +165,6 @@ other_lang_url: /publications-cn/
                         <div class="tl-gallery-label">Figure 1</div>
                         <img src="/zhang/images/BMCMed-Figure1.png" alt="Figure 1" onclick="openImgModal('/zhang/images/BMCMed-Figure1.png')">
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" id="paper-pub-ejp">
-            <div class="timeline-marker"></div>
-            <time class="tl-date" datetime="2026-04">April 2026</time>
-            <div class="timeline-content">
-                <div class="tl-paper-title tl-citation">Yang, X., <strong><u>Zhang, T.</u></strong>, Ren, X., Wang, Y., Lv, H., Su, M., Huo, X., & Zhao, X. (2026). Differential profiles of executive function dimensions in first-episode and chronic schizophrenia: Identifying markers of illness stage. <strong><em>The European Journal of Psychiatry</em></strong>, <em>40</em>(2), 100351. <a href="https://doi.org/10.1016/j.ejpsy.2026.100351" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ejpsy.2026.100351</a></div>
-                <div class="tl-info-line">
-                    <a href="https://tyzhang98.github.io/zhang/files/European-Journal-of-Psychiatry.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>
@@ -197,60 +249,31 @@ other_lang_url: /publications-cn/
     </div>
 </div>
 
-<a id="unpublished-papers"></a>
+<a id="collaborative-pubs"></a>
 
-## Unpublished manuscripts
+## Collaborative publications
 
 <div class="publications-container">
     <div class="timeline">
 
-        <div class="timeline-item" id="paper-submitted-cognition">
+        <div class="timeline-item" id="paper-review-jad">
             <div class="timeline-marker"></div>
-            <time class="tl-date" datetime="2026-10">October 2026</time>
+            <time class="tl-date" datetime="2026-08">August 2026</time>
             <div class="timeline-content">
-                <div class="tl-paper-title">General decision parameters account for shared behavioural and neural variation across interference and response inhibition</div>
-                <div class="tl-journal">Cognition</div>
-                <div class="tl-gallery">
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 1</div>
-                        <img src="/zhang/images/Cognition-Figure1.jpg" alt="Cognition Figure 1: Study design and analytical framework" onclick="openImgModal('/zhang/images/Cognition-Figure1.jpg')">
-                    </div>
+                <div class="tl-paper-title tl-citation">Shi, H., <strong><u>Zhang, T.</u></strong>, Wang, Z., Yang, X., Shao, Z., & Ma, X. (2026). Latent profiles of generative artificial intelligence use among Chinese college students: Associations with depression and anxiety. <strong><em>Journal of Affective Disorders</em></strong>, <em>415</em>, 122428. <a href="https://doi.org/10.1016/j.jad.2026.122428" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.jad.2026.122428</a></div>
+                <div class="tl-info-line">
+                    <a href="https://tyzhang98.github.io/zhang/files/Journal-of-Affective-Disorders.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>
 
-        <div class="timeline-item" id="paper-review-jep">
+        <div class="timeline-item" id="paper-pub-ejp">
             <div class="timeline-marker"></div>
-            <time class="tl-date" datetime="2026-05">May 2026</time>
+            <time class="tl-date" datetime="2026-04">April 2026</time>
             <div class="timeline-content">
-                <div class="tl-paper-title">Hierarchical organization of cognitive processes underlies low cross-task correlations in inhibitory control: Evidence from drift diffusion modeling</div>
-                <div class="tl-journal">Journal of Experimental Psychology: General</div>
-                <div class="tl-gallery">
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 1</div>
-                        <img src="/zhang/images/JEP-Figure1.png" alt="Figure 1" onclick="openImgModal('/zhang/images/JEP-Figure1.png')">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-item" id="paper-prep-6">
-            <div class="timeline-marker"></div>
-            <time class="tl-date" datetime="2026-01">January 2026</time>
-            <div class="timeline-content">
-                <div class="tl-paper-title">Boundaries of Executive Functions in Large Language Models: GPT-4o Selectively Replicates Human Performance</div>
-                <div class="tl-journal">Cognitive Science</div>
-                <div class="tl-abstract">
-                    <span class="tl-abstract-trigger" onclick="toggleAbstract(this)">View Abstract</span>
-                    <div class="tl-abstract-content">
-                        <strong>Abstract:</strong> Large language models (LLMs) have demonstrated considerable capabilities in complex reasoning and problem-solving tasks that, in humans, depend on executive functions (EFs). However, the extent to which these models replicate human EF patterns remains unclear. We systematically evaluated GPT-4o's performance across three core EF dimensions—inhibitory control, working memory, and cognitive flexibility—using established behavioral paradigms. Additionally, we examined whether model-internal log probability parameters could serve as quantitative indicators of cognitive processing analogous to human neural activity. Using two independent datasets (N₁=1,970; N₂=39), we simulated trial-by-trial responses through GPT-4o while recording log probability metrics. Bayesian analyses revealed selective replication of human EF patterns. GPT-4o successfully reproduced human-like performance in interference inhibition (stroop), working memory capacity (digit span), and working memory updating (n-back). In contrast, the model showed divergent patterns in response inhibition (Go/No-Go), time-sensitive working memory updating (running memory task with presentation times of 1750 ms and 750 ms), and cognitive flexibility (number-switching task). Log probability parameters demonstrated task-specific associations with behavioral measures and corresponded with activation patterns in EF-related brain regions during working memory and task-switching paradigms. These findings suggest that GPT-4o captures specific aspects of human EF, particularly those involving symbolic representation and static information maintenance, while showing limitations in dynamic control and temporal processing. This selective replication pattern provides insights into both the computational basis of EF and the cognitive boundaries of current LLM architectures. Our results indicate that log probability parameters may offer a window into LLM cognitive processing, providing a methodological framework for evaluating artificial cognitive mechanisms.
-                    </div>
-                </div>
-                <div class="tl-gallery">
-                    <div class="tl-gallery-item">
-                        <div class="tl-gallery-label">Figure 1</div>
-                        <img src="/zhang/images/CogSci-Figure1.jpg" alt="Figure 1" onclick="openImgModal('/zhang/images/CogSci-Figure1.jpg')">
-                    </div>
+                <div class="tl-paper-title tl-citation">Yang, X., <strong><u>Zhang, T.</u></strong>, Ren, X., Wang, Y., Lv, H., Su, M., Huo, X., & Zhao, X. (2026). Differential profiles of executive function dimensions in first-episode and chronic schizophrenia: Identifying markers of illness stage. <strong><em>The European Journal of Psychiatry</em></strong>, <em>40</em>(2), 100351. <a href="https://doi.org/10.1016/j.ejpsy.2026.100351" class="tl-link-btn" style="font-weight: normal; font-size: 0.95em;">https://doi.org/10.1016/j.ejpsy.2026.100351</a></div>
+                <div class="tl-info-line">
+                    <a href="https://tyzhang98.github.io/zhang/files/European-Journal-of-Psychiatry.pdf" class="tl-link-btn">PDF</a>
                 </div>
             </div>
         </div>
