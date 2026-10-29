@@ -1,5 +1,6 @@
 ---
 layout: vision
+description: "张统一（Tongyi Zhang）的论文成果，按在投论文、发表论文和合作论文分类，提供论文信息、研究配图、已发表论文摘要与PDF。"
 title: 论文成果
 heading: 论文成果
 permalink: /publications-cn/

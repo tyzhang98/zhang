@@ -1,5 +1,6 @@
 ---
 layout: vision
+description: "张统一（Tongyi Zhang）的科研项目与人才培育支持，包括主持和参与的研究项目。"
 title: 科研项目
 heading: 科研项目
 permalink: /projects-cn/

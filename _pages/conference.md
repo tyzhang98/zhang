@@ -1,5 +1,6 @@
 ---
 layout: vision
+description: "Conference presentations and academic talks by Tongyi Zhang, including oral presentations, posters, and meeting details."
 title: Conference Presentations
 heading: Conference Presentations
 permalink: /conference/

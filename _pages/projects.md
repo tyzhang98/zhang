@@ -1,5 +1,6 @@
 ---
 layout: vision
+description: "Research projects and talent-development support for Tongyi Zhang, including projects led and collaborative research participation."
 title: Projects
 heading: Projects
 permalink: /projects/

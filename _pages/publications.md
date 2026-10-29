@@ -1,5 +1,6 @@
 ---
 layout: vision
+description: "Research publications by Tongyi Zhang, organized into manuscripts under review, published papers, and collaborative publications, with figures, abstracts, and published-paper PDFs."
 title: Publications
 heading: Publications
 permalink: /publications/

@@ -1,5 +1,6 @@
 ---
 layout: vision
+description: "张统一（Tongyi Zhang）的个人学术主页，介绍执行功能、认知计算建模、大语言模型与计算精神病学研究，以及论文成果、科研项目和学术交流。"
 title: 首页
 heading: 首页
 permalink: /

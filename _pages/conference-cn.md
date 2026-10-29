@@ -1,5 +1,6 @@
 ---
 layout: vision
+description: "张统一（Tongyi Zhang）的学术会议报告与讲座，包含口头报告、海报展示及相关会议信息。"
 title: 会议报告
 heading: 会议报告
 permalink: /conference-cn/

@@ -1,5 +1,6 @@
 ---
 layout: vision
+description: "张统一（Tongyi Zhang）的学术联系方式，包括电子邮箱、学术主页链接、博士培养单位与当前访学单位。"
 title: 联系方式
 heading: 联系方式
 permalink: /contact-cn/

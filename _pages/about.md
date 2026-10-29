@@ -1,5 +1,6 @@
 ---
 layout: vision
+description: "Tongyi Zhang’s academic website, featuring research on executive functions, cognitive modeling, large language models, and computational psychiatry, with publications, projects, and presentations."
 title: Home
 heading: Home
 permalink: /en/

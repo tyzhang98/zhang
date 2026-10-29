@@ -1,5 +1,6 @@
 ---
 layout: vision
+description: "Academic contact information for Tongyi Zhang, including email, scholarly profiles, doctoral institution, and current visiting institution."
 title: Contact
 heading: Contact
 permalink: /contact/
