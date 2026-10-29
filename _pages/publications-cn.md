@@ -40,8 +40,6 @@ other_lang_url: /publications/
 
 <a id="pub-papers"></a>
 
-<p class="authorship-note"><sup>†</sup> 共同第一作者；<sup>*</sup> 通讯作者（同篇多位标注表示共同通讯）。</p>
-
 <h2 id="unpublished-papers" class="publication-group-title">在投论文</h2>
 
 <div class="publications-container">

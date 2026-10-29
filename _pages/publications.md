@@ -40,8 +40,6 @@ other_lang_url: /publications-cn/
 
 <a id="pub-papers"></a>
 
-<p class="authorship-note"><sup>†</sup> Equal first-author contribution; <sup>*</sup> corresponding author(s).</p>
-
 <h2 id="unpublished-papers" class="publication-group-title">Manuscripts under review</h2>
 
 <div class="publications-container">
